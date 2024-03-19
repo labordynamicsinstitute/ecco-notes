@@ -25,4 +25,8 @@ parts:
     - file: docs/biohpc/sbatch
 - caption: Command reference
   chapters:
-  - file: docs/biohpc/biohpcres
+  - file: docs/commands/biohpcres
+  - file: docs/commands/srun
+- caption: Getting Help
+  chapters:
+  - file: docs/help
