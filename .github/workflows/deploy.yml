@@ -15,7 +15,7 @@ jobs:
     - name: Build the jupyter-book
       uses: addnab/docker-run-action@v3
       with: 
-          image: craigwillis/jupyter-book:latest
+          image: larsvilhuber/ecco-notes:latest
           options: -v ${{ github.workspace }}:/src
           run: jupyter-book build --all .
     # Push the book's HTML to github-pages

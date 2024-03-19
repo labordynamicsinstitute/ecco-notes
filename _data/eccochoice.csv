@@ -1,0 +1,9 @@
+System,OS,maxNodeRAM,maxNodecores,totalRAM,totalcores,Shared,goodfor,Cost,Further info,Further info URL
+CCSS,Windows,256GB,4,about 1024GB,about 16,Yes,Desktop computing plus some GPU,Free,Available software,https://socialsciences.cornell.edu/research-support/software
+BioHPC reserved,Linux,1024GB,32,3177GB,360,No,low-power chunked HPC,Free,Description on BioHPC website,https://biohpc.cornell.edu/lab/ecco.htm
+BioHPC SLURM,Linux,up to 1024GB,up to 32,up to 1129 GB,up to  144,No,low-power fine-grained HPC,Free,See info below,#job-scheduler-experimental
+BioHPC general,Linux,1024GB,56,not sure,not sure,No,HPC some GPU,Fee,Full list of hardware,https://biohpc.cornell.edu/lab/hardware.aspx
+CAC Red Cloud,Linux + Windows,240GB,128,not known,not known,No,HPC + some GPU,Fee,More info,https://www.cac.cornell.edu/services/cloudServices.aspx
+DigitalOcean,Linux,256GB,48,unlimited,unlimited,No,HPC + some GPU,Fee,More info,https://www.digitalocean.com/pricing/droplets
+AWS,Linux + Windows,1024GB,128,unlimited,unlimited,No,HPC + some GPU,Fee,More info,https://aws.amazon.com/ec2/instance-types/
+Azure,Linux + Windows,3800GB,416,unlimited,unlimited,No,HPC + some GPU,Fee,More info,https://learn.microsoft.com/en-us/azure/virtual-machines/sizes

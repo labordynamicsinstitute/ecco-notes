@@ -1,0 +1,3 @@
+pandas
+IPython
+jupyter-book

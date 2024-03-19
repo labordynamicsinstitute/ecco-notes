@@ -1,0 +1,28 @@
+# Table of contents
+# Learn more at https://jupyterbook.org/customize/toc.html
+
+format: jb-book
+root: docs/intro
+parts:
+- caption: Overview
+  chapters:
+  - file: docs/overview
+  - file: docs/windows
+  - file: docs/linux
+- caption: BioHPC
+  chapters:
+  - file: docs/access
+    sections:
+    - file: docs/biohpc/eligibility
+    - file: docs/biohpc/requesting
+- caption: Reserving Nodes
+  chapters:
+  - file: docs/biohpc/reserving
+  - file: docs/biohpc/slurm
+    sections:
+    - file: docs/biohpc/stata
+    - file: docs/biohpc/julia
+    - file: docs/biohpc/sbatch
+- caption: Command reference
+  chapters:
+  - file: docs/biohpc/biohpcres
