@@ -33,7 +33,10 @@ Detailed instructions on how to use a cluster are provided at [https://biohpc.co
 
 You can submit from the command line (SSH) at the login nodes `cbsulogin?.biohpc.cornell.edu` (see [access description](https://biohpc.cornell.edu/lab/userguide.aspx?a=access#A3). All commands (`sbatch, squeue, sinfo`, etc) have to be run with option `--cluster eccoslurm`, otherwise they will apply to a different SLURM cluster (the one at BSCB).
 
-> TIP: Run the following line, logout, then back in, and henceforth you can skip the `--cluster eccoslurm` option:
+:::{admonition} TIP
+:class: tip
+
+Run the following line, logout, then back in, and henceforth you can skip the `--cluster eccoslurm` option:
  
 ```bash
 echo 'export SLURM_CLUSTERS="eccoslurm"' >> $HOME/.bash_profile
@@ -41,6 +44,8 @@ echo netid@cornell.edu >> $HOME/.forward
 ``` 
 
 (replace your `netid` in the second command).
+
+:::
 
 There is only one partition (queue) containing all nodes, default parameters (changeable through SLURM options at submission, see below) are:
 
