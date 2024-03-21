@@ -73,7 +73,7 @@ project_root = find_project_root()
 
 nodes = pd.read_csv(os.path.join(project_root,"_data", "ecconodes.csv"))
 summary_table = nodes[["allocation", "cores", "CPUs","RAM","local storage in TB"]]
-summary = summary_table.groupby('allocation')[['cores', 'CPUs', 'RAM',"local storage in TB"]].sum().reset_index()
+summary = summary_table.groupby('allocation')[['cores', 'RAM',"local storage in TB"]].sum().reset_index()
 
 # Convert the summary DataFrame to an HTML table
 sumtable = summary.to_html(index=False, classes='table table-striped table-bordered table-sm')
