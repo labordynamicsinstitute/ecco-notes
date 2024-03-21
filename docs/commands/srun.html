@@ -351,6 +351,14 @@ document.write(`
   <section class="tex2jax_ignore mathjax_ignore" id="srun">
 <span id="id1"></span><h1><code class="docutils literal notranslate"><span class="pre">srun</span></code><a class="headerlink" href="#srun" title="Link to this heading">#</a></h1>
 <p><code class="docutils literal notranslate"><span class="pre">srun</span></code> is a command to run a job on a cluster. For much more information on all things SLURM, see <a class="reference external" href="https://cvw.cac.cornell.edu/slurm/basics/execution-srun">CAC tutorial</a>.</p>
+<p>Interactive shell can be requested  with command</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>srun<span class="w"> </span>--cluster<span class="w"> </span>eccoslurm<span class="w"> </span>--pty<span class="w"> </span>bash<span class="w"> </span>-l
+</pre></div>
+</div>
+<p>or if you’ve correctly set up your environment:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>srun<span class="w"> </span>--pty<span class="w"> </span>bash<span class="w"> </span>-l
+</pre></div>
+</div>
 </section>
 
     <script type="text/x-thebe-config">
