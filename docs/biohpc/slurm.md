@@ -98,7 +98,7 @@ nodes = nodes[columns]
 #table = nodes.to_html(index=False, classes='table table-striped table-bordered table-sm', escape=False, render_links=True)
 # Render the HTML table in Jupyter Notebook
 #HTML(table)
-show(nodes, lengthMenu=[15, 25, 50])
+show(nodes, lengthMenu=[15, 25, 50], layout={"topStart": "search"}, classes="display compact")
 
 ```
 
