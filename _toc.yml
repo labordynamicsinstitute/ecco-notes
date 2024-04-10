@@ -9,20 +9,17 @@ parts:
   - file: docs/overview
   - file: docs/windows
   - file: docs/linux
-- caption: BioHPC
+- caption: How to access BioHPC Linux
   chapters:
   - file: docs/access
-    sections:
-    - file: docs/biohpc/eligibility
-    - file: docs/biohpc/requesting
-- caption: Reserving Nodes
-  chapters:
   - file: docs/biohpc/reserving
   - file: docs/biohpc/slurm
     sections:
+    - file: docs/biohpc/slurm-quick-start
     - file: docs/biohpc/stata
     - file: docs/biohpc/julia
     - file: docs/biohpc/sbatch
+  - file: docs/biohpc/software
 - caption: Command reference
   chapters:
   - file: docs/commands/biohpcres
