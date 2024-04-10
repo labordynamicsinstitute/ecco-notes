@@ -175,20 +175,18 @@
 <li class="toctree-l1"><a class="reference internal" href="windows.html">Access to Windows compute resources</a></li>
 <li class="toctree-l1"><a class="reference internal" href="linux.html">General access to Linux computing</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">BioHPC</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">How to access BioHPC Linux</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="biohpc/eligibility.html">Eligibility</a></li>
-<li class="toctree-l1"><a class="reference internal" href="biohpc/requesting.html">Requesting an account</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Reserving Nodes</span></p>
-<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="access.html">General access rules</a></li>
 <li class="toctree-l1"><a class="reference internal" href="biohpc/reserving.html">Requesting exclusive access to an entire node</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="biohpc/slurm.html">Job scheduler (experimental)</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="biohpc/slurm.html">Job scheduler on BioHPC</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="biohpc/slurm-quick-start.html">Quick start</a></li>
 <li class="toctree-l2"><a class="reference internal" href="biohpc/stata.html">Stata example</a></li>
 <li class="toctree-l2"><a class="reference internal" href="biohpc/julia.html">Julia example</a></li>
 <li class="toctree-l2"><a class="reference internal" href="biohpc/sbatch.html">SBATCH example</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="biohpc/software.html">Software</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Command reference</span></p>
 <ul class="nav bd-sidenav">
@@ -357,71 +355,7 @@ document.write(`
 <li><p><a class="reference external" href="https://www.biotech.cornell.edu/facilities-brc">Biotechnology Resource Center (BioHPC)</a> offers advanced on-campus computing solutions (including managing the Econ Department’s own cluster)</p></li>
 <li><p><a class="reference external" href="https://it.cornell.edu/">Cornell Information Technology (CIT)</a> is the general Cornell IT department, but can also engineer solutions for cloud services (Cornell has framework subscriptions to <a class="reference external" href="https://it.cornell.edu/cornell-cloud/amazon-web-services-aws-contract">Amazon Web Service (AWS/EC2)</a> and <a class="reference external" href="https://it.cornell.edu/cornell-cloud/cornell-azure-contract">Microsoft cloud services (Azure)</a>).</p></li>
 </ul>
-<div class="cell tag_full-width tag_hide-input docutils container">
-<details class="hide above-input">
-<summary aria-label="Toggle hidden content">
-<span class="collapsed">Show code cell source</span>
-<span class="expanded">Hide code cell source</span>
-</summary>
-<div class="cell_input docutils container">
-<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">os</span>
-<span class="kn">from</span> <span class="nn">IPython.display</span> <span class="kn">import</span> <span class="n">HTML</span>
-
-
-<span class="k">def</span> <span class="nf">find_project_root</span><span class="p">(</span><span class="n">start_dir</span><span class="o">=</span><span class="s1">&#39;.&#39;</span><span class="p">,</span> <span class="n">file_to_find</span><span class="o">=</span><span class="s1">&#39;favicon.ico&#39;</span><span class="p">):</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    Find the project root directory by searching for a specific file.</span>
-<span class="sd">    </span>
-<span class="sd">    Args:</span>
-<span class="sd">        start_dir (str): The directory to start the search from.</span>
-<span class="sd">        file_to_find (str): The name of the file to search for.</span>
-<span class="sd">        </span>
-<span class="sd">    Returns:</span>
-<span class="sd">        str: The absolute path of the project root directory.</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="n">current_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">start_dir</span><span class="p">)</span>
-    
-    <span class="k">while</span> <span class="kc">True</span><span class="p">:</span>
-        <span class="c1"># Check if the file exists in the current directory</span>
-        <span class="k">if</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">isfile</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">current_dir</span><span class="p">,</span> <span class="n">file_to_find</span><span class="p">)):</span>
-            <span class="k">return</span> <span class="n">current_dir</span>
-        
-        <span class="c1"># Check if we&#39;ve reached the root directory</span>
-        <span class="n">parent_dir</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="n">current_dir</span><span class="p">)</span>
-        <span class="k">if</span> <span class="n">parent_dir</span> <span class="o">==</span> <span class="n">current_dir</span><span class="p">:</span>
-            <span class="k">raise</span> <span class="ne">FileNotFoundError</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Could not find &#39;</span><span class="si">{</span><span class="n">file_to_find</span><span class="si">}</span><span class="s2">&#39; in the directory tree.&quot;</span><span class="p">)</span>
-        
-        <span class="c1"># Move up one directory</span>
-        <span class="n">current_dir</span> <span class="o">=</span> <span class="n">parent_dir</span>
-
-<span class="c1"># Example usage</span>
-<span class="n">project_root</span> <span class="o">=</span> <span class="n">find_project_root</span><span class="p">()</span>
-<span class="c1">#print(f&quot;Project root directory: {project_root}&quot;)</span>
-
-
-
-<span class="c1"># Read the CSV file</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">project_root</span><span class="p">,</span><span class="s2">&quot;_data&quot;</span><span class="p">,</span><span class="s2">&quot;eccochoice.csv&quot;</span><span class="p">))</span>
-
-<span class="c1"># Create a new column with the hyperlink</span>
-<span class="n">df</span><span class="p">[</span><span class="s1">&#39;Further Info Link&#39;</span><span class="p">]</span> <span class="o">=</span> <span class="s2">&quot;&lt;a href=&#39;&quot;</span> <span class="o">+</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Further info URL&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;&#39; target=&#39;_blank&#39;&gt;&quot;</span> <span class="o">+</span> <span class="n">df</span><span class="p">[</span><span class="s1">&#39;Further info&#39;</span><span class="p">]</span> <span class="o">+</span> <span class="s2">&quot;&lt;/a&gt;&quot;</span>
-
-<span class="c1"># Drop the original columns if you don&#39;t need them in the table</span>
-<span class="n">df</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">drop</span><span class="p">([</span><span class="s1">&#39;Further info&#39;</span><span class="p">,</span> <span class="s1">&#39;Further info URL&#39;</span><span class="p">],</span> <span class="n">axis</span><span class="o">=</span><span class="mi">1</span><span class="p">)</span>
-
-<span class="c1"># Convert the DataFrame to an HTML table</span>
-<span class="n">table</span> <span class="o">=</span> <span class="n">df</span><span class="o">.</span><span class="n">to_html</span><span class="p">(</span><span class="n">index</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> 
-                   <span class="n">classes</span><span class="o">=</span><span class="s1">&#39;table table-striped table-bordered table-sm&#39;</span><span class="p">,</span> <span class="n">escape</span><span class="o">=</span><span class="kc">False</span><span class="p">,</span> 
-                   <span class="n">render_links</span><span class="o">=</span><span class="kc">True</span><span class="p">)</span>
-
-
-<span class="c1"># Render the HTML table in Jupyter Notebook</span>
-<span class="n">HTML</span><span class="p">(</span><span class="n">table</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-</details>
+<div class="cell tag_full-width tag_remove-input docutils container">
 <div class="cell_output docutils container">
 <div class="output text_html"><table border="1" class="dataframe table table-striped table-bordered table-sm">
   <thead>

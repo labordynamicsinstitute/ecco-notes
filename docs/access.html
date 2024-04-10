@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>&lt;no title&gt; &#8212; ECCO Computing Notes</title>
+    <title>General access rules &#8212; ECCO Computing Notes</title>
   
   
   
@@ -61,7 +61,7 @@
     <link rel="icon" href="../_static/favicon.ico"/>
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Eligibility" href="biohpc/eligibility.html" />
+    <link rel="next" title="Requesting exclusive access to an entire node" href="biohpc/reserving.html" />
     <link rel="prev" title="General access to Linux computing" href="linux.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -175,20 +175,18 @@
 <li class="toctree-l1"><a class="reference internal" href="windows.html">Access to Windows compute resources</a></li>
 <li class="toctree-l1"><a class="reference internal" href="linux.html">General access to Linux computing</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">BioHPC</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="biohpc/eligibility.html">Eligibility</a></li>
-<li class="toctree-l1"><a class="reference internal" href="biohpc/requesting.html">Requesting an account</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Reserving Nodes</span></p>
-<ul class="nav bd-sidenav">
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">How to access BioHPC Linux</span></p>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">General access rules</a></li>
 <li class="toctree-l1"><a class="reference internal" href="biohpc/reserving.html">Requesting exclusive access to an entire node</a></li>
-<li class="toctree-l1 has-children"><a class="reference internal" href="biohpc/slurm.html">Job scheduler (experimental)</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l1 has-children"><a class="reference internal" href="biohpc/slurm.html">Job scheduler on BioHPC</a><input class="toctree-checkbox" id="toctree-checkbox-1" name="toctree-checkbox-1" type="checkbox"/><label class="toctree-toggle" for="toctree-checkbox-1"><i class="fa-solid fa-chevron-down"></i></label><ul>
+<li class="toctree-l2"><a class="reference internal" href="biohpc/slurm-quick-start.html">Quick start</a></li>
 <li class="toctree-l2"><a class="reference internal" href="biohpc/stata.html">Stata example</a></li>
 <li class="toctree-l2"><a class="reference internal" href="biohpc/julia.html">Julia example</a></li>
 <li class="toctree-l2"><a class="reference internal" href="biohpc/sbatch.html">SBATCH example</a></li>
 </ul>
 </li>
+<li class="toctree-l1"><a class="reference internal" href="biohpc/software.html">Software</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Command reference</span></p>
 <ul class="nav bd-sidenav">
@@ -336,11 +334,20 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1><no title></h1>
+    <h1>General access rules</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eligibility">Eligibility</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#requesting-an-account">Requesting an account</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -350,13 +357,24 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <p>The cluster has a large number of nodes and file servers. The “ecco” nodes, available for authorized users (“ecco01” group) under “Restricted” are free to users. Other nodes can be added and used, should more (and possibly faster resources be needed).</p>
-<blockquote>
-<div><p>It is also possible to have BioHPC host your own dedicated node, as some faculty members in the field do. Contact them or Lars to discuss.</p>
-</div></blockquote>
-<p>This section describes how to obtain BioHPC resources: computing and storage.</p>
-<div class="toctree-wrapper compound">
+  <section class="tex2jax_ignore mathjax_ignore" id="general-access-rules">
+<h1>General access rules<a class="headerlink" href="#general-access-rules" title="Link to this heading">#</a></h1>
+<p>The cluster has a large number of nodes and file servers. The “ecco” nodes, available for authorized users (“ecco01” group) under “Restricted” are free to users. Other nodes can be added and used, should more (and possibly faster resources be needed).</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>It is also possible to have BioHPC host your own dedicated node, as some faculty members in the field do. Contact them or Lars to discuss.</p>
 </div>
+<p>This section describes how to obtain BioHPC resources: computing and storage.</p>
+<section id="eligibility">
+<h2>Eligibility<a class="headerlink" href="#eligibility" title="Link to this heading">#</a></h2>
+<p>All econ-affiliated graduate students and faculty have access. “Contributing” faculty (faculty who have contributed money or compute resources) can reserve nodes for longer periods of time.</p>
+</section>
+<section id="requesting-an-account">
+<h2>Requesting an account<a class="headerlink" href="#requesting-an-account" title="Link to this heading">#</a></h2>
+<p><a class="reference external" href="https://biohpc.cornell.edu/NewUserRequest.aspx,">Request an account</a>, ask to be associated with the “ecco01” group. That gives you free computing resources on the “Ecco cluster”.</p>
+<p>Faculty who have contributed to the cluster have their own groups. Students and collaborators can request (or be provided with) access to those privileged resources by requesting that they be added to the specific group. For instance, Lars’ collaborators would request to be added to the <code class="docutils literal notranslate"><span class="pre">ecco_lv39</span></code> group, and would then have access to the compute and storage allocations that Lars has paid for.</p>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -398,11 +416,11 @@ document.write(`
       </div>
     </a>
     <a class="right-next"
-       href="biohpc/eligibility.html"
+       href="biohpc/reserving.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Eligibility</p>
+        <p class="prev-next-title">Requesting exclusive access to an entire node</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -413,7 +431,21 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eligibility">Eligibility</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#requesting-an-account">Requesting an account</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
