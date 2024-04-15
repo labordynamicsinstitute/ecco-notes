@@ -368,11 +368,11 @@ document.write(`
 </section>
 <section id="submitting-jobs">
 <h2>Submitting jobs<a class="headerlink" href="#submitting-jobs" title="Link to this heading">#</a></h2>
-<p>You can submit from the command line (SSH) at the login nodes <code class="docutils literal notranslate"><span class="pre">cbsulogin?.biohpc.cornell.edu</span></code> (see <a class="reference external" href="https://biohpc.cornell.edu/lab/userguide.aspx?a=access#A3">access description</a>. All commands (<code class="docutils literal notranslate"><span class="pre">sbatch,</span> <span class="pre">squeue,</span> <span class="pre">sinfo</span></code>, etc) have to be run with option <code class="docutils literal notranslate"><span class="pre">--cluster</span> <span class="pre">eccoslurm</span></code>, otherwise they will apply to a different SLURM cluster (the one at BSCB).</p>
+<p>You can submit from the command line (SSH) at the login nodes <code class="docutils literal notranslate"><span class="pre">cbsulogin?.biohpc.cornell.edu</span></code> (see <a class="reference external" href="https://biohpc.cornell.edu/lab/userguide.aspx?a=access#A3">access description</a>. All commands (<code class="docutils literal notranslate"><span class="pre">sbatch,</span> <span class="pre">squeue,</span> <span class="pre">sinfo</span></code>, etc) have to be run with option <code class="docutils literal notranslate"><span class="pre">--cluster</span> <span class="pre">cbsueccosl01</span></code>, otherwise they will apply to a different SLURM cluster (the one at BSCB).</p>
 <div class="tip admonition">
 <p class="admonition-title">TIP</p>
-<p>Run the following line, logout, then back in, and henceforth you can skip the <code class="docutils literal notranslate"><span class="pre">--cluster</span> <span class="pre">eccoslurm</span></code> option:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;export SLURM_CLUSTERS=&quot;eccoslurm&quot;&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span><span class="nv">$HOME</span>/.bash_profile
+<p>Run the following line, logout, then back in, and henceforth you can skip the <code class="docutils literal notranslate"><span class="pre">--cluster</span> <span class="pre">cbsueccosl01</span></code> option:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;export SLURM_CLUSTERS=&quot;cbsueccosl01&quot;&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span><span class="nv">$HOME</span>/.bash_profile
 <span class="nb">echo</span><span class="w"> </span>netid@cornell.edu<span class="w"> </span>&gt;&gt;<span class="w"> </span><span class="nv">$HOME</span>/.forward
 </pre></div>
 </div>
@@ -387,7 +387,7 @@ document.write(`
 <section id="interactive-shell">
 <h2>Interactive shell<a class="headerlink" href="#interactive-shell" title="Link to this heading">#</a></h2>
 <p>Interactive shell can be requested  with command</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>srun<span class="w"> </span>--cluster<span class="w"> </span>eccoslurm<span class="w"> </span>--pty<span class="w"> </span>bash<span class="w"> </span>-l
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>srun<span class="w"> </span>--cluster<span class="w"> </span>cbsueccosl01<span class="w"> </span>--pty<span class="w"> </span>bash<span class="w"> </span>-l
 </pre></div>
 </div>
 <p>or if you ran the above TIP:</p>

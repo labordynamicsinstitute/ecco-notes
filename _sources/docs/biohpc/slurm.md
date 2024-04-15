@@ -13,7 +13,7 @@ kernelspec:
 (slurm)=
 # Job scheduler on BioHPC
 
-A SLURM cluster `eccoslurm` is ready on several nodes  (some dedicated to the SLURM scheduler, others "borrowed"; the latter might not always be available). There are between 48 and 144 "slots" (cpus) available for compute jobs.
+A SLURM cluster `cbsueccosl01` is ready on several nodes  (some dedicated to the SLURM scheduler, others "borrowed"; the latter might not always be available). There are between 48 and 144 "slots" (cpus) available for compute jobs.
 
 
 ```{code-cell} ipython3
