@@ -7,7 +7,7 @@
 Interactive shell can be requested  with command 
 
 ```bash
-srun --cluster eccoslurm --pty bash -l
+srun --cluster cbsueccosl01 --pty bash -l
 ```
 
 or if you've correctly set up your environment:

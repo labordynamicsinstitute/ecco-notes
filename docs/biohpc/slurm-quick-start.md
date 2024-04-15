@@ -8,15 +8,15 @@ You need command line access to submit. You do not need a [reservation](reservin
 
 ## Submitting jobs
 
-You can submit from the command line (SSH) at the login nodes `cbsulogin?.biohpc.cornell.edu` (see [access description](https://biohpc.cornell.edu/lab/userguide.aspx?a=access#A3). All commands (`sbatch, squeue, sinfo`, etc) have to be run with option `--cluster eccoslurm`, otherwise they will apply to a different SLURM cluster (the one at BSCB).
+You can submit from the command line (SSH) at the login nodes `cbsulogin?.biohpc.cornell.edu` (see [access description](https://biohpc.cornell.edu/lab/userguide.aspx?a=access#A3). All commands (`sbatch, squeue, sinfo`, etc) have to be run with option `--cluster cbsueccosl01`, otherwise they will apply to a different SLURM cluster (the one at BSCB).
 
 :::{admonition} TIP
 :class: tip
 
-Run the following line, logout, then back in, and henceforth you can skip the `--cluster eccoslurm` option:
+Run the following line, logout, then back in, and henceforth you can skip the `--cluster cbsueccosl01` option:
  
 ```bash
-echo 'export SLURM_CLUSTERS="eccoslurm"' >> $HOME/.bash_profile
+echo 'export SLURM_CLUSTERS="cbsueccosl01"' >> $HOME/.bash_profile
 echo netid@cornell.edu >> $HOME/.forward
 ``` 
 
@@ -34,7 +34,7 @@ There is only one partition (queue) containing all nodes, default parameters (ch
 Interactive shell can be requested  with command 
 
 ```bash
-srun --cluster eccoslurm --pty bash -l
+srun --cluster cbsueccosl01 --pty bash -l
 ```
 
 or if you ran the above TIP:
