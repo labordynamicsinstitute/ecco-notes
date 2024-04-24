@@ -14,16 +14,26 @@ parts:
   - file: docs/access
   - file: docs/biohpc/reserving
   - file: docs/biohpc/slurm
-    sections:
-    - file: docs/biohpc/slurm-quick-start
-    - file: docs/biohpc/stata
-    - file: docs/biohpc/julia
-    - file: docs/biohpc/sbatch
   - file: docs/biohpc/software
+- caption: How to connect to BioHPC
+  chapters:
+  - file: docs/ssh
+  - file: docs/vnc
+  - file: docs/vscode
+- caption: How to transfer data to and from BioHPC
+  chapters:
+  - file: docs/transfer
+- caption: Using SLURM
+  chapters:
+  - file: docs/biohpc/slurm-quick-start
+  - file: docs/biohpc/stata
+  - file: docs/biohpc/julia
+  - file: docs/biohpc/sbatch
 - caption: Command reference
   chapters:
   - file: docs/commands/biohpcres
   - file: docs/commands/srun
+  - file: docs/commands/tmux
 - caption: Getting Help
   chapters:
   - file: docs/help
