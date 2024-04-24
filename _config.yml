@@ -60,7 +60,7 @@ html:
   comments:
     hypothesis              : false
     utterances              : false
-  announcement              : "This is not yet fully debugged - report any issues!" # A banner announcement at the top of the site.
+#  announcement              : "This is not yet fully debugged - report any issues!" # A banner announcement at the top of the site.
 
 
 
