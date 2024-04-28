@@ -43,6 +43,12 @@ or if you ran the above TIP:
 srun --pty bash -l
 ```
 
+If you need a specific node, use
+
+
+```bash
+srun -w cbsueccoXX --pty bash -l
+```
 
 ## To see running jobs
 
@@ -59,3 +65,7 @@ scancel (ID)
 ```
 
 where the ID can be gleaned from the `squeue` command.
+
+## Additional information
+
+- [https://biohpc.cornell.edu/lab/SLURM-on-demand.htm](https://biohpc.cornell.edu/lab/SLURM-on-demand.htm)
