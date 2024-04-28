@@ -433,6 +433,7 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interactive-shell">Interactive shell</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#to-see-running-jobs">To see running jobs</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#to-cancel-a-running-job">To cancel a running job</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-information">Additional information</a></li>
 </ul>
             </nav>
         </div>
@@ -478,6 +479,10 @@ document.write(`
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>srun<span class="w"> </span>--pty<span class="w"> </span>bash<span class="w"> </span>-l
 </pre></div>
 </div>
+<p>If you need a specific node, use</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>srun<span class="w"> </span>-w<span class="w"> </span>cbsueccoXX<span class="w"> </span>--pty<span class="w"> </span>bash<span class="w"> </span>-l
+</pre></div>
+</div>
 </section>
 <section id="to-see-running-jobs">
 <h2>To see running jobs<a class="headerlink" href="#to-see-running-jobs" title="Link to this heading">#</a></h2>
@@ -492,6 +497,12 @@ document.write(`
 </pre></div>
 </div>
 <p>where the ID can be gleaned from the <code class="docutils literal notranslate"><span class="pre">squeue</span></code> command.</p>
+</section>
+<section id="additional-information">
+<h2>Additional information<a class="headerlink" href="#additional-information" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://biohpc.cornell.edu/lab/SLURM-on-demand.htm">https://biohpc.cornell.edu/lab/SLURM-on-demand.htm</a></p></li>
+</ul>
 </section>
 </section>
 
@@ -564,6 +575,7 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interactive-shell">Interactive shell</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#to-see-running-jobs">To see running jobs</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#to-cancel-a-running-job">To cancel a running job</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-information">Additional information</a></li>
 </ul>
   </nav></div>
 
