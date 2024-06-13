@@ -34,6 +34,7 @@ parts:
   - file: docs/commands/biohpcres
   - file: docs/commands/srun
   - file: docs/commands/tmux
+  - file: docs/commands/manage_slurm
 - caption: Getting Help
   chapters:
   - file: docs/help
