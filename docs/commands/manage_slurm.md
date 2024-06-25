@@ -49,7 +49,7 @@ headnode=cbsueccosl01
 then run this
 
 ```bash
-biohpc_res new $account --server $node --hours 72 --hide 
+biohpc_res new $account --server $node --hours 72
 biohpc_res list
 ```
 
@@ -62,6 +62,7 @@ reservation=12345
 and add that reservation to the cluster:
 
 ```bash
+biohpc_res edit $reservation --hide
 biohpc_res edit $reservation --add ECCO # adds the entire ECCO group to the reservation
 manage_slurm addNode $headnode $node 
 ```
