@@ -43,7 +43,7 @@ Adjust these:
 ```bash
 node=cbsuecco10
 account=2556
-headnod=cbsueccosl01
+headnode=cbsueccosl01
 ```
 
 then run this
