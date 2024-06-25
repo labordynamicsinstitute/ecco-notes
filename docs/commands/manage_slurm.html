@@ -490,7 +490,7 @@ document.write(`
 </pre></div>
 </div>
 <p>then run this</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>biohpc_res<span class="w"> </span>new<span class="w"> </span><span class="nv">$account</span><span class="w"> </span>--server<span class="w"> </span><span class="nv">$node</span><span class="w"> </span>--hours<span class="w"> </span><span class="m">72</span><span class="w"> </span>--hide<span class="w"> </span>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>biohpc_res<span class="w"> </span>new<span class="w"> </span><span class="nv">$account</span><span class="w"> </span>--server<span class="w"> </span><span class="nv">$node</span><span class="w"> </span>--hours<span class="w"> </span><span class="m">72</span>
 biohpc_res<span class="w"> </span>list
 </pre></div>
 </div>
@@ -499,7 +499,8 @@ biohpc_res<span class="w"> </span>list
 </pre></div>
 </div>
 <p>and add that reservation to the cluster:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>biohpc_res<span class="w"> </span>edit<span class="w"> </span><span class="nv">$reservation</span><span class="w"> </span>--add<span class="w"> </span>ECCO<span class="w"> </span><span class="c1"># adds the entire ECCO group to the reservation</span>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>biohpc_res<span class="w"> </span>edit<span class="w"> </span><span class="nv">$reservation</span><span class="w"> </span>--hide
+biohpc_res<span class="w"> </span>edit<span class="w"> </span><span class="nv">$reservation</span><span class="w"> </span>--add<span class="w"> </span>ECCO<span class="w"> </span><span class="c1"># adds the entire ECCO group to the reservation</span>
 manage_slurm<span class="w"> </span>addNode<span class="w"> </span><span class="nv">$headnode</span><span class="w"> </span><span class="nv">$node</span><span class="w"> </span>
 </pre></div>
 </div>
