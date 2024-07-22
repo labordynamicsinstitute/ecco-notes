@@ -71,6 +71,7 @@ To load a specific version of R, use:
 module load R/4.3.2
 ```
 
+(custommodules)=
 ### Customizing `modules`
 
 BioHPC only maintains modules for common software. For ECCO-specific software, you may need to create your own module files, or use a pre-configured set maintained by Lars.

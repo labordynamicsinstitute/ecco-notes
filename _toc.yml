@@ -27,6 +27,7 @@ parts:
   chapters:
   - file: docs/biohpc/slurm-quick-start
   - file: docs/biohpc/stata
+  - file: docs/biohpc/matlab
   - file: docs/biohpc/julia
   - file: docs/biohpc/sbatch
 - caption: Command reference

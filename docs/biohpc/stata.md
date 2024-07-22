@@ -1,6 +1,20 @@
 (stataexample)=
 # Stata example
 
+## Assumptions
+
+
+We will assume that your code and data are organized as follows:
+
+```
+/home/netid/project/
+            ├── main.do
+            ├── data.csv
+            ├── etc.
+```
+
+## Quick run
+
 To run some simple, quick programs, you could run
 
 ```
@@ -39,4 +53,37 @@ System values
            c(born_date) = "20 May 2020"
               c(flavor) = "IC"
 ....
+```
+
+## SBATCH script
+
+
+Create a new file, called `main.sbatch`, with the following content:
+
+### Top
+
+Use the default options from the [SBATCH example](sbatchexample), and paste them into `main.sbatch`.
+
+### Bottom
+
+Now for the functional part, which is more or less the same as the `srun` command above, but with some additional options:
+
+- choosing additional Stata versions
+- assuming you have done the [custom module setup](custommodules)
+
+```bash
+#!/bin/bash
+#
+
+### Use the module command to load the relevant matlab module
+### Use "module avail" to see all available versions
+module load stata/18
+
+## Will create a `main.log` file with the output
+
+stata-mp -b main.do
+
+### Without the use of modules
+# STATAVERSION=18
+# /usr/local/stata${STATAVERSION}/stata-mp -b main.do
 ```
