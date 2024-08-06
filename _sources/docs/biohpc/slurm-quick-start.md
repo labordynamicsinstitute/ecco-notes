@@ -4,16 +4,14 @@
 
 ## Command line
 
-You need command line access to submit. You do not need a [reservation](reserving) to access a command line.
+You need command line access to submit. You do not need a [reservation](reserving) to access a command line, you can connect to the BioHPC Login (head) node `cbsulogin?.biohpc.cornell.edu`.
 
-## Submitting jobs
+(onetimesetup-slurm)=
+## One-time setup
 
-You can submit from the command line (SSH) at the login nodes `cbsulogin?.biohpc.cornell.edu` (see [access description](https://biohpc.cornell.edu/lab/userguide.aspx?a=access#A3). All commands (`sbatch, squeue, sinfo`, etc) have to be run with option `--cluster cbsueccosl01`, otherwise they will apply to a different SLURM cluster (the one at BSCB).
+### Setting up SLURM-specific settings
 
-:::{admonition} TIP
-:class: tip
-
-Run the following line, logout, then back in, and henceforth you can skip the `--cluster cbsueccosl01` option:
+From a command line, run the following lines, logout, then back in, and henceforth you can skip the `--cluster cbsueccosl01` option:
  
 ```bash
 echo 'export SLURM_CLUSTERS="cbsueccosl01"' >> $HOME/.bash_profile
@@ -22,7 +20,18 @@ echo netid@cornell.edu >> $HOME/.forward
 
 (replace your `netid` in the second command).
 
-:::
+### Enabling software via `module`
+
+
+```bash
+git clone https://github.com/labordynamicsinstitute/biohpc-modules $HOME/.modulefiles.d
+```
+
+See [Customizing `modules`](custommodules) for more details.
+
+## Submitting jobs
+
+You can submit from the command line (SSH) at the login nodes `cbsulogin?.biohpc.cornell.edu` (see [access description](https://biohpc.cornell.edu/lab/userguide.aspx?a=access#A3). All commands (`sbatch, squeue, sinfo`, etc) have to be run with option `--cluster cbsueccosl01` (but see [one-time setup](onetimesetup-slurm)).
 
 There is only one partition (queue) containing all nodes, default parameters (changeable through SLURM options at submission, see below) are:
 

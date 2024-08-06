@@ -62,7 +62,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Stata example" href="stata.html" />
-    <link rel="prev" title="Transferring data to and from BioHPC" href="../transfer.html" />
+    <link rel="prev" title="Software" href="software.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -188,7 +188,6 @@
 <li class="toctree-l1"><a class="reference internal" href="../access.html">General access rules</a></li>
 <li class="toctree-l1"><a class="reference internal" href="reserving.html">Requesting exclusive access to an entire node</a></li>
 <li class="toctree-l1"><a class="reference internal" href="slurm.html">Job scheduler on BioHPC</a></li>
-<li class="toctree-l1"><a class="reference internal" href="software.html">Software</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">How to connect to BioHPC</span></p>
 <ul class="nav bd-sidenav">
@@ -202,6 +201,7 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Using SLURM</span></p>
 <ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="software.html">Software</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">Quick start</a></li>
 <li class="toctree-l1"><a class="reference internal" href="stata.html">Stata example</a></li>
 <li class="toctree-l1"><a class="reference internal" href="matlab.html">MATLAB example</a></li>
@@ -289,7 +289,7 @@
       
       
       
-      <li><a href="https://github.com/labordynamicsinstitute/ecco-notes/edit/main/Nonedocs/biohpc/slurm-quick-start.md" target="_blank"
+      <li><a href="https://github.com/labordynamicsinstitute/ecco-notes/edit/main/docs/biohpc/slurm-quick-start.md" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -431,6 +431,11 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#command-line">Command line</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#one-time-setup">One-time setup</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-slurm-specific-settings">Setting up SLURM-specific settings</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#enabling-software-via-module">Enabling software via <code class="docutils literal notranslate"><span class="pre">module</span></code></a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#submitting-jobs">Submitting jobs</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interactive-shell">Interactive shell</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#to-see-running-jobs">To see running jobs</a></li>
@@ -451,20 +456,30 @@ document.write(`
 <h1>Quick start<a class="headerlink" href="#quick-start" title="Link to this heading">#</a></h1>
 <section id="command-line">
 <h2>Command line<a class="headerlink" href="#command-line" title="Link to this heading">#</a></h2>
-<p>You need command line access to submit. You do not need a <a class="reference internal" href="reserving.html#reserving"><span class="std std-ref">reservation</span></a> to access a command line.</p>
+<p>You need command line access to submit. You do not need a <a class="reference internal" href="reserving.html#reserving"><span class="std std-ref">reservation</span></a> to access a command line, you can connect to the BioHPC Login (head) node <code class="docutils literal notranslate"><span class="pre">cbsulogin?.biohpc.cornell.edu</span></code>.</p>
 </section>
-<section id="submitting-jobs">
-<h2>Submitting jobs<a class="headerlink" href="#submitting-jobs" title="Link to this heading">#</a></h2>
-<p>You can submit from the command line (SSH) at the login nodes <code class="docutils literal notranslate"><span class="pre">cbsulogin?.biohpc.cornell.edu</span></code> (see <a class="reference external" href="https://biohpc.cornell.edu/lab/userguide.aspx?a=access#A3">access description</a>. All commands (<code class="docutils literal notranslate"><span class="pre">sbatch,</span> <span class="pre">squeue,</span> <span class="pre">sinfo</span></code>, etc) have to be run with option <code class="docutils literal notranslate"><span class="pre">--cluster</span> <span class="pre">cbsueccosl01</span></code>, otherwise they will apply to a different SLURM cluster (the one at BSCB).</p>
-<div class="tip admonition">
-<p class="admonition-title">TIP</p>
-<p>Run the following line, logout, then back in, and henceforth you can skip the <code class="docutils literal notranslate"><span class="pre">--cluster</span> <span class="pre">cbsueccosl01</span></code> option:</p>
+<section id="one-time-setup">
+<span id="onetimesetup-slurm"></span><h2>One-time setup<a class="headerlink" href="#one-time-setup" title="Link to this heading">#</a></h2>
+<section id="setting-up-slurm-specific-settings">
+<h3>Setting up SLURM-specific settings<a class="headerlink" href="#setting-up-slurm-specific-settings" title="Link to this heading">#</a></h3>
+<p>From a command line, run the following lines, logout, then back in, and henceforth you can skip the <code class="docutils literal notranslate"><span class="pre">--cluster</span> <span class="pre">cbsueccosl01</span></code> option:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;export SLURM_CLUSTERS=&quot;cbsueccosl01&quot;&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span><span class="nv">$HOME</span>/.bash_profile
 <span class="nb">echo</span><span class="w"> </span>netid@cornell.edu<span class="w"> </span>&gt;&gt;<span class="w"> </span><span class="nv">$HOME</span>/.forward
 </pre></div>
 </div>
 <p>(replace your <code class="docutils literal notranslate"><span class="pre">netid</span></code> in the second command).</p>
+</section>
+<section id="enabling-software-via-module">
+<h3>Enabling software via <code class="docutils literal notranslate"><span class="pre">module</span></code><a class="headerlink" href="#enabling-software-via-module" title="Link to this heading">#</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/labordynamicsinstitute/biohpc-modules<span class="w"> </span><span class="nv">$HOME</span>/.modulefiles.d
+</pre></div>
 </div>
+<p>See <a class="reference internal" href="software.html#custommodules"><span class="std std-ref">Customizing <code class="docutils literal notranslate"><span class="pre">modules</span></code></span></a> for more details.</p>
+</section>
+</section>
+<section id="submitting-jobs">
+<h2>Submitting jobs<a class="headerlink" href="#submitting-jobs" title="Link to this heading">#</a></h2>
+<p>You can submit from the command line (SSH) at the login nodes <code class="docutils literal notranslate"><span class="pre">cbsulogin?.biohpc.cornell.edu</span></code> (see <a class="reference external" href="https://biohpc.cornell.edu/lab/userguide.aspx?a=access#A3">access description</a>. All commands (<code class="docutils literal notranslate"><span class="pre">sbatch,</span> <span class="pre">squeue,</span> <span class="pre">sinfo</span></code>, etc) have to be run with option <code class="docutils literal notranslate"><span class="pre">--cluster</span> <span class="pre">cbsueccosl01</span></code> (but see <a class="reference internal" href="#onetimesetup-slurm"><span class="std std-ref">one-time setup</span></a>).</p>
 <p>There is only one partition (queue) containing all nodes, default parameters (changeable through SLURM options at submission, see below) are:</p>
 <ul class="simple">
 <li><p>1 core and 4 GB RAM per job</p></li>
@@ -539,12 +554,12 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="../transfer.html"
+       href="software.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Transferring data to and from BioHPC</p>
+        <p class="prev-next-title">Software</p>
       </div>
     </a>
     <a class="right-next"
@@ -573,6 +588,11 @@ document.write(`
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#command-line">Command line</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#one-time-setup">One-time setup</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-slurm-specific-settings">Setting up SLURM-specific settings</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#enabling-software-via-module">Enabling software via <code class="docutils literal notranslate"><span class="pre">module</span></code></a></li>
+</ul>
+</li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#submitting-jobs">Submitting jobs</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interactive-shell">Interactive shell</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#to-see-running-jobs">To see running jobs</a></li>
