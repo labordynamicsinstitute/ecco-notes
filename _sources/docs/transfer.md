@@ -11,7 +11,7 @@ There are a few ways to push to or synchronize with BioHPC storage/filesystem.
 
 ### Using VS Code
 
-You can drag-and-drop into the file pane in VS Code, or upload from the menu.
+You can drag-and-drop into the file pane in VS Code, or upload from the menu. See [VS Code Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh).
 
 ### Using terminal on your laptop
 
