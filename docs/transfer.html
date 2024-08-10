@@ -448,6 +448,7 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#box">Box</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#multiple-cloud-providers">Multiple cloud providers</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-apis">Using APIs</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#r">R</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#python">Python</a></li>
@@ -488,7 +489,32 @@ document.write(`
 </section>
 <section id="rsync">
 <h4>Rsync<a class="headerlink" href="#rsync" title="Link to this heading">#</a></h4>
-<p>Install rsync and sync back and forth, preferably over SSH (bidirectional)</p>
+<p>Install <code class="docutils literal notranslate"><span class="pre">rsync</span></code> and sync back and forth, preferably over SSH (bidirectional)</p>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-0">
+macOS</label><div class="sd-tab-content docutils">
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>brew<span class="w"> </span>install<span class="w"> </span>rsync
+</pre></div>
+</div>
+</div>
+<input id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-1">
+Windows</label><div class="sd-tab-content docutils">
+<p>Installing <code class="docutils literal notranslate"><span class="pre">rsync</span></code> on Windows is not easy; most suggestions involve using the Windows Subsystem for Linux (WSL) and installing it there.</p>
+</div>
+<input id="sd-tab-item-2" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-2">
+Linux</label><div class="sd-tab-content docutils">
+<p>To install, use your package manager:</p>
+<ul class="simple">
+<li><p>Ubuntu: <code class="docutils literal notranslate"><span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">rsync</span></code></p></li>
+<li><p>Fedora: <code class="docutils literal notranslate"><span class="pre">dnf</span> <span class="pre">install</span> <span class="pre">rsync</span></code></p></li>
+<li><p>CentOS: <code class="docutils literal notranslate"><span class="pre">yum</span> <span class="pre">install</span> <span class="pre">rsync</span></code></p></li>
+<li><p>openSUSE: <code class="docutils literal notranslate"><span class="pre">zypper</span> <span class="pre">install</span> <span class="pre">rsync</span></code></p></li>
+</ul>
+</div>
+</div>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>rsync<span class="w"> </span>-auvz<span class="w"> </span>/my/laptop/path/<span class="w"> </span>netid@cbsulogin.biohpc.cornell.edu:/path/to/where/you/need/it/
 </pre></div>
 </div>
@@ -526,6 +552,41 @@ document.write(`
 </ul>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>wget<span class="w"> </span>-o<span class="w"> </span>fancydata.dta<span class="w"> </span><span class="s2">&quot;https://cornell.box.com/shared/static/q0vmkhzfd8mrcl9wzgeub5x74a8yoh8u.dta&quot;</span>
 </pre></div>
+</div>
+</section>
+<section id="multiple-cloud-providers">
+<h3>Multiple cloud providers<a class="headerlink" href="#multiple-cloud-providers" title="Link to this heading">#</a></h3>
+<p>The command <code class="docutils literal notranslate"><span class="pre">rclone</span></code> can be used to synchronize with multiple cloud providers.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>rclone<span class="w"> </span>sync<span class="w"> </span>dropbox:myfolder/<span class="w"> </span>/path/to/where/you/need/it/
+</pre></div>
+</div>
+<p>You may need a version of <code class="docutils literal notranslate"><span class="pre">rclone</span></code> on your laptop, or use <a class="reference internal" href="vnc.html#vnc"><span class="std std-ref">VNC</span></a>, as the configuration needs a browser on the same system that you are running <code class="docutils literal notranslate"><span class="pre">rclone</span></code>.</p>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-3" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-3">
+macOS</label><div class="sd-tab-content docutils">
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>brew<span class="w"> </span>install<span class="w"> </span>rclone
+</pre></div>
+</div>
+</div>
+<input id="sd-tab-item-4" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-4">
+Windows</label><div class="sd-tab-content docutils">
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>winget<span class="w"> </span>install<span class="w"> </span>--id<span class="o">=</span>Rclone.Rclone<span class="w">  </span>-e
+</pre></div>
+</div>
+</div>
+<input id="sd-tab-item-5" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-5">
+Linux</label><div class="sd-tab-content docutils">
+<p>To install, use your package manager:</p>
+<ul class="simple">
+<li><p>Ubuntu: <code class="docutils literal notranslate"><span class="pre">apt-get</span> <span class="pre">install</span> <span class="pre">rsync</span></code></p></li>
+<li><p>Fedora: <code class="docutils literal notranslate"><span class="pre">dnf</span> <span class="pre">install</span> <span class="pre">rsync</span></code></p></li>
+<li><p>CentOS: <code class="docutils literal notranslate"><span class="pre">yum</span> <span class="pre">install</span> <span class="pre">rsync</span></code></p></li>
+<li><p>openSUSE: <code class="docutils literal notranslate"><span class="pre">zypper</span> <span class="pre">install</span> <span class="pre">rsync</span></code></p></li>
+</ul>
+</div>
 </div>
 </section>
 <section id="using-apis">
@@ -630,6 +691,7 @@ document.write(`
 </ul>
 </li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#box">Box</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#multiple-cloud-providers">Multiple cloud providers</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-apis">Using APIs</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#r">R</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#python">Python</a></li>
