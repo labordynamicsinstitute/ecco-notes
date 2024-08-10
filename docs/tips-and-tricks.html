@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>Transferring data to and from BioHPC &#8212; ECCO Computing Notes</title>
+    <title>Tips and Tricks &#8212; ECCO Computing Notes</title>
   
   
   
@@ -57,12 +57,12 @@
     <script async="async" src="../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'docs/transfer';</script>
-    <link rel="canonical" href="https://labordynamicsinstitute.github.io/ecco-notes/docs/transfer.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'docs/tips-and-tricks';</script>
+    <link rel="canonical" href="https://labordynamicsinstitute.github.io/ecco-notes/docs/tips-and-tricks.html" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="Software" href="biohpc/software.html" />
-    <link rel="prev" title="VSCode" href="vscode.html" />
+    <link rel="next" title="Getting help" href="help.html" />
+    <link rel="prev" title="manage_slurm" href="commands/manage_slurm.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -196,8 +196,8 @@
 <li class="toctree-l1"><a class="reference internal" href="vscode.html">VSCode</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">How to transfer data to and from BioHPC</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Transferring data to and from BioHPC</a></li>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="transfer.html">Transferring data to and from BioHPC</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Using SLURM</span></p>
 <ul class="nav bd-sidenav">
@@ -216,8 +216,8 @@
 <li class="toctree-l1"><a class="reference internal" href="commands/manage_slurm.html"><code class="docutils literal notranslate"><span class="pre">manage_slurm</span></code></a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Help</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="tips-and-tricks.html">Tips and Tricks</a></li>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Tips and Tricks</a></li>
 <li class="toctree-l1"><a class="reference internal" href="help.html">Getting help</a></li>
 </ul>
 
@@ -290,7 +290,7 @@
       
       
       
-      <li><a href="https://github.com/labordynamicsinstitute/ecco-notes/edit/main/docs/transfer.md" target="_blank"
+      <li><a href="https://github.com/labordynamicsinstitute/ecco-notes/edit/main/docs/tips-and-tricks.md" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -307,7 +307,7 @@
       
       
       
-      <li><a href="https://github.com/labordynamicsinstitute/ecco-notes/issues/new?title=Issue%20on%20page%20%2Fdocs/transfer.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/labordynamicsinstitute/ecco-notes/issues/new?title=Issue%20on%20page%20%2Fdocs/tips-and-tricks.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -337,7 +337,7 @@
       
       
       
-      <li><a href="../_sources/docs/transfer.md" target="_blank"
+      <li><a href="../_sources/docs/tips-and-tricks.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -421,7 +421,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Transferring data to and from BioHPC</h1>
+    <h1>Tips and Tricks</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -431,30 +431,8 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pushing-data-to-biohpc">Pushing data to BioHPC</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-vs-code">Using VS Code</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-terminal-on-your-laptop">Using terminal on your laptop</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#sftp">SFTP</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#rsync">Rsync</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#git-lfs">Git LFS</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#initiating-from-a-biohpc-program-or-terminal">Initiating from a BioHPC program or terminal</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dropbox">Dropbox</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#bi-directional">Bi-directional</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#download-only">Download only</a></li>
-</ul>
-</li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#box">Box</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-apis">Using APIs</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#r">R</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#python">Python</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#configuring-automatic-reservation-cancellation">Configuring automatic reservation cancellation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#unzipping-large-zip-files-fails">Unzipping large ZIP files fails</a></li>
 </ul>
             </nav>
         </div>
@@ -466,86 +444,86 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="transferring-data-to-and-from-biohpc">
-<span id="transfer"></span><h1>Transferring data to and from BioHPC<a class="headerlink" href="#transferring-data-to-and-from-biohpc" title="Link to this heading">#</a></h1>
-<p>See <a class="reference external" href="https://biohpc.cornell.edu/lab/doc/accessing_data_on_BioHPC.pdf">BioHPC document</a>.</p>
-<p>See also <a class="reference external" href="https://biohpc.cornell.edu/lab/userguide.aspx?a=software&amp;amp;i=665#c"><code class="docutils literal notranslate"><span class="pre">rclone</span></code></a>.</p>
-<section id="pushing-data-to-biohpc">
-<h2>Pushing data to BioHPC<a class="headerlink" href="#pushing-data-to-biohpc" title="Link to this heading">#</a></h2>
-<p>There are a few ways to push to or synchronize with BioHPC storage/filesystem.</p>
-<section id="using-vs-code">
-<h3>Using VS Code<a class="headerlink" href="#using-vs-code" title="Link to this heading">#</a></h3>
-<p>You can drag-and-drop into the file pane in VS Code, or upload from the menu. See <a class="reference external" href="https://code.visualstudio.com/docs/remote/ssh">VS Code Remote Development using SSH</a>.</p>
-</section>
-<section id="using-terminal-on-your-laptop">
-<h3>Using terminal on your laptop<a class="headerlink" href="#using-terminal-on-your-laptop" title="Link to this heading">#</a></h3>
-<section id="sftp">
-<h4>SFTP<a class="headerlink" href="#sftp" title="Link to this heading">#</a></h4>
-<p>(for Mac and Linux especially) Use the built-in SFTP/SCP command line client (comes with SSH), or any of the graphical frontends.</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>scp<span class="w"> </span>fancydata.dta<span class="w"> </span>netid@cbsulogin.biohpc.cornell.edu:/path/to/where/you/need/it/
+  <section class="tex2jax_ignore mathjax_ignore" id="tips-and-tricks">
+<span id="id1"></span><h1>Tips and Tricks<a class="headerlink" href="#tips-and-tricks" title="Link to this heading">#</a></h1>
+<section id="configuring-automatic-reservation-cancellation">
+<h2>Configuring automatic reservation cancellation<a class="headerlink" href="#configuring-automatic-reservation-cancellation" title="Link to this heading">#</a></h2>
+<p>If you use the <a class="reference internal" href="biohpc/reserving.html#reserving"><span class="std std-ref">BioHPC reservation system</span></a> or <a class="reference internal" href="biohpc/slurm.html#slurm"><span class="std std-ref">SLURM</span></a>, it helps others if at the end of a long-running job, your reservation is cancelled as soon as possible. One way to do this is to add the following to the scripts you are running:</p>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-0" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-0">
+Stata</label><div class="sd-tab-content docutils">
+<div class="highlight-stata notranslate"><div class="highlight"><pre><span></span><span class="c1">// Use the code below at the bottom of the Stata &quot;main&quot; or </span>
+<span class="c1">// &quot;master&quot; script to automatically sign out </span>
+
+<span class="k">shell</span> <span class="o">/</span>programs<span class="o">/</span>bin<span class="o">/</span>labutils<span class="o">/</span>endres<span class="m">.</span>pl 
 </pre></div>
 </div>
-</section>
-<section id="rsync">
-<h4>Rsync<a class="headerlink" href="#rsync" title="Link to this heading">#</a></h4>
-<p>Install rsync and sync back and forth, preferably over SSH (bidirectional)</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>rsync<span class="w"> </span>-auvz<span class="w"> </span>/my/laptop/path/<span class="w"> </span>netid@cbsulogin.biohpc.cornell.edu:/path/to/where/you/need/it/
+</div>
+<input id="sd-tab-item-1" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-1">
+R</label><div class="sd-tab-content docutils">
+<div class="highlight-r notranslate"><div class="highlight"><pre><span></span><span class="c1"># Add to end of main or last script.</span>
+<span class="nf">system</span><span class="p">(</span><span class="s">&quot;/programs/bin/labutils/endres.pl&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-</section>
-<section id="git-lfs">
-<h4>Git LFS<a class="headerlink" href="#git-lfs" title="Link to this heading">#</a></h4>
-<p>If using Git for project code, you can configure Git LFS on all of your machines to handle data transfers.</p>
-</section>
-</section>
-</section>
-<section id="initiating-from-a-biohpc-program-or-terminal">
-<h2>Initiating from a BioHPC program or terminal<a class="headerlink" href="#initiating-from-a-biohpc-program-or-terminal" title="Link to this heading">#</a></h2>
-<section id="dropbox">
-<h3>Dropbox<a class="headerlink" href="#dropbox" title="Link to this heading">#</a></h3>
-<section id="bi-directional">
-<h4>Bi-directional<a class="headerlink" href="#bi-directional" title="Link to this heading">#</a></h4>
-<p>Dropbox is usually not installable on BioHPC. The <a class="reference external" href="https://github.com/dropbox/dbxcli">unofficial command line tool</a> can be used for one-off transfers (follow instructions for Mac OSX installation, replacing <code class="docutils literal notranslate"><span class="pre">dbxcli-darwin-amd64</span></code> with <code class="docutils literal notranslate"><span class="pre">dbxcli-linux-amd64</span></code>). You can then use <code class="docutils literal notranslate"><span class="pre">dbxcli</span></code> to download or upload data from your Dropbox account.</p>
-</section>
-<section id="download-only">
-<h4>Download only<a class="headerlink" href="#download-only" title="Link to this heading">#</a></h4>
-<p>Alternatively, you can find the download link for single files, e.g. <code class="docutils literal notranslate"><span class="pre">https://www.dropbox.com/scl/fi/vv8wujjdhxislw15sfmbng1a/fancydata.dta?rlkey=d2x4ehh46rjxqe8dhsp89vv53&amp;st=2x47iv6s&amp;dl=0</span></code> and then use the command line <code class="docutils literal notranslate"><span class="pre">wget</span></code> to download it directly (no upload). Replace the <code class="docutils literal notranslate"><span class="pre">dl=0</span></code> at the end of the URL with <code class="docutils literal notranslate"><span class="pre">dl=1</span></code>.</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>wget<span class="w"> </span>-o<span class="w"> </span>fancydata.dta<span class="w"> </span><span class="s2">&quot;https://www.dropbox.com/scl/fi/vv8wujjdhxislw15sfmbng1a/fancydata.dta?rlkey=d2x4ehh46rjxqe8dhsp89vv53&amp;st=2x47iv6s&amp;dl=1&quot;</span>
+</div>
+<input id="sd-tab-item-2" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-2">
+Matlab</label><div class="sd-tab-content docutils">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">%</span><span class="n">Use</span> <span class="n">code</span> <span class="n">below</span> <span class="n">at</span> <span class="n">end</span> <span class="n">of</span> <span class="n">MATLAB</span> <span class="n">main</span> <span class="n">script</span><span class="p">,</span> <span class="ow">or</span> <span class="n">last</span> <span class="n">script</span><span class="p">,</span> <span class="n">to</span> <span class="n">automatically</span> <span class="n">sign</span> <span class="n">out</span>
+
+<span class="n">system</span><span class="p">(</span><span class="s2">&quot;/programs/bin/labutils/endres.pl&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
-</section>
-</section>
-<section id="box">
-<h3>Box<a class="headerlink" href="#box" title="Link to this heading">#</a></h3>
-<p>Similar to the “Download only” Dropbox method, you can use a URL to download specific Box-hosted files.</p>
-<ul class="simple">
-<li><p>Find the “Link” icon, and click on it.</p></li>
-<li><p>Do not use the “Share Link”. Rather, click on “Link Settings”</p></li>
-<li><p>At the bottom of the display, use the “Direct Link” URL.</p></li>
-<li><p>Use <code class="docutils literal notranslate"><span class="pre">wget</span></code> to download.</p></li>
-</ul>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>wget<span class="w"> </span>-o<span class="w"> </span>fancydata.dta<span class="w"> </span><span class="s2">&quot;https://cornell.box.com/shared/static/q0vmkhzfd8mrcl9wzgeub5x74a8yoh8u.dta&quot;</span>
+</div>
+<input id="sd-tab-item-3" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-3">
+Python</label><div class="sd-tab-content docutils">
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="c1"># Use code below at bottom of Python/Anaconda script </span>
+<span class="c1"># to automatically sign out</span>
+
+<span class="kn">import</span> <span class="nn">os</span>
+
+<span class="n">os</span><span class="o">.</span><span class="n">system</span><span class="p">(</span><span class="s2">&quot;/programs/bin/labutils/endres.pl&quot;</span><span class="p">)</span>
 </pre></div>
 </div>
+</div>
+<input id="sd-tab-item-4" name="sd-tab-set-0" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-4">
+Bash</label><div class="sd-tab-content docutils">
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1">#Use the code below at the bottom of the bash &quot;main&quot; or </span>
+<span class="c1"># &quot;master&quot; script to automatically sign out </span>
+/programs/bin/labutils/endres.pl<span class="w"> </span>
+</pre></div>
+</div>
+</div>
+</div>
 </section>
-<section id="using-apis">
-<h3>Using APIs<a class="headerlink" href="#using-apis" title="Link to this heading">#</a></h3>
-<p>All major cloud services have APIs that can be used.</p>
-<section id="r">
-<h4>R<a class="headerlink" href="#r" title="Link to this heading">#</a></h4>
-<ul class="simple">
-<li><p>For Box: <a class="reference external" href="https://r-box.github.io/boxr/index.html"><code class="docutils literal notranslate"><span class="pre">boxr</span></code></a></p></li>
-<li><p>For Dropbox: <a class="reference external" href="https://github.com/karthik/rdrop2"><code class="docutils literal notranslate"><span class="pre">rdrop2</span></code></a></p></li>
-</ul>
-</section>
-<section id="python">
-<h4>Python<a class="headerlink" href="#python" title="Link to this heading">#</a></h4>
-<ul class="simple">
-<li><p>For Box:</p></li>
-<li><p>For Dropbox: <a class="reference external" href="https://github.com/dropbox/dropbox-sdk-python">Official Dropbox SDK</a></p></li>
-</ul>
-</section>
-</section>
+<section id="unzipping-large-zip-files-fails">
+<h2>Unzipping large ZIP files fails<a class="headerlink" href="#unzipping-large-zip-files-fails" title="Link to this heading">#</a></h2>
+<p>In some cases, unzipping large ZIP files (larger than 2GB) may fail:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">error</span><span class="p">:</span> <span class="n">invalid</span> <span class="nb">zip</span> <span class="n">file</span> <span class="k">with</span> <span class="n">overlapped</span> <span class="n">components</span> <span class="p">(</span><span class="n">possible</span> <span class="nb">zip</span> <span class="n">bomb</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>If this is detected, you need to use a 64-bit version of a decompression program. This may vary by Linux host.</p>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-5" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-5">
+&lt;literal&gt;7z&lt;/literal&gt;</label><div class="sd-tab-content docutils">
+<p>Instead of <code class="docutils literal notranslate"><span class="pre">zip</span></code>, use <code class="docutils literal notranslate"><span class="pre">7z</span></code> as follows:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>FILENAME=something
+/programs/bin/util/7z x -O${FILENAME} ${FILENAME}.zip
+</pre></div>
+</div>
+<p>(which is the equivalent to the zip command <code class="docutils literal notranslate"><span class="pre">zip</span> <span class="pre">-n</span> <span class="pre">${FILENAME}</span> <span class="pre">-d</span> <span class="pre">${FILENAME}).</span> <span class="pre">The</span> <span class="pre">first</span> <span class="pre">option</span> <span class="pre">(</span></code>-O<code class="docutils literal notranslate"><span class="pre">)</span> <span class="pre">is</span> <span class="pre">an</span> <span class="pre">upper-case</span> <span class="pre">letter</span> </code>O`, not zero.</p>
+</div>
+<input id="sd-tab-item-6" name="sd-tab-set-1" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-6">
+Others</label><div class="sd-tab-content docutils">
+<p>Other options include using <code class="docutils literal notranslate"><span class="pre">jar</span></code>, if available.</p>
+</div>
+</div>
 </section>
 </section>
 
@@ -580,20 +558,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="vscode.html"
+       href="commands/manage_slurm.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">VSCode</p>
+        <p class="prev-next-title"><code class="docutils literal notranslate"><span class="pre">manage_slurm</span></code></p>
       </div>
     </a>
     <a class="right-next"
-       href="biohpc/software.html"
+       href="help.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Software</p>
+        <p class="prev-next-title">Getting help</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -613,30 +591,8 @@ document.write(`
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pushing-data-to-biohpc">Pushing data to BioHPC</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-vs-code">Using VS Code</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-terminal-on-your-laptop">Using terminal on your laptop</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#sftp">SFTP</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#rsync">Rsync</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#git-lfs">Git LFS</a></li>
-</ul>
-</li>
-</ul>
-</li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#initiating-from-a-biohpc-program-or-terminal">Initiating from a BioHPC program or terminal</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dropbox">Dropbox</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#bi-directional">Bi-directional</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#download-only">Download only</a></li>
-</ul>
-</li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#box">Box</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-apis">Using APIs</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#r">R</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#python">Python</a></li>
-</ul>
-</li>
-</ul>
-</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#configuring-automatic-reservation-cancellation">Configuring automatic reservation cancellation</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#unzipping-large-zip-files-fails">Unzipping large ZIP files fails</a></li>
 </ul>
   </nav></div>
 

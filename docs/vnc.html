@@ -61,7 +61,7 @@
     <link rel="canonical" href="https://labordynamicsinstitute.github.io/ecco-notes/docs/vnc.html" />
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
-    <link rel="next" title="VS Code" href="vscode.html" />
+    <link rel="next" title="VSCode" href="vscode.html" />
     <link rel="prev" title="SSH" href="ssh.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -193,7 +193,7 @@
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="ssh.html">SSH</a></li>
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">VNC</a></li>
-<li class="toctree-l1"><a class="reference internal" href="vscode.html">VS Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vscode.html">VSCode</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">How to transfer data to and from BioHPC</span></p>
 <ul class="nav bd-sidenav">
@@ -217,6 +217,7 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Help</span></p>
 <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="tips-and-tricks.html">Tips and Tricks</a></li>
 <li class="toctree-l1"><a class="reference internal" href="help.html">Getting help</a></li>
 </ul>
 
@@ -434,8 +435,17 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="vnc">
 <span id="id1"></span><h1>VNC<a class="headerlink" href="#vnc" title="Link to this heading">#</a></h1>
-<p>VNC connections are described on the <a class="reference external" href="https://biohpc.cornell.edu/lab/userguide.aspx?a=access#A4">BioHPC</a>.</p>
+<p>VNC connections are described on the <a class="reference external" href="https://biohpc.cornell.edu/lab/userguide.aspx?a=access#A4">BioHPC pages</a>.</p>
+<p>See <a class="reference external" href="https://biohpc.cornell.edu/lab/userguide.aspx?a=quickstart">Getting Started Guide</a> and <a class="reference external" href="https://biohpc.cornell.edu/lab/doc/Remote_access.pdf">Remote Access</a>.</p>
 <p>VNC allows you to use graphical interfaces and disconnect.</p>
+<p>Note that, for off-campus access, you will need to use Cornell VPN. Instructions can be found <a class="reference external" href="https://it.cornell.edu/cuvpn">here</a>.</p>
+<p>For <strong>VNC</strong>:</p>
+<ul class="simple">
+<li><p>Once your have a reserved node, click <a class="reference external" href="https://biohpc.cornell.edu/lab/labresman.aspx">“My Reservation”</a> to manage all your active reservations.</p></li>
+<li><p>Choose your reservation.</p></li>
+<li><p>Click “Connect VNC” under “Action” and you will have your machine name and port number. To disconnect, click “Cancel VNC” under “Action”.</p></li>
+<li><p>Open VNC Viewer and type in session number in the form of “machine name:port number” given by BioHPC.</p></li>
+</ul>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>You do not need VNC</p>
@@ -445,7 +455,6 @@ document.write(`
 <li><p>to use Rstudio or JupyterLab</p></li>
 </ul>
 </div>
-<p>See <a class="reference external" href="https://biohpc.cornell.edu/lab/userguide.aspx?a=access#A6">this section of the BioHPC documentation</a> for more details.</p>
 </section>
 
     <script type="text/x-thebe-config">
@@ -492,7 +501,7 @@ document.write(`
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">VS Code</p>
+        <p class="prev-next-title">VSCode</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>

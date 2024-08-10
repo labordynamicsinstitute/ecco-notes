@@ -193,7 +193,7 @@
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1 current active"><a class="current reference internal" href="#">SSH</a></li>
 <li class="toctree-l1"><a class="reference internal" href="vnc.html">VNC</a></li>
-<li class="toctree-l1"><a class="reference internal" href="vscode.html">VS Code</a></li>
+<li class="toctree-l1"><a class="reference internal" href="vscode.html">VSCode</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">How to transfer data to and from BioHPC</span></p>
 <ul class="nav bd-sidenav">
@@ -217,6 +217,7 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Help</span></p>
 <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="tips-and-tricks.html">Tips and Tricks</a></li>
 <li class="toctree-l1"><a class="reference internal" href="help.html">Getting help</a></li>
 </ul>
 
@@ -432,6 +433,7 @@ document.write(`
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-ssh">Getting SSH</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#connecting-via-ssh">Connecting via SSH</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-ssh-agent-for-password-less-login">Setting up SSH Agent for password-less login</a></li>
 </ul>
             </nav>
         </div>
@@ -490,6 +492,96 @@ With a reservation</label><div class="sd-tab-content docutils">
 </div>
 </div>
 </div>
+</section>
+<section id="setting-up-ssh-agent-for-password-less-login">
+<h2>Setting up SSH Agent for password-less login<a class="headerlink" href="#setting-up-ssh-agent-for-password-less-login" title="Link to this heading">#</a></h2>
+<p>The SSH protocol allows you to create a public-private key pair. You deposit the public key on the Linux server, and keep the (passphrase-protected) private key on your laptop. You can then configure a “ssh-agent” running on your laptop to store (temporarily) your passphrase in memory, and provide it every time you log in to the Linux server. This works very easily on Unix-like systems (macOS, Linux laptops), but is a bit trickier on Windows laptops. The same mechanism can be used to authenticate with Github, Bitbucket, and other services, seemlessly integrating login to BioHPC with the use of Git.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>You might want to read the</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://carpentries-incubator.github.io/shell-extras/02-ssh/">Carpentries tutorial on SSH</a>.</p></li>
+<li><p><a class="reference external" href="https://docs.github.com/en/enterprise-cloud&#64;latest/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent">Github tutorial on SSH</a></p></li>
+<li><p><a class="reference external" href="https://support.atlassian.com/bitbucket-cloud/docs/configure-ssh-and-two-step-verification/">Atlassian tutorial on SSH</a></p></li>
+</ul>
+</div>
+<div class="sd-tab-set docutils">
+<input checked="checked" id="sd-tab-item-4" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-4">
+macOS</label><div class="sd-tab-content docutils">
+<p>Most macOS installations come with SSH installed and the SSH agent active. You can check if it is running with</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">eval</span><span class="w"> </span><span class="k">$(</span>ssh-agent<span class="w"> </span>-s<span class="k">)</span>
+</pre></div>
+</div>
+<p>If it is not running, you may need to add the command above to your shell startup file (either <code class="docutils literal notranslate"><span class="pre">~/.bashrc</span></code>, <code class="docutils literal notranslate"><span class="pre">~/.zshrc</span></code>, or <code class="docutils literal notranslate"><span class="pre">~/.profile</span></code>).</p>
+<p>For more details, have a look at <a class="reference external" href="https://support.atlassian.com/bitbucket-cloud/docs/set-up-personal-ssh-keys-on-macos/">Atlassian’s tutorial</a>.</p>
+</div>
+<input id="sd-tab-item-5" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-5">
+Linux (laptop)</label><div class="sd-tab-content docutils">
+<p>Most Linux distributions come with an SSH agent installed. You can check if it is running with the command:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">eval</span><span class="w"> </span><span class="k">$(</span>ssh-agent<span class="w"> </span>-s<span class="k">)</span>
+</pre></div>
+</div>
+<p>This should return a number, which is the process ID of the SSH agent. If not, you may need to add the command above to your shell startup file (probably <code class="docutils literal notranslate"><span class="pre">~/.bashrc</span></code>, possibly <code class="docutils literal notranslate"><span class="pre">~/.profile</span></code>).</p>
+</div>
+<input id="sd-tab-item-6" name="sd-tab-set-2" type="radio">
+</input><label class="sd-tab-label" for="sd-tab-item-6">
+Windows (laptop only)</label><div class="sd-tab-content docutils">
+<p>First, you need to ensure that the SSH subsystem is installed. Consult <a class="reference external" href="https://support.atlassian.com/bitbucket-cloud/docs/set-up-personal-ssh-keys-on-windows/">Atlassian’s tutorial</a>. You will likely need admin privileges on your laptop.</p>
+</div>
+</div>
+<p>The next steps are common to all operating systems.</p>
+<p>You will want to create a key, then transfer it to the Linux server. The following commands should do this (should work on both Powershell and Bash):</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ssh-keygen<span class="w"> </span>-t<span class="w"> </span>ed25519<span class="w"> </span>-C<span class="w"> </span><span class="s2">&quot;For BioHPC&quot;</span>
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">ed25519</span></code> is the encryption type, “For BioHPC” is an arbitrary comment for your own tracking of keys. When prompted, you should add a passphrase.</p>
+<p>This should have created two files in your <code class="docutils literal notranslate"><span class="pre">.ssh</span></code> directory:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ls<span class="w"> </span><span class="nv">$HOME</span>/.ssh
+</pre></div>
+</div>
+<p>Add the new key to your SSH-agent (optional, but recommended):</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ssh-add<span class="w"> </span><span class="nv">$HOME</span>/.ssh/id_ed25519.pub
+<span class="c1"># you should be prompted for your passphrase.</span>
+</pre></div>
+</div>
+<p>You will want to transfer the <code class="docutils literal notranslate"><span class="pre">.pub</span></code> file to the Linux server. You can do this with the command <code class="docutils literal notranslate"><span class="pre">ssh-copy-id</span></code> (if it exists), or manually. We show you how to do this manually:</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>You should open two terminals: one locally on your laptop, one remotely on the Windows server!</p>
+</div>
+<p>This creates a directory used by SSH:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># this is on the remote server</span>
+mkdir<span class="w"> </span><span class="nv">$HOME</span>/.ssh
+<span class="c1"># stay logged in!</span>
+</pre></div>
+</div>
+<p>This transfer the public key to the remote Linux server</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># this is on your laptop</span>
+<span class="nv">netid</span><span class="o">=</span>lv39<span class="w">  </span><span class="c1"># adjust to be your own netid!</span>
+scp<span class="w"> </span><span class="nv">$HOME</span>/.ssh/*.pub<span class="w"> </span><span class="si">${</span><span class="nv">netid</span><span class="si">}</span>@cbsulogin.biohpc.cornell.edu:.ssh/
+</pre></div>
+</div>
+<p>You should now see the <code class="docutils literal notranslate"><span class="pre">.pub</span></code> key in your <code class="docutils literal notranslate"><span class="pre">.ssh</span></code> directory on the remote Linux server:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># this is on the remote server</span>
+<span class="c1"># this should show the *.pub file</span>
+ls<span class="w"> </span><span class="nv">$HOME</span>/.ssh
+<span class="c1"># this authorizes you to use the SSH key to log in:</span>
+cat<span class="w"> </span><span class="nv">$HOME</span>/.ssh/*.pub<span class="w"> </span>&gt;&gt;<span class="w"> </span><span class="nv">$HOME</span>/.ssh/authorized_keys
+</pre></div>
+</div>
+<p>Now test it:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># This is run from your laptop</span>
+ssh<span class="w"> </span><span class="si">${</span><span class="nv">netid</span><span class="si">}</span>@cbsulogin.biohpc.cornell.edu
+</pre></div>
+</div>
+<p>You should now be prompted for your SSH passphrase:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>$ ssh netid@cbsulogin.biohpc.cornell.edu
+Enter passphrase for key `C:\Users\netid\.ssh\id_ed15559.pub`:
+</pre></div>
+</div>
+<p>If you have <code class="docutils literal notranslate"><span class="pre">ssh-agent</span></code> running, subsequent logins should NOT prompt you for the passphrase again!</p>
 <div class="admonition tip">
 <p class="admonition-title">Tip</p>
 <p>Use <code class="docutils literal notranslate"><span class="pre">tmux</span></code> to allow for terminal sessions that you can disconnect and reconnect from.</p>
@@ -563,6 +655,7 @@ With a reservation</label><div class="sd-tab-content docutils">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-ssh">Getting SSH</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#connecting-via-ssh">Connecting via SSH</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#setting-up-ssh-agent-for-password-less-login">Setting up SSH Agent for password-less login</a></li>
 </ul>
   </nav></div>
 

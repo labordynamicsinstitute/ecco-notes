@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>VS Code &#8212; ECCO Computing Notes</title>
+    <title>VSCode &#8212; ECCO Computing Notes</title>
   
   
   
@@ -193,7 +193,7 @@
 <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="ssh.html">SSH</a></li>
 <li class="toctree-l1"><a class="reference internal" href="vnc.html">VNC</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">VS Code</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">VSCode</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">How to transfer data to and from BioHPC</span></p>
 <ul class="nav bd-sidenav">
@@ -217,6 +217,7 @@
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Help</span></p>
 <ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="tips-and-tricks.html">Tips and Tricks</a></li>
 <li class="toctree-l1"><a class="reference internal" href="help.html">Getting help</a></li>
 </ul>
 
@@ -418,7 +419,7 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>VS Code</h1>
+    <h1>VSCode</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
@@ -432,12 +433,41 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="vs-code">
-<span id="vscode"></span><h1>VS Code<a class="headerlink" href="#vs-code" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="vscode">
+<span id="id1"></span><h1>VSCode<a class="headerlink" href="#vscode" title="Link to this heading">#</a></h1>
 <p>Visual Studio Code is a free application maintained by Microsoft. It is a highly efficient editor, allowing to edit any modern statistical software code, develop Python applications, etc.</p>
-<p>You can connect to BioHPC via SSH using VS Code - running the application locally on your laptop, but editing and running code remotely on the BioHPC cluster.</p>
-<p>Documentation coming.</p>
-<p>See <a class="reference external" href="https://code.visualstudio.com/docs/remote/ssh">VS Code documentation</a>.</p>
+<p>You can connect to BioHPC via SSH using VSCode - running the application locally on your laptop, but editing and running code remotely on the BioHPC cluster. Generic instructions are available at <a class="reference external" href="https://code.visualstudio.com/docs/remote/ssh">VS Code documentation</a>.</p>
+<ul class="simple">
+<li><p>Check that you have installed the <a class="reference external" href="https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh">Remote-SSH extension</a> on VSCode.</p></li>
+<li><p>Open VSCode and select the Remote-SSH extension from the Command Palette.</p></li>
+<li><p>Enter the host name when prompted. The host name should follow this naming convention:</p>
+<ul>
+<li><p>BioHPC: “netid&#64;cbsuecco##.biohpc.cornell.edu”.</p></li>
+</ul>
+</li>
+<li><p>You may be prompted to “Select the platform of the remote host”. If so, select the “Linux” option in the drop down menu.</p></li>
+</ul>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>For this to work on BioHPC, verify that you have a valid reservation and an active VPN!</p>
+</div>
+<ul class="simple">
+<li><p>Enter your account password when prompted.</p></li>
+<li><p>Once connected,</p>
+<ul>
+<li><p><code class="docutils literal notranslate"><span class="pre">Open</span> <span class="pre">Folder</span></code> and navigate to your working directory.</p></li>
+<li><p>open a new terminal using the “Terminal” option in the top menu of VSCode (or `Ctrl-``).</p></li>
+</ul>
+</li>
+<li><p>You should now be able to work on the Linux server via command line.</p></li>
+</ul>
+<p>Some benefits of connecting to BioHPC with VSCode: You can view/edit programs, check log files, and run jobs simultaneously in a given instance of VSCode. Note that you should still use <a class="reference internal" href="commands/tmux.html#tmux"><span class="std std-ref"><code class="docutils literal notranslate"><span class="pre">tmux</span></code></span></a> within the VSCode terminal, in case of a disconnect.</p>
+<p>In particular, you can navigate to your working directory and <code class="docutils literal notranslate"><span class="pre">git</span> <span class="pre">clone</span></code> a Git repository (using either the command line, or VSCode prompt to <code class="docutils literal notranslate"><span class="pre">Clone</span> <span class="pre">Repository</span></code>). VSCode recognizes Git, so you can visually navigate through tracked and untracked files via the lefthand side menu.</p>
+<p>For more information, see <a class="reference external" href="https://code.visualstudio.com/docs/remote/ssh">VSCode Remote Development using SSH</a>.</p>
+<div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>A tutorial video (thanks to Lars’ former RA Ilona Khimey) is available at <a class="reference external" href="https://vod.video.cornell.edu/media/BioHPC+Walkthrough+%28Mac%29/1_x2tmxhk9">Cornell Video-on-demand</a>.</p>
+</div>
 </section>
 
     <script type="text/x-thebe-config">
