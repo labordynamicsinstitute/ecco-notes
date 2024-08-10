@@ -38,4 +38,5 @@ parts:
   - file: docs/commands/manage_slurm
 - caption: Getting Help
   chapters:
+  - file: docs/tips-and-tricks
   - file: docs/help
