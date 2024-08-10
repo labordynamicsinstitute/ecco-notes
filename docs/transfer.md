@@ -25,7 +25,38 @@ scp fancydata.dta netid@cbsulogin.biohpc.cornell.edu:/path/to/where/you/need/it/
 
 #### Rsync
 
-Install rsync and sync back and forth, preferably over SSH (bidirectional)
+Install `rsync` and sync back and forth, preferably over SSH (bidirectional)
+
+
+:::::{tab-set}
+
+::::{tab-item} macOS
+
+```bash
+brew install rsync
+```
+
+::::
+
+::::{tab-item} Windows
+
+Installing `rsync` on Windows is not easy; most suggestions involve using the Windows Subsystem for Linux (WSL) and installing it there.
+
+::::
+
+::::{tab-item} Linux
+
+To install, use your package manager:
+
+- Ubuntu: `apt-get install rsync`
+- Fedora: `dnf install rsync`
+- CentOS: `yum install rsync`
+- openSUSE: `zypper install rsync`
+
+::::
+
+:::::
+
 
 ```bash
 rsync -auvz /my/laptop/path/ netid@cbsulogin.biohpc.cornell.edu:/path/to/where/you/need/it/
@@ -63,6 +94,46 @@ Similar to the "Download only" Dropbox method, you can use a URL to download spe
 ```bash
 wget -o fancydata.dta "https://cornell.box.com/shared/static/q0vmkhzfd8mrcl9wzgeub5x74a8yoh8u.dta"
 ```
+
+### Multiple cloud providers
+
+The command `rclone` can be used to synchronize with multiple cloud providers. 
+
+```bash
+rclone sync dropbox:myfolder/ /path/to/where/you/need/it/
+```
+
+You may need a version of `rclone` on your laptop, or use [VNC](vnc), as the configuration needs a browser on the same system that you are running `rclone`. 
+
+
+:::::{tab-set}
+
+::::{tab-item} macOS
+
+```bash
+brew install rclone
+```
+
+::::
+
+::::{tab-item} Windows
+
+```bash
+winget install --id=Rclone.Rclone  -e
+```
+
+::::
+
+::::{tab-item} Linux
+
+To install, use your package manager:
+
+- Ubuntu: `apt-get install rsync`
+- Fedora: `dnf install rsync`
+- CentOS: `yum install rsync`
+- openSUSE: `zypper install rsync`
+
+::::
 
 ### Using APIs
 
