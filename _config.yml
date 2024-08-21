@@ -62,10 +62,10 @@ html:
     utterances              : false
 #  announcement              : "This is not yet fully debugged - report any issues!" # A banner announcement at the top of the site.
 
-html:
-  analytics:
-    plausible_analytics_domain: labordynamicsinstitute.github.io
-    plausible_analytics_url: https://plausible.io/js/script.js
+# html:
+#   analytics:
+#     plausible_analytics_domain: labordynamicsinstitute.github.io
+#     plausible_analytics_url: https://plausible.io/js/script.js
 
 
 # sphinx:
