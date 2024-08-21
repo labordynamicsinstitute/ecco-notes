@@ -1,5 +1,7 @@
 (sbatchexample)=
-# SBATCH example
+# SBATCH examples
+
+## Simple SBATCH example
 
 For more fine-grained control over jobs submitted to the SLURM queues, you can use `sbatch`:
 
@@ -67,3 +69,37 @@ PartitionName=regular
 ```
 shows that the default partition (`regular`) has a default of 4096 MB per Node (`DefMemPerNode=4096`), which can be increased without restriction upon request (`MaxMemPerNode`) by using `--mem xxxx` at the command line or `#SBATCH --mem xxxx` in the script (`--mem 0` uses all the memory on the node).
 
+
+## SBATCH Array job
+
+If you want to launch many parallel jobs that use a different parameter each time, use arrays. Here's an example:
+
+```bash
+#!/bin/bash
+#SBATCH --job-name=ilm
+## This will write the output to a one file per array id. Make sure the directory exists!
+#SBATCH --output=logs/%a.out
+## This will write any error msgs
+#SBATCH --error=logs/%a.err
+#SBATCH --ntasks=128
+## Adjust the range of the array you probably want this to be the total number of firms, but try it with a few.
+#SBATCH --array=1-12345
+## This means you allow each job to run up to 0 days and 72 hours (that's what the notation says). Adjust
+#SBATCH -t 0-72:00 
+
+## Adjust the R version to be the same you are using in Rstudio/interactively!
+module load R/4.4.0
+
+## The ${SLURM_ARRAY_TASK_ID} is the counter from the array argument.
+## You will need to process the first argument within the code.
+## You can try out this same command line manually. If it works, then it will work from within SLURM
+R CMD BATCH name_of_program.R  "${SLURM_ARRAY_TASK_ID}
+```
+
+Save the above code as `slurm_name_of_program.sh` and submit as `sbatch slurm_name_of_program.sh`.
+
+Test it first:
+
+- try out the command line separately, on a compute node: `R CMD BATCH name_of_program.R  some_number`
+- then try out the SLURM file with a low count (eg. `array=1-10`)
+- then set it to run.

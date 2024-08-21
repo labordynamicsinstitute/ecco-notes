@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>SBATCH example &#8212; ECCO Computing Notes</title>
+    <title>SBATCH examples &#8212; ECCO Computing Notes</title>
   
   
   
@@ -206,7 +206,7 @@
 <li class="toctree-l1"><a class="reference internal" href="stata.html">Stata example</a></li>
 <li class="toctree-l1"><a class="reference internal" href="matlab.html">MATLAB example</a></li>
 <li class="toctree-l1"><a class="reference internal" href="julia.html">Julia example</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">SBATCH example</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">SBATCH examples</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Command reference</span></p>
 <ul class="nav bd-sidenav">
@@ -408,7 +408,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -419,11 +421,20 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>SBATCH example</h1>
+    <h1>SBATCH examples</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#simple-sbatch-example">Simple SBATCH example</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sbatch-array-job">SBATCH Array job</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -433,8 +444,10 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="sbatch-example">
-<span id="sbatchexample"></span><h1>SBATCH example<a class="headerlink" href="#sbatch-example" title="Link to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="sbatch-examples">
+<span id="sbatchexample"></span><h1>SBATCH examples<a class="headerlink" href="#sbatch-examples" title="Link to this heading">#</a></h1>
+<section id="simple-sbatch-example">
+<h2>Simple SBATCH example<a class="headerlink" href="#simple-sbatch-example" title="Link to this heading">#</a></h2>
 <p>For more fine-grained control over jobs submitted to the SLURM queues, you can use <code class="docutils literal notranslate"><span class="pre">sbatch</span></code>:</p>
 <div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">sbatch</span> <span class="n">run</span><span class="o">.</span><span class="n">sh</span>
 </pre></div>
@@ -494,6 +507,39 @@ PartitionName=regular
 </div>
 <p>shows that the default partition (<code class="docutils literal notranslate"><span class="pre">regular</span></code>) has a default of 4096 MB per Node (<code class="docutils literal notranslate"><span class="pre">DefMemPerNode=4096</span></code>), which can be increased without restriction upon request (<code class="docutils literal notranslate"><span class="pre">MaxMemPerNode</span></code>) by using <code class="docutils literal notranslate"><span class="pre">--mem</span> <span class="pre">xxxx</span></code> at the command line or <code class="docutils literal notranslate"><span class="pre">#SBATCH</span> <span class="pre">--mem</span> <span class="pre">xxxx</span></code> in the script (<code class="docutils literal notranslate"><span class="pre">--mem</span> <span class="pre">0</span></code> uses all the memory on the node).</p>
 </section>
+<section id="sbatch-array-job">
+<h2>SBATCH Array job<a class="headerlink" href="#sbatch-array-job" title="Link to this heading">#</a></h2>
+<p>If you want to launch many parallel jobs that use a different parameter each time, use arrays. Here’s an example:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="ch">#!/bin/bash</span>
+<span class="c1">#SBATCH --job-name=ilm</span>
+<span class="c1">## This will write the output to a one file per array id. Make sure the directory exists!</span>
+<span class="c1">#SBATCH --output=logs/%a.out</span>
+<span class="c1">## This will write any error msgs</span>
+<span class="c1">#SBATCH --error=logs/%a.err</span>
+<span class="c1">#SBATCH --ntasks=128</span>
+<span class="c1">## Adjust the range of the array you probably want this to be the total number of firms, but try it with a few.</span>
+<span class="c1">#SBATCH --array=1-12345</span>
+<span class="c1">## This means you allow each job to run up to 0 days and 72 hours (that&#39;s what the notation says). Adjust</span>
+<span class="c1">#SBATCH -t 0-72:00 </span>
+
+<span class="c1">## Adjust the R version to be the same you are using in Rstudio/interactively!</span>
+module<span class="w"> </span>load<span class="w"> </span>R/4.4.0
+
+<span class="c1">## The ${SLURM_ARRAY_TASK_ID} is the counter from the array argument.</span>
+<span class="c1">## You will need to process the first argument within the code.</span>
+<span class="c1">## You can try out this same command line manually. If it works, then it will work from within SLURM</span>
+R<span class="w"> </span>CMD<span class="w"> </span>BATCH<span class="w"> </span>name_of_program.R<span class="w">  </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">SLURM_ARRAY_TASK_ID</span><span class="si">}</span>
+</pre></div>
+</div>
+<p>Save the above code as <code class="docutils literal notranslate"><span class="pre">slurm_name_of_program.sh</span></code> and submit as <code class="docutils literal notranslate"><span class="pre">sbatch</span> <span class="pre">slurm_name_of_program.sh</span></code>.</p>
+<p>Test it first:</p>
+<ul class="simple">
+<li><p>try out the command line separately, on a compute node: <code class="docutils literal notranslate"><span class="pre">R</span> <span class="pre">CMD</span> <span class="pre">BATCH</span> <span class="pre">name_of_program.R</span>&#160; <span class="pre">some_number</span></code></p></li>
+<li><p>then try out the SLURM file with a low count (eg. <code class="docutils literal notranslate"><span class="pre">array=1-10</span></code>)</p></li>
+<li><p>then set it to run.</p></li>
+</ul>
+</section>
+</section>
 
     <script type="text/x-thebe-config">
     {
@@ -550,7 +596,21 @@ PartitionName=regular
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#simple-sbatch-example">Simple SBATCH example</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sbatch-array-job">SBATCH Array job</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
