@@ -74,7 +74,7 @@ os.system("/programs/bin/labutils/endres.pl")
 
 ## Unzipping large ZIP files fails
 
-In some cases, unzipping large ZIP files (larger than 2GB) may fail:
+In some cases, unzipping large ZIP files (larger than 2GB) may fail (although the local `unzip` command has been compiled to handle large files).
 
 ```
 error: invalid zip file with overlapped components (possible zip bomb)
