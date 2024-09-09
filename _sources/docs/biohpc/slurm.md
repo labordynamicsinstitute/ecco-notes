@@ -13,7 +13,22 @@ kernelspec:
 (slurm)=
 # Job scheduler on BioHPC
 
-A SLURM cluster `cbsueccosl01` is ready on several nodes  (some dedicated to the SLURM scheduler, others "borrowed"; the latter might not always be available). There are between 48 and 144 "slots" (cpus) available for compute jobs.
+A SLURM cluster `cbsueccosl01` is maintained by Lars on behalf of Econ, on several nodes. Some are dedicated to the SLURM scheduler, others "borrowed"; the latter might not always be available. There are between 48 and 144 "slots" (cpus) available for compute jobs. The following table shows the allocated nodes. This list is static: to see at any point in time the available nodes, type
+
+```bash
+sinfo
+```
+in a terminal window on the head node, to obtain a result such as
+
+```bash
+$ sinfo
+CLUSTER: cbsueccosl01
+PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
+regular*     up   infinite      1  drain* cbsueccosl03
+regular*     up   infinite      6   idle cbsuecco[07,09-10,12],cbsueccosl[01,04]
+```
+
+which shows that currently, 6 nodes are available for jobs, one node is not accepting jobs (but running any jobs to completion). 
 
 
 ```{code-cell} ipython3

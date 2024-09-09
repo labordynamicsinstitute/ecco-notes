@@ -461,6 +461,10 @@ document.write(`
 <p class="admonition-title">Note</p>
 <p>While you have reserved a node, nobody else can access it (unless you explicitly add them to a reservation). If you know you are only using a few CPUs, consider submitting individual jobs.</p>
 </div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>If you do not see an available node immediately, make a reservation for a later time. The <a class="reference internal" href="slurm.html#slurm"><span class="std std-ref">SLURM cluster</span></a> uses active scavenging for free cycles, but if you cannot use SLURM and need to use the complete node immediately, contact the owner of the reservation before yours to see if they can release it early.</p>
+</div>
 <section id="adding-users-to-a-reservation">
 <h2>Adding users to a reservation<a class="headerlink" href="#adding-users-to-a-reservation" title="Link to this heading">#</a></h2>
 <p>On the <a class="reference external" href="https://biohpc.cornell.edu/lab/labresman.aspx">My Reservations</a> page, scroll down where you can either</p>

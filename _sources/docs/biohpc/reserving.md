@@ -22,6 +22,12 @@ While you have reserved a node, nobody else can access it (unless you explicitly
 
 :::
 
+:::{warning}
+
+If you do not see an available node immediately, make a reservation for a later time. The [SLURM cluster](slurm) uses active scavenging for free cycles, but if you cannot use SLURM and need to use the complete node immediately, contact the owner of the reservation before yours to see if they can release it early.
+
+:::
+
 ## Adding users to a reservation
 
 On the [My Reservations](https://biohpc.cornell.edu/lab/labresman.aspx) page, scroll down where you can either
