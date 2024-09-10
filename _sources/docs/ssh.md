@@ -7,7 +7,7 @@
 
 :::{tab-item} Windows
 
-SSH instructions for Windows to come
+Some guidance on how to use SSH on Windows can be found on the [Windows website](https://learn.microsoft.com/en-us/windows/terminal/tutorials/ssh#access-windows-ssh-client-and-ssh-server), and how to use SSH keys is described on the [Github documentation site](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/working-with-ssh-key-passphrases) - which does not just apply to connecting to Github.com, but for most other SSH connections as well.  
 
 :::
 
