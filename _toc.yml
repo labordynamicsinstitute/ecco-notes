@@ -24,8 +24,8 @@ parts:
   - file: docs/transfer
 - caption: Using SLURM
   chapters:
-  - file: docs/biohpc/software
   - file: docs/biohpc/slurm-quick-start
+  - file: docs/biohpc/software
   - file: docs/biohpc/stata
   - file: docs/biohpc/matlab
   - file: docs/biohpc/julia
