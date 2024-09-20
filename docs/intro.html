@@ -409,7 +409,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -425,6 +427,15 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-these-pages">Using these pages</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contributing">Contributing</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -437,6 +448,18 @@ document.write(`
   <section class="tex2jax_ignore mathjax_ignore" id="computing-notes">
 <h1>Computing notes<a class="headerlink" href="#computing-notes" title="Link to this heading">#</a></h1>
 <p>Cornell has a decentralized computing support infrastructure. Members of the Economics Department can choose from several options, as needed for a particular project. These pages provide some info, and links for further reading.</p>
+<section id="using-these-pages">
+<h2>Using these pages<a class="headerlink" href="#using-these-pages" title="Link to this heading">#</a></h2>
+<p>These pages are a continous work-in-progress. They provide information based on contributors’ experiences, which probably is incomplete, and occasionally may be out-of-date. The information is currently edited by <a class="reference external" href="https://github.com/larsvilhuber/">Lars</a>.</p>
+</section>
+<section id="contributing">
+<h2>Contributing<a class="headerlink" href="#contributing" title="Link to this heading">#</a></h2>
+<p>If you did not find something on these pages, want to add something to these pages, or think something should be here, <a class="reference external" href="https://github.com/labordynamicsinstitute/ecco-notes/issues/new/choose">open a Github issue</a>! If you don’t know how to create a Github issue, have a look <a class="reference external" href="https://docs.github.com/en/issues/tracking-your-work-with-issues/quickstart">here</a>.</p>
+<div class="dropdown admonition">
+<p class="admonition-title">If you don’t know what Github is…</p>
+<p>… you have <a class="reference external" href="https://swcarpentry.github.io/git-novice/">homework</a> to do! In the meantime, contact <a class="reference external" href="https://www.ilr.cornell.edu/people/lars-vilhuber">Lars</a>.</p>
+</div>
+</section>
 <div class="toctree-wrapper compound">
 </div>
 <div class="toctree-wrapper compound">
@@ -499,7 +522,21 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-these-pages">Using these pages</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contributing">Contributing</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
