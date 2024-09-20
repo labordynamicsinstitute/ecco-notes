@@ -12,6 +12,4 @@ cbsuecco10,flex,Intel(R) Xeon(R) Gold 5420+ @ 2.0-4.1GHz,3418,57593,28,2,256,202
 cbsuecco11,flex,Intel(R) Xeon(R) Gold 5420+ @ 2.0-4.1GHz,3418,57593,28,2,256,2024,3.5
 cbsuecco12,flex,Intel(R) Xeon(R) Gold 5420+ @ 2.0-4.1GHz,3418,57593,28,2,256,2024,3.5
 cbsueccosl01,slurm,AMD Opteron(tm) Processor 6380,1091,6738,16,1,128,2011,6.90
-cbsueccosl02,,,,,,,,,
-cbsueccosl03,slurm,AMD Opteron(tm) Processor 6378,1127,11778,16,2,256,2012,3.30
 cbsueccosl04,slurm,AMD Opteron(tm) Processor 6380,1091,12442,16,2,256,2011,5.00
