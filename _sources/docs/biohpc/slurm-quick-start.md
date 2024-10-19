@@ -15,10 +15,15 @@ From a command line, run the following lines, logout, then back in, and hencefor
  
 ```bash
 echo 'export SLURM_CLUSTERS="cbsueccosl01"' >> $HOME/.bash_profile
+```
+
+In the following, replace `netid` with your actual NetID. 
+
+
+```bash
 echo netid@cornell.edu >> $HOME/.forward
 ``` 
 
-(replace your `netid` in the second command).
 
 ### Enabling software via `module`
 
@@ -58,6 +63,28 @@ If you need a specific node, use
 ```bash
 srun -w cbsueccoXX --pty bash -l
 ```
+
+## Interactive GUI jobs
+
+You should be able to get interactive GUI jobs (Stata, MATLAB) to work as follows:
+
+```bash
+salloc -N 1 
+ssh -X $SLURM_NODELIST /usr/local/stata18/xstata
+```
+
+or 
+
+```bash
+salloc -N 1 
+ssh -X $SLURM_NODELIST /local/opt/MATLAB/R2023a/bin/matlab
+```
+
+:::{warning}
+
+It is technically feasible to login to each node without using SLURM. However, this confuses the job scheduler. Do not abuse this, exclusion from use of the cluster may be the consequence.
+
+:::
 
 ## To see running jobs
 

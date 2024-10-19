@@ -439,6 +439,7 @@ document.write(`
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#submitting-jobs">Submitting jobs</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interactive-shell">Interactive shell</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interactive-gui-jobs">Interactive GUI jobs</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#to-see-running-jobs">To see running jobs</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#to-cancel-a-running-job">To cancel a running job</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-information">Additional information</a></li>
@@ -465,10 +466,12 @@ document.write(`
 <h3>Setting up SLURM-specific settings<a class="headerlink" href="#setting-up-slurm-specific-settings" title="Link to this heading">#</a></h3>
 <p>From a command line, run the following lines, logout, then back in, and henceforth you can skip the <code class="docutils literal notranslate"><span class="pre">--cluster</span> <span class="pre">cbsueccosl01</span></code> option:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;export SLURM_CLUSTERS=&quot;cbsueccosl01&quot;&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span><span class="nv">$HOME</span>/.bash_profile
-<span class="nb">echo</span><span class="w"> </span>netid@cornell.edu<span class="w"> </span>&gt;&gt;<span class="w"> </span><span class="nv">$HOME</span>/.forward
 </pre></div>
 </div>
-<p>(replace your <code class="docutils literal notranslate"><span class="pre">netid</span></code> in the second command).</p>
+<p>In the following, replace <code class="docutils literal notranslate"><span class="pre">netid</span></code> with your actual NetID.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span><span class="w"> </span>netid@cornell.edu<span class="w"> </span>&gt;&gt;<span class="w"> </span><span class="nv">$HOME</span>/.forward
+</pre></div>
+</div>
 </section>
 <section id="enabling-software-via-module">
 <h3>Enabling software via <code class="docutils literal notranslate"><span class="pre">module</span></code><a class="headerlink" href="#enabling-software-via-module" title="Link to this heading">#</a></h3>
@@ -500,6 +503,23 @@ document.write(`
 <p>If you need a specific node, use</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>srun<span class="w"> </span>-w<span class="w"> </span>cbsueccoXX<span class="w"> </span>--pty<span class="w"> </span>bash<span class="w"> </span>-l
 </pre></div>
+</div>
+</section>
+<section id="interactive-gui-jobs">
+<h2>Interactive GUI jobs<a class="headerlink" href="#interactive-gui-jobs" title="Link to this heading">#</a></h2>
+<p>You should be able to get interactive GUI jobs (Stata, MATLAB) to work as follows:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>salloc<span class="w"> </span>-N<span class="w"> </span><span class="m">1</span><span class="w"> </span>
+ssh<span class="w"> </span>-X<span class="w"> </span><span class="nv">$SLURM_NODELIST</span><span class="w"> </span>/usr/local/stata18/xstata
+</pre></div>
+</div>
+<p>or</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>salloc<span class="w"> </span>-N<span class="w"> </span><span class="m">1</span><span class="w"> </span>
+ssh<span class="w"> </span>-X<span class="w"> </span><span class="nv">$SLURM_NODELIST</span><span class="w"> </span>/local/opt/MATLAB/R2023a/bin/matlab
+</pre></div>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>It is technically feasible to login to each node without using SLURM. However, this confuses the job scheduler. Do not abuse this, exclusion from use of the cluster may be the consequence.</p>
 </div>
 </section>
 <section id="to-see-running-jobs">
@@ -596,6 +616,7 @@ document.write(`
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#submitting-jobs">Submitting jobs</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interactive-shell">Interactive shell</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#interactive-gui-jobs">Interactive GUI jobs</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#to-see-running-jobs">To see running jobs</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#to-cancel-a-running-job">To cancel a running job</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#additional-information">Additional information</a></li>
