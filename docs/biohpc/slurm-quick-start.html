@@ -504,6 +504,10 @@ document.write(`
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>srun<span class="w"> </span>-w<span class="w"> </span>cbsueccoXX<span class="w"> </span>--pty<span class="w"> </span>bash<span class="w"> </span>-l
 </pre></div>
 </div>
+<p>You can use all valid SLURM command line options (the same as are listed in a <code class="docutils literal notranslate"><span class="pre">sbatch</span></code> file) as well. In their absence, you will get default values (limitations).<a class="footnote-reference brackets" href="#limits" id="id1" role="doc-noteref"><span class="fn-bracket">[</span>1<span class="fn-bracket">]</span></a> For instance, the above invocations get unlimited memory, but are limited to <strong>1 task</strong> on <strong>1 CPU</strong>. If you needed to use more within your interactive shell, you might want to specify</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>srun<span class="w"> </span>-w<span class="w"> </span>cbsueccoXX<span class="w"> </span>--nprocs<span class="w"> </span><span class="m">8</span><span class="w"> </span>--pty<span class="w"> </span>bash<span class="w"> </span>-l
+</pre></div>
+</div>
 </section>
 <section id="interactive-gui-jobs">
 <h2>Interactive GUI jobs<a class="headerlink" href="#interactive-gui-jobs" title="Link to this heading">#</a></h2>
@@ -541,6 +545,13 @@ ssh<span class="w"> </span>-X<span class="w"> </span><span class="nv">$SLURM_NOD
 <ul class="simple">
 <li><p><a class="reference external" href="https://biohpc.cornell.edu/lab/SLURM-on-demand.htm">https://biohpc.cornell.edu/lab/SLURM-on-demand.htm</a></p></li>
 </ul>
+<hr class="footnotes docutils" />
+<aside class="footnote-list brackets">
+<aside class="footnote brackets" id="limits" role="doc-footnote">
+<span class="label"><span class="fn-bracket">[</span><a role="doc-backlink" href="#id1">1</a><span class="fn-bracket">]</span></span>
+<p>You can get a list of all the default values by getting a login shell (<code class="docutils literal notranslate"><span class="pre">srun</span> <span class="pre">--pty</span> <span class="pre">bash</span> <span class="pre">-l</span></code>), then listing all the SLURM-related environment variables (<code class="docutils literal notranslate"><span class="pre">export</span> <span class="pre">|</span> <span class="pre">grep</span> <span class="pre">SLURM</span></code>).</p>
+</aside>
+</aside>
 </section>
 </section>
 
