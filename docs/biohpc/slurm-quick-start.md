@@ -64,6 +64,14 @@ If you need a specific node, use
 srun -w cbsueccoXX --pty bash -l
 ```
 
+You can use all valid SLURM command line options (the same as are listed in a `sbatch` file) as well. In their absence, you will get default values (limitations).[^limits] For instance, the above invocations get unlimited memory, but are limited to **1 task** on **1 CPU**. If you needed to use more within your interactive shell, you might want to specify
+
+```bash
+srun -w cbsueccoXX --nprocs 8 --pty bash -l
+```
+
+[^limits]: You can get a list of all the default values by getting a login shell (`srun --pty bash -l`), then listing all the SLURM-related environment variables (`export | grep SLURM`).
+
 ## Interactive GUI jobs
 
 You should be able to get interactive GUI jobs (Stata, MATLAB) to work as follows:
