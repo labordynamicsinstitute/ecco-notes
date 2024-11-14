@@ -86,7 +86,7 @@ If this is detected, you need to use a 64-bit version of a decompression program
 ::::{tab-set}
 
 
-:::{tab-item}  `7z`
+:::{tab-item}  7z
 
 Instead of `zip`, use `7z` as follows:
 
