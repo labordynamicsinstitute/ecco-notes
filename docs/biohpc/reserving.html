@@ -485,8 +485,19 @@ document.write(`
 <h2>Things you can do<a class="headerlink" href="#things-you-can-do" title="Link to this heading">#</a></h2>
 <section id="create-your-own-private-slurm">
 <h3>Create your own private SLURM<a class="headerlink" href="#create-your-own-private-slurm" title="Link to this heading">#</a></h3>
-<p>If you have to manage a large number of independent jobs, you can create your own private SLURM cluster, including across multiple nodes. For more information, see <a class="reference external" href="https://biohpc.cornell.edu/lab/userguide.aspx?a=software&amp;amp;i=689#c">SLURM page at BioHPC</a>. Note that if you want some of your collaborators to also submit jobs, you need to explicitly add them to the <strong>reservation</strong>, they can then both log in to the node, and/or submit jobs from the <code class="docutils literal notranslate"><span class="pre">cbsulogin</span></code> node.</p>
+<p>If you have to manage a large number of independent jobs, you can create your own private SLURM cluster, including across multiple nodes. For more information, see <a class="reference external" href="https://biohpc.cornell.edu/lab/userguide.aspx?a=software&amp;amp;i=689#c">SLURM page at BioHPC</a> (search for <code class="docutils literal notranslate"><span class="pre">SLURM</span></code>). Note that if you want some of your collaborators to also submit jobs, you need to explicitly add them to the <strong>reservation</strong>, they can then both log in to the node, and/or submit jobs from the <code class="docutils literal notranslate"><span class="pre">cbsulogin</span></code> node.</p>
 <p>If you have done the <a class="reference internal" href="slurm-quick-start.html#onetimesetup-slurm"><span class="std std-ref">One-time setup</span></a> for the general-purpose SLURM cluster, you will need to specifically reference your private cluster when submitting jobs, using the node you created the SLURM scheduler as the identifier.</p>
+<div class="dropdown admonition tip">
+<p class="admonition-title">Tip</p>
+<p>If you have a reservation on <code class="docutils literal notranslate"><span class="pre">cbsuecco11</span></code> and <code class="docutils literal notranslate"><span class="pre">cbsuecco12</span></code>, you could launch a SLURM cluster as</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">manage_slurm</span> <span class="n">new</span> <span class="n">cbsuecco12</span><span class="p">,</span><span class="n">cbsuecco11</span>
+</pre></div>
+</div>
+<p>which makes <code class="docutils literal notranslate"><span class="pre">cbsuecco12</span></code> your “master node”. If later you also have an additional reservation for <code class="docutils literal notranslate"><span class="pre">cbsuecco10</span></code>, you can add it using</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">manage_slurm</span> <span class="n">addNode</span> <span class="n">cbsuecco12</span> <span class="n">cbsuecco10</span>
+</pre></div>
+</div>
+</div>
 </section>
 </section>
 </section>
