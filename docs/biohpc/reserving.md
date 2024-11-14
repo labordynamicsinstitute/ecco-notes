@@ -43,4 +43,6 @@ If using the command line login node, also see [`biohpc_res`](biohpcres) command
 
 ### Create your own private SLURM
 
-If you have to manage a large number of independent jobs, you can create your own private SLURM cluster, including across multiple nodes. For more information, see [SLURM page at BioHPC](https://biohpc.cornell.edu/lab/userguide.aspx?a=software&i=689#c).
+If you have to manage a large number of independent jobs, you can create your own private SLURM cluster, including across multiple nodes. For more information, see [SLURM page at BioHPC](https://biohpc.cornell.edu/lab/userguide.aspx?a=software&i=689#c). Note that if you want some of your collaborators to also submit jobs, you need to explicitly add them to the **reservation**, they can then both log in to the node, and/or submit jobs from the `cbsulogin` node.
+
+If you have done the [One-time setup](onetimesetup-slurm) for the general-purpose SLURM cluster, you will need to specifically reference your private cluster when submitting jobs, using the node you created the SLURM scheduler as the identifier.
