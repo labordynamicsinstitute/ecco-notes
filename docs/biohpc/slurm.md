@@ -44,7 +44,7 @@ def find_project_root(start_dir='.', file_to_find='favicon.ico'):
 
 # Example usage
 project_root = find_project_root()
-print(f"Project root directory: {project_root}")
+#print(f"Project root directory: {project_root}")
 ```
 
 (slurm)=
@@ -127,9 +127,9 @@ def print_file_as_markdown_code_block(file_path, language=''):
     try:
         with open(file_path, 'r') as file:
             content = file.read()
-            print(f'```{language}')
+            #print(f'```{language}')
             print(content)
-            print('```')
+            #print('```')
     except FileNotFoundError:
         print(f"Error: File not found at {file_path}")
     except IOError as e:
