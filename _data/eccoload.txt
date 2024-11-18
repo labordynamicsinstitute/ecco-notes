@@ -1,0 +1,4 @@
+CLUSTER: cbsueccosl01
+PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
+regular*     up   infinite      2    mix cbsuecco08,cbsueccosl03
+regular*     up   infinite      3   idle cbsuecco06,cbsueccosl[01,04]
