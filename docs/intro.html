@@ -184,11 +184,20 @@
 <li class="toctree-l1"><a class="reference internal" href="windows.html">Access to Windows compute resources</a></li>
 <li class="toctree-l1"><a class="reference internal" href="linux.html">General access to Linux computing</a></li>
 </ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">How to access BioHPC Linux</span></p>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Using SLURM</span></p>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="biohpc/slurm.html">Job scheduler on BioHPC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="biohpc/slurm-quick-start.html">Quick start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="biohpc/software.html">Software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="biohpc/sbatch.html">SBATCH examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="biohpc/stata.html">Stata example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="biohpc/matlab.html">MATLAB example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="biohpc/julia.html">Julia example</a></li>
+</ul>
+<p aria-level="2" class="caption" role="heading"><span class="caption-text">Reserving a node on BioHPC Linux</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="access.html">General access rules</a></li>
 <li class="toctree-l1"><a class="reference internal" href="biohpc/reserving.html">Requesting exclusive access to an entire node</a></li>
-<li class="toctree-l1"><a class="reference internal" href="biohpc/slurm.html">Job scheduler on BioHPC</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">How to connect to BioHPC</span></p>
 <ul class="nav bd-sidenav">
@@ -199,15 +208,6 @@
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">How to transfer data to and from BioHPC</span></p>
 <ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="transfer.html">Transferring data to and from BioHPC</a></li>
-</ul>
-<p aria-level="2" class="caption" role="heading"><span class="caption-text">Using SLURM</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="biohpc/slurm-quick-start.html">Quick start</a></li>
-<li class="toctree-l1"><a class="reference internal" href="biohpc/software.html">Software</a></li>
-<li class="toctree-l1"><a class="reference internal" href="biohpc/stata.html">Stata example</a></li>
-<li class="toctree-l1"><a class="reference internal" href="biohpc/matlab.html">MATLAB example</a></li>
-<li class="toctree-l1"><a class="reference internal" href="biohpc/julia.html">Julia example</a></li>
-<li class="toctree-l1"><a class="reference internal" href="biohpc/sbatch.html">SBATCH examples</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Command reference</span></p>
 <ul class="nav bd-sidenav">
@@ -433,6 +433,7 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-these-pages">Using these pages</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quick-start">Quick Start</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contributing">Contributing</a></li>
 </ul>
             </nav>
@@ -451,6 +452,14 @@ document.write(`
 <section id="using-these-pages">
 <h2>Using these pages<a class="headerlink" href="#using-these-pages" title="Link to this heading">#</a></h2>
 <p>These pages are a continous work-in-progress. They provide information based on contributors’ experiences, which probably is incomplete, and occasionally may be out-of-date. The information is currently edited by <a class="reference external" href="https://github.com/larsvilhuber/">Lars</a>.</p>
+</section>
+<section id="quick-start">
+<h2>Quick Start<a class="headerlink" href="#quick-start" title="Link to this heading">#</a></h2>
+<ul class="simple">
+<li><p><a class="reference internal" href="biohpc/slurm-quick-start.html#slurm-quick-start"><span class="std std-ref">Launch a job on the Econ Computer Cluster ECCO</span></a> to develop code with 1 core, or run jobs with 400 cores</p></li>
+<li><p><a class="reference internal" href="biohpc/reserving.html#reserving"><span class="std std-ref">Reserve a machine on the Econ Computer Cluster ECCO</span></a> if you need exclusive access to a machine (prevent others from running even non-competing jobs)</p></li>
+<li><p><a class="reference external" href="https://socialsciences.cornell.edu/computing-and-data/cloud-computing-solutions/account-instructions">Connect to a CCSS Cloud Computing Solution</a></p></li>
+</ul>
 </section>
 <section id="contributing">
 <h2>Contributing<a class="headerlink" href="#contributing" title="Link to this heading">#</a></h2>
@@ -532,6 +541,7 @@ document.write(`
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-these-pages">Using these pages</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quick-start">Quick Start</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#contributing">Contributing</a></li>
 </ul>
   </nav></div>

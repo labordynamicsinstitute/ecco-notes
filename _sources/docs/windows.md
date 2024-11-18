@@ -6,4 +6,10 @@ Usage and availability can be found on their [dashboard](https://status.computin
 
 Default cost is zero. There may be additional resources that can be made available at some cost.
 
-Desktop computing support is provided through the college-specific IT support, and is not (yet) described here).
+Desktop computing support is provided through the college-specific IT support, and is not (yet) described here.
+
+## Connect
+
+See  [Connect to a CCSS Cloud Computing Solution](https://socialsciences.cornell.edu/computing-and-data/cloud-computing-solutions/account-instructions).
+
+[![](images/ccss-connect.png)](https://socialsciences.cornell.edu/computing-and-data/cloud-computing-solutions/account-instructions)
