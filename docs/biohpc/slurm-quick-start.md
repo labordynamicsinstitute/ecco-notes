@@ -1,5 +1,5 @@
 
-
+(slurm-quick-start)=
 # Quick start
 
 ## Command line
@@ -9,7 +9,9 @@ You need command line access to submit. You do not need a [reservation](reservin
 (onetimesetup-slurm)=
 ## One-time setup
 
-### Setting up SLURM-specific settings
+::::{info}
+:class: dropdown
+**Setting up SLURM-specific settings**
 
 From a command line, run the following lines, logout, then back in, and henceforth you can skip the `--cluster cbsueccosl01` option:
  
@@ -25,7 +27,7 @@ echo netid@cornell.edu >> $HOME/.forward
 ``` 
 
 
-### Enabling software via `module`
+**Enabling software via `module`**
 
 
 ```bash
@@ -33,6 +35,8 @@ git clone https://github.com/labordynamicsinstitute/biohpc-modules $HOME/.module
 ```
 
 See [Customizing `modules`](custommodules) for more details.
+
+::::
 
 ## Submitting jobs
 
@@ -87,12 +91,44 @@ or
 salloc -N 1 
 ssh -X $SLURM_NODELIST /local/opt/MATLAB/R2023a/bin/matlab
 ```
+When done, type `exit` to exit the interactive session.
 
 :::{warning}
 
-It is technically feasible to login to each node without using SLURM. However, this confuses the job scheduler. Do not abuse this, exclusion from use of the cluster may be the consequence.
+It is technically feasible to login to each node without using SLURM. However, this confuses the job scheduler. Do not abuse this, **exclusion from use of the cluster may be the consequence**.
 
 :::
+
+## Running RStudio
+
+See the [BioHPC Software site](https://biohpc.cornell.edu/lab/userguide.aspx?a=software) (search for Rstudio, then click on the link) for instructions on how to run Rstudio on the cluster. In a nutshell,
+
+```bash
+salloc -N 1
+srun /programs/rstudio_server/rstudio_start 4.4.0
+```
+
+will run an instance of RStudio Server on the node you were allocated (if it isn't already running). You can then connect to it using a web browser, using port 8016. The output of the `srun` command will tell you which node to connect to. For instance, 
+
+```
+Nov 18 08:37:44 cbsueccosl03.biohpc.cornell.edu systemd[1]: Starting RStudio Server...
+Nov 18 08:37:44 cbsueccosl03.biohpc.cornell.edu systemd[1]: Started RStudio Server.
+```
+
+means you would connect to <http://cbsueccosl03.biohpc.cornell.edu:8016>. If you are connected to the VPC, you can connect to it from your laptop, otherwise use the browser within the [VNC](vnc) session.
+
+::::{warning}
+
+If you see
+```
+[lv39@cbsueccosl01 ~]$ srun /programs/rstudio_server/rstudio_start 4.4.0
+Rserver is already running - no need to start it
+If you want to restart it please stop it first using
+/programs/rstudio_server/rstudio_stop
+```
+
+then somebody else may already have started an instance there. **DO NOT STOP IT**. You can still connect to **your own session** on that server. 
+::::
 
 ## To see running jobs
 

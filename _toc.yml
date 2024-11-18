@@ -9,11 +9,19 @@ parts:
   - file: docs/overview
   - file: docs/windows
   - file: docs/linux
-- caption: How to access BioHPC Linux
+- caption: Using SLURM
+  chapters:
+  - file: docs/biohpc/slurm
+  - file: docs/biohpc/slurm-quick-start
+  - file: docs/biohpc/software
+  - file: docs/biohpc/sbatch
+  - file: docs/biohpc/stata
+  - file: docs/biohpc/matlab
+  - file: docs/biohpc/julia
+- caption: Reserving a node on BioHPC Linux
   chapters:
   - file: docs/access
   - file: docs/biohpc/reserving
-  - file: docs/biohpc/slurm
 - caption: How to connect to BioHPC
   chapters:
   - file: docs/ssh
@@ -22,14 +30,6 @@ parts:
 - caption: How to transfer data to and from BioHPC
   chapters:
   - file: docs/transfer
-- caption: Using SLURM
-  chapters:
-  - file: docs/biohpc/slurm-quick-start
-  - file: docs/biohpc/software
-  - file: docs/biohpc/stata
-  - file: docs/biohpc/matlab
-  - file: docs/biohpc/julia
-  - file: docs/biohpc/sbatch
 - caption: Command reference
   chapters:
   - file: docs/commands/biohpcres
