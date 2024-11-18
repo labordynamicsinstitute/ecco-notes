@@ -9,7 +9,7 @@ You need command line access to submit. You do not need a [reservation](reservin
 (onetimesetup-slurm)=
 ## One-time setup
 
-::::{info}
+::::{note}
 :class: dropdown
 **Setting up SLURM-specific settings**
 

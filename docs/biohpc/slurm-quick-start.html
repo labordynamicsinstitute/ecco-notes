@@ -459,6 +459,23 @@ document.write(`
 </section>
 <section id="one-time-setup">
 <span id="onetimesetup-slurm"></span><h2>One-time setup<a class="headerlink" href="#one-time-setup" title="Link to this heading">#</a></h2>
+<div class="dropdown admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>Setting up SLURM-specific settings</strong></p>
+<p>From a command line, run the following lines, logout, then back in, and henceforth you can skip the <code class="docutils literal notranslate"><span class="pre">--cluster</span> <span class="pre">cbsueccosl01</span></code> option:</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span><span class="w"> </span><span class="s1">&#39;export SLURM_CLUSTERS=&quot;cbsueccosl01&quot;&#39;</span><span class="w"> </span>&gt;&gt;<span class="w"> </span><span class="nv">$HOME</span>/.bash_profile
+</pre></div>
+</div>
+<p>In the following, replace <code class="docutils literal notranslate"><span class="pre">netid</span></code> with your actual NetID.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">echo</span><span class="w"> </span>netid@cornell.edu<span class="w"> </span>&gt;&gt;<span class="w"> </span><span class="nv">$HOME</span>/.forward
+</pre></div>
+</div>
+<p><strong>Enabling software via <code class="docutils literal notranslate"><span class="pre">module</span></code></strong></p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/labordynamicsinstitute/biohpc-modules<span class="w"> </span><span class="nv">$HOME</span>/.modulefiles.d
+</pre></div>
+</div>
+<p>See <a class="reference internal" href="software.html#custommodules"><span class="std std-ref">Customizing <code class="docutils literal notranslate"><span class="pre">modules</span></code></span></a> for more details.</p>
+</div>
 </section>
 <section id="submitting-jobs">
 <h2>Submitting jobs<a class="headerlink" href="#submitting-jobs" title="Link to this heading">#</a></h2>
