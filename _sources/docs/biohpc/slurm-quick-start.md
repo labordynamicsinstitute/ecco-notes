@@ -81,17 +81,17 @@ srun -w cbsueccoXX --nprocs 8 --pty bash -l
 You should be able to get interactive GUI jobs (Stata, MATLAB) to work as follows:
 
 ```bash
-salloc -N 1 
-ssh -X $SLURM_NODELIST /usr/local/stata18/xstata
+srun -n 2 -N1 --mem=8G  --x11 --pty bash -l
+/usr/local/stata18/xstata
 ```
 
 or 
 
 ```bash
-salloc -N 1 
-ssh -X $SLURM_NODELIST /local/opt/MATLAB/R2023a/bin/matlab
+srun -n 2 -N1 --mem=8G  --x11 --pty bash -l
+/local/opt/MATLAB/R2023a/bin/matlab
 ```
-When done, type `exit` to exit the interactive session.
+When done, type `exit` to exit the interactive session. Note that you must align the requested CPU count (`-n 2`) with the expected usage of the MATLAB and Stata/MP. While just opening them will not cause a problem, our Stata/MP version will use up to 8 cores, and MATLAB, unless specifically configured not to do so, will utilize the amount of *physical* cores on the system. For any serious computing, please use non-interactive mode, or adjust the number of cores you request accordingly.
 
 :::{warning}
 

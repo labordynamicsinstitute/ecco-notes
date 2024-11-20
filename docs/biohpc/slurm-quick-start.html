@@ -508,16 +508,16 @@ document.write(`
 <section id="interactive-gui-jobs">
 <h2>Interactive GUI jobs<a class="headerlink" href="#interactive-gui-jobs" title="Link to this heading">#</a></h2>
 <p>You should be able to get interactive GUI jobs (Stata, MATLAB) to work as follows:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>salloc<span class="w"> </span>-N<span class="w"> </span><span class="m">1</span><span class="w"> </span>
-ssh<span class="w"> </span>-X<span class="w"> </span><span class="nv">$SLURM_NODELIST</span><span class="w"> </span>/usr/local/stata18/xstata
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>srun<span class="w"> </span>-n<span class="w"> </span><span class="m">2</span><span class="w"> </span>-N1<span class="w"> </span>--mem<span class="o">=</span>8G<span class="w">  </span>--x11<span class="w"> </span>--pty<span class="w"> </span>bash<span class="w"> </span>-l
+/usr/local/stata18/xstata
 </pre></div>
 </div>
 <p>or</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>salloc<span class="w"> </span>-N<span class="w"> </span><span class="m">1</span><span class="w"> </span>
-ssh<span class="w"> </span>-X<span class="w"> </span><span class="nv">$SLURM_NODELIST</span><span class="w"> </span>/local/opt/MATLAB/R2023a/bin/matlab
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>srun<span class="w"> </span>-n<span class="w"> </span><span class="m">2</span><span class="w"> </span>-N1<span class="w"> </span>--mem<span class="o">=</span>8G<span class="w">  </span>--x11<span class="w"> </span>--pty<span class="w"> </span>bash<span class="w"> </span>-l
+/local/opt/MATLAB/R2023a/bin/matlab
 </pre></div>
 </div>
-<p>When done, type <code class="docutils literal notranslate"><span class="pre">exit</span></code> to exit the interactive session.</p>
+<p>When done, type <code class="docutils literal notranslate"><span class="pre">exit</span></code> to exit the interactive session. Note that you must align the requested CPU count (<code class="docutils literal notranslate"><span class="pre">-n</span> <span class="pre">2</span></code>) with the expected usage of the MATLAB and Stata/MP. While just opening them will not cause a problem, our Stata/MP version will use up to 8 cores, and MATLAB, unless specifically configured not to do so, will utilize the amount of <em>physical</em> cores on the system. For any serious computing, please use non-interactive mode, or adjust the number of cores you request accordingly.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>It is technically feasible to login to each node without using SLURM. However, this confuses the job scheduler. Do not abuse this, <strong>exclusion from use of the cluster may be the consequence</strong>.</p>
