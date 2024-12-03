@@ -104,11 +104,12 @@ in a terminal window on the head node,[^quick] to obtain a result such as
 $ sinfo --cluster cbsueccosl01
 CLUSTER: cbsueccosl01
 PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
-regular*     up   infinite      2    mix cbsuecco08,cbsueccosl03
-regular*     up   infinite      3   idle cbsuecco06,cbsueccosl[01,04]
+regular*     up   infinite      3    mix cbsuecco[07-08],cbsueccosl03
+regular*     up   infinite      1  alloc cbsueccosl04
+regular*     up   infinite      2   idle cbsuecco01,cbsueccosl01
 ```
 
-which shows that currently, 5 nodes are available for jobs, of which 3 are idle, and two have some jobs running on them, but can still accept smaller jobs (`mix` means there are free CPUs).
+which shows that currently, 6 nodes are available for jobs, of which 2 are idle, three have some jobs running on them, but can still accept smaller jobs (`mix` means there are free CPUs), and one is completely used (`alloc`).
 
 The most current status (as per the date and time noted) is:
 
