@@ -2,6 +2,6 @@ As of 2024-12-04:
 
 CLUSTER: cbsueccosl01
 PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
-regular*     up   infinite      5    mix cbsuecco[01-02,07-08],cbsueccosl03
+regular*     up   infinite      3    mix cbsuecco[01,07],cbsueccosl03
 regular*     up   infinite      1  alloc cbsueccosl04
-regular*     up   infinite      1   idle cbsueccosl01
+regular*     up   infinite      3   idle cbsuecco[02,08],cbsueccosl01
