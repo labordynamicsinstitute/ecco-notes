@@ -8,6 +8,7 @@ These pages are a continous work-in-progress. They provide information based on 
 
 ## Quick Start
 
+- [Request access to the Econ Computer Cluster ECCO](access) to get started
 - [Launch a job on the Econ Computer Cluster ECCO](slurm-quick-start) to develop code with 1 core, or run jobs with 400 cores
 - [Reserve a machine on the Econ Computer Cluster ECCO](reserving) if you need exclusive access to a machine (prevent others from running even non-competing jobs)
 - [Connect to a CCSS Cloud Computing Solution](https://socialsciences.cornell.edu/computing-and-data/cloud-computing-solutions/account-instructions)

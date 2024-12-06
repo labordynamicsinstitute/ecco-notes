@@ -9,6 +9,7 @@ parts:
   - file: docs/overview
   - file: docs/windows
   - file: docs/linux
+  - file: docs/access
 - caption: Using SLURM
   chapters:
   - file: docs/biohpc/slurm
@@ -20,7 +21,6 @@ parts:
   - file: docs/biohpc/julia
 - caption: Reserving a node on BioHPC Linux
   chapters:
-  - file: docs/access
   - file: docs/biohpc/reserving
 - caption: How to connect to BioHPC
   chapters:

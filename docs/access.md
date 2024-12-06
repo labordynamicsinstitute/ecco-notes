@@ -1,3 +1,4 @@
+(access)=
 # General access rules
 
 The cluster has a large number of nodes and file servers. The "ecco" nodes, available for authorized users ("ecco01" group) under "Restricted" are free to users. Other nodes can be added and used, should more (and possibly faster resources be needed).
