@@ -5,7 +5,9 @@ Once logged in to the BioHPC website, go to [https://biohpc.cornell.edu/lab/labr
 
 - general: 24 hours
 - faculty: 3 days
-- contributing: 7 days on their contributed node
+- contributing: 7 days on their contributed node, 3 days on any other nodes.[^resnote1]
+
+[^resnote1]: Nodes on which long reservations are allowed are part of the `ecco_NETID` group. Nodes on which medium-length reservations are allowed are identified by `ecco_NETID_M` group.
 
 Typical nodes have between 16 and 32 CPUs, and between 128Gb and 1024Gb of RAM (memory). File storage varies substantially.
 
