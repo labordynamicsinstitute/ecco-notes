@@ -26,7 +26,10 @@ sbatch run.sh
 # Processors per task: here, 8 bc we have Stata-MP/8
 #SBATCH --cpus-per-task=8
 #
-# Wall clock limit:
+# Memory limit. Default is 4GB
+#SBATCH --mem=4G
+#
+# Wall clock limit. Default is 1 hour. Format is HH:MM:SS, or DD-HH:MM:SS where DD is the number of days.
 #SBATCH --time=00:00:30
 #
 # Email?
@@ -41,6 +44,12 @@ sbatch run.sh
 ### Assumes "matlab" is in your path, see BioHPC notes on Matlab for non-default locations.
 ## Matlab - will run "main.m", output goes to "srun-NNNN.out"
 # matlab -nodisplay -r "addpath(genpath('.')); main"
+
+# Alternatively, load any modules. You may need to follow the custom setup on the website.
+# 
+# module load stata/18
+# stata-mp -b do main.do
+
 
 ```
 
@@ -67,7 +76,7 @@ PartitionName=regular
    DefMemPerNode=4096 MaxMemPerNode=UNLIMITED
    TRES=cpu=144,mem=1157977M,node=5,billing=144
 ```
-shows that the default partition (`regular`) has a default of 4096 MB per Node (`DefMemPerNode=4096`), which can be increased without restriction upon request (`MaxMemPerNode`) by using `--mem xxxx` at the command line or `#SBATCH --mem xxxx` in the script (`--mem 0` uses all the memory on the node).
+shows that the default partition (`regular`) has a default of **4096 MB** per Node (`DefMemPerNode=4096`), which can be increased without restriction upon request (`MaxMemPerNode`) by using `--mem xxxx` at the command line or `#SBATCH --mem xxxx` in the script (`--mem 0` uses all the memory on the node).
 
 
 ## SBATCH Array job
