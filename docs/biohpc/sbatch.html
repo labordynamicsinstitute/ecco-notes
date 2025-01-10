@@ -467,7 +467,10 @@ document.write(`
 <span class="c1"># Processors per task: here, 8 bc we have Stata-MP/8</span>
 <span class="c1">#SBATCH --cpus-per-task=8</span>
 <span class="c1">#</span>
-<span class="c1"># Wall clock limit:</span>
+<span class="c1"># Memory limit. Default is 4GB</span>
+<span class="c1">#SBATCH --mem=4G</span>
+<span class="c1">#</span>
+<span class="c1"># Wall clock limit. Default is 1 hour. Format is HH:MM:SS, or DD-HH:MM:SS where DD is the number of days.</span>
 <span class="c1">#SBATCH --time=00:00:30</span>
 <span class="c1">#</span>
 <span class="c1"># Email?</span>
@@ -482,6 +485,12 @@ document.write(`
 <span class="c1">### Assumes &quot;matlab&quot; is in your path, see BioHPC notes on Matlab for non-default locations.</span>
 <span class="c1">## Matlab - will run &quot;main.m&quot;, output goes to &quot;srun-NNNN.out&quot;</span>
 <span class="c1"># matlab -nodisplay -r &quot;addpath(genpath(&#39;.&#39;)); main&quot;</span>
+
+<span class="c1"># Alternatively, load any modules. You may need to follow the custom setup on the website.</span>
+<span class="c1"># </span>
+<span class="c1"># module load stata/18</span>
+<span class="c1"># stata-mp -b do main.do</span>
+
 
 </pre></div>
 </div>
@@ -505,7 +514,7 @@ PartitionName=regular
    TRES=cpu=144,mem=1157977M,node=5,billing=144
 </pre></div>
 </div>
-<p>shows that the default partition (<code class="docutils literal notranslate"><span class="pre">regular</span></code>) has a default of 4096 MB per Node (<code class="docutils literal notranslate"><span class="pre">DefMemPerNode=4096</span></code>), which can be increased without restriction upon request (<code class="docutils literal notranslate"><span class="pre">MaxMemPerNode</span></code>) by using <code class="docutils literal notranslate"><span class="pre">--mem</span> <span class="pre">xxxx</span></code> at the command line or <code class="docutils literal notranslate"><span class="pre">#SBATCH</span> <span class="pre">--mem</span> <span class="pre">xxxx</span></code> in the script (<code class="docutils literal notranslate"><span class="pre">--mem</span> <span class="pre">0</span></code> uses all the memory on the node).</p>
+<p>shows that the default partition (<code class="docutils literal notranslate"><span class="pre">regular</span></code>) has a default of <strong>4096 MB</strong> per Node (<code class="docutils literal notranslate"><span class="pre">DefMemPerNode=4096</span></code>), which can be increased without restriction upon request (<code class="docutils literal notranslate"><span class="pre">MaxMemPerNode</span></code>) by using <code class="docutils literal notranslate"><span class="pre">--mem</span> <span class="pre">xxxx</span></code> at the command line or <code class="docutils literal notranslate"><span class="pre">#SBATCH</span> <span class="pre">--mem</span> <span class="pre">xxxx</span></code> in the script (<code class="docutils literal notranslate"><span class="pre">--mem</span> <span class="pre">0</span></code> uses all the memory on the node).</p>
 </section>
 <section id="sbatch-array-job">
 <h2>SBATCH Array job<a class="headerlink" href="#sbatch-array-job" title="Link to this heading">#</a></h2>
