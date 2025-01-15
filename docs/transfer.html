@@ -432,24 +432,25 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pushing-data-to-biohpc">Pushing data to BioHPC</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-vs-code">Using VS Code</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-terminal-on-your-laptop">Using terminal on your laptop</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#globus-easy">Globus (Easy)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-vs-code-easy">Using VS Code (Easy)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-terminal-on-your-laptop-intermediate">Using terminal on your laptop (intermediate)</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#sftp">SFTP</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#rsync">Rsync</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#git-lfs">Git LFS</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#git-lfs-advanced">Git LFS (advanced)</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#initiating-from-a-biohpc-program-or-terminal">Initiating from a BioHPC program or terminal</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dropbox">Dropbox</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#bi-directional">Bi-directional</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#download-only">Download only</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#bi-directional-tricky">Bi-directional (tricky)</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#download-only-easy">Download only (easy)</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#box">Box</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#multiple-cloud-providers">Multiple cloud providers</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-apis">Using APIs</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#box-easy-intermediate">Box (easy-intermediate)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#multiple-cloud-providers-intermediate">Multiple cloud providers (intermediate)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-apis-advanced">Using APIs (advanced)</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#r">R</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#python">Python</a></li>
 </ul>
@@ -474,12 +475,16 @@ document.write(`
 <section id="pushing-data-to-biohpc">
 <h2>Pushing data to BioHPC<a class="headerlink" href="#pushing-data-to-biohpc" title="Link to this heading">#</a></h2>
 <p>There are a few ways to push to or synchronize with BioHPC storage/filesystem.</p>
-<section id="using-vs-code">
-<h3>Using VS Code<a class="headerlink" href="#using-vs-code" title="Link to this heading">#</a></h3>
+<section id="globus-easy">
+<h3>Globus (Easy)<a class="headerlink" href="#globus-easy" title="Link to this heading">#</a></h3>
+<p>Globus is an academic data transfer service that can be used to transfer data to and from multiple high-performance environments, including BioHPC. More details are available at <a class="reference external" href="https://biohpc.cornell.edu/lab/doc/globus_at_biohpc_lab.pdf">BioHPC’s website</a>.</p>
+</section>
+<section id="using-vs-code-easy">
+<h3>Using VS Code (Easy)<a class="headerlink" href="#using-vs-code-easy" title="Link to this heading">#</a></h3>
 <p>You can drag-and-drop into the file pane in VS Code, or upload from the menu. See <a class="reference external" href="https://code.visualstudio.com/docs/remote/ssh">VS Code Remote Development using SSH</a>.</p>
 </section>
-<section id="using-terminal-on-your-laptop">
-<h3>Using terminal on your laptop<a class="headerlink" href="#using-terminal-on-your-laptop" title="Link to this heading">#</a></h3>
+<section id="using-terminal-on-your-laptop-intermediate">
+<h3>Using terminal on your laptop (intermediate)<a class="headerlink" href="#using-terminal-on-your-laptop-intermediate" title="Link to this heading">#</a></h3>
 <section id="sftp">
 <h4>SFTP<a class="headerlink" href="#sftp" title="Link to this heading">#</a></h4>
 <p>(for Mac and Linux especially) Use the built-in SFTP/SCP command line client (comes with SSH), or any of the graphical frontends.</p>
@@ -519,8 +524,8 @@ Linux</label><div class="sd-tab-content docutils">
 </pre></div>
 </div>
 </section>
-<section id="git-lfs">
-<h4>Git LFS<a class="headerlink" href="#git-lfs" title="Link to this heading">#</a></h4>
+<section id="git-lfs-advanced">
+<h4>Git LFS (advanced)<a class="headerlink" href="#git-lfs-advanced" title="Link to this heading">#</a></h4>
 <p>If using Git for project code, you can configure Git LFS on all of your machines to handle data transfers.</p>
 </section>
 </section>
@@ -529,20 +534,20 @@ Linux</label><div class="sd-tab-content docutils">
 <h2>Initiating from a BioHPC program or terminal<a class="headerlink" href="#initiating-from-a-biohpc-program-or-terminal" title="Link to this heading">#</a></h2>
 <section id="dropbox">
 <h3>Dropbox<a class="headerlink" href="#dropbox" title="Link to this heading">#</a></h3>
-<section id="bi-directional">
-<h4>Bi-directional<a class="headerlink" href="#bi-directional" title="Link to this heading">#</a></h4>
+<section id="bi-directional-tricky">
+<h4>Bi-directional (tricky)<a class="headerlink" href="#bi-directional-tricky" title="Link to this heading">#</a></h4>
 <p>Dropbox is usually not installable on BioHPC. The <a class="reference external" href="https://github.com/dropbox/dbxcli">unofficial command line tool</a> can be used for one-off transfers (follow instructions for Mac OSX installation, replacing <code class="docutils literal notranslate"><span class="pre">dbxcli-darwin-amd64</span></code> with <code class="docutils literal notranslate"><span class="pre">dbxcli-linux-amd64</span></code>). You can then use <code class="docutils literal notranslate"><span class="pre">dbxcli</span></code> to download or upload data from your Dropbox account.</p>
 </section>
-<section id="download-only">
-<h4>Download only<a class="headerlink" href="#download-only" title="Link to this heading">#</a></h4>
+<section id="download-only-easy">
+<h4>Download only (easy)<a class="headerlink" href="#download-only-easy" title="Link to this heading">#</a></h4>
 <p>Alternatively, you can find the download link for single files, e.g. <code class="docutils literal notranslate"><span class="pre">https://www.dropbox.com/scl/fi/vv8wujjdhxislw15sfmbng1a/fancydata.dta?rlkey=d2x4ehh46rjxqe8dhsp89vv53&amp;st=2x47iv6s&amp;dl=0</span></code> and then use the command line <code class="docutils literal notranslate"><span class="pre">wget</span></code> to download it directly (no upload). Replace the <code class="docutils literal notranslate"><span class="pre">dl=0</span></code> at the end of the URL with <code class="docutils literal notranslate"><span class="pre">dl=1</span></code>.</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>wget<span class="w"> </span>-o<span class="w"> </span>fancydata.dta<span class="w"> </span><span class="s2">&quot;https://www.dropbox.com/scl/fi/vv8wujjdhxislw15sfmbng1a/fancydata.dta?rlkey=d2x4ehh46rjxqe8dhsp89vv53&amp;st=2x47iv6s&amp;dl=1&quot;</span>
 </pre></div>
 </div>
 </section>
 </section>
-<section id="box">
-<h3>Box<a class="headerlink" href="#box" title="Link to this heading">#</a></h3>
+<section id="box-easy-intermediate">
+<h3>Box (easy-intermediate)<a class="headerlink" href="#box-easy-intermediate" title="Link to this heading">#</a></h3>
 <p>Similar to the “Download only” Dropbox method, you can use a URL to download specific Box-hosted files.</p>
 <ul class="simple">
 <li><p>Find the “Link” icon, and click on it.</p></li>
@@ -554,8 +559,8 @@ Linux</label><div class="sd-tab-content docutils">
 </pre></div>
 </div>
 </section>
-<section id="multiple-cloud-providers">
-<h3>Multiple cloud providers<a class="headerlink" href="#multiple-cloud-providers" title="Link to this heading">#</a></h3>
+<section id="multiple-cloud-providers-intermediate">
+<h3>Multiple cloud providers (intermediate)<a class="headerlink" href="#multiple-cloud-providers-intermediate" title="Link to this heading">#</a></h3>
 <p>The command <code class="docutils literal notranslate"><span class="pre">rclone</span></code> can be used to synchronize with multiple cloud providers.</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>rclone<span class="w"> </span>sync<span class="w"> </span>dropbox:myfolder/<span class="w"> </span>/path/to/where/you/need/it/
 </pre></div>
@@ -589,8 +594,8 @@ Linux</label><div class="sd-tab-content docutils">
 </div>
 </div>
 </section>
-<section id="using-apis">
-<h3>Using APIs<a class="headerlink" href="#using-apis" title="Link to this heading">#</a></h3>
+<section id="using-apis-advanced">
+<h3>Using APIs (advanced)<a class="headerlink" href="#using-apis-advanced" title="Link to this heading">#</a></h3>
 <p>All major cloud services have APIs that can be used.</p>
 <section id="r">
 <h4>R<a class="headerlink" href="#r" title="Link to this heading">#</a></h4>
@@ -675,24 +680,25 @@ Linux</label><div class="sd-tab-content docutils">
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pushing-data-to-biohpc">Pushing data to BioHPC</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-vs-code">Using VS Code</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-terminal-on-your-laptop">Using terminal on your laptop</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#globus-easy">Globus (Easy)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-vs-code-easy">Using VS Code (Easy)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-terminal-on-your-laptop-intermediate">Using terminal on your laptop (intermediate)</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#sftp">SFTP</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#rsync">Rsync</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#git-lfs">Git LFS</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#git-lfs-advanced">Git LFS (advanced)</a></li>
 </ul>
 </li>
 </ul>
 </li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#initiating-from-a-biohpc-program-or-terminal">Initiating from a BioHPC program or terminal</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#dropbox">Dropbox</a><ul class="nav section-nav flex-column">
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#bi-directional">Bi-directional</a></li>
-<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#download-only">Download only</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#bi-directional-tricky">Bi-directional (tricky)</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#download-only-easy">Download only (easy)</a></li>
 </ul>
 </li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#box">Box</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#multiple-cloud-providers">Multiple cloud providers</a></li>
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-apis">Using APIs</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#box-easy-intermediate">Box (easy-intermediate)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#multiple-cloud-providers-intermediate">Multiple cloud providers (intermediate)</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#using-apis-advanced">Using APIs (advanced)</a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#r">R</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#python">Python</a></li>
 </ul>
