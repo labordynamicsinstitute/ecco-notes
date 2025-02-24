@@ -437,6 +437,10 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-cluster">Create a cluster</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#add-a-node">Add a node</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-complete">Example (complete)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#debugging-slurm">Debugging SLURM</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#find-the-reason">Find the reason</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -506,6 +510,29 @@ biohpc_res<span class="w"> </span>edit<span class="w"> </span><span class="nv">$
 manage_slurm<span class="w"> </span>addNode<span class="w"> </span><span class="nv">$headnode</span><span class="w"> </span><span class="nv">$node</span><span class="w"> </span>
 </pre></div>
 </div>
+</section>
+<section id="debugging-slurm">
+<h2>Debugging SLURM<a class="headerlink" href="#debugging-slurm" title="Link to this heading">#</a></h2>
+<p>Sometimes, things go wrong. For instance,</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>&gt;<span class="w"> </span>sinfo
+regular*<span class="w">     </span>up<span class="w">   </span>infinite<span class="w">      </span><span class="m">2</span><span class="w">  </span>drain<span class="w"> </span>cbsuecco02,cbsueccosl04
+</pre></div>
+</div>
+<p>What does <code class="docutils literal notranslate"><span class="pre">drain</span></code> mean, and how to put the nodes back into service?</p>
+<section id="find-the-reason">
+<h3>Find the reason<a class="headerlink" href="#find-the-reason" title="Link to this heading">#</a></h3>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>scontrol<span class="w"> </span>show<span class="w"> </span><span class="nv">nodes</span><span class="o">=</span>cbsueccosl04<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>Reason
+</pre></div>
+</div>
+<p>which might return</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">Reason</span><span class="o">=</span>Kill<span class="w"> </span>task<span class="w"> </span>failed<span class="w"> </span><span class="o">[</span>root@2025-02-21T18:19:11<span class="o">]</span>
+</pre></div>
+</div>
+<p>This means a job crashed or timed out leaving open files which made it hard for SLURM to kill it and a timeout kicked in. If you notice something like this, you (as an ‘operator’ of your cluster) can re-active the node by running</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>scontrol<span class="w"> </span>update<span class="w"> </span><span class="nv">nodename</span><span class="o">=</span>cbsueccosl04<span class="w"> </span><span class="nv">state</span><span class="o">=</span>resume
+</pre></div>
+</div>
+</section>
 </section>
 </section>
 
@@ -579,6 +606,10 @@ manage_slurm<span class="w"> </span>addNode<span class="w"> </span><span class="
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-cluster">Create a cluster</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#add-a-node">Add a node</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-complete">Example (complete)</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#debugging-slurm">Debugging SLURM</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#find-the-reason">Find the reason</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 

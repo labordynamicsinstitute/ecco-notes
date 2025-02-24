@@ -50,7 +50,73 @@ project_root = find_project_root()
 (slurm)=
 # Job scheduler on BioHPC
 
-A SLURM cluster `cbsueccosl01` is maintained by Lars on behalf of Econ, on several nodes. Some are dedicated to the SLURM scheduler, others "borrowed"; the latter might not always be available. There are between 48 and 144 "slots" (cpus) available for compute jobs. The following table shows the allocated nodes. 
+
+A SLURM cluster `cbsueccosl01` is maintained by Lars on behalf of Econ, on several nodes. Some are dedicated to the SLURM scheduler, others "borrowed"; the latter might not always be available. There are between 48 and 144 "slots" (cpus) available for compute jobs (see [Table](fulltable)). 
+
+## Who can use
+
+Everybody in the ECCO group can submit jobs.
+
+## Current load
+
+The most current status (as per the date and time noted) is:
+
+```{code-cell} python3
+:tags: ["remove-input","full-width"]
+
+
+def print_file_as_markdown_code_block(file_path, language=''):
+    """
+    Read an external file and print its contents as a Markdown fenced code block.
+    
+    Args:
+        file_path (str): Path to the file to be read
+        language (str, optional): Language identifier for syntax highlighting
+    """
+    try:
+        with open(file_path, 'r') as file:
+            content = file.read()
+            #print(f'```{language}')
+            print(content)
+            #print('```')
+    except FileNotFoundError:
+        print(f"Error: File not found at {file_path}")
+    except IOError as e:
+        print(f"Error reading file: {e}")
+
+print_file_as_markdown_code_block(os.path.join(project_root,"_data", 'eccoload.txt'))
+```
+
+
+
+
+## Manually query the latest availability
+
+To see availability at any point in time, type
+
+```bash
+sinfo --cluster cbsueccosl01
+```
+in a terminal window on the head node,[^quick] to obtain a result such as
+
+[^quick]: See [Quick Start](onetimesetup-slurm) for how to simplify that command.
+
+```bash
+$ sinfo --cluster cbsueccosl01
+CLUSTER: cbsueccosl01
+PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
+regular*     up   infinite      3    mix cbsuecco[07-08],cbsueccosl03
+regular*     up   infinite      1  alloc cbsueccosl04
+regular*     up   infinite      2   idle cbsuecco01,cbsueccosl01
+```
+
+which shows that currently, 6 nodes are available for jobs, of which 2 are idle, three have some jobs running on them, but can still accept smaller jobs (`mix` means there are free CPUs), and one is completely used (`alloc`).
+
+
+(fulltable=)
+## List of nodes
+
+The following table shows the allocated nodes. Nodes marked `flex` may not be available. Nodes marked `slurm` are always available.
 
 
 ```{code-cell} ipython3
@@ -88,60 +154,3 @@ nodes = nodes[columns]
 show(nodes, lengthMenu=[15, 25, 50], layout={"topStart": "search"}, classes="display compact")
 
 ```
-
-## Latest availability
-
-The above list is static: to see at any point in time the available nodes, type
-
-```bash
-sinfo --cluster cbsueccosl01
-```
-in a terminal window on the head node,[^quick] to obtain a result such as
-
-[^quick]: See [Quick Start](onetimesetup-slurm) for how to simplify that command.
-
-```bash
-$ sinfo --cluster cbsueccosl01
-CLUSTER: cbsueccosl01
-PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
-regular*     up   infinite      3    mix cbsuecco[07-08],cbsueccosl03
-regular*     up   infinite      1  alloc cbsueccosl04
-regular*     up   infinite      2   idle cbsuecco01,cbsueccosl01
-```
-
-which shows that currently, 6 nodes are available for jobs, of which 2 are idle, three have some jobs running on them, but can still accept smaller jobs (`mix` means there are free CPUs), and one is completely used (`alloc`).
-
-The most current status (as per the date and time noted) is:
-
-```{code-cell} python3
-:tags: ["remove-input","full-width"]
-
-
-def print_file_as_markdown_code_block(file_path, language=''):
-    """
-    Read an external file and print its contents as a Markdown fenced code block.
-    
-    Args:
-        file_path (str): Path to the file to be read
-        language (str, optional): Language identifier for syntax highlighting
-    """
-    try:
-        with open(file_path, 'r') as file:
-            content = file.read()
-            #print(f'```{language}')
-            print(content)
-            #print('```')
-    except FileNotFoundError:
-        print(f"Error: File not found at {file_path}")
-    except IOError as e:
-        print(f"Error reading file: {e}")
-
-print_file_as_markdown_code_block(os.path.join(project_root,"_data", 'eccoload.txt'))
-```
-
-
-
-
-## Who can use
-
-Everybody in the ECCO group can submit jobs.
