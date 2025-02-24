@@ -67,3 +67,31 @@ biohpc_res edit $reservation --add ECCO # adds the entire ECCO group to the rese
 manage_slurm addNode $headnode $node 
 ```
 
+## Debugging SLURM
+
+Sometimes, things go wrong. For instance,
+
+```bash
+> sinfo
+regular*     up   infinite      2  drain cbsuecco02,cbsueccosl04
+```
+
+What does `drain` mean, and how to put the nodes back into service? 
+
+### Find the reason 
+
+```bash
+scontrol show nodes=cbsueccosl04 | grep Reason
+```
+
+which might return
+ 
+```bash
+Reason=Kill task failed [root@2025-02-21T18:19:11]
+```
+
+This means a job crashed or timed out leaving open files which made it hard for SLURM to kill it and a timeout kicked in. If you notice something like this, you (as an 'operator' of your cluster) can re-active the node by running 
+ 
+```bash
+scontrol update nodename=cbsueccosl04 state=resume
+```
