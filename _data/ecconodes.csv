@@ -1,10 +1,7 @@
 Nodename,allocation,model,cpu benchmark (single thread),cpu benchmark (system),cores per CPU,CPUs,RAM,vintage,local storage in TB
 cbsuecco01,reservation,Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz,1939,35085,16,2,256,2017,0.20
 cbsuecco02,reservation,Intel(R) Xeon(R) CPU E7- 8837 @ 2.67GHz,1284,21891,8,4,1024,2011,4.30
-cbsuecco03,flex,AMD Opteron(tm) Processor 6380,1091,13476,16,2,256,2011,1.40
-cbsuecco04,flex,AMD Opteron(tm) Processor 6380,1091,13476,16,2,256,2011,1.40
-cbsuecco05,flex,AMD Opteron(tm) Processor 6380,1091,13476,16,2,256,2011,1.40
-cbsuecco06,flex,,,,32,2,256,,2.60
+cbsuecco06,flex,AMD Opteron(tm) Processor 6380,1091,13476,16,2,256,2011,2.50
 cbsuecco07,flex,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,1952,28971,14,2,128,2016,0.20
 cbsuecco08,flex,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,1952,28971,14,2,128,2016,0.20
 cbsuecco09,flex,Intel(R) Xeon(R) Gold 5420+ @ 2.0-4.1GHz,3418,57593,28,2,256,2024,3.5
