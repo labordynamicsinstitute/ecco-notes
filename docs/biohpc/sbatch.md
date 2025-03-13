@@ -81,7 +81,11 @@ shows that the default partition (`regular`) has a default of **4096 MB** per No
 
 ## SBATCH Array job
 
-If you want to launch many parallel jobs that use a different parameter each time, use arrays. Here's an example:
+If you want to launch many parallel jobs that use a different parameter each time, use arrays. 
+
+### R example
+
+Here's an example with R:
 
 ```bash
 #!/bin/bash
@@ -112,3 +116,48 @@ Test it first:
 - try out the command line separately, on a compute node: `R CMD BATCH name_of_program.R  some_number`
 - then try out the SLURM file with a low count (eg. `array=1-10`)
 - then set it to run.
+
+### Stata example
+
+Here's a similar example with Stata. Note that Stata likes to write out a log file when running in batch mode, so this prevents the log files from clobbering each other.
+
+```bash
+# ... see above for other SLURM config
+#
+# Processors per task: usually, 8 bc we have Stata-MP/8. But if your application is single-threaded, then use =1 here, and use "stata-se" below.
+#SBATCH --cpus-per-task=1
+#
+# Memory limit. Default is 4GB. Do testing to find out what a comfortable but not too loose limit is. You might constrain how many jobs can be run simultaneously
+#SBATCH --mem=4G
+#
+# other stuff here...
+#
+
+# Create a task-specific directory
+[[ -d task${SLURM_ARRAY_TASK_ID} ]] || mkdir task${SLURM_ARRAY_TASK_ID}
+# Enter that directory
+cd task${SLURM_ARRAY_TASK_ID}
+# Run the job with stata-se (single-threaded) passing the argument for the particular job
+stata-se -b ../name_of_job.do "${SLURM_ARRAY_TASK_ID}"
+#
+# writing the log file (name_of_job.log) into the directory (this avoids conflicts)
+```
+
+Within Stata, you could always load in some job-specific parameters which you previously have defined, e.g.,
+
+```stata
+// stata code
+// other configuration above, like directories
+//
+global lookup "`1'" // capture the command line argument
+insheet using "$paramdir/parameters.csv"
+keep if jobid=$lookup
+// do stuff here that depends on the parametes you just read in.
+```
+
+Test it out:
+
+- try out the command line separately, on a compute node: `stata-se name_of_program.do  some_number`
+- then try out the SLURM file with a low count (eg. `array=1-10`)
+- then set it to run.
+
