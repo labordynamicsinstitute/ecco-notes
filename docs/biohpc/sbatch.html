@@ -432,7 +432,11 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#simple-sbatch-example">Simple SBATCH example</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sbatch-array-job">SBATCH Array job</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sbatch-array-job">SBATCH Array job</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#r-example">R example</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#stata-example">Stata example</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -518,7 +522,10 @@ PartitionName=regular
 </section>
 <section id="sbatch-array-job">
 <h2>SBATCH Array job<a class="headerlink" href="#sbatch-array-job" title="Link to this heading">#</a></h2>
-<p>If you want to launch many parallel jobs that use a different parameter each time, use arrays. Here’s an example:</p>
+<p>If you want to launch many parallel jobs that use a different parameter each time, use arrays.</p>
+<section id="r-example">
+<h3>R example<a class="headerlink" href="#r-example" title="Link to this heading">#</a></h3>
+<p>Here’s an example with R:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="ch">#!/bin/bash</span>
 <span class="c1">#SBATCH --job-name=ilm</span>
 <span class="c1">## This will write the output to a one file per array id. Make sure the directory exists!</span>
@@ -547,6 +554,48 @@ R<span class="w"> </span>CMD<span class="w"> </span>BATCH<span class="w"> </span
 <li><p>then try out the SLURM file with a low count (eg. <code class="docutils literal notranslate"><span class="pre">array=1-10</span></code>)</p></li>
 <li><p>then set it to run.</p></li>
 </ul>
+</section>
+<section id="stata-example">
+<h3>Stata example<a class="headerlink" href="#stata-example" title="Link to this heading">#</a></h3>
+<p>Here’s a similar example with Stata. Note that Stata likes to write out a log file when running in batch mode, so this prevents the log files from clobbering each other.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># ... see above for other SLURM config</span>
+<span class="c1">#</span>
+<span class="c1"># Processors per task: usually, 8 bc we have Stata-MP/8. But if your application is single-threaded, then use =1 here, and use &quot;stata-se&quot; below.</span>
+<span class="c1">#SBATCH --cpus-per-task=1</span>
+<span class="c1">#</span>
+<span class="c1"># Memory limit. Default is 4GB. Do testing to find out what a comfortable but not too loose limit is. You might constrain how many jobs can be run simultaneously</span>
+<span class="c1">#SBATCH --mem=4G</span>
+<span class="c1">#</span>
+<span class="c1"># other stuff here...</span>
+<span class="c1">#</span>
+
+<span class="c1"># Create a task-specific directory</span>
+<span class="o">[[</span><span class="w"> </span>-d<span class="w"> </span>task<span class="si">${</span><span class="nv">SLURM_ARRAY_TASK_ID</span><span class="si">}</span><span class="w"> </span><span class="o">]]</span><span class="w"> </span><span class="o">||</span><span class="w"> </span>mkdir<span class="w"> </span>task<span class="si">${</span><span class="nv">SLURM_ARRAY_TASK_ID</span><span class="si">}</span>
+<span class="c1"># Enter that directory</span>
+<span class="nb">cd</span><span class="w"> </span>task<span class="si">${</span><span class="nv">SLURM_ARRAY_TASK_ID</span><span class="si">}</span>
+<span class="c1"># Run the job with stata-se (single-threaded) passing the argument for the particular job</span>
+stata-se<span class="w"> </span>-b<span class="w"> </span>../name_of_job.do<span class="w"> </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">SLURM_ARRAY_TASK_ID</span><span class="si">}</span><span class="s2">&quot;</span>
+<span class="c1">#</span>
+<span class="c1"># writing the log file (name_of_job.log) into the directory (this avoids conflicts)</span>
+</pre></div>
+</div>
+<p>Within Stata, you could always load in some job-specific parameters which you previously have defined, e.g.,</p>
+<div class="highlight-stata notranslate"><div class="highlight"><pre><span></span><span class="c1">// stata code</span>
+<span class="c1">// other configuration above, like directories</span>
+<span class="c1">//</span>
+<span class="k">global lookup</span> <span class="s">&quot;</span><span class="nv">`1&#39;</span><span class="s">&quot;</span> <span class="c1">// capture the command line argument</span>
+<span class="k">insheet</span> using <span class="s">&quot;</span><span class="vg">$paramdir</span><span class="s">/parameters.csv&quot;</span>
+<span class="k">keep if</span> jobid=<span class="vg">$lookup</span>
+<span class="c1">// do stuff here that depends on the parametes you just read in.</span>
+</pre></div>
+</div>
+<p>Test it out:</p>
+<ul class="simple">
+<li><p>try out the command line separately, on a compute node: <code class="docutils literal notranslate"><span class="pre">stata-se</span> <span class="pre">name_of_program.do</span>&#160; <span class="pre">some_number</span></code></p></li>
+<li><p>then try out the SLURM file with a low count (eg. <code class="docutils literal notranslate"><span class="pre">array=1-10</span></code>)</p></li>
+<li><p>then set it to run.</p></li>
+</ul>
+</section>
 </section>
 </section>
 
@@ -615,7 +664,11 @@ R<span class="w"> </span>CMD<span class="w"> </span>BATCH<span class="w"> </span
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#simple-sbatch-example">Simple SBATCH example</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sbatch-array-job">SBATCH Array job</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sbatch-array-job">SBATCH Array job</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#r-example">R example</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#stata-example">Stata example</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
