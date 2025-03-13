@@ -102,7 +102,7 @@ module load R/4.4.0
 ## The ${SLURM_ARRAY_TASK_ID} is the counter from the array argument.
 ## You will need to process the first argument within the code.
 ## You can try out this same command line manually. If it works, then it will work from within SLURM
-R CMD BATCH name_of_program.R  "${SLURM_ARRAY_TASK_ID}
+R CMD BATCH name_of_program.R  "${SLURM_ARRAY_TASK_ID}"
 ```
 
 Save the above code as `slurm_name_of_program.sh` and submit as `sbatch slurm_name_of_program.sh`.

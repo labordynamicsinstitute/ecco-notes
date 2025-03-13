@@ -537,7 +537,7 @@ module<span class="w"> </span>load<span class="w"> </span>R/4.4.0
 <span class="c1">## The ${SLURM_ARRAY_TASK_ID} is the counter from the array argument.</span>
 <span class="c1">## You will need to process the first argument within the code.</span>
 <span class="c1">## You can try out this same command line manually. If it works, then it will work from within SLURM</span>
-R<span class="w"> </span>CMD<span class="w"> </span>BATCH<span class="w"> </span>name_of_program.R<span class="w">  </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">SLURM_ARRAY_TASK_ID</span><span class="si">}</span>
+R<span class="w"> </span>CMD<span class="w"> </span>BATCH<span class="w"> </span>name_of_program.R<span class="w">  </span><span class="s2">&quot;</span><span class="si">${</span><span class="nv">SLURM_ARRAY_TASK_ID</span><span class="si">}</span><span class="s2">&quot;</span>
 </pre></div>
 </div>
 <p>Save the above code as <code class="docutils literal notranslate"><span class="pre">slurm_name_of_program.sh</span></code> and submit as <code class="docutils literal notranslate"><span class="pre">sbatch</span> <span class="pre">slurm_name_of_program.sh</span></code>.</p>
