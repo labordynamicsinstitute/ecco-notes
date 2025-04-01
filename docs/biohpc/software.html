@@ -436,6 +436,7 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#biohpc-managed-modules">BioHPC-managed modules</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#customizing-modules">Customizing <code class="docutils literal notranslate"><span class="pre">modules</span></code></a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-additional-module-configurations">Getting additional module configurations</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#using-the-additional-modules">Using the additional modules</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-your-own-module-files">Creating your own module files</a></li>
 </ul>
 </li>
@@ -517,11 +518,11 @@ gcc/10.4.0<span class="w">  </span>java/1.8.0<span class="w">  </span>java/21.0.
 <section id="getting-additional-module-configurations">
 <h4>Getting additional module configurations<a class="headerlink" href="#getting-additional-module-configurations" title="Link to this heading">#</a></h4>
 <p>The easiest way to get started is to copy the <code class="docutils literal notranslate"><span class="pre">module</span></code> files from Lars’s Github repository:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/labordynamicsinstitute/biohpc-modules<span class="w"> </span><span class="nv">$HOME</span>/.modulefiles.d
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>git<span class="w"> </span>clone<span class="w"> </span>https://github.com/labordynamicsinstitute/biohpc-modules<span class="w"> </span><span class="nv">$HOME</span>/privatemodules
 </pre></div>
 </div>
 <p>You can refresh this at any time using</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span><span class="nv">$HOME</span>/.modulefiles.d
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">cd</span><span class="w"> </span><span class="nv">$HOME</span>/privatemodules
 git<span class="w"> </span>pull
 </pre></div>
 </div>
@@ -529,6 +530,13 @@ git<span class="w"> </span>pull
 <p class="admonition-title">Not all modules listed are actually installed!</p>
 <p>The modules listed in the repository will work on the specific nodes that the software is installed. Not all nodes have all software installed. The <code class="docutils literal notranslate"><span class="pre">module</span></code> command only allows the shell to find the software if it is installed, but does not actually install the software.</p>
 </div>
+</section>
+<section id="using-the-additional-modules">
+<h4>Using the additional modules<a class="headerlink" href="#using-the-additional-modules" title="Link to this heading">#</a></h4>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>module<span class="w"> </span>load<span class="w"> </span>use.own
+</pre></div>
+</div>
+<p>will load the configuration from <code class="docutils literal notranslate"><span class="pre">$HOME/privatemodules</span></code>. To have the modules always be available, add that line to your <code class="docutils literal notranslate"><span class="pre">$HOME/.bashrc</span></code>.</p>
 </section>
 <section id="creating-your-own-module-files">
 <h4>Creating your own module files<a class="headerlink" href="#creating-your-own-module-files" title="Link to this heading">#</a></h4>
@@ -611,6 +619,7 @@ git<span class="w"> </span>pull
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#biohpc-managed-modules">BioHPC-managed modules</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#customizing-modules">Customizing <code class="docutils literal notranslate"><span class="pre">modules</span></code></a><ul class="nav section-nav flex-column">
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#getting-additional-module-configurations">Getting additional module configurations</a></li>
+<li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#using-the-additional-modules">Using the additional modules</a></li>
 <li class="toc-h4 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-your-own-module-files">Creating your own module files</a></li>
 </ul>
 </li>
