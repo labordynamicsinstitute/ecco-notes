@@ -82,13 +82,13 @@ The easiest way to get started is to copy the `module` files from Lars's Github 
 
 ```bash
 
-git clone https://github.com/labordynamicsinstitute/biohpc-modules $HOME/.modulefiles.d
+git clone https://github.com/labordynamicsinstitute/biohpc-modules $HOME/privatemodules
 ```
 
 You can refresh this at any time using
 
 ```bash
-cd $HOME/.modulefiles.d
+cd $HOME/privatemodules
 git pull
 ```
 
@@ -97,6 +97,16 @@ git pull
 The modules listed in the repository will work on the specific nodes that the software is installed. Not all nodes have all software installed. The `module` command only allows the shell to find the software if it is installed, but does not actually install the software.
 
 :::
+
+#### Using the additional modules
+
+```bash
+module load use.own
+```
+
+will load the configuration from `$HOME/privatemodules`. To have the modules always be available, add that line to your `$HOME/.bashrc`.
+
+
 
 #### Creating your own module files
 
