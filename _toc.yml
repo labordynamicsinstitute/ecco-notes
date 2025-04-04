@@ -27,6 +27,7 @@ parts:
   - file: docs/ssh
   - file: docs/vnc
   - file: docs/vscode
+  - file: docs/graphical
 - caption: How to transfer data to and from BioHPC
   chapters:
   - file: docs/transfer
