@@ -61,15 +61,34 @@ def print_file_as_markdown_table_block(file_path):
     """
     try:
         with open(file_path, 'r') as file:
-            content = file.read()
-            print(f'|JOBID| PARTITION|     NAME |    USER |STATUS |  ELAPSED     TIME |  NODES | NODELIST(REASON)|')
-            print(f'|-----|----------|----------|---------|-------|-------------------|--------|-----------------|')
-            print(content)
-            #print('```')
+            content = file.readlines()
+            
+            # Print the table header
+            print(f'| JOBID | PARTITION | NAME      | STATUS | ELAPSED TIME | NODES | NODELIST(REASON) |')
+            print(f'|-------|-----------|-----------|--------|--------------|-------|------------------|')
+            
+            # Process each line in the file
+            for line in content:
+                columns = line.split()  # Split by whitespace
+                if len(columns) < 8:
+                    continue  # Skip lines with insufficient columns
+                
+                # Extract relevant columns, skipping the "USER" column (index 3)
+                jobid = columns[0]
+                partition = columns[1]
+                name = columns[2]
+                status = columns[4]
+                elapsed_time = columns[5]
+                nodes = columns[6]
+                nodelist = columns[7]
+                
+                # Print the row in Markdown table format
+                print(f'| {jobid} | {partition} | {name} | {status} | {elapsed_time} | {nodes} | {nodelist} |')
     except FileNotFoundError:
         print(f"Error: File not found at {file_path}")
     except IOError as e:
         print(f"Error reading file: {e}")
 
-print_file_as_markdown_table_block(os.path.join(project_root,"_data", 'eccoqueue.txt'))
+# Usage
+print_file_as_markdown_table_block(os.path.join(project_root, "_data", "eccoqueue.txt"))
 ```
