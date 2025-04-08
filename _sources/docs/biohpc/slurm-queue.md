@@ -54,18 +54,22 @@ project_root = find_project_root()
 
 def print_file_as_markdown_table_block(file_path):
     """
-    Read an external file and print its contents as a Markdown table.
+    Read an external file and return its contents as a Markdown table.
     
     Args:
-        file_path (str): Path to the file to be read
+        file_path (str): Path to the file to be read.
+        
+    Returns:
+        str: The Markdown table as a string.
     """
     try:
         with open(file_path, 'r') as file:
             content = file.readlines()
             
-            # Print the table header
-            print(f'| JOBID | PARTITION | NAME      | STATUS | ELAPSED TIME | NODES | NODELIST(REASON) |')
-            print(f'|-------|-----------|-----------|--------|--------------|-------|------------------|')
+            # Initialize the Markdown table
+            table = []
+            table.append('| JOBID | PARTITION | NAME      | STATUS | ELAPSED TIME | NODES | NODELIST(REASON) |')
+            table.append('|-------|-----------|-----------|--------|--------------|-------|------------------|')
             
             # Process each line in the file
             for line in content:
@@ -82,13 +86,17 @@ def print_file_as_markdown_table_block(file_path):
                 nodes = columns[6]
                 nodelist = columns[7]
                 
-                # Print the row in Markdown table format
-                print(f'| {jobid} | {partition} | {name} | {status} | {elapsed_time} | {nodes} | {nodelist} |')
+                # Add the row to the table
+                table.append(f'| {jobid} | {partition} | {name} | {status} | {elapsed_time} | {nodes} | {nodelist} |')
+            
+            # Return the table as a single string
+            return '\n'.join(table)
     except FileNotFoundError:
-        print(f"Error: File not found at {file_path}")
+        return f"Error: File not found at {file_path}"
     except IOError as e:
-        print(f"Error reading file: {e}")
+        return f"Error reading file: {e}"
 
 # Usage
-print_file_as_markdown_table_block(os.path.join(project_root, "_data", "eccoqueue.txt"))
+markdown_table = print_file_as_markdown_table_block(os.path.join(project_root, "_data", "eccoqueue.txt"))
+print(markdown_table)
 ```
