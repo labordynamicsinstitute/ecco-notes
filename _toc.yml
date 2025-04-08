@@ -19,6 +19,7 @@ parts:
   - file: docs/biohpc/stata
   - file: docs/biohpc/matlab
   - file: docs/biohpc/julia
+  - file: docs/biohpc/slurm-queue
 - caption: Reserving a node on BioHPC Linux
   chapters:
   - file: docs/biohpc/reserving
