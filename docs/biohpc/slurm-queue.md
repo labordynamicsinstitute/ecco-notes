@@ -52,18 +52,18 @@ project_root = find_project_root()
 :tags: ["remove-input","full-width"]
 
 
-def print_file_as_markdown_code_block(file_path, language=''):
+def print_file_as_markdown_table_block(file_path):
     """
-    Read an external file and print its contents as a Markdown fenced code block.
+    Read an external file and print its contents as a Markdown table.
     
     Args:
         file_path (str): Path to the file to be read
-        language (str, optional): Language identifier for syntax highlighting
     """
     try:
         with open(file_path, 'r') as file:
             content = file.read()
-            #print(f'```{language}')
+            print(f'|JOBID| PARTITION|     NAME |    USER |STATUS |  ELAPSED     TIME |  NODES | NODELIST(REASON)|')
+            print(f'|-----|----------|----------|---------|-------|-------------------|--------|-----------------|')
             print(content)
             #print('```')
     except FileNotFoundError:
@@ -71,5 +71,5 @@ def print_file_as_markdown_code_block(file_path, language=''):
     except IOError as e:
         print(f"Error reading file: {e}")
 
-print_file_as_markdown_code_block(os.path.join(project_root,"_data", 'eccoqueue.txt'))
+print_file_as_markdown_table_block(os.path.join(project_root,"_data", 'eccoqueue.txt'))
 ```
