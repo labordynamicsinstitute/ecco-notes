@@ -437,32 +437,43 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="slurm-queue">
 <h1>SLURM Queue<a class="headerlink" href="#slurm-queue" title="Link to this heading">#</a></h1>
-<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+<div class="cell tag_remove-input tag_full-width docutils container">
+</div>
+<div class="cell tag_remove-input tag_full-width docutils container">
+<div class="cell_output docutils container">
+<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>As of 2025-04-08 11:00:
 
-<span class="k">def</span> <span class="nf">print_file_as_markdown_code_block</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">language</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">):</span>
-<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
-<span class="sd">    Read an external file and print its contents as a Markdown fenced code block.</span>
-<span class="sd">    </span>
-<span class="sd">    Args:</span>
-<span class="sd">        file_path (str): Path to the file to be read</span>
-<span class="sd">        language (str, optional): Language identifier for syntax highlighting</span>
-<span class="sd">    &quot;&quot;&quot;</span>
-    <span class="k">try</span><span class="p">:</span>
-        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
-            <span class="n">content</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
-            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;```</span><span class="si">{</span><span class="n">language</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
-            <span class="nb">print</span><span class="p">(</span><span class="n">content</span><span class="p">)</span>
-            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;```&#39;</span><span class="p">)</span>
-    <span class="k">except</span> <span class="ne">FileNotFoundError</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Error: File not found at </span><span class="si">{</span><span class="n">file_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-    <span class="k">except</span> <span class="ne">IOError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
-        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Error reading file: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
-
-<span class="c1"># Example usage</span>
-<span class="n">project_root</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="vm">__file__</span><span class="p">))</span>
-<span class="n">file_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">project_root</span><span class="p">,</span> <span class="s1">&#39;../../_data/eccoqueue.txt&#39;</span><span class="p">)</span>
-<span class="n">print_file_as_markdown_code_block</span><span class="p">(</span><span class="n">file_path</span><span class="p">)</span>
+CLUSTER: cbsueccosl01
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+            149556   regular AKM_rais    fm469 PD       0:00      1 (Resources)
+     149601_[1-10]   regular sims_100    ts724 PD       0:00      1 (Priority)
+            148342   regular    a6719     lv39 PD       0:00      1 (Priority)
+            149279   regular    a6365     lv39 PD       0:00      1 (Priority)
+            149505   regular iteratio    ljp96 PD       0:00      1 (Priority)
+            149504   regular iteratio    ljp96 PD       0:00      1 (Priority)
+  149652_[1-10%10]   regular setup_es   alw327 PD       0:00      1 (Priority)
+       149653_[13]   regular run_par_   alw327 PD       0:00      1 (Priority)
+            149672   regular Calibrat    ljp96 PD       0:00      1 (Priority)
+            149673   regular Calibrat    ljp96 PD       0:00      1 (Priority)
+            148497   regular iteratio    ljp96  R 3-21:13:45      1 cbsueccosl01
+            149316   regular ADA_smal   jl4459  R 3-08:11:12      1 cbsuecco02
+            149280   regular Calibrat    ljp96  R 3-11:44:31      1 cbsuecco08
+            149281   regular Calibrat    ljp96  R 3-11:44:31      1 cbsuecco08
+            149314   regular ADA_smal   jl4459  R 3-10:54:14      1 cbsueccosl04
+            149315   regular ADA_smal   jl4459  R 3-10:54:14      1 cbsueccosl04
+            149313   regular ADA_smal   jl4459  R 3-21:13:15      1 cbsuecco08
+            149296   regular iteratio    ljp96  R 3-06:01:30      1 cbsueccosl04
+            149297   regular iteratio    ljp96  R 3-06:01:30      1 cbsueccosl04
+            149298   regular iteratio    ljp96  R 3-04:13:42      1 cbsueccosl03
+            149295   regular iteratio    ljp96  R 3-07:55:01      1 cbsuecco02
+            149306   regular iteratio    ljp96  R 3-02:10:00      1 cbsuecco02
+            149305   regular iteratio    ljp96  R 3-03:15:30      1 cbsuecco02
+            149304   regular iteratio    ljp96  R 3-04:13:42      1 cbsueccosl03
+           90718_5   regular aearep54     lv39  R 42-00:16:35      1 cbsueccosl03
+          149509_3   regular data_tab   alw327  R 2-23:12:28      1 cbsueccosl01
 </pre></div>
+</div>
+</div>
 </div>
 </section>
 
