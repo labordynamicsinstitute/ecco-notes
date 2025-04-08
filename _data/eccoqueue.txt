@@ -1,0 +1,28 @@
+As of 2025-04-08 09:42:
+
+CLUSTER: cbsueccosl01
+             JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
+            149556   regular AKM_rais    fm469 PD       0:00      1 (Resources)
+     149601_[1-10]   regular sims_100    ts724 PD       0:00      1 (Priority)
+            148342   regular    a6719     lv39 PD       0:00      1 (Priority)
+            149279   regular    a6365     lv39 PD       0:00      1 (Priority)
+            149504   regular iteratio    ljp96 PD       0:00      1 (Priority)
+            149505   regular iteratio    ljp96 PD       0:00      1 (Priority)
+  149652_[1-10%10]   regular setup_es   alw327 PD       0:00      1 (Priority)
+       149653_[13]   regular run_par_   alw327 PD       0:00      1 (Priority)
+            148497   regular iteratio    ljp96  R 3-19:56:17      1 cbsueccosl01
+            149316   regular ADA_smal   jl4459  R 3-06:53:44      1 cbsuecco02
+            149280   regular Calibrat    ljp96  R 3-10:27:03      1 cbsuecco08
+            149281   regular Calibrat    ljp96  R 3-10:27:03      1 cbsuecco08
+            149314   regular ADA_smal   jl4459  R 3-09:36:46      1 cbsueccosl04
+            149315   regular ADA_smal   jl4459  R 3-09:36:46      1 cbsueccosl04
+            149313   regular ADA_smal   jl4459  R 3-19:55:47      1 cbsuecco08
+            149296   regular iteratio    ljp96  R 3-04:44:02      1 cbsueccosl04
+            149297   regular iteratio    ljp96  R 3-04:44:02      1 cbsueccosl04
+            149298   regular iteratio    ljp96  R 3-02:56:14      1 cbsueccosl03
+            149295   regular iteratio    ljp96  R 3-06:37:33      1 cbsuecco02
+            149306   regular iteratio    ljp96  R 3-00:52:32      1 cbsuecco02
+            149305   regular iteratio    ljp96  R 3-01:58:02      1 cbsuecco02
+            149304   regular iteratio    ljp96  R 3-02:56:14      1 cbsueccosl03
+           90718_5   regular aearep54     lv39  R 41-22:59:07      1 cbsueccosl03
+          149509_3   regular data_tab   alw327  R 2-21:55:00      1 cbsueccosl01
