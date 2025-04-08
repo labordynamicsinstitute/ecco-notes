@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>manage_slurm &#8212; ECCO Computing Notes</title>
+    <title>SLURM Queue &#8212; ECCO Computing Notes</title>
   
   
   
@@ -57,12 +57,12 @@
     <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'docs/commands/manage_slurm';</script>
-    <link rel="canonical" href="https://labordynamicsinstitute.github.io/ecco-notes/docs/commands/manage_slurm.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'docs/biohpc/slurm-queue';</script>
+    <link rel="canonical" href="https://labordynamicsinstitute.github.io/ecco-notes/docs/biohpc/slurm-queue.html" />
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Tips and Tricks" href="../tips-and-tricks.html" />
-    <link rel="prev" title="TMux" href="tmux.html" />
+    <link rel="next" title="Requesting exclusive access to an entire node" href="reserving.html" />
+    <link rel="prev" title="Julia example" href="julia.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -185,19 +185,19 @@
 <li class="toctree-l1"><a class="reference internal" href="../access.html">General access rules</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Using SLURM</span></p>
-<ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../biohpc/slurm.html">Job scheduler on BioHPC</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../biohpc/slurm-quick-start.html">Quick start</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../biohpc/software.html">Software</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../biohpc/sbatch.html">SBATCH examples</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../biohpc/stata.html">Stata example</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../biohpc/matlab.html">MATLAB example</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../biohpc/julia.html">Julia example</a></li>
-<li class="toctree-l1"><a class="reference internal" href="../biohpc/slurm-queue.html">SLURM Queue</a></li>
+<ul class="current nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="slurm.html">Job scheduler on BioHPC</a></li>
+<li class="toctree-l1"><a class="reference internal" href="slurm-quick-start.html">Quick start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="software.html">Software</a></li>
+<li class="toctree-l1"><a class="reference internal" href="sbatch.html">SBATCH examples</a></li>
+<li class="toctree-l1"><a class="reference internal" href="stata.html">Stata example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="matlab.html">MATLAB example</a></li>
+<li class="toctree-l1"><a class="reference internal" href="julia.html">Julia example</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">SLURM Queue</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Reserving a node on BioHPC Linux</span></p>
 <ul class="nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="../biohpc/reserving.html">Requesting exclusive access to an entire node</a></li>
+<li class="toctree-l1"><a class="reference internal" href="reserving.html">Requesting exclusive access to an entire node</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">How to connect to BioHPC</span></p>
 <ul class="nav bd-sidenav">
@@ -211,11 +211,11 @@
 <li class="toctree-l1"><a class="reference internal" href="../transfer.html">Transferring data to and from BioHPC</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Command reference</span></p>
-<ul class="current nav bd-sidenav">
-<li class="toctree-l1"><a class="reference internal" href="biohpcres.html"><code class="docutils literal notranslate"><span class="pre">biohpc_res</span></code></a></li>
-<li class="toctree-l1"><a class="reference internal" href="srun.html"><code class="docutils literal notranslate"><span class="pre">srun</span></code></a></li>
-<li class="toctree-l1"><a class="reference internal" href="tmux.html">TMux</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#"><code class="docutils literal notranslate"><span class="pre">manage_slurm</span></code></a></li>
+<ul class="nav bd-sidenav">
+<li class="toctree-l1"><a class="reference internal" href="../commands/biohpcres.html"><code class="docutils literal notranslate"><span class="pre">biohpc_res</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../commands/srun.html"><code class="docutils literal notranslate"><span class="pre">srun</span></code></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../commands/tmux.html">TMux</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../commands/manage_slurm.html"><code class="docutils literal notranslate"><span class="pre">manage_slurm</span></code></a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Getting Help</span></p>
 <ul class="nav bd-sidenav">
@@ -292,7 +292,7 @@
       
       
       
-      <li><a href="https://github.com/labordynamicsinstitute/ecco-notes/edit/main/docs/commands/manage_slurm.md" target="_blank"
+      <li><a href="https://github.com/labordynamicsinstitute/ecco-notes/edit/main/docs/biohpc/slurm-queue.md" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -309,7 +309,7 @@
       
       
       
-      <li><a href="https://github.com/labordynamicsinstitute/ecco-notes/issues/new?title=Issue%20on%20page%20%2Fdocs/commands/manage_slurm.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/labordynamicsinstitute/ecco-notes/issues/new?title=Issue%20on%20page%20%2Fdocs/biohpc/slurm-queue.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -339,7 +339,7 @@
       
       
       
-      <li><a href="../../_sources/docs/commands/manage_slurm.md" target="_blank"
+      <li><a href="../../_sources/docs/biohpc/slurm-queue.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -410,9 +410,7 @@ document.write(`
   </button>
 `);
 </script>
-<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <span class="fa-solid fa-list"></span>
-</label>
+
 </div></div>
       
     </div>
@@ -423,28 +421,11 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>manage_slurm</h1>
+    <h1>SLURM Queue</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
-            <div>
-                <h2> Contents </h2>
-            </div>
-            <nav aria-label="Page">
-                <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#general-help">General help</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#help-for-subcommands">Help for subcommands</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#show-available-clusters">Show available clusters</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-cluster">Create a cluster</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#add-a-node">Add a node</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-complete">Example (complete)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#debugging-slurm">Debugging SLURM</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#find-the-reason">Find the reason</a></li>
-</ul>
-</li>
-</ul>
-            </nav>
         </div>
     </div>
 </div>
@@ -454,88 +435,35 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="manage-slurm">
-<span id="manageslurm"></span><h1><code class="docutils literal notranslate"><span class="pre">manage_slurm</span></code><a class="headerlink" href="#manage-slurm" title="Link to this heading">#</a></h1>
-<p>The <code class="docutils literal notranslate"><span class="pre">manage_slurm</span></code> command can be used to manage user-iniated SLURM clusters. It may also be used by an administrator to manage the ECCO-level SLURM cluster</p>
-<section id="general-help">
-<h2>General help<a class="headerlink" href="#general-help" title="Link to this heading">#</a></h2>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>manage_slurm<span class="w"> </span>--help
+  <section class="tex2jax_ignore mathjax_ignore" id="slurm-queue">
+<h1>SLURM Queue<a class="headerlink" href="#slurm-queue" title="Link to this heading">#</a></h1>
+<div class="highlight-python notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">os</span>
+
+<span class="k">def</span> <span class="nf">print_file_as_markdown_code_block</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="n">language</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">):</span>
+<span class="w">    </span><span class="sd">&quot;&quot;&quot;</span>
+<span class="sd">    Read an external file and print its contents as a Markdown fenced code block.</span>
+<span class="sd">    </span>
+<span class="sd">    Args:</span>
+<span class="sd">        file_path (str): Path to the file to be read</span>
+<span class="sd">        language (str, optional): Language identifier for syntax highlighting</span>
+<span class="sd">    &quot;&quot;&quot;</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="n">file_path</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">file</span><span class="p">:</span>
+            <span class="n">content</span> <span class="o">=</span> <span class="n">file</span><span class="o">.</span><span class="n">read</span><span class="p">()</span>
+            <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s1">&#39;```</span><span class="si">{</span><span class="n">language</span><span class="si">}</span><span class="s1">&#39;</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="n">content</span><span class="p">)</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s1">&#39;```&#39;</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">FileNotFoundError</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Error: File not found at </span><span class="si">{</span><span class="n">file_path</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+    <span class="k">except</span> <span class="ne">IOError</span> <span class="k">as</span> <span class="n">e</span><span class="p">:</span>
+        <span class="nb">print</span><span class="p">(</span><span class="sa">f</span><span class="s2">&quot;Error reading file: </span><span class="si">{</span><span class="n">e</span><span class="si">}</span><span class="s2">&quot;</span><span class="p">)</span>
+
+<span class="c1"># Example usage</span>
+<span class="n">project_root</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">abspath</span><span class="p">(</span><span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">dirname</span><span class="p">(</span><span class="vm">__file__</span><span class="p">))</span>
+<span class="n">file_path</span> <span class="o">=</span> <span class="n">os</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">join</span><span class="p">(</span><span class="n">project_root</span><span class="p">,</span> <span class="s1">&#39;../../_data/eccoqueue.txt&#39;</span><span class="p">)</span>
+<span class="n">print_file_as_markdown_code_block</span><span class="p">(</span><span class="n">file_path</span><span class="p">)</span>
 </pre></div>
 </div>
-</section>
-<section id="help-for-subcommands">
-<h2>Help for subcommands<a class="headerlink" href="#help-for-subcommands" title="Link to this heading">#</a></h2>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>manage_slurm<span class="w"> </span><span class="o">[</span>command<span class="o">]</span><span class="w"> </span>--help
-</pre></div>
-</div>
-</section>
-<section id="show-available-clusters">
-<h2>Show available clusters<a class="headerlink" href="#show-available-clusters" title="Link to this heading">#</a></h2>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>manage_slurm<span class="w"> </span>list
-</pre></div>
-</div>
-</section>
-<section id="create-a-cluster">
-<h2>Create a cluster<a class="headerlink" href="#create-a-cluster" title="Link to this heading">#</a></h2>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>manage_slurm<span class="w"> </span>new<span class="w"> </span>machine1,machine2,.
-</pre></div>
-</div>
-<p>where the first node becomes the “head node”. A reservation (see <a class="reference internal" href="biohpcres.html#biohpcres"><span class="std std-ref">biohpc_res</span></a>) is needed on all nodes.</p>
-</section>
-<section id="add-a-node">
-<h2>Add a node<a class="headerlink" href="#add-a-node" title="Link to this heading">#</a></h2>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>manage_slurm<span class="w"> </span>addNode<span class="w"> </span>masterNode<span class="w"> </span>machine
-</pre></div>
-</div>
-<p>will add <code class="docutils literal notranslate"><span class="pre">machine</span></code> to the cluster that has <code class="docutils literal notranslate"><span class="pre">masterNode</span></code> as the head node. Again, a reservation is needed on <code class="docutils literal notranslate"><span class="pre">machine</span></code>, and all users currently with cluster access also need to be added to that reservation.</p>
-</section>
-<section id="example-complete">
-<h2>Example (complete)<a class="headerlink" href="#example-complete" title="Link to this heading">#</a></h2>
-<p>Adjust these:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">node</span><span class="o">=</span>cbsuecco10
-<span class="nv">account</span><span class="o">=</span><span class="m">2556</span>
-<span class="nv">headnode</span><span class="o">=</span>cbsueccosl01
-</pre></div>
-</div>
-<p>then run this</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>biohpc_res<span class="w"> </span>new<span class="w"> </span><span class="nv">$account</span><span class="w"> </span>--server<span class="w"> </span><span class="nv">$node</span><span class="w"> </span>--hours<span class="w"> </span><span class="m">72</span>
-biohpc_res<span class="w"> </span>list
-</pre></div>
-</div>
-<p>Now grap the reservation number:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">reservation</span><span class="o">=</span><span class="m">12345</span>
-</pre></div>
-</div>
-<p>and add that reservation to the cluster:</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>biohpc_res<span class="w"> </span>edit<span class="w"> </span><span class="nv">$reservation</span><span class="w"> </span>--hide
-biohpc_res<span class="w"> </span>edit<span class="w"> </span><span class="nv">$reservation</span><span class="w"> </span>--add<span class="w"> </span>ECCO<span class="w"> </span><span class="c1"># adds the entire ECCO group to the reservation</span>
-manage_slurm<span class="w"> </span>addNode<span class="w"> </span><span class="nv">$headnode</span><span class="w"> </span><span class="nv">$node</span><span class="w"> </span>
-</pre></div>
-</div>
-</section>
-<section id="debugging-slurm">
-<h2>Debugging SLURM<a class="headerlink" href="#debugging-slurm" title="Link to this heading">#</a></h2>
-<p>Sometimes, things go wrong. For instance,</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>&gt;<span class="w"> </span>sinfo
-regular*<span class="w">     </span>up<span class="w">   </span>infinite<span class="w">      </span><span class="m">2</span><span class="w">  </span>drain<span class="w"> </span>cbsuecco02,cbsueccosl04
-</pre></div>
-</div>
-<p>What does <code class="docutils literal notranslate"><span class="pre">drain</span></code> mean, and how to put the nodes back into service?</p>
-<section id="find-the-reason">
-<h3>Find the reason<a class="headerlink" href="#find-the-reason" title="Link to this heading">#</a></h3>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>scontrol<span class="w"> </span>show<span class="w"> </span><span class="nv">nodes</span><span class="o">=</span>cbsueccosl04<span class="w"> </span><span class="p">|</span><span class="w"> </span>grep<span class="w"> </span>Reason
-</pre></div>
-</div>
-<p>which might return</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nv">Reason</span><span class="o">=</span>Kill<span class="w"> </span>task<span class="w"> </span>failed<span class="w"> </span><span class="o">[</span>root@2025-02-21T18:19:11<span class="o">]</span>
-</pre></div>
-</div>
-<p>This means a job crashed or timed out leaving open files which made it hard for SLURM to kill it and a timeout kicked in. If you notice something like this, you (as an ‘operator’ of your cluster) can re-active the node by running</p>
-<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>scontrol<span class="w"> </span>update<span class="w"> </span><span class="nv">nodename</span><span class="o">=</span>cbsueccosl04<span class="w"> </span><span class="nv">state</span><span class="o">=</span>resume
-</pre></div>
-</div>
-</section>
-</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -551,7 +479,7 @@ regular*<span class="w">     </span>up<span class="w">   </span>infinite<span
         },
         kernelOptions: {
             name: "python3",
-            path: "./docs/commands"
+            path: "./docs/biohpc"
         },
         predefinedOutput: true
     }
@@ -569,20 +497,20 @@ regular*<span class="w">     </span>up<span class="w">   </span>infinite<span
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="tmux.html"
+       href="julia.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">TMux</p>
+        <p class="prev-next-title">Julia example</p>
       </div>
     </a>
     <a class="right-next"
-       href="../tips-and-tricks.html"
+       href="reserving.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Tips and Tricks</p>
+        <p class="prev-next-title">Requesting exclusive access to an entire node</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -593,29 +521,7 @@ regular*<span class="w">     </span>up<span class="w">   </span>infinite<span
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
-
-
-  <div class="sidebar-secondary-item">
-  <div class="page-toc tocsection onthispage">
-    <i class="fa-solid fa-list"></i> Contents
-  </div>
-  <nav class="bd-toc-nav page-toc">
-    <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#general-help">General help</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#help-for-subcommands">Help for subcommands</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#show-available-clusters">Show available clusters</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#create-a-cluster">Create a cluster</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#add-a-node">Add a node</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#example-complete">Example (complete)</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#debugging-slurm">Debugging SLURM</a><ul class="nav section-nav flex-column">
-<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#find-the-reason">Find the reason</a></li>
-</ul>
-</li>
-</ul>
-  </nav></div>
-
-</div></div>
+                <div class="bd-sidebar-secondary bd-toc"></div>
               
             
           </div>

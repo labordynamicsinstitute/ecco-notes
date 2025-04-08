@@ -87,8 +87,7 @@ def print_file_as_markdown_code_block(file_path, language=''):
 print_file_as_markdown_code_block(os.path.join(project_root,"_data", 'eccoload.txt'))
 ```
 
-
-
+For more details, see the [SLURM Queue](slurm-queue.md) page.
 
 ## Manually query the latest availability
 
