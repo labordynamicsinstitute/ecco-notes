@@ -48,13 +48,19 @@ def find_project_root(start_dir='.', file_to_find='favicon.ico'):
 project_root = find_project_root()
 ```
 
+The following is a snapshot of the most recent queue, roughly ordered by when the job was submitted. A status of `R` indicates the job is running, with the `ELAPSED TIME` indicating how long it has been running. A status of `PD` indicates the job is pending, with the `REASON` indicating why it is pending. The key reasons a job might still be pending are:
+
+- `Priority`: The resources are available, but the job is waiting for a higher priority job to finish.
+- `Resources`: The job is waiting for resources to become available. This can happen if the job requests more resources than are currently available on the cluster.
+
 ```{code-cell} ipython3
 :tags: ["remove-input","full-width"]
+from datetime import datetime
 from IPython.display import HTML, display
 
 def print_file_as_markdown_table_block(file_path):
     """
-    Read an external file and display its contents as an HTML table.
+    Read an external file and display its contents as an HTML table with a timestamp.
     
     Args:
         file_path (str): Path to the file to be read.
@@ -87,6 +93,10 @@ def print_file_as_markdown_table_block(file_path):
                 table.append(f'<tr><td>{jobid}</td><td>{partition}</td><td>{name}</td><td>{status}</td><td>{elapsed_time}</td><td>{nodes}</td><td>{nodelist}</td></tr>')
             
             table.append('</table>')
+            
+            # Add a timestamp
+            timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            table.append(f'<p>Generated on: {timestamp}</p>')
             
             # Display the table as HTML
             display(HTML(''.join(table)))
