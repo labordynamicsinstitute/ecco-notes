@@ -1,4 +1,4 @@
-As of 2025-04-08 10:00:
+As of 2025-04-08 11:00:
 
 CLUSTER: cbsueccosl01
              JOBID PARTITION     NAME     USER ST       TIME  NODES NODELIST(REASON)
@@ -10,19 +10,21 @@ CLUSTER: cbsueccosl01
             149504   regular iteratio    ljp96 PD       0:00      1 (Priority)
   149652_[1-10%10]   regular setup_es   alw327 PD       0:00      1 (Priority)
        149653_[13]   regular run_par_   alw327 PD       0:00      1 (Priority)
-            148497   regular iteratio    ljp96  R 3-20:13:46      1 cbsueccosl01
-            149316   regular ADA_smal   jl4459  R 3-07:11:13      1 cbsuecco02
-            149280   regular Calibrat    ljp96  R 3-10:44:32      1 cbsuecco08
-            149281   regular Calibrat    ljp96  R 3-10:44:32      1 cbsuecco08
-            149314   regular ADA_smal   jl4459  R 3-09:54:15      1 cbsueccosl04
-            149315   regular ADA_smal   jl4459  R 3-09:54:15      1 cbsueccosl04
-            149313   regular ADA_smal   jl4459  R 3-20:13:16      1 cbsuecco08
-            149296   regular iteratio    ljp96  R 3-05:01:31      1 cbsueccosl04
-            149297   regular iteratio    ljp96  R 3-05:01:31      1 cbsueccosl04
-            149298   regular iteratio    ljp96  R 3-03:13:43      1 cbsueccosl03
-            149295   regular iteratio    ljp96  R 3-06:55:02      1 cbsuecco02
-            149306   regular iteratio    ljp96  R 3-01:10:01      1 cbsuecco02
-            149305   regular iteratio    ljp96  R 3-02:15:31      1 cbsuecco02
-            149304   regular iteratio    ljp96  R 3-03:13:43      1 cbsueccosl03
-           90718_5   regular aearep54     lv39  R 41-23:16:36      1 cbsueccosl03
-          149509_3   regular data_tab   alw327  R 2-22:12:29      1 cbsueccosl01
+            149672   regular Calibrat    ljp96 PD       0:00      1 (Priority)
+            149673   regular Calibrat    ljp96 PD       0:00      1 (Priority)
+            148497   regular iteratio    ljp96  R 3-21:13:45      1 cbsueccosl01
+            149316   regular ADA_smal   jl4459  R 3-08:11:12      1 cbsuecco02
+            149280   regular Calibrat    ljp96  R 3-11:44:31      1 cbsuecco08
+            149281   regular Calibrat    ljp96  R 3-11:44:31      1 cbsuecco08
+            149314   regular ADA_smal   jl4459  R 3-10:54:14      1 cbsueccosl04
+            149315   regular ADA_smal   jl4459  R 3-10:54:14      1 cbsueccosl04
+            149313   regular ADA_smal   jl4459  R 3-21:13:15      1 cbsuecco08
+            149296   regular iteratio    ljp96  R 3-06:01:30      1 cbsueccosl04
+            149297   regular iteratio    ljp96  R 3-06:01:30      1 cbsueccosl04
+            149298   regular iteratio    ljp96  R 3-04:13:42      1 cbsueccosl03
+            149295   regular iteratio    ljp96  R 3-07:55:01      1 cbsuecco02
+            149306   regular iteratio    ljp96  R 3-02:10:00      1 cbsuecco02
+            149305   regular iteratio    ljp96  R 3-03:15:30      1 cbsuecco02
+            149304   regular iteratio    ljp96  R 3-04:13:42      1 cbsueccosl03
+           90718_5   regular aearep54     lv39  R 42-00:16:35      1 cbsueccosl03
+          149509_3   regular data_tab   alw327  R 2-23:12:28      1 cbsueccosl01
