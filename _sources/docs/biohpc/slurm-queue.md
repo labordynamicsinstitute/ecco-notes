@@ -48,28 +48,25 @@ def find_project_root(start_dir='.', file_to_find='favicon.ico'):
 project_root = find_project_root()
 ```
 
-```{code-cell} python3
+```{code-cell} ipython3
 :tags: ["remove-input","full-width"]
-
+from IPython.display import HTML, display
 
 def print_file_as_markdown_table_block(file_path):
     """
-    Read an external file and return its contents as a Markdown table.
+    Read an external file and display its contents as an HTML table.
     
     Args:
         file_path (str): Path to the file to be read.
-        
-    Returns:
-        str: The Markdown table as a string.
     """
     try:
         with open(file_path, 'r') as file:
             content = file.readlines()
             
-            # Initialize the Markdown table
+            # Initialize the HTML table
             table = []
-            table.append('| JOBID | PARTITION | NAME      | STATUS | ELAPSED TIME | NODES | NODELIST(REASON) |')
-            table.append('|-------|-----------|-----------|--------|--------------|-------|------------------|')
+            table.append('<table>')
+            table.append('<tr><th>JOBID</th><th>PARTITION</th><th>NAME</th><th>STATUS</th><th>ELAPSED TIME</th><th>NODES</th><th>NODELIST(REASON)</th></tr>')
             
             # Process each line in the file
             for line in content:
@@ -87,16 +84,16 @@ def print_file_as_markdown_table_block(file_path):
                 nodelist = columns[7]
                 
                 # Add the row to the table
-                table.append(f'| {jobid} | {partition} | {name} | {status} | {elapsed_time} | {nodes} | {nodelist} |')
+                table.append(f'<tr><td>{jobid}</td><td>{partition}</td><td>{name}</td><td>{status}</td><td>{elapsed_time}</td><td>{nodes}</td><td>{nodelist}</td></tr>')
             
-            # Return the table as a single string
-            return '\n'.join(table)
+            table.append('</table>')
+            
+            # Display the table as HTML
+            display(HTML(''.join(table)))
     except FileNotFoundError:
-        return f"Error: File not found at {file_path}"
+        display(HTML(f"<p style='color:red;'>Error: File not found at {file_path}</p>"))
     except IOError as e:
-        return f"Error reading file: {e}"
+        display(HTML(f"<p style='color:red;'>Error reading file: {e}</p>"))
 
 # Usage
-markdown_table = print_file_as_markdown_table_block(os.path.join(project_root, "_data", "eccoqueue.txt"))
-print(markdown_table)
-```
+print_file_as_markdown_table_block(os.path.join(project_root, "_data", "eccoqueue.txt"))
