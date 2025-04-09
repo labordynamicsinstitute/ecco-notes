@@ -1,29 +1,35 @@
-           90718_5   regular aearep54     lv39  R 42-19:16:36      1 cbsueccosl03
+           90718_5   regular aearep54     lv39  R 42-20:16:37      1 cbsueccosl03
             148342   regular    a6719     lv39 PD       0:00      1 (Resources)
-            149281   regular Calibrat    ljp96  R 4-06:44:32      1 cbsuecco08
-            149295   regular iteratio    ljp96  R 4-02:55:02      1 cbsuecco02
-            149296   regular iteratio    ljp96  R 4-01:01:31      1 cbsueccosl04
-            149297   regular iteratio    ljp96  R 4-01:01:31      1 cbsueccosl04
-            149298   regular iteratio    ljp96  R 3-23:13:43      1 cbsueccosl03
-            149304   regular iteratio    ljp96  R 3-23:13:43      1 cbsueccosl03
-            149305   regular iteratio    ljp96  R 3-22:15:31      1 cbsuecco02
-            149306   regular iteratio    ljp96  R 3-21:10:01      1 cbsuecco02
-            149504   regular iteratio    ljp96  R    8:07:58      1 cbsuecco08
-            149505   regular iteratio    ljp96  R    2:00:56      1 cbsuecco08
-          149509_3   regular data_tab   alw327  R 3-18:12:29      1 cbsueccosl01
-          149601_2   regular sims_100    ts724  R      36:29      1 cbsueccosl04
+            149281   regular Calibrat    ljp96  R 4-07:44:33      1 cbsuecco08
+            149296   regular iteratio    ljp96  R 4-02:01:32      1 cbsueccosl04
+            149297   regular iteratio    ljp96  R 4-02:01:32      1 cbsueccosl04
+            149298   regular iteratio    ljp96  R 4-00:13:44      1 cbsueccosl03
+            149304   regular iteratio    ljp96  R 4-00:13:44      1 cbsueccosl03
+            149305   regular iteratio    ljp96  R 3-23:15:32      1 cbsuecco02
+            149306   regular iteratio    ljp96  R 3-22:10:02      1 cbsuecco02
+            149504   regular iteratio    ljp96  R    9:07:59      1 cbsuecco08
+            149505   regular iteratio    ljp96  R    3:00:57      1 cbsuecco08
+          149509_3   regular data_tab   alw327  R 3-19:12:30      1 cbsueccosl01
+          149601_2   regular sims_100    ts724  R    1:36:30      1 cbsueccosl04
      149601_[3-10]   regular sims_100    ts724 PD       0:00      1 (Priority)
        149653_[13]   regular run_par_   alw327 PD       0:00      1 (Priority)
             149672   regular Calibrat    ljp96 PD       0:00      1 (Priority)
             149673   regular Calibrat    ljp96 PD       0:00      1 (Priority)
             149753   regular iteratio    ljp96 PD       0:00      1 (Priority)
-          149932_1   regular  ana_par   alw327  R    7:37:29      1 cbsuecco08
-          149932_2   regular  ana_par   alw327  R    7:37:29      1 cbsuecco08
-          149932_3   regular  ana_par   alw327  R    7:37:29      1 cbsueccosl01
-          149932_4   regular  ana_par   alw327  R    7:37:29      1 cbsuecco08
-          149932_5   regular  ana_par   alw327  R    7:37:29      1 cbsueccosl01
-          149932_6   regular  ana_par   alw327  R    7:37:29      1 cbsuecco08
-          149932_7   regular  ana_par   alw327  R    7:37:29      1 cbsueccosl01
-  149932_[8-50%25]   regular  ana_par   alw327 PD       0:00      1 (Priority)
+         149932_10   regular  ana_par   alw327  R      56:00      1 cbsueccosl01
+         149932_11   regular  ana_par   alw327  R      56:00      1 cbsueccosl01
+         149932_12   regular  ana_par   alw327  R      55:59      1 cbsueccosl01
+         149932_13   regular  ana_par   alw327  R      55:59      1 cbsueccosl01
+         149932_14   regular  ana_par   alw327  R      55:59      1 cbsueccosl01
+         149932_15   regular  ana_par   alw327  R      55:59      1 cbsueccosl01
+         149932_16   regular  ana_par   alw327  R      10:00      1 cbsuecco08
+         149932_17   regular  ana_par   alw327  R       1:59      1 cbsuecco08
+         149932_18   regular  ana_par   alw327  R       0:59      1 cbsuecco08
+         149932_19   regular  ana_par   alw327  R       0:29      1 cbsuecco08
+ 149932_[20-50%25]   regular  ana_par   alw327 PD       0:00      1 (Priority)
+          149932_3   regular  ana_par   alw327  R    8:37:30      1 cbsueccosl01
+          149932_5   regular  ana_par   alw327  R    8:37:30      1 cbsueccosl01
+          149932_7   regular  ana_par   alw327  R    8:37:30      1 cbsueccosl01
+          149932_8   regular  ana_par   alw327  R      56:00      1 cbsueccosl01
+          149932_9   regular  ana_par   alw327  R      56:00      1 cbsueccosl01
             149940   regular construc   alw327 PD       0:00      1 (Priority)
-            149943   regular poaching    fd237  R    4:42:21      1 cbsueccosl01
