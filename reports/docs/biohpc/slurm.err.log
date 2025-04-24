@@ -112,5 +112,5 @@ Cell [0;32mIn[5], line 34[0m, in [0;36mparse_eccoload[0;34m(file_path)[0m
 [1;32m     35[0m         [38;5;28;01mfor[39;00m i [38;5;129;01min[39;00m [38;5;28mrange[39m(start, end [38;5;241m+[39m [38;5;241m1[39m):
 [1;32m     36[0m             [38;5;28;01mif[39;00m i [38;5;241m<[39m [38;5;241m10[39m:
 
-[0;31mValueError[0m: invalid literal for int() with base 10: '08]'
+[0;31mValueError[0m: invalid literal for int() with base 10: '09]'
 
