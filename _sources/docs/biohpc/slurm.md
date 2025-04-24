@@ -48,10 +48,10 @@ project_root = find_project_root()
 ```
 
 (slurm)=
+
 # Job scheduler on BioHPC
 
-
-A SLURM cluster `cbsueccosl01` is maintained by Lars on behalf of Econ, on several nodes. Some are dedicated to the SLURM scheduler, others "borrowed"; the latter might not always be available. There are between 48 and 144 "slots" (cpus) available for compute jobs (see [Table](fulltable)). 
+A SLURM cluster `cbsueccosl01` is maintained by Lars on behalf of Econ, on several nodes. Some are dedicated to the SLURM scheduler, others "borrowed"; the latter might not always be available. There are between 48 and 144 "slots" (cpus) available for compute jobs (see [Table](fulltable)).
 
 ## Who can use
 
@@ -96,6 +96,7 @@ To see availability at any point in time, type
 ```bash
 sinfo --cluster cbsueccosl01
 ```
+
 in a terminal window on the head node,[^quick] to obtain a result such as
 
 [^quick]: See [Quick Start](onetimesetup-slurm) for how to simplify that command.
@@ -111,12 +112,11 @@ regular*     up   infinite      2   idle cbsuecco01,cbsueccosl01
 
 which shows that currently, 6 nodes are available for jobs, of which 2 are idle, three have some jobs running on them, but can still accept smaller jobs (`mix` means there are free CPUs), and one is completely used (`alloc`).
 
-
 (fulltable)=
+
 ## List of nodes
 
-The following table shows the allocated nodes. Nodes marked `flex` may not be available. Nodes marked `slurm` are always available.
-
+The following table shows the allocated nodes. Nodes marked `flex` may not be available. Nodes marked `slurm` are always available. `HT` means "hyper-threading", and effectively [multiplies the number of cores by 2](https://www.intel.com/content/www/us/en/gaming/resources/hyper-threading.html), but may not always lead to performance improvement. MATLAB ignores hyper-threading, and will only use the physical number of cores listed in the `cores` column.
 
 ```{code-cell} ipython3
 :tags: ["remove-input","full-width"]
@@ -138,18 +138,40 @@ nodes = pd.read_csv(os.path.join(project_root,"_data", "ecconodes.csv"))
 # limit to flex and slurm nodes
 nodes = nodes[nodes['allocation'].str.contains('flex|slurm',na=False)]
 # compute total cores as cores * CPUs
+
+# Adjust cores calculation based on hyperthreading (HT)
 nodes['cores'] = nodes['cores per CPU'] * nodes['CPUs']
+nodes.loc[nodes['HT'] == True, 'cores'] *= 2
+
 
 # reorder columns
 # override the order of columns - this may need to be adjusted if the column names change
-columns = ['Nodename', 'allocation', 'cpu benchmark (single thread)', 'cores','RAM',  'local storage in TB', 'model','cores per CPU', 'CPUs', 'vintage' ]
+columns = ['Nodename', 'allocation', 'cores','RAM',  'local storage in TB', 'model','cores per CPU', 'CPUs', 'HT','cpu benchmark (single thread)', 'vintage' ]
 
 # Reorder the columns
 nodes = nodes[columns]
+
 
 #table = nodes.to_html(index=False, classes='table table-striped table-bordered table-sm', escape=False, render_links=True)
 # Render the HTML table in Jupyter Notebook
 #HTML(table)
 show(nodes, lengthMenu=[15, 25, 50], layout={"topStart": "search"}, classes="display compact")
 
+```
+
+
+
+```{code-cell} ipython3
+:tags: ["remove-input","full-width"]
+
+# Filter for flex nodes
+flex_nodes = nodes[nodes['allocation'] == 'flex']
+
+# Compute total cores and RAM for flex nodes
+total_cores = flex_nodes['cores'].sum()
+total_ram = flex_nodes['RAM'].sum()
+
+# Display the results
+print(f"Total cores available across all flex nodes: {total_cores}")
+print(f"Total RAM available across all flex nodes: {total_ram} GB")
 ```
