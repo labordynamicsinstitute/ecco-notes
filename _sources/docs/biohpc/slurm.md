@@ -212,14 +212,20 @@ def parse_eccoload(file_path):
                         
                         # Process each comma-separated range
                         for range_part in ranges_part.split(','):
+                            # Clean the range part to ensure no trailing brackets
+                            range_part = range_part.rstrip(']')
+                            
                             if '-' in range_part:
                                 # Handle ranges like 13-14
-                                start, end = map(int, range_part.split('-'))
-                                for i in range(start, end + 1):
-                                    if i < 10:
-                                        allocated_nodes.append(f"{base_name}0{i}")
-                                    else:
-                                        allocated_nodes.append(f"{base_name}{i}")
+                                try:
+                                    start, end = map(int, range_part.split('-'))
+                                    for i in range(start, end + 1):
+                                        if i < 10:
+                                            allocated_nodes.append(f"{base_name}0{i}")
+                                        else:
+                                            allocated_nodes.append(f"{base_name}{i}")
+                                except ValueError as e:
+                                    print(f"Error parsing range: {range_part} - {e}")
                             else:
                                 # Handle single numbers
                                 try:
