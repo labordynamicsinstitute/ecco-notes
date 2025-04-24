@@ -14,6 +14,7 @@ kernelspec:
 ```{code-cell} ipython3
 :tags: ["remove-input","full-width"]
 import os
+import re
 
 
 def find_project_root(start_dir='.', file_to_find='favicon.ico'):
@@ -113,7 +114,6 @@ regular*     up   infinite      2   idle cbsuecco01,cbsueccosl01
 which shows that currently, 6 nodes are available for jobs, of which 2 are idle, three have some jobs running on them, but can still accept smaller jobs (`mix` means there are free CPUs), and one is completely used (`alloc`).
 
 (fulltable)=
-
 ## List of nodes
 
 The following table shows the allocated nodes. Nodes marked `flex` may not be available. Nodes marked `slurm` are always available. `HT` means "hyper-threading", and effectively [multiplies the number of cores by 2](https://www.intel.com/content/www/us/en/gaming/resources/hyper-threading.html), but may not always lead to performance improvement. MATLAB ignores hyper-threading, and will only use the physical number of cores listed in the `cores` column.
@@ -159,19 +159,76 @@ show(nodes, lengthMenu=[15, 25, 50], layout={"topStart": "search"}, classes="dis
 
 ```
 
+## Size of the cluster
 
 
 ```{code-cell} ipython3
 :tags: ["remove-input","full-width"]
 
-# Filter for flex nodes
-flex_nodes = nodes[nodes['allocation'] == 'flex']
+# Filter for flex and slurm nodes
+filtered_nodes = nodes[nodes['allocation'].str.contains('flex|slurm', na=False)]
 
 # Compute total cores and RAM for flex nodes
-total_cores = flex_nodes['cores'].sum()
-total_ram = flex_nodes['RAM'].sum()
+total_cores = filtered_nodes['cores'].sum()
+total_ram = filtered_nodes['RAM'].sum()
 
 # Display the results
-print(f"Total cores available across all flex nodes: {total_cores}")
-print(f"Total RAM available across all flex nodes: {total_ram} GB")
+print(f"Total cores possible across all SLURM nodes: {total_cores}")
+print(f"Total RAM possible across all SLURM nodes: {total_ram} GB")
+```
+
+
+```{code-cell} ipython3
+:tags: ["remove-input","full-width"]
+
+# Parse eccoload.txt for nodes presently in the cluster
+def parse_eccoload(file_path):
+    """
+    Parse the eccoload.txt file to extract the list of nodes currently allocated to the cluster.
+    
+    Args:
+        file_path (str): Path to the eccoload.txt file.
+        
+    Returns:
+        list: A list of node names currently allocated to the cluster.
+    """
+    allocated_nodes = []
+    try:
+        with open(file_path, 'r') as file:
+            content = file.read()
+            # Use regex to extract node names from NODELIST
+            matches = re.findall(r'cbsuecco[\w\[\],-]+', content)
+            for match in matches:
+                # Expand ranges like cbsuecco[13-14] into individual node names
+                if '[' in match:
+                    base, ranges = match.split('[')
+                    ranges = ranges.strip(']')
+                    for r in ranges.split(','):
+                        if '-' in r:
+                            start, end = map(int, r.split('-'))
+                            allocated_nodes.extend([f"{base}{i:02}" for i in range(start, end + 1)])
+                        else:
+                            allocated_nodes.append(f"{base}{int(r):02}")
+                else:
+                    allocated_nodes.append(match)
+    except FileNotFoundError:
+        print(f"Error: File not found at {file_path}")
+    except IOError as e:
+        print(f"Error reading file: {e}")
+    return allocated_nodes
+
+# Get the list of allocated nodes
+eccoload_path = os.path.join(project_root, "_data", "eccoload.txt")
+allocated_nodes = parse_eccoload(eccoload_path)
+
+# Filter the nodes DataFrame for the allocated nodes
+allocated_nodes = nodes[nodes['Nodename'].isin(allocated_nodes)]
+
+# Compute total cores and RAM for flex nodes
+alloc_total_cores = allocated_nodes['cores'].sum()
+alloc_total_ram = allocated_nodes['RAM'].sum()
+
+# Display the results
+print(f"Total cores currently available across all SLURM nodes: {alloc_total_cores}")
+print(f"Total RAM currently available across all SLURM nodes: {alloc_total_ram} GB")
 ```
