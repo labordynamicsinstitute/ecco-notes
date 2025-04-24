@@ -112,7 +112,7 @@ regular*     up   infinite      2   idle cbsuecco01,cbsueccosl01
 which shows that currently, 6 nodes are available for jobs, of which 2 are idle, three have some jobs running on them, but can still accept smaller jobs (`mix` means there are free CPUs), and one is completely used (`alloc`).
 
 
-(fulltable=)
+(fulltable)=
 ## List of nodes
 
 The following table shows the allocated nodes. Nodes marked `flex` may not be available. Nodes marked `slurm` are always available.
