@@ -1,0 +1,92 @@
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.12/site-packages/jupyter_cache/executors/utils.py", line 58, in single_nb_execution
+    executenb(
+  File "/usr/local/lib/python3.12/site-packages/nbclient/client.py", line 1314, in execute
+    return NotebookClient(nb=nb, resources=resources, km=km, **kwargs).execute()
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/jupyter_core/utils/__init__.py", line 165, in wrapped
+    return loop.run_until_complete(inner)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/asyncio/base_events.py", line 685, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.12/site-packages/nbclient/client.py", line 709, in async_execute
+    await self.async_execute_cell(
+  File "/usr/local/lib/python3.12/site-packages/nbclient/client.py", line 1062, in async_execute_cell
+    await self._check_raise_for_error(cell, cell_index, exec_reply)
+  File "/usr/local/lib/python3.12/site-packages/nbclient/client.py", line 918, in _check_raise_for_error
+    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)
+nbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:
+------------------
+# Parse eccoload.txt for nodes presently in the cluster
+def parse_eccoload(file_path):
+    """
+    Parse the eccoload.txt file to extract the list of nodes currently allocated to the cluster.
+    
+    Args:
+        file_path (str): Path to the eccoload.txt file.
+        
+    Returns:
+        list: A list of node names currently allocated to the cluster.
+    """
+    allocated_nodes = []
+    try:
+        with open(file_path, 'r') as file:
+            content = file.read()
+            # Use regex to extract node names from NODELIST
+            matches = re.findall(r'cbsuecco[\w\[\],-]+', content)
+            for match in matches:
+                # Expand ranges like cbsuecco[13-14] into individual node names
+                if '[' in match:
+                    base, ranges = match.split('[')
+                    ranges = ranges.strip(']')
+                    for r in ranges.split(','):
+                        if '-' in r:
+                            start, end = map(int, r.split('-'))
+                            allocated_nodes.extend([f"{base}{i:02}" for i in range(start, end + 1)])
+                        else:
+                            allocated_nodes.append(f"{base}{int(r):02}")
+                else:
+                    allocated_nodes.append(match)
+    except FileNotFoundError:
+        print(f"Error: File not found at {file_path}")
+    except IOError as e:
+        print(f"Error reading file: {e}")
+    return allocated_nodes
+
+# Get the list of allocated nodes
+eccoload_path = os.path.join(project_root, "_data", "eccoload.txt")
+allocated_nodes = parse_eccoload(eccoload_path)
+
+# Filter the nodes DataFrame for the allocated nodes
+allocated_nodes = nodes[nodes['Nodename'].isin(allocated_nodes)]
+
+# Compute total cores and RAM for flex nodes
+alloc_total_cores = allocated_nodes['cores'].sum()
+alloc_total_ram = allocated_nodes['RAM'].sum()
+
+# Display the results
+print(f"Total cores currently available across all SLURM nodes: {alloc_total_cores}")
+print(f"Total RAM currently available across all SLURM nodes: {alloc_total_ram} GB")
+------------------
+
+
+[0;31m---------------------------------------------------------------------------[0m
+[0;31mValueError[0m                                Traceback (most recent call last)
+Cell [0;32mIn[5], line 39[0m
+[1;32m     37[0m [38;5;66;03m# Get the list of allocated nodes[39;00m
+[1;32m     38[0m eccoload_path [38;5;241m=[39m os[38;5;241m.[39mpath[38;5;241m.[39mjoin(project_root, [38;5;124m"[39m[38;5;124m_data[39m[38;5;124m"[39m, [38;5;124m"[39m[38;5;124meccoload.txt[39m[38;5;124m"[39m)
+[0;32m---> 39[0m allocated_nodes [38;5;241m=[39m [43mparse_eccoload[49m[43m([49m[43meccoload_path[49m[43m)[49m
+[1;32m     41[0m [38;5;66;03m# Filter the nodes DataFrame for the allocated nodes[39;00m
+[1;32m     42[0m allocated_nodes [38;5;241m=[39m nodes[nodes[[38;5;124m'[39m[38;5;124mNodename[39m[38;5;124m'[39m][38;5;241m.[39misin(allocated_nodes)]
+
+Cell [0;32mIn[5], line 21[0m, in [0;36mparse_eccoload[0;34m(file_path)[0m
+[1;32m     18[0m [38;5;28;01mfor[39;00m match [38;5;129;01min[39;00m matches:
+[1;32m     19[0m     [38;5;66;03m# Expand ranges like cbsuecco[13-14] into individual node names[39;00m
+[1;32m     20[0m     [38;5;28;01mif[39;00m [38;5;124m'[39m[38;5;124m[[39m[38;5;124m'[39m [38;5;129;01min[39;00m match:
+[0;32m---> 21[0m         base, ranges [38;5;241m=[39m match[38;5;241m.[39msplit([38;5;124m'[39m[38;5;124m[[39m[38;5;124m'[39m)
+[1;32m     22[0m         ranges [38;5;241m=[39m ranges[38;5;241m.[39mstrip([38;5;124m'[39m[38;5;124m][39m[38;5;124m'[39m)
+[1;32m     23[0m         [38;5;28;01mfor[39;00m r [38;5;129;01min[39;00m ranges[38;5;241m.[39msplit([38;5;124m'[39m[38;5;124m,[39m[38;5;124m'[39m):
+
+[0;31mValueError[0m: too many values to unpack (expected 2)
+
