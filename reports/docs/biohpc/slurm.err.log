@@ -33,25 +33,49 @@ def parse_eccoload(file_path):
     try:
         with open(file_path, 'r') as file:
             content = file.read()
-            # Use regex to extract node names from NODELIST
-            matches = re.findall(r'cbsuecco[\w\[\],-]+', content)
-            for match in matches:
-                # Expand ranges like cbsuecco[13-14] into individual node names
-                if '[' in match:
-                    base, ranges = match.split('[')
-                    ranges = ranges.strip(']')
-                    for r in ranges.split(','):
-                        if '-' in r:
-                            start, end = map(int, r.split('-'))
-                            allocated_nodes.extend([f"{base}{i:02}" for i in range(start, end + 1)])
-                        else:
-                            allocated_nodes.append(f"{base}{int(r):02}")
-                else:
-                    allocated_nodes.append(match)
+            # Look for lines with NODELIST at the end
+            lines = content.splitlines()
+            for line in lines:
+                if 'cbsuecco' in line:
+                    parts = line.split()
+                    # Get the last part which contains the node list
+                    nodelist = parts[-1]
+                    
+                    # Process the nodelist to get individual node names
+                    if '[' in nodelist:
+                        # Handle patterns like cbsuecco[13-14]
+                        base_name = nodelist.split('[')[0]
+                        ranges_part = nodelist.split('[')[1].rstrip(']')
+                        
+                        # Process each comma-separated range
+                        for range_part in ranges_part.split(','):
+                            if '-' in range_part:
+                                # Handle ranges like 13-14
+                                start, end = map(int, range_part.split('-'))
+                                for i in range(start, end + 1):
+                                    if i < 10:
+                                        allocated_nodes.append(f"{base_name}0{i}")
+                                    else:
+                                        allocated_nodes.append(f"{base_name}{i}")
+                            else:
+                                # Handle single numbers
+                                try:
+                                    num = int(range_part)
+                                    if num < 10:
+                                        allocated_nodes.append(f"{base_name}0{num}")
+                                    else:
+                                        allocated_nodes.append(f"{base_name}{num}")
+                                except ValueError:
+                                    # If not a number, just add as is
+                                    allocated_nodes.append(f"{base_name}{range_part}")
+                    else:
+                        # Handle simple node names without brackets
+                        allocated_nodes.append(nodelist)
     except FileNotFoundError:
         print(f"Error: File not found at {file_path}")
     except IOError as e:
         print(f"Error reading file: {e}")
+        
     return allocated_nodes
 
 # Get the list of allocated nodes
@@ -73,20 +97,20 @@ print(f"Total RAM currently available across all SLURM nodes: {alloc_total_ram} 
 
 [0;31m---------------------------------------------------------------------------[0m
 [0;31mValueError[0m                                Traceback (most recent call last)
-Cell [0;32mIn[5], line 39[0m
-[1;32m     37[0m [38;5;66;03m# Get the list of allocated nodes[39;00m
-[1;32m     38[0m eccoload_path [38;5;241m=[39m os[38;5;241m.[39mpath[38;5;241m.[39mjoin(project_root, [38;5;124m"[39m[38;5;124m_data[39m[38;5;124m"[39m, [38;5;124m"[39m[38;5;124meccoload.txt[39m[38;5;124m"[39m)
-[0;32m---> 39[0m allocated_nodes [38;5;241m=[39m [43mparse_eccoload[49m[43m([49m[43meccoload_path[49m[43m)[49m
-[1;32m     41[0m [38;5;66;03m# Filter the nodes DataFrame for the allocated nodes[39;00m
-[1;32m     42[0m allocated_nodes [38;5;241m=[39m nodes[nodes[[38;5;124m'[39m[38;5;124mNodename[39m[38;5;124m'[39m][38;5;241m.[39misin(allocated_nodes)]
+Cell [0;32mIn[5], line 63[0m
+[1;32m     61[0m [38;5;66;03m# Get the list of allocated nodes[39;00m
+[1;32m     62[0m eccoload_path [38;5;241m=[39m os[38;5;241m.[39mpath[38;5;241m.[39mjoin(project_root, [38;5;124m"[39m[38;5;124m_data[39m[38;5;124m"[39m, [38;5;124m"[39m[38;5;124meccoload.txt[39m[38;5;124m"[39m)
+[0;32m---> 63[0m allocated_nodes [38;5;241m=[39m [43mparse_eccoload[49m[43m([49m[43meccoload_path[49m[43m)[49m
+[1;32m     65[0m [38;5;66;03m# Filter the nodes DataFrame for the allocated nodes[39;00m
+[1;32m     66[0m allocated_nodes [38;5;241m=[39m nodes[nodes[[38;5;124m'[39m[38;5;124mNodename[39m[38;5;124m'[39m][38;5;241m.[39misin(allocated_nodes)]
 
-Cell [0;32mIn[5], line 21[0m, in [0;36mparse_eccoload[0;34m(file_path)[0m
-[1;32m     18[0m [38;5;28;01mfor[39;00m match [38;5;129;01min[39;00m matches:
-[1;32m     19[0m     [38;5;66;03m# Expand ranges like cbsuecco[13-14] into individual node names[39;00m
-[1;32m     20[0m     [38;5;28;01mif[39;00m [38;5;124m'[39m[38;5;124m[[39m[38;5;124m'[39m [38;5;129;01min[39;00m match:
-[0;32m---> 21[0m         base, ranges [38;5;241m=[39m match[38;5;241m.[39msplit([38;5;124m'[39m[38;5;124m[[39m[38;5;124m'[39m)
-[1;32m     22[0m         ranges [38;5;241m=[39m ranges[38;5;241m.[39mstrip([38;5;124m'[39m[38;5;124m][39m[38;5;124m'[39m)
-[1;32m     23[0m         [38;5;28;01mfor[39;00m r [38;5;129;01min[39;00m ranges[38;5;241m.[39msplit([38;5;124m'[39m[38;5;124m,[39m[38;5;124m'[39m):
+Cell [0;32mIn[5], line 34[0m, in [0;36mparse_eccoload[0;34m(file_path)[0m
+[1;32m     31[0m [38;5;28;01mfor[39;00m range_part [38;5;129;01min[39;00m ranges_part[38;5;241m.[39msplit([38;5;124m'[39m[38;5;124m,[39m[38;5;124m'[39m):
+[1;32m     32[0m     [38;5;28;01mif[39;00m [38;5;124m'[39m[38;5;124m-[39m[38;5;124m'[39m [38;5;129;01min[39;00m range_part:
+[1;32m     33[0m         [38;5;66;03m# Handle ranges like 13-14[39;00m
+[0;32m---> 34[0m         start, end [38;5;241m=[39m [38;5;28mmap[39m([38;5;28mint[39m, range_part[38;5;241m.[39msplit([38;5;124m'[39m[38;5;124m-[39m[38;5;124m'[39m))
+[1;32m     35[0m         [38;5;28;01mfor[39;00m i [38;5;129;01min[39;00m [38;5;28mrange[39m(start, end [38;5;241m+[39m [38;5;241m1[39m):
+[1;32m     36[0m             [38;5;28;01mif[39;00m i [38;5;241m<[39m [38;5;241m10[39m:
 
-[0;31mValueError[0m: too many values to unpack (expected 2)
+[0;31mValueError[0m: invalid literal for int() with base 10: '08]'
 

@@ -196,25 +196,49 @@ def parse_eccoload(file_path):
     try:
         with open(file_path, 'r') as file:
             content = file.read()
-            # Use regex to extract node names from NODELIST
-            matches = re.findall(r'cbsuecco[\w\[\],-]+', content)
-            for match in matches:
-                # Expand ranges like cbsuecco[13-14] into individual node names
-                if '[' in match:
-                    base, ranges = match.split('[')
-                    ranges = ranges.strip(']')
-                    for r in ranges.split(','):
-                        if '-' in r:
-                            start, end = map(int, r.split('-'))
-                            allocated_nodes.extend([f"{base}{i:02}" for i in range(start, end + 1)])
-                        else:
-                            allocated_nodes.append(f"{base}{int(r):02}")
-                else:
-                    allocated_nodes.append(match)
+            # Look for lines with NODELIST at the end
+            lines = content.splitlines()
+            for line in lines:
+                if 'cbsuecco' in line:
+                    parts = line.split()
+                    # Get the last part which contains the node list
+                    nodelist = parts[-1]
+                    
+                    # Process the nodelist to get individual node names
+                    if '[' in nodelist:
+                        # Handle patterns like cbsuecco[13-14]
+                        base_name = nodelist.split('[')[0]
+                        ranges_part = nodelist.split('[')[1].rstrip(']')
+                        
+                        # Process each comma-separated range
+                        for range_part in ranges_part.split(','):
+                            if '-' in range_part:
+                                # Handle ranges like 13-14
+                                start, end = map(int, range_part.split('-'))
+                                for i in range(start, end + 1):
+                                    if i < 10:
+                                        allocated_nodes.append(f"{base_name}0{i}")
+                                    else:
+                                        allocated_nodes.append(f"{base_name}{i}")
+                            else:
+                                # Handle single numbers
+                                try:
+                                    num = int(range_part)
+                                    if num < 10:
+                                        allocated_nodes.append(f"{base_name}0{num}")
+                                    else:
+                                        allocated_nodes.append(f"{base_name}{num}")
+                                except ValueError:
+                                    # If not a number, just add as is
+                                    allocated_nodes.append(f"{base_name}{range_part}")
+                    else:
+                        # Handle simple node names without brackets
+                        allocated_nodes.append(nodelist)
     except FileNotFoundError:
         print(f"Error: File not found at {file_path}")
     except IOError as e:
         print(f"Error reading file: {e}")
+        
     return allocated_nodes
 
 # Get the list of allocated nodes
