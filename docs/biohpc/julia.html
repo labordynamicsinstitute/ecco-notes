@@ -437,6 +437,7 @@ document.write(`
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quick-run">Quick run</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sbatch-script">SBATCH script</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#top">Top</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#adjustments">Adjustments</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bottom">Bottom</a></li>
 </ul>
 </li>
@@ -465,7 +466,8 @@ document.write(`
 </section>
 <section id="quick-run">
 <h2>Quick run<a class="headerlink" href="#quick-run" title="Link to this heading">#</a></h2>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">srun</span> <span class="n">julia</span> <span class="n">test</span><span class="o">.</span><span class="n">jl</span>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>cd $HOME/project
+srun julia test.jl
 </pre></div>
 </div>
 <p>with</p>
@@ -496,14 +498,22 @@ document.write(`
 <h3>Top<a class="headerlink" href="#top" title="Link to this heading">#</a></h3>
 <p>Use the default options from the <a class="reference internal" href="sbatch.html#sbatchexample"><span class="std std-ref">SBATCH example</span></a>, and paste them into <code class="docutils literal notranslate"><span class="pre">main.sbatch</span></code>.</p>
 </section>
+<section id="adjustments">
+<h3>Adjustments<a class="headerlink" href="#adjustments" title="Link to this heading">#</a></h3>
+<p>If you are using any parallel processing Julia, adjust the <code class="docutils literal notranslate"><span class="pre">node</span></code>, <code class="docutils literal notranslate"><span class="pre">tasks-per-node</span></code>, and <code class="docutils literal notranslate"><span class="pre">cpus-per-task</span></code>. For instance, if you intend to run with <strong>4</strong> parallel threads, use</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1">#SBATCH --cpus-per-task=4</span>
+</pre></div>
+</div>
+</section>
 <section id="bottom">
 <h3>Bottom<a class="headerlink" href="#bottom" title="Link to this heading">#</a></h3>
 <p>Now for the functional part, which is more or less the same as the <code class="docutils literal notranslate"><span class="pre">srun</span></code> command above, but with some additional options:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="c1"># Modules aren&#39;t available yet for Julia, consider using `juliaup`. </span>
 
-srun<span class="w"> </span>julia<span class="w"> </span>test.jl
+julia<span class="w"> </span>--threads<span class="w"> </span><span class="si">${</span><span class="nv">SLURM_CPUS_PER_TASK</span><span class="si">}</span><span class="w"> </span>test.jl
 </pre></div>
 </div>
+<p>You should also consider using Julia-specific project features. This simple page is not the right place to teach that.</p>
 </section>
 </section>
 </section>
@@ -576,6 +586,7 @@ srun<span class="w"> </span>julia<span class="w"> </span>test.jl
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#quick-run">Quick run</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sbatch-script">SBATCH script</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#top">Top</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#adjustments">Adjustments</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#bottom">Bottom</a></li>
 </ul>
 </li>
