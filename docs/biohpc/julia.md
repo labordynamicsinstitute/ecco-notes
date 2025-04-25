@@ -16,6 +16,7 @@ We will assume that your code and data are organized as follows:
 ## Quick run
 
 ```
+cd $HOME/project
 srun julia test.jl
 ```
 with
@@ -50,13 +51,22 @@ Create a new file, called `main.sbatch`, with the following content:
 
 Use the default options from the [SBATCH example](sbatchexample), and paste them into `main.sbatch`.
 
+### Adjustments
+
+If you are using any parallel processing Julia, adjust the `node`, `tasks-per-node`, and `cpus-per-task`. For instance, if you intend to run with **4** parallel threads, use
+
+```
+#SBATCH --cpus-per-task=4
+```
+
 ### Bottom
 
 Now for the functional part, which is more or less the same as the `srun` command above, but with some additional options:
 
 ```bash
-
 # Modules aren't available yet for Julia, consider using `juliaup`. 
 
-srun julia test.jl
+julia --threads ${SLURM_CPUS_PER_TASK} test.jl
 ```
+
+You should also consider using Julia-specific project features. This simple page is not the right place to teach that.
