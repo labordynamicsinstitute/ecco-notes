@@ -1,6 +1,6 @@
-            216100   regular calibrat    ljp96  R 15-08:45:29      1 cbsuecco13
-            216114   regular     bash     lv39  R 15-01:38:09      1 cbsuecco09
-            216522   regular calibrat    ljp96  R 8-11:15:28      1 cbsuecco13
-            216898   regular calibrat    ljp96  R 6-08:18:12      1 cbsuecco07
-            257896   regular    a6275     lv39  R 1-10:38:33      1 cbsuecco02
-            257900   regular     bash     lv39  R    1:54:17      1 cbsuecco14
+            216100   regular calibrat    ljp96  R 15-09:45:27      1 cbsuecco13
+            216114   regular     bash     lv39  R 15-02:38:07      1 cbsuecco09
+            216522   regular calibrat    ljp96  R 8-12:15:26      1 cbsuecco13
+            216898   regular calibrat    ljp96  R 6-09:18:10      1 cbsuecco07
+            257896   regular    a6275     lv39  R 1-11:38:31      1 cbsuecco02
+            257900   regular     bash     lv39  R    2:54:15      1 cbsuecco14
