@@ -1,3 +1,2 @@
-            216114   regular     bash     lv39  R 20-06:38:07      1 cbsuecco09
-            257896   regular    a6275     lv39  R 6-15:38:31      1 cbsuecco02
-            258326   regular data_fig   alw327  R      17:31      1 cbsuecco13
+            216114   regular     bash     lv39  R 20-07:38:07      1 cbsuecco09
+            257896   regular    a6275     lv39  R 6-16:38:31      1 cbsuecco02
