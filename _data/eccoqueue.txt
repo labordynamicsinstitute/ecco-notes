@@ -1,4 +1,4 @@
-            216114   regular     bash     lv39  R 20-17:38:07      1 cbsuecco09
-            258342   regular      ADA   jl4459  R    1:40:49      1 cbsuecco14
-            258343   regular      ADA   jl4459  R    1:40:44      1 cbsuecco13
-            258344   regular      ADA   jl4459  R    1:28:00      1 cbsuecco07
+            216114   regular     bash     lv39  R 20-18:38:07      1 cbsuecco09
+            258342   regular      ADA   jl4459  R    2:40:49      1 cbsuecco14
+            258343   regular      ADA   jl4459  R    2:40:44      1 cbsuecco13
+            258344   regular      ADA   jl4459  R    2:28:00      1 cbsuecco07
