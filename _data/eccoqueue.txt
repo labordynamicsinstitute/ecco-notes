@@ -1,6 +1,6 @@
-            216114   regular     bash     lv39  R 21-03:38:07      1 cbsuecco09
-            258342   regular      ADA   jl4459  R   11:40:49      1 cbsuecco14
-            258343   regular      ADA   jl4459  R   11:40:44      1 cbsuecco13
-            258344   regular      ADA   jl4459  R   11:28:00      1 cbsuecco07
-         258413_13   regular run_par_   alw327  R    4:46:00      1 cbsuecco02
-            258415   regular    a6275     lv39  R    1:12:42      1 cbsuecco02
+            216114   regular     bash     lv39  R 21-04:38:07      1 cbsuecco09
+            258342   regular      ADA   jl4459  R   12:40:49      1 cbsuecco14
+            258343   regular      ADA   jl4459  R   12:40:44      1 cbsuecco13
+            258344   regular      ADA   jl4459  R   12:28:00      1 cbsuecco07
+         258413_13   regular run_par_   alw327  R    5:46:00      1 cbsuecco02
+            258415   regular    a6275     lv39  R    2:12:42      1 cbsuecco02
