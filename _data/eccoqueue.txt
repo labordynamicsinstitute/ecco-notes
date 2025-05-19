@@ -1,5 +1,5 @@
-            216114   regular     bash     lv39  R 24-17:38:07      1 cbsuecco09
-            258342   regular      ADA   jl4459  R 4-01:40:49      1 cbsuecco14
-            258343   regular      ADA   jl4459  R 4-01:40:44      1 cbsuecco13
-            258344   regular      ADA   jl4459  R 4-01:28:00      1 cbsuecco07
+            216114   regular     bash     lv39  R 24-18:38:07      1 cbsuecco09
+            258342   regular      ADA   jl4459  R 4-02:40:49      1 cbsuecco14
+            258343   regular      ADA   jl4459  R 4-02:40:44      1 cbsuecco13
+            258344   regular      ADA   jl4459  R 4-02:28:00      1 cbsuecco07
             258619   regular construc   alw327 PD       0:00      1 (Nodes required for job are DOWN, DRAINED or reserved for jobs in higher priority partitions)
