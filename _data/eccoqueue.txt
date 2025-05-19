@@ -1,12 +1,5 @@
-            216114   regular     bash     lv39  R 24-15:38:08      1 cbsuecco09
-            258342   regular      ADA   jl4459  R 3-23:40:50      1 cbsuecco14
-            258343   regular      ADA   jl4459  R 3-23:40:45      1 cbsuecco13
-            258344   regular      ADA   jl4459  R 3-23:28:01      1 cbsuecco07
-         258569_18   regular boot_par   alw327  R    6:46:08      1 cbsuecco06
-         258569_22   regular boot_par   alw327  R    6:46:08      1 cbsuecco06
-         258569_26   regular boot_par   alw327  R    6:46:08      1 cbsuecco06
-         258569_30   regular boot_par   alw327  R    6:46:08      1 cbsuecco06
-         258569_34   regular boot_par   alw327  R    6:46:08      1 cbsuecco06
-         258569_39   regular boot_par   alw327  R    6:46:08      1 cbsuecco06
-         258569_44   regular boot_par   alw327  R    6:46:08      1 cbsuecco06
-         258569_49   regular boot_par   alw327  R    6:46:08      1 cbsuecco06
+            216114   regular     bash     lv39  R 24-16:38:07      1 cbsuecco09
+            258342   regular      ADA   jl4459  R 4-00:40:49      1 cbsuecco14
+            258343   regular      ADA   jl4459  R 4-00:40:44      1 cbsuecco13
+            258344   regular      ADA   jl4459  R 4-00:28:00      1 cbsuecco07
+            258619   regular construc   alw327 PD       0:00      1 (Nodes required for job are DOWN, DRAINED or reserved for jobs in higher priority partitions)
