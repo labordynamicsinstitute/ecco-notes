@@ -1,9 +1,9 @@
-As of 2025-05-20 06:00:
+As of 2025-05-20 07:00:
 
 CLUSTER: cbsueccosl01
 PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
 regular*     up   infinite      1  down* cbsueccosl04
 regular*     up   infinite      3   drng cbsuecco[07,13-14]
 regular*     up   infinite      1  drain cbsuecco09
-regular*     up   infinite      3    mix cbsuecco[06,08],cbsueccosl03
-regular*     up   infinite      2   idle cbsuecco02,cbsueccosl01
+regular*     up   infinite      2    mix cbsuecco06,cbsueccosl03
+regular*     up   infinite      3   idle cbsuecco[02,08],cbsueccosl01
