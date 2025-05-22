@@ -1,6 +1,5 @@
-            258881   regular      ADA   jl4459  R   11:19:12      1 cbsuecco07
-            258882   regular      ADA   jl4459  R    8:18:13      1 cbsuecco13
-            258883   regular      ADA   jl4459  R    8:18:13      1 cbsuecco14
-            258886   regular calibrat    ljp96  R 1-08:17:06      1 cbsueccosl04
-            259016   regular     bash     lv39  R 1-04:31:02      1 cbsuecco09
-            259017   regular RunStata     lv39  R 1-04:14:19      1 cbsuecco02
+            258881   regular      ADA   jl4459  R   12:19:12      1 cbsuecco07
+            258882   regular      ADA   jl4459  R    9:18:13      1 cbsuecco13
+            258883   regular      ADA   jl4459  R    9:18:13      1 cbsuecco14
+            259016   regular     bash     lv39  R 1-05:31:02      1 cbsuecco09
+            259017   regular RunStata     lv39  R 1-05:14:19      1 cbsuecco02
