@@ -1,11 +1,11 @@
-            258881   regular      ADA   jl4459  R 5-23:19:12      1 cbsuecco07
-            258882   regular      ADA   jl4459  R 5-20:18:13      1 cbsuecco13
-            258883   regular      ADA   jl4459  R 5-20:18:13      1 cbsuecco14
-            259016   regular     bash     lv39  R 6-16:31:02      1 cbsuecco09
-            279210   regular iterate_    ljp96  R 4-22:21:22      1 cbsuecco14
-            279212   regular iterate_    ljp96  R 4-22:21:16      1 cbsuecco13
-            279253   regular RunStata     lv39  R 2-01:31:57      1 cbsuecco02
-            279463   regular    Train   ash295  R   16:31:04      1 cbsuecco09
-            279464   regular    Train   ash295  R   16:12:23      1 cbsuecco14
-         279466_37   regular  Runzx88     zx88  R    6:25:40      1 cbsuecco06
+            258881   regular      ADA   jl4459  R 6-00:19:12      1 cbsuecco07
+            258882   regular      ADA   jl4459  R 5-21:18:13      1 cbsuecco13
+            258883   regular      ADA   jl4459  R 5-21:18:13      1 cbsuecco14
+            259016   regular     bash     lv39  R 6-17:31:02      1 cbsuecco09
+            279210   regular iterate_    ljp96  R 4-23:21:22      1 cbsuecco14
+            279212   regular iterate_    ljp96  R 4-23:21:16      1 cbsuecco13
+            279253   regular RunStata     lv39  R 2-02:31:57      1 cbsuecco02
+            279463   regular    Train   ash295  R   17:31:04      1 cbsuecco09
+            279464   regular    Train   ash295  R   17:12:23      1 cbsuecco14
+         279466_37   regular  Runzx88     zx88  R    7:25:40      1 cbsuecco06
             309905   regular    Train   ash295 PD       0:00      1 (Resources)
