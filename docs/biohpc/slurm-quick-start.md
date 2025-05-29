@@ -31,7 +31,7 @@ echo netid@cornell.edu >> $HOME/.forward
 
 
 ```bash
-git clone https://github.com/labordynamicsinstitute/biohpc-modules $HOME/.modulefiles.d
+git clone https://github.com/labordynamicsinstitute/biohpc-modules $HOME/privatemodules
 ```
 
 See [Customizing `modules`](custommodules) for more details.
