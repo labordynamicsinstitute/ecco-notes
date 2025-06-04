@@ -1,2 +1,2 @@
-            312675   regular hypTest-   yl3467  R    4:32:12      1 cbsuecco13
-            312680   regular       rf   yl3467  R    1:16:34      1 cbsuecco14
+            312675   regular hypTest-   yl3467  R    5:32:12      1 cbsuecco13
+            312680   regular       rf   yl3467  R    2:16:34      1 cbsuecco14
