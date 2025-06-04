@@ -1,3 +1,4 @@
-            312680   regular       rf   yl3467  R    9:16:34      1 cbsuecco14
-            312682   regular RunStata   dac429  R    1:20:45      1 cbsuecco13
-            312685   regular     bash   dac429  R       0:21      1 cbsuecco13
+            312680   regular       rf   yl3467  R   10:16:34      1 cbsuecco14
+            312682   regular RunStata   dac429  R    2:20:45      1 cbsuecco13
+            312685   regular     bash   dac429  R    1:00:21      1 cbsuecco13
+            312689   regular    ilm02   hpaula  R      31:00      1 cbsuecco13
