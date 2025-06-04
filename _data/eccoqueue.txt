@@ -1,5 +1,5 @@
-            312664   regular RunStata   dac429  R      49:30      1 cbsuecco13
-            312674   regular       rf   yl3467  R      34:01      1 cbsuecco14
-            312675   regular hypTest-   yl3467  R      32:12      1 cbsuecco13
-            312677   regular test2n10   yl3467  R      13:32      1 cbsuecco13
-            312678   regular test2n1k   yl3467  R      12:59      1 cbsuecco14
+            312664   regular RunStata   dac429  R    1:49:31      1 cbsuecco13
+            312674   regular       rf   yl3467  R    1:34:02      1 cbsuecco14
+            312675   regular hypTest-   yl3467  R    1:32:13      1 cbsuecco13
+            312677   regular test2n10   yl3467  R    1:13:33      1 cbsuecco13
+            312678   regular test2n1k   yl3467  R    1:13:00      1 cbsuecco14
