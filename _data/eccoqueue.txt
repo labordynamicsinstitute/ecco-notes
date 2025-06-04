@@ -1,2 +1,2 @@
-            312675   regular hypTest-   yl3467  R   10:32:12      1 cbsuecco13
-            312680   regular       rf   yl3467  R    7:16:34      1 cbsuecco14
+            312680   regular       rf   yl3467  R    8:16:35      1 cbsuecco14
+            312682   regular RunStata   dac429  R      20:46      1 cbsuecco13
