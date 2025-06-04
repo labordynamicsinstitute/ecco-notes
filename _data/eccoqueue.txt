@@ -1,4 +1,13 @@
-            312680   regular       rf   yl3467  R   10:16:34      1 cbsuecco14
-            312682   regular RunStata   dac429  R    2:20:45      1 cbsuecco13
-            312685   regular     bash   dac429  R    1:00:21      1 cbsuecco13
-            312689   regular    ilm02   hpaula  R      31:00      1 cbsuecco13
+            312680   regular       rf   yl3467  R   11:16:34      1 cbsuecco14
+            312689   regular    ilm02   hpaula  R    1:31:00      1 cbsuecco13
+          312714_2   regular select_l   alw327  R      30:43      1 cbsuecco14
+          312714_3   regular select_l   alw327 PD       0:00      1 (JobArrayTaskLimit)
+          312736_8   regular placebo_   alw327  R      23:39      1 cbsuecco07
+            312745   regular RunJulia   dac429  R      21:16      1 cbsuecco07
+          312746_3   regular placebo_   alw327  R      19:46      1 cbsuecco02
+          312746_4   regular placebo_   alw327  R      19:46      1 cbsuecco06
+          312746_6   regular placebo_   alw327  R      19:46      1 cbsueccosl03
+          312746_7   regular placebo_   alw327  R      19:46      1 cbsuecco08
+          312746_8   regular placebo_   alw327  R      19:46      1 cbsuecco02
+          312746_9   regular placebo_   alw327  R      19:46      1 cbsuecco06
+            312755   regular RunStata   dac429  R       5:56      1 cbsuecco14
