@@ -1,3 +1,22 @@
-          312714_2   regular select_l   alw327  R   22:30:43      1 cbsuecco14
+          312714_2   regular select_l   alw327  R   23:30:43      1 cbsuecco14
           312714_3   regular select_l   alw327 PD       0:00      1 (JobArrayTaskLimit)
-            312811   regular RunStata   dac429  R      25:54      1 cbsuecco13
+            312811   regular RunStata   dac429  R    1:25:54      1 cbsuecco13
+          312830_1   regular placebo_   alw327  R      35:18      1 cbsuecco13
+          312830_2   regular placebo_   alw327  R      35:18      1 cbsuecco13
+          312830_3   regular placebo_   alw327  R      35:18      1 cbsuecco13
+          312830_4   regular placebo_   alw327  R      35:18      1 cbsuecco14
+          312830_5   regular placebo_   alw327  R      35:18      1 cbsuecco13
+          312830_6   regular placebo_   alw327  R      35:18      1 cbsuecco14
+          312830_7   regular placebo_   alw327  R      35:18      1 cbsuecco13
+          312830_8   regular placebo_   alw327  R      35:18      1 cbsuecco14
+          312830_9   regular placebo_   alw327  R      35:18      1 cbsuecco07
+          312839_1   regular placebo_   alw327  R      34:15      1 cbsuecco14
+          312839_2   regular placebo_   alw327  R      34:15      1 cbsuecco14
+          312839_3   regular placebo_   alw327  R      34:15      1 cbsuecco13
+          312839_4   regular placebo_   alw327  R      34:15      1 cbsuecco14
+          312839_5   regular placebo_   alw327  R      34:15      1 cbsuecco09
+          312839_6   regular placebo_   alw327  R      34:15      1 cbsuecco13
+          312839_7   regular placebo_   alw327  R      34:15      1 cbsuecco07
+          312839_8   regular placebo_   alw327  R      34:15      1 cbsuecco09
+          312839_9   regular placebo_   alw327  R      34:15      1 cbsuecco07
+            312854   regular     bash   dac429  R       1:19      1 cbsuecco14
