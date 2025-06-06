@@ -1,4 +1,2 @@
-          312930_2   regular select_l   alw327  R    5:44:59      1 cbsuecco14
-          312930_3   regular select_l   alw327  R    5:44:59      1 cbsuecco13
-            312935   regular     bash   dac429  R    3:19:41      1 cbsuecco13
-            312945   regular     bash   dac429  R    2:19:26      1 cbsuecco13
+          312930_2   regular select_l   alw327  R    6:44:58      1 cbsuecco14
+          312930_3   regular select_l   alw327  R    6:44:58      1 cbsuecco13
