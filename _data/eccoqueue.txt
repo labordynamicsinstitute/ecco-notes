@@ -1,5 +1,5 @@
-          312874_5   regular placebo_   alw327  R    5:18:01      1 cbsueccosl03
-            312884   regular RunStata   dac429  R    4:14:07      1 cbsuecco13
-            312909   regular    ilm02   hpaula  R    1:57:26      1 cbsuecco13
-          312930_2   regular select_l   alw327  R      44:58      1 cbsuecco14
-          312930_3   regular select_l   alw327  R      44:58      1 cbsuecco13
+            312884   regular RunStata   dac429  R    5:14:07      1 cbsuecco13
+            312909   regular    ilm02   hpaula  R    2:57:26      1 cbsuecco13
+          312930_2   regular select_l   alw327  R    1:44:58      1 cbsuecco14
+          312930_3   regular select_l   alw327  R    1:44:58      1 cbsuecco13
+            312934   regular simulati   yl3467  R      19:46      1 cbsuecco14
