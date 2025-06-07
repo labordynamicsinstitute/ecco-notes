@@ -1,9 +1,7 @@
-          312930_2   regular select_l   alw327  R 1-21:44:59      1 cbsuecco14
-          312930_3   regular select_l   alw327  R 1-21:44:59      1 cbsuecco13
-            313018   regular cons_add   alw327  R    1:42:54      1 cbsuecco13
-          313033_1   regular run_plac   alw327  R      27:55      1 cbsuecco14
-          313033_2   regular run_plac   alw327  R      27:55      1 cbsuecco13
-          313033_3   regular run_plac   alw327  R      27:55      1 cbsuecco14
-          313033_4   regular run_plac   alw327  R      27:55      1 cbsuecco14
-          313033_6   regular run_plac   alw327  R      27:55      1 cbsuecco14
-          313033_7   regular run_plac   alw327  R      27:55      1 cbsuecco14
+          312930_2   regular select_l   alw327  R 1-22:44:58      1 cbsuecco14
+          312930_3   regular select_l   alw327  R 1-22:44:58      1 cbsuecco13
+          313033_1   regular run_plac   alw327  R    1:27:54      1 cbsuecco14
+          313033_3   regular run_plac   alw327  R    1:27:54      1 cbsuecco14
+          313033_4   regular run_plac   alw327  R    1:27:54      1 cbsuecco14
+          313033_6   regular run_plac   alw327  R    1:27:54      1 cbsuecco14
+          313033_7   regular run_plac   alw327  R    1:27:54      1 cbsuecco14
