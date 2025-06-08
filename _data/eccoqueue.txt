@@ -1,3 +1,11 @@
-          312930_2   regular select_l   alw327  R 2-06:44:59      1 cbsuecco14
-          312930_3   regular select_l   alw327  R 2-06:44:59      1 cbsuecco13
-          313211_3   regular placebo_   alw327  R    2:52:46      1 cbsuecco13
+          312930_2   regular select_l   alw327  R 2-07:44:59      1 cbsuecco14
+          312930_3   regular select_l   alw327  R 2-07:44:59      1 cbsuecco13
+          313220_1   regular placebo_   alw327  R      37:21      1 cbsuecco13
+          313220_2   regular placebo_   alw327  R      37:21      1 cbsuecco14
+          313220_3   regular placebo_   alw327  R      37:21      1 cbsuecco13
+          313220_4   regular placebo_   alw327  R      37:21      1 cbsuecco14
+          313220_5   regular placebo_   alw327  R      37:21      1 cbsuecco13
+          313220_6   regular placebo_   alw327  R      37:21      1 cbsuecco14
+          313220_7   regular placebo_   alw327  R      37:21      1 cbsuecco13
+          313220_8   regular placebo_   alw327  R      37:21      1 cbsuecco14
+          313220_9   regular placebo_   alw327  R      37:21      1 cbsuecco13
