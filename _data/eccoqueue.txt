@@ -1,29 +1,21 @@
-            313518   regular iterate_    ljp96  R 14-20:05:53      1 cbsuecco07
-            313519   regular iterate_    ljp96  R 14-20:05:50      1 cbsuecco09
-            313524   regular iterate_    ljp96  R 14-20:05:38      1 cbsuecco02
-         317253_26   regular  WageSub   dac429  R 1-04:29:41      1 cbsuecco10
-         317253_35   regular  WageSub   dac429  R   20:10:38      1 cbsuecco14
-         317253_36   regular  WageSub   dac429  R   20:10:38      1 cbsuecco13
-         317253_37   regular  WageSub   dac429  R   20:10:38      1 cbsuecco14
-         317253_38   regular  WageSub   dac429  R   20:10:38      1 cbsuecco13
-         317253_39   regular  WageSub   dac429  R   20:10:38      1 cbsuecco14
-         317253_40   regular  WageSub   dac429  R   20:10:38      1 cbsuecco13
-            318723   regular iterate_    ljp96  R 7-11:40:37      1 cbsueccosl03
-            318724   regular iterate_    ljp96  R 7-10:44:15      1 cbsueccosl04
-            318725   regular iterate_    ljp96  R 4-09:05:13      1 cbsueccosl03
-            319073   regular calibrat    ljp96  R 4-08:36:42      1 cbsueccosl03
-            319138   regular iterate_    ljp96  R   20:02:47      1 cbsuecco13
-            319975   regular calibrat    ljp96  R   20:01:58      1 cbsuecco14
-         320287_10   regular select_l   alw327  R   19:31:05      1 cbsuecco13
-         320287_11   regular select_l   alw327  R   19:16:07      1 cbsueccosl03
-          320287_2   regular select_l   alw327  R   19:50:22      1 cbsuecco13
-          320287_3   regular select_l   alw327  R   19:50:22      1 cbsuecco09
-          320287_5   regular select_l   alw327  R   19:50:22      1 cbsuecco02
-          320287_6   regular select_l   alw327  R   19:50:22      1 cbsuecco02
-          320287_8   regular select_l   alw327  R   19:45:50      1 cbsuecco14
-          320287_9   regular select_l   alw327  R   19:36:39      1 cbsuecco10
-            320322   regular    ilm02   hpaula  R    3:17:08      1 cbsuecco14
-            320323   regular initial_   dac429  R    2:03:55      1 cbsuecco14
+            313518   regular iterate_    ljp96  R 14-21:05:52      1 cbsuecco07
+            313519   regular iterate_    ljp96  R 14-21:05:49      1 cbsuecco09
+            313524   regular iterate_    ljp96  R 14-21:05:37      1 cbsuecco02
+         317253_26   regular  WageSub   dac429  R 1-05:29:40      1 cbsuecco10
+         317253_35   regular  WageSub   dac429  R   21:10:37      1 cbsuecco14
+         317253_36   regular  WageSub   dac429  R   21:10:37      1 cbsuecco13
+         317253_37   regular  WageSub   dac429  R   21:10:37      1 cbsuecco14
+         317253_38   regular  WageSub   dac429  R   21:10:37      1 cbsuecco13
+         317253_39   regular  WageSub   dac429  R   21:10:37      1 cbsuecco14
+         317253_40   regular  WageSub   dac429  R   21:10:37      1 cbsuecco13
+            318723   regular iterate_    ljp96  R 7-12:40:36      1 cbsueccosl03
+            318724   regular iterate_    ljp96  R 7-11:44:14      1 cbsueccosl04
+            318725   regular iterate_    ljp96  R 4-10:05:12      1 cbsueccosl03
+            319073   regular calibrat    ljp96  R 4-09:36:41      1 cbsueccosl03
+            319138   regular iterate_    ljp96  R   21:02:46      1 cbsuecco13
+            319975   regular calibrat    ljp96  R   21:01:57      1 cbsuecco14
+            320322   regular    ilm02   hpaula  R    4:17:07      1 cbsuecco14
+            320323   regular initial_   dac429  R    3:03:54      1 cbsuecco14
  320324_[1-200%20]   regular  RentSub   dac429 PD       0:00      1 (Dependency)
   320325_[1-40%20]   regular  WageSub   dac429 PD       0:00      1 (Dependency)
             320326   regular initial_   dac429 PD       0:00      1 (Dependency)
@@ -74,3 +66,6 @@
             320371   regular initial_   dac429 PD       0:00      1 (Dependency)
  320372_[1-200%20]   regular  RentSub   dac429 PD       0:00      1 (Dependency)
   320373_[1-40%20]   regular  WageSub   dac429 PD       0:00      1 (Dependency)
+          320389_1   regular select_l   alw327  R       4:55      1 cbsuecco13
+          320389_2   regular select_l   alw327  R       4:55      1 cbsuecco14
+          320389_3   regular select_l   alw327  R       4:55      1 cbsuecco13
