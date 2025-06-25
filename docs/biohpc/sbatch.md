@@ -161,3 +161,22 @@ Test it out:
 - then try out the SLURM file with a low count (eg. `array=1-10`)
 - then set it to run.
 
+### Limit the number of jobs running in an SBATCH array
+
+Large array jobs may fill up the compute cluster, limiting yourself or others from running other jobs. You can limit the number of array jobs that run at once with the `--array=1-200%20` notation. For example,
+```
+sbatch --array=1-200%10 sbatch-shell.sh
+```
+This will run an array of 200 jobs, but limit the number of jobs from the array that run at once to 10. 
+
+### Running SBATCH jobs in sequence
+
+It may be advantageous to run jobs on the cluster in sequence, to limit how much you use the cluster at once or e.g. run data preparation code then data analysis code. To do this, you can use the `--dependency` notation:
+
+```
+JOB1=$(sbatch --parsable sbatch-1.sh | cut -d ';' -f1)
+JOB2=$(sbatch --parsable --dependency=afterok:${JOB1} sbatch-2.sh | cut -d ';' -f1)
+```
+
+See more details about `--dependency` [here](https://slurm.schedmd.com/sbatch.html). 
+The code above uses the --parsable condition to limit the output to {JOBID};{CLUSTER}. It then pipes {JOBID};{CLUSTER} to the bash command `cut`, which splits {JOBID};{CLUSTER} by `;`, and returns just the {JOBID}. The {JOBID} is then used to define `--dependency=afterok:${JOB1}`, which instructs SLURM to run JOB2 only after JOB1 has finished.   
