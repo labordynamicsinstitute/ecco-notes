@@ -49,8 +49,9 @@ if github_repo:
     response = requests.get(url)
     if response.status_code == 200:
         contributors = response.json()
-        filtered = [c['login'] for c in contributors if c['login'] != 'larsvilhuber']
-        print(", ".join(filtered))
+        filtered = [c for c in contributors if c['login'] != 'larsvilhuber']
+        links = [f"[{c['login']}]({c['html_url']})" for c in filtered]
+        print(", ".join(links))
     else:
         print("Could not fetch contributors from GitHub API.")
 else:
