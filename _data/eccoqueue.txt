@@ -1,29 +1,29 @@
-            313519   regular iterate_    ljp96  R 17-21:05:49      1 cbsuecco09
-            313524   regular iterate_    ljp96  R 17-21:05:37      1 cbsuecco02
-            318725   regular iterate_    ljp96  R 7-10:05:12      1 cbsueccosl03
-            319073   regular calibrat    ljp96  R 7-09:36:41      1 cbsueccosl03
-            319138   regular iterate_    ljp96  R 3-21:02:46      1 cbsuecco13
-         320324_23   regular  RentSub   dac429  R 1-21:15:22      1 cbsuecco14
-         320324_24   regular  RentSub   dac429  R 1-16:03:11      1 cbsuecco14
-         320324_25   regular  RentSub   dac429  R 1-14:46:00      1 cbsuecco14
-         320324_26   regular  RentSub   dac429  R 1-13:14:15      1 cbsuecco14
-         320324_28   regular  RentSub   dac429  R 1-06:00:02      1 cbsuecco14
-         320324_29   regular  RentSub   dac429  R 1-04:35:19      1 cbsuecco13
-         320324_30   regular  RentSub   dac429  R 1-04:32:23      1 cbsuecco14
-         320324_32   regular  RentSub   dac429  R 1-03:24:34      1 cbsuecco14
-         320324_33   regular  RentSub   dac429  R 1-01:10:53      1 cbsuecco14
-         320324_34   regular  RentSub   dac429  R 1-00:00:17      1 cbsuecco13
-         320324_35   regular  RentSub   dac429  R   23:41:08      1 cbsuecco13
-         320324_36   regular  RentSub   dac429  R   22:12:56      1 cbsuecco13
-         320324_37   regular  RentSub   dac429  R   21:39:49      1 cbsuecco14
-         320324_38   regular  RentSub   dac429  R   20:20:04      1 cbsuecco14
-         320324_39   regular  RentSub   dac429  R   16:59:27      1 cbsuecco14
-         320324_40   regular  RentSub   dac429  R   15:18:02      1 cbsuecco14
-         320324_41   regular  RentSub   dac429  R   13:51:23      1 cbsuecco14
-         320324_42   regular  RentSub   dac429  R    8:50:19      1 cbsuecco14
-         320324_43   regular  RentSub   dac429  R    2:07:32      1 cbsuecco13
-         320324_44   regular  RentSub   dac429  R      57:52      1 cbsuecco14
-320324_[45-200%20]   regular  RentSub   dac429 PD       0:00      1 (JobArrayTaskLimit)
+            313519   regular iterate_    ljp96  R 17-22:05:49      1 cbsuecco09
+            313524   regular iterate_    ljp96  R 17-22:05:37      1 cbsuecco02
+            318725   regular iterate_    ljp96  R 7-11:05:12      1 cbsueccosl03
+            319073   regular calibrat    ljp96  R 7-10:36:41      1 cbsueccosl03
+            319138   regular iterate_    ljp96  R 3-22:02:46      1 cbsuecco13
+         320324_23   regular  RentSub   dac429  R 1-22:15:22      1 cbsuecco14
+         320324_24   regular  RentSub   dac429  R 1-17:03:11      1 cbsuecco14
+         320324_25   regular  RentSub   dac429  R 1-15:46:00      1 cbsuecco14
+         320324_26   regular  RentSub   dac429  R 1-14:14:15      1 cbsuecco14
+         320324_28   regular  RentSub   dac429  R 1-07:00:02      1 cbsuecco14
+         320324_29   regular  RentSub   dac429  R 1-05:35:19      1 cbsuecco13
+         320324_30   regular  RentSub   dac429  R 1-05:32:23      1 cbsuecco14
+         320324_32   regular  RentSub   dac429  R 1-04:24:34      1 cbsuecco14
+         320324_33   regular  RentSub   dac429  R 1-02:10:53      1 cbsuecco14
+         320324_34   regular  RentSub   dac429  R 1-01:00:17      1 cbsuecco13
+         320324_35   regular  RentSub   dac429  R 1-00:41:08      1 cbsuecco13
+         320324_37   regular  RentSub   dac429  R   22:39:49      1 cbsuecco14
+         320324_38   regular  RentSub   dac429  R   21:20:04      1 cbsuecco14
+         320324_39   regular  RentSub   dac429  R   17:59:27      1 cbsuecco14
+         320324_40   regular  RentSub   dac429  R   16:18:02      1 cbsuecco14
+         320324_41   regular  RentSub   dac429  R   14:51:23      1 cbsuecco14
+         320324_42   regular  RentSub   dac429  R    9:50:19      1 cbsuecco14
+         320324_43   regular  RentSub   dac429  R    3:07:32      1 cbsuecco13
+         320324_44   regular  RentSub   dac429  R    1:57:52      1 cbsuecco14
+         320324_45   regular  RentSub   dac429  R       9:45      1 cbsuecco13
+320324_[46-200%20]   regular  RentSub   dac429 PD       0:00      1 (JobArrayTaskLimit)
   320325_[1-40%20]   regular  WageSub   dac429 PD       0:00      1 (Dependency)
             320326   regular initial_   dac429 PD       0:00      1 (Dependency)
  320327_[1-200%20]   regular  RentSub   dac429 PD       0:00      1 (Dependency)
@@ -73,4 +73,5 @@
             320371   regular initial_   dac429 PD       0:00      1 (Dependency)
  320372_[1-200%20]   regular  RentSub   dac429 PD       0:00      1 (Dependency)
   320373_[1-40%20]   regular  WageSub   dac429 PD       0:00      1 (Dependency)
-            320805   regular pink_job    fm469  R   18:14:29      1 cbsuecco10
+            320805   regular pink_job    fm469  R   19:14:29      1 cbsuecco10
+          320813_8   regular select_l   alw327  R      17:36      1 cbsuecco13
