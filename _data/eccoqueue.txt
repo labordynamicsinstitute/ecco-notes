@@ -1,25 +1,25 @@
-            313519   regular iterate_    ljp96  R 19-15:05:49      1 cbsuecco09
-            313524   regular iterate_    ljp96  R 19-15:05:37      1 cbsuecco02
-         320324_48   regular  RentSub   dac429  R 1-11:57:35      1 cbsuecco14
-         320324_49   regular  RentSub   dac429  R 1-10:02:52      1 cbsuecco02
-         320324_50   regular  RentSub   dac429  R 1-09:04:29      1 cbsuecco14
-         320324_52   regular  RentSub   dac429  R 1-07:13:52      1 cbsuecco13
-         320324_53   regular  RentSub   dac429  R 1-05:52:37      1 cbsuecco13
-         320324_54   regular  RentSub   dac429  R 1-05:40:43      1 cbsuecco13
-         320324_55   regular  RentSub   dac429  R 1-04:05:00      1 cbsuecco13
-         320324_56   regular  RentSub   dac429  R   23:23:22      1 cbsuecco13
-         320324_57   regular  RentSub   dac429  R   20:15:36      1 cbsuecco14
-         320324_58   regular  RentSub   dac429  R   19:10:49      1 cbsuecco13
-         320324_59   regular  RentSub   dac429  R   17:59:48      1 cbsuecco09
-         320324_60   regular  RentSub   dac429  R   17:40:47      1 cbsuecco09
-         320324_61   regular  RentSub   dac429  R   15:56:33      1 cbsuecco14
-         320324_62   regular  RentSub   dac429  R   14:48:03      1 cbsuecco14
-         320324_63   regular  RentSub   dac429  R   12:38:34      1 cbsuecco14
-         320324_64   regular  RentSub   dac429  R    9:54:40      1 cbsuecco14
-         320324_65   regular  RentSub   dac429  R    7:55:48      1 cbsuecco13
-         320324_66   regular  RentSub   dac429  R    7:37:04      1 cbsuecco13
-         320324_67   regular  RentSub   dac429  R    4:14:11      1 cbsuecco13
-         320324_68   regular  RentSub   dac429  R    2:50:59      1 cbsuecco14
+            313519   regular iterate_    ljp96  R 19-16:05:49      1 cbsuecco09
+            313524   regular iterate_    ljp96  R 19-16:05:37      1 cbsuecco02
+         320324_48   regular  RentSub   dac429  R 1-12:57:35      1 cbsuecco14
+         320324_49   regular  RentSub   dac429  R 1-11:02:52      1 cbsuecco02
+         320324_50   regular  RentSub   dac429  R 1-10:04:29      1 cbsuecco14
+         320324_52   regular  RentSub   dac429  R 1-08:13:52      1 cbsuecco13
+         320324_53   regular  RentSub   dac429  R 1-06:52:37      1 cbsuecco13
+         320324_54   regular  RentSub   dac429  R 1-06:40:43      1 cbsuecco13
+         320324_55   regular  RentSub   dac429  R 1-05:05:00      1 cbsuecco13
+         320324_56   regular  RentSub   dac429  R 1-00:23:22      1 cbsuecco13
+         320324_57   regular  RentSub   dac429  R   21:15:36      1 cbsuecco14
+         320324_58   regular  RentSub   dac429  R   20:10:49      1 cbsuecco13
+         320324_59   regular  RentSub   dac429  R   18:59:48      1 cbsuecco09
+         320324_60   regular  RentSub   dac429  R   18:40:47      1 cbsuecco09
+         320324_61   regular  RentSub   dac429  R   16:56:33      1 cbsuecco14
+         320324_62   regular  RentSub   dac429  R   15:48:03      1 cbsuecco14
+         320324_63   regular  RentSub   dac429  R   13:38:34      1 cbsuecco14
+         320324_64   regular  RentSub   dac429  R   10:54:40      1 cbsuecco14
+         320324_65   regular  RentSub   dac429  R    8:55:48      1 cbsuecco13
+         320324_66   regular  RentSub   dac429  R    8:37:04      1 cbsuecco13
+         320324_67   regular  RentSub   dac429  R    5:14:11      1 cbsuecco13
+         320324_68   regular  RentSub   dac429  R    3:50:59      1 cbsuecco14
 320324_[69-200%20]   regular  RentSub   dac429 PD       0:00      1 (JobArrayTaskLimit)
   320325_[1-40%20]   regular  WageSub   dac429 PD       0:00      1 (Dependency)
             320326   regular initial_   dac429 PD       0:00      1 (Dependency)
@@ -70,6 +70,6 @@
             320371   regular initial_   dac429 PD       0:00      1 (Dependency)
  320372_[1-200%20]   regular  RentSub   dac429 PD       0:00      1 (Dependency)
   320373_[1-40%20]   regular  WageSub   dac429 PD       0:00      1 (Dependency)
-            320805   regular pink_job    fm469  R 2-12:14:29      1 cbsuecco10
-            321711   regular RAIS_dei    fm469  R   17:48:14      1 cbsuecco02
-          321916_5   regular crs_pool   alw327  R   16:25:59      1 cbsueccosl01
+            320805   regular pink_job    fm469  R 2-13:14:29      1 cbsuecco10
+            321711   regular RAIS_dei    fm469  R   18:48:14      1 cbsuecco02
+          321916_5   regular crs_pool   alw327  R   17:26:00      1 cbsueccosl01
