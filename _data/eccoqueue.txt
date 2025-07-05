@@ -1,23 +1,23 @@
-        320324_147   regular  RentSub   dac429  R 1-17:18:04      1 cbsuecco13
-        320324_157   regular  RentSub   dac429  R 1-08:02:15      1 cbsuecco13
-        320324_165   regular  RentSub   dac429  R 1-00:05:52      1 cbsuecco13
-        320324_167   regular  RentSub   dac429  R   23:36:41      1 cbsuecco13
-        320324_168   regular  RentSub   dac429  R   23:22:29      1 cbsuecco13
-        320324_169   regular  RentSub   dac429  R   22:43:27      1 cbsuecco13
-        320324_170   regular  RentSub   dac429  R   22:29:59      1 cbsuecco14
-        320324_174   regular  RentSub   dac429  R   18:45:56      1 cbsuecco14
-        320324_175   regular  RentSub   dac429  R   18:30:54      1 cbsuecco13
-        320324_178   regular  RentSub   dac429  R   14:48:57      1 cbsuecco14
-        320324_179   regular  RentSub   dac429  R   13:34:38      1 cbsuecco14
-        320324_180   regular  RentSub   dac429  R   13:23:07      1 cbsuecco14
-        320324_184   regular  RentSub   dac429  R   11:22:29      1 cbsuecco14
-        320324_185   regular  RentSub   dac429  R   10:52:37      1 cbsuecco13
-        320324_186   regular  RentSub   dac429  R    9:40:19      1 cbsuecco09
-        320324_187   regular  RentSub   dac429  R    9:05:31      1 cbsuecco14
-        320324_188   regular  RentSub   dac429  R    1:48:55      1 cbsuecco14
-        320324_189   regular  RentSub   dac429  R    1:38:43      1 cbsuecco13
-        320324_190   regular  RentSub   dac429  R    1:34:35      1 cbsuecco14
-        320324_191   regular  RentSub   dac429  R      14:32      1 cbsuecco14
+        320324_147   regular  RentSub   dac429  R 1-18:18:03      1 cbsuecco13
+        320324_157   regular  RentSub   dac429  R 1-09:02:14      1 cbsuecco13
+        320324_165   regular  RentSub   dac429  R 1-01:05:51      1 cbsuecco13
+        320324_167   regular  RentSub   dac429  R 1-00:36:40      1 cbsuecco13
+        320324_168   regular  RentSub   dac429  R 1-00:22:28      1 cbsuecco13
+        320324_169   regular  RentSub   dac429  R   23:43:26      1 cbsuecco13
+        320324_170   regular  RentSub   dac429  R   23:29:58      1 cbsuecco14
+        320324_174   regular  RentSub   dac429  R   19:45:55      1 cbsuecco14
+        320324_175   regular  RentSub   dac429  R   19:30:53      1 cbsuecco13
+        320324_178   regular  RentSub   dac429  R   15:48:56      1 cbsuecco14
+        320324_179   regular  RentSub   dac429  R   14:34:37      1 cbsuecco14
+        320324_180   regular  RentSub   dac429  R   14:23:06      1 cbsuecco14
+        320324_184   regular  RentSub   dac429  R   12:22:28      1 cbsuecco14
+        320324_185   regular  RentSub   dac429  R   11:52:36      1 cbsuecco13
+        320324_186   regular  RentSub   dac429  R   10:40:18      1 cbsuecco09
+        320324_187   regular  RentSub   dac429  R   10:05:30      1 cbsuecco14
+        320324_188   regular  RentSub   dac429  R    2:48:54      1 cbsuecco14
+        320324_189   regular  RentSub   dac429  R    2:38:42      1 cbsuecco13
+        320324_190   regular  RentSub   dac429  R    2:34:34      1 cbsuecco14
+        320324_191   regular  RentSub   dac429  R    1:14:31      1 cbsuecco14
 320324_[192-200%20   regular  RentSub   dac429 PD       0:00      1 (JobArrayTaskLimit)
   320325_[1-40%20]   regular  WageSub   dac429 PD       0:00      1 (Dependency)
             320326   regular initial_   dac429 PD       0:00      1 (Dependency)
@@ -68,31 +68,30 @@
             320371   regular initial_   dac429 PD       0:00      1 (Dependency)
  320372_[1-200%20]   regular  RentSub   dac429 PD       0:00      1 (Dependency)
   320373_[1-40%20]   regular  WageSub   dac429 PD       0:00      1 (Dependency)
-          325837_5   regular crs_pool   alw327  R   18:15:51      1 cbsueccosl01
-            326160   regular replicat dagr5998  R   16:52:37      1 cbsuecco13
-         326360_12   regular   boot_3   alw327  R   10:22:08      1 cbsuecco07
-         326360_15   regular   boot_3   alw327  R   10:22:08      1 cbsuecco07
-         326360_36   regular   boot_3   alw327  R    5:36:02      1 cbsuecco02
-         326360_42   regular   boot_3   alw327  R    5:03:57      1 cbsuecco13
-         326360_43   regular   boot_3   alw327  R    4:57:01      1 cbsuecco10
-         326360_44   regular   boot_3   alw327  R    4:34:07      1 cbsuecco14
-         326360_45   regular   boot_3   alw327  R    4:23:24      1 cbsuecco13
-         326360_46   regular   boot_3   alw327  R    3:46:58      1 cbsuecco13
-         326360_47   regular   boot_3   alw327  R    3:13:08      1 cbsuecco14
-         326360_48   regular   boot_3   alw327  R    1:56:22      1 cbsuecco09
-         326360_49   regular   boot_3   alw327  R    1:50:25      1 cbsuecco09
-         326360_50   regular   boot_3   alw327  R    1:38:40      1 cbsuecco09
-         326360_51   regular   boot_3   alw327  R    1:37:00      1 cbsuecco09
-         326360_52   regular   boot_3   alw327  R    1:24:37      1 cbsuecco09
-         326360_53   regular   boot_3   alw327  R    1:17:28      1 cbsuecco09
-         326360_54   regular   boot_3   alw327  R    1:04:34      1 cbsuecco09
-         326360_55   regular   boot_3   alw327  R      51:11      1 cbsuecco10
-         326360_56   regular   boot_3   alw327  R      48:08      1 cbsuecco10
-         326360_57   regular   boot_3   alw327  R      36:28      1 cbsuecco10
-         326360_58   regular   boot_3   alw327  R      35:37      1 cbsuecco10
-         326360_59   regular   boot_3   alw327  R      23:41      1 cbsuecco14
-         326360_60   regular   boot_3   alw327  R      11:54      1 cbsuecco10
-         326360_61   regular   boot_3   alw327  R       4:24      1 cbsuecco10
-326360_[62-100%25]   regular   boot_3   alw327 PD       0:00      1 (JobArrayTaskLimit)
-          326360_7   regular   boot_3   alw327  R   10:22:08      1 cbsuecco07
-          326360_9   regular   boot_3   alw327  R   10:22:08      1 cbsuecco07
+            326160   regular replicat dagr5998  R   17:52:36      1 cbsuecco13
+         326360_12   regular   boot_3   alw327  R   11:22:07      1 cbsuecco07
+         326360_15   regular   boot_3   alw327  R   11:22:07      1 cbsuecco07
+         326360_36   regular   boot_3   alw327  R    6:36:01      1 cbsuecco02
+         326360_44   regular   boot_3   alw327  R    5:34:06      1 cbsuecco14
+         326360_45   regular   boot_3   alw327  R    5:23:23      1 cbsuecco13
+         326360_46   regular   boot_3   alw327  R    4:46:57      1 cbsuecco13
+         326360_47   regular   boot_3   alw327  R    4:13:07      1 cbsuecco14
+         326360_48   regular   boot_3   alw327  R    2:56:21      1 cbsuecco09
+         326360_49   regular   boot_3   alw327  R    2:50:24      1 cbsuecco09
+         326360_50   regular   boot_3   alw327  R    2:38:39      1 cbsuecco09
+         326360_51   regular   boot_3   alw327  R    2:36:59      1 cbsuecco09
+         326360_52   regular   boot_3   alw327  R    2:24:36      1 cbsuecco09
+         326360_53   regular   boot_3   alw327  R    2:17:27      1 cbsuecco09
+         326360_54   regular   boot_3   alw327  R    2:04:33      1 cbsuecco09
+         326360_55   regular   boot_3   alw327  R    1:51:10      1 cbsuecco10
+         326360_56   regular   boot_3   alw327  R    1:48:07      1 cbsuecco10
+         326360_57   regular   boot_3   alw327  R    1:36:27      1 cbsuecco10
+         326360_58   regular   boot_3   alw327  R    1:35:36      1 cbsuecco10
+         326360_59   regular   boot_3   alw327  R    1:23:40      1 cbsuecco14
+         326360_60   regular   boot_3   alw327  R    1:11:53      1 cbsuecco10
+         326360_61   regular   boot_3   alw327  R    1:04:23      1 cbsuecco10
+         326360_62   regular   boot_3   alw327  R      53:39      1 cbsuecco10
+         326360_63   regular   boot_3   alw327  R      46:16      1 cbsuecco13
+         326360_64   regular   boot_3   alw327  R      12:25      1 cbsuecco07
+326360_[65-100%25]   regular   boot_3   alw327 PD       0:00      1 (JobArrayTaskLimit)
+          326360_9   regular   boot_3   alw327  R   11:22:07      1 cbsuecco07
