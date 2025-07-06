@@ -1,18 +1,17 @@
-        320324_157   regular  RentSub   dac429  R 1-21:02:14      1 cbsuecco13
-        320324_167   regular  RentSub   dac429  R 1-12:36:40      1 cbsuecco13
-        320324_179   regular  RentSub   dac429  R 1-02:34:37      1 cbsuecco14
-        320324_180   regular  RentSub   dac429  R 1-02:23:06      1 cbsuecco14
-        320324_186   regular  RentSub   dac429  R   22:40:18      1 cbsuecco09
-        320324_187   regular  RentSub   dac429  R   22:05:30      1 cbsuecco14
-        320324_189   regular  RentSub   dac429  R   14:38:42      1 cbsuecco13
-        320324_190   regular  RentSub   dac429  R   14:34:34      1 cbsuecco14
-        320324_194   regular  RentSub   dac429  R   10:21:09      1 cbsuecco14
-        320324_195   regular  RentSub   dac429  R    8:41:25      1 cbsuecco13
-        320324_196   regular  RentSub   dac429  R    8:28:58      1 cbsuecco13
-        320324_197   regular  RentSub   dac429  R    6:58:49      1 cbsuecco13
-        320324_198   regular  RentSub   dac429  R    6:17:44      1 cbsuecco13
-        320324_199   regular  RentSub   dac429  R    2:23:06      1 cbsuecco14
-        320324_200   regular  RentSub   dac429  R    2:14:22      1 cbsuecco13
+        320324_157   regular  RentSub   dac429  R 1-22:02:15      1 cbsuecco13
+        320324_167   regular  RentSub   dac429  R 1-13:36:41      1 cbsuecco13
+        320324_179   regular  RentSub   dac429  R 1-03:34:38      1 cbsuecco14
+        320324_180   regular  RentSub   dac429  R 1-03:23:07      1 cbsuecco14
+        320324_186   regular  RentSub   dac429  R   23:40:19      1 cbsuecco09
+        320324_189   regular  RentSub   dac429  R   15:38:43      1 cbsuecco13
+        320324_190   regular  RentSub   dac429  R   15:34:35      1 cbsuecco14
+        320324_194   regular  RentSub   dac429  R   11:21:10      1 cbsuecco14
+        320324_195   regular  RentSub   dac429  R    9:41:26      1 cbsuecco13
+        320324_196   regular  RentSub   dac429  R    9:28:59      1 cbsuecco13
+        320324_197   regular  RentSub   dac429  R    7:58:50      1 cbsuecco13
+        320324_198   regular  RentSub   dac429  R    7:17:45      1 cbsuecco13
+        320324_199   regular  RentSub   dac429  R    3:23:07      1 cbsuecco14
+        320324_200   regular  RentSub   dac429  R    3:14:23      1 cbsuecco13
   320325_[1-40%20]   regular  WageSub   dac429 PD       0:00      1 (Dependency)
             320326   regular initial_   dac429 PD       0:00      1 (Dependency)
  320327_[1-200%20]   regular  RentSub   dac429 PD       0:00      1 (Dependency)
@@ -62,10 +61,7 @@
             320371   regular initial_   dac429 PD       0:00      1 (Dependency)
  320372_[1-200%20]   regular  RentSub   dac429 PD       0:00      1 (Dependency)
   320373_[1-40%20]   regular  WageSub   dac429 PD       0:00      1 (Dependency)
-        326360_100   regular   boot_3   alw327  R    4:14:14      1 cbsuecco10
-         326360_84   regular   boot_3   alw327  R    8:20:55      1 cbsueccosl03
-         326360_94   regular   boot_3   alw327  R    5:24:58      1 cbsuecco13
-         326360_98   regular   boot_3   alw327  R    4:28:50      1 cbsuecco10
-         326360_99   regular   boot_3   alw327  R    4:15:42      1 cbsuecco13
-          326960_5   regular crs_pool   alw327  R    5:51:31      1 cbsuecco02
-          326960_6   regular crs_pool   alw327  R    5:51:21      1 cbsueccosl03
+         326360_84   regular   boot_3   alw327  R    9:20:56      1 cbsueccosl03
+         326360_99   regular   boot_3   alw327  R    5:15:43      1 cbsuecco13
+          326960_5   regular crs_pool   alw327  R    6:51:32      1 cbsuecco02
+          326960_6   regular crs_pool   alw327  R    6:51:22      1 cbsueccosl03
