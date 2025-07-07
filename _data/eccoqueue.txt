@@ -47,12 +47,9 @@
             320371   regular initial_   dac429 PD       0:00      1 (Dependency)
  320372_[1-200%20]   regular  RentSub   dac429 PD       0:00      1 (Dependency)
   320373_[1-40%20]   regular  WageSub   dac429 PD       0:00      1 (Dependency)
-        327690_100   regular   boot_4   alw327  R    5:55:13      1 cbsuecco09
-         327690_76   regular   boot_4   alw327  R   13:55:24      1 cbsuecco02
-         327690_93   regular   boot_4   alw327  R    8:57:21      1 cbsuecco14
-         327690_97   regular   boot_4   alw327  R    7:08:03      1 cbsuecco13
-         327690_98   regular   boot_4   alw327  R    6:28:47      1 cbsuecco13
-         327690_99   regular   boot_4   alw327  R    5:58:52      1 cbsuecco09
-            327793   regular pink_job    fm469  R    2:00:55      1 cbsuecco10
-            327794   regular replicat dagr5998  R      52:35      1 cbsuecco14
-            327795   regular replicat dagr5998  R      45:18      1 cbsuecco14
+         327690_76   regular   boot_4   alw327  R   14:55:24      1 cbsuecco02
+         327690_98   regular   boot_4   alw327  R    7:28:47      1 cbsuecco13
+            327793   regular pink_job    fm469  R    3:00:55      1 cbsuecco10
+            327794   regular replicat dagr5998  R    1:52:35      1 cbsuecco14
+            327795   regular replicat dagr5998  R    1:45:18      1 cbsuecco14
+            327798   regular construc   alw327  R       1:39      1 cbsuecco13
