@@ -47,11 +47,9 @@
             320371   regular initial_   dac429 PD       0:00      1 (Dependency)
  320372_[1-200%20]   regular  RentSub   dac429 PD       0:00      1 (Dependency)
   320373_[1-40%20]   regular  WageSub   dac429 PD       0:00      1 (Dependency)
-            327794   regular replicat dagr5998  R 1-12:52:34      1 cbsuecco14
-            327795   regular replicat dagr5998  R 1-12:45:17      1 cbsuecco14
-            334000   regular      ADA   jl4459  R   11:57:37      1 cbsuecco13
-            334001   regular      ADA   jl4459  R   11:53:29      1 cbsuecco14
-            334002   regular      ADA   jl4459  R   11:53:10      1 cbsuecco10
-            334003   regular      ADA   jl4459  R   11:44:29      1 cbsuecco13
-            337029   regular  aer7440 dagr5998  R      21:54      1 cbsuecco02
-            337030   regular     bash dagr5998  R       3:01      1 cbsuecco07
+            327794   regular replicat dagr5998  R 1-13:52:34      1 cbsuecco14
+            327795   regular replicat dagr5998  R 1-13:45:17      1 cbsuecco14
+            334000   regular      ADA   jl4459  R   12:57:37      1 cbsuecco13
+            334001   regular      ADA   jl4459  R   12:53:29      1 cbsuecco14
+            334002   regular      ADA   jl4459  R   12:53:10      1 cbsuecco10
+            334003   regular      ADA   jl4459  R   12:44:29      1 cbsuecco13
