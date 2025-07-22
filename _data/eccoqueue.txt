@@ -1,24 +1,24 @@
-         320327_33   regular  RentSub   dac429  R 1-05:01:16      1 cbsuecco11
-         320327_34   regular  RentSub   dac429  R 1-05:01:16      1 cbsuecco02
-         320327_35   regular  RentSub   dac429  R 1-05:01:16      1 cbsuecco02
-         320327_38   regular  RentSub   dac429  R 1-04:58:46      1 cbsuecco02
-         320327_39   regular  RentSub   dac429  R 1-04:57:16      1 cbsueccosl04
-         320327_40   regular  RentSub   dac429  R 1-04:57:16      1 cbsuecco02
-         320327_41   regular  RentSub   dac429  R 1-04:56:16      1 cbsuecco02
-         320327_42   regular  RentSub   dac429  R 1-04:55:46      1 cbsueccosl04
-         320327_44   regular  RentSub   dac429  R   23:25:06      1 cbsuecco10
-         320327_45   regular  RentSub   dac429  R   21:40:44      1 cbsuecco10
-         320327_46   regular  RentSub   dac429  R   18:51:59      1 cbsuecco11
-         320327_47   regular  RentSub   dac429  R   14:28:11      1 cbsueccosl01
-         320327_48   regular  RentSub   dac429  R   14:24:41      1 cbsueccosl03
-         320327_49   regular  RentSub   dac429  R   11:50:10      1 cbsuecco11
-         320327_50   regular  RentSub   dac429  R   10:34:40      1 cbsuecco10
-         320327_51   regular  RentSub   dac429  R   10:20:55      1 cbsuecco10
-         320327_52   regular  RentSub   dac429  R    8:58:08      1 cbsuecco12
-         320327_53   regular  RentSub   dac429  R    6:42:09      1 cbsuecco01
-         320327_54   regular  RentSub   dac429  R    6:00:14      1 cbsuecco14
-         320327_55   regular  RentSub   dac429  R    3:21:10      1 cbsuecco06
-320327_[56-200%20]   regular  RentSub   dac429 PD       0:00      1 (JobArrayTaskLimit)
+         320327_33   regular  RentSub   dac429  R 1-06:01:15      1 cbsuecco11
+         320327_34   regular  RentSub   dac429  R 1-06:01:15      1 cbsuecco02
+         320327_35   regular  RentSub   dac429  R 1-06:01:15      1 cbsuecco02
+         320327_38   regular  RentSub   dac429  R 1-05:58:45      1 cbsuecco02
+         320327_39   regular  RentSub   dac429  R 1-05:57:15      1 cbsueccosl04
+         320327_40   regular  RentSub   dac429  R 1-05:57:15      1 cbsuecco02
+         320327_41   regular  RentSub   dac429  R 1-05:56:15      1 cbsuecco02
+         320327_42   regular  RentSub   dac429  R 1-05:55:45      1 cbsueccosl04
+         320327_44   regular  RentSub   dac429  R 1-00:25:05      1 cbsuecco10
+         320327_45   regular  RentSub   dac429  R   22:40:43      1 cbsuecco10
+         320327_46   regular  RentSub   dac429  R   19:51:58      1 cbsuecco11
+         320327_47   regular  RentSub   dac429  R   15:28:10      1 cbsueccosl01
+         320327_48   regular  RentSub   dac429  R   15:24:40      1 cbsueccosl03
+         320327_49   regular  RentSub   dac429  R   12:50:09      1 cbsuecco11
+         320327_50   regular  RentSub   dac429  R   11:34:39      1 cbsuecco10
+         320327_51   regular  RentSub   dac429  R   11:20:54      1 cbsuecco10
+         320327_52   regular  RentSub   dac429  R    9:58:07      1 cbsuecco12
+         320327_53   regular  RentSub   dac429  R    7:42:08      1 cbsuecco01
+         320327_54   regular  RentSub   dac429  R    7:00:13      1 cbsuecco14
+         320327_56   regular  RentSub   dac429  R      54:15      1 cbsuecco12
+320327_[57-200%20]   regular  RentSub   dac429 PD       0:00      1 (JobArrayTaskLimit)
   320328_[1-40%20]   regular  WageSub   dac429 PD       0:00      1 (Dependency)
             320329   regular initial_   dac429 PD       0:00      1 (Dependency)
  320330_[1-200%20]   regular  RentSub   dac429 PD       0:00      1 (Dependency)
@@ -65,25 +65,17 @@
             320371   regular initial_   dac429 PD       0:00      1 (Dependency)
  320372_[1-200%20]   regular  RentSub   dac429 PD       0:00      1 (Dependency)
   320373_[1-40%20]   regular  WageSub   dac429 PD       0:00      1 (Dependency)
-            334001   regular      ADA   jl4459  R 14-04:53:31      1 cbsuecco14
-            334003   regular      ADA   jl4459  R 14-04:44:31      1 cbsuecco13
-            353450   regular iterate_    ljp96  R 7-03:08:28      1 cbsuecco14
-            357601   regular iterate_    ljp96  R 4-04:47:21      1 cbsuecco11
-            357612   regular rep-7711   dac429  R 1-01:43:10      1 cbsuecco09
-       372541_2696   regular ilm_alg_   hpaula  R    4:58:59      4 cbsuecco[07,10-11],cbsueccosl03
-       372541_2874   regular ilm_alg_   hpaula  R    3:38:08      2 cbsuecco[01,10]
-       372541_2886   regular ilm_alg_   hpaula  R    3:31:52      4 cbsuecco[07,10-11,14]
-       372541_2933   regular ilm_alg_   hpaula  R    3:03:08      3 cbsuecco[01,07,11]
-       372541_2958   regular ilm_alg_   hpaula  R    2:50:58      1 cbsueccosl04
-       372541_2963   regular ilm_alg_   hpaula  R    2:49:16      2 cbsuecco10,cbsueccosl04
-       372541_2978   regular ilm_alg_   hpaula  R    2:44:03      2 cbsuecco[10,12]
-       372541_3087   regular ilm_alg_   hpaula  R    2:05:50      1 cbsuecco02
-       372541_3095   regular ilm_alg_   hpaula  R    2:01:13      1 cbsuecco08
-       372541_3105   regular ilm_alg_   hpaula  R    1:56:19      4 cbsuecco[07,12,14],cbsueccosl03
-       372541_3120   regular ilm_alg_   hpaula  R    1:47:55      3 cbsuecco[11-12,14]
-       372541_3156   regular ilm_alg_   hpaula  R    1:36:45      1 cbsuecco06
-       372541_3213   regular ilm_alg_   hpaula  R    1:19:04      3 cbsuecco[10,14],cbsueccosl03
-            374963   regular 2rep7817   dac429  R   22:18:44      1 cbsuecco07
-            375520   regular  aer7440 dagr5998  R   13:25:25      1 cbsuecco02
-            382475   regular 2rep6588   dac429  R      55:36      1 cbsuecco13
-            388830   regular     bash   dac429  R       8:49      1 cbsuecco14
+            334001   regular      ADA   jl4459  R 14-05:53:30      1 cbsuecco14
+            353450   regular iterate_    ljp96  R 7-04:08:27      1 cbsuecco14
+            357601   regular iterate_    ljp96  R 4-05:47:20      1 cbsuecco11
+            357612   regular rep-7711   dac429  R 1-02:43:09      1 cbsuecco09
+       372541_2933   regular ilm_alg_   hpaula  R    4:03:07      3 cbsuecco[01,07,11]
+       372541_2958   regular ilm_alg_   hpaula  R    3:50:57      1 cbsueccosl04
+       372541_3087   regular ilm_alg_   hpaula  R    3:05:49      1 cbsuecco02
+       372541_3095   regular ilm_alg_   hpaula  R    3:01:12      1 cbsuecco08
+       372541_3120   regular ilm_alg_   hpaula  R    2:47:54      3 cbsuecco[11-12,14]
+       372541_3213   regular ilm_alg_   hpaula  R    2:19:03      3 cbsuecco[10,14],cbsueccosl03
+            374963   regular 2rep7817   dac429  R   23:18:43      1 cbsuecco07
+            375520   regular  aer7440 dagr5998  R   14:25:24      1 cbsuecco02
+            388832   regular 2rep6588   dac429  R      20:52      1 cbsuecco13
+            388833   regular  rep6470   dac429  R       5:31      1 cbsuecco13
