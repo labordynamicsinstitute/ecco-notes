@@ -466,6 +466,17 @@ document.write(`
 <li><p>Stata (various versions)</p></li>
 <li><p>OxMetrics</p></li>
 </ul>
+<div class="dropdown admonition">
+<p class="admonition-title">Note on Stata variants</p>
+<p>On our installed Stata, all three variants are available:</p>
+<ul class="simple">
+<li><p>Stata/BE (Basic Edition) (<code class="docutils literal notranslate"><span class="pre">stata</span></code> command)</p></li>
+<li><p>Stata/SE (Standard Edition) (<code class="docutils literal notranslate"><span class="pre">stata-se</span></code> command)</p></li>
+<li><p>Stata/MP (Multiprocessor Edition) (<code class="docutils literal notranslate"><span class="pre">stata-mp</span></code> command)</p></li>
+</ul>
+<p>You probably do not want to use <code class="docutils literal notranslate"><span class="pre">stata</span></code> except for quick tests. You may not want to use <code class="docutils literal notranslate"><span class="pre">stata-mp</span></code> unless you know that you will leverage the additional cores, since it will <strong>consume</strong> more cores (you need to request more cores in your SLURM job) and may not be faster for smaller jobs.</p>
+<p>Pre-pending each command with <code class="docutils literal notranslate"><span class="pre">x</span></code> (lower-case; e.g., <code class="docutils literal notranslate"><span class="pre">xstata-mp</span></code>) will run the command in a graphical mode. See the <a class="reference internal" href="../graphical.html#graphical"><span class="std std-ref">Graphical applications</span></a> page for more details.</p>
+</div>
 <p>In addition, all regular <a class="reference external" href="https://biohpc.cornell.edu/lab/userguide.aspx?a=software">BioHPC-maintained software</a> is available, see the <a class="reference external" href="https://biohpc.cornell.edu/lab/userguide.aspx?a=software">full list</a>. You search through the list with <code class="docutils literal notranslate"><span class="pre">ctrl-f</span></code> or <code class="docutils literal notranslate"><span class="pre">cmd-f</span></code> in your browser.</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://biohpc.cornell.edu/lab/userguide.aspx?a=software&amp;amp;i=37#c">R</a> (multiple versions)</p></li>

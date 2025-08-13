@@ -17,6 +17,12 @@ Globus is an academic data transfer service that can be used to transfer data to
 
 You can drag-and-drop into the file pane in VS Code, or upload from the menu. See [VS Code Remote Development using SSH](https://code.visualstudio.com/docs/remote/ssh).
 
+### WinSCP or FileZilla (Windows, Easy)
+
+Download either [WinSCP](https://winscp.net/) or [FileZilla](https://filezilla-project.org/download.php?show_all=1) (both free).
+
+- For WinSCP, use the [Synchronizing](https://winscp.net/eng/docs/task_synchronize) feature.
+
 ### Using terminal on your laptop (intermediate)
 
 #### SFTP
