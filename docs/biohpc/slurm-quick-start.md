@@ -40,7 +40,7 @@ See [Customizing `modules`](custommodules) for more details.
 
 ## Submitting jobs
 
-You can submit from the command line (SSH) at the login nodes `cbsulogin?.biohpc.cornell.edu` (see [access description](https://biohpc.cornell.edu/lab/userguide.aspx?a=access#A3). All commands (`sbatch, squeue, sinfo`, etc) have to be run with option `--cluster cbsueccosl01` (but see [one-time setup](onetimesetup-slurm)).
+You can submit from the command line (SSH) at the login nodes `cbsulogin?.biohpc.cornell.edu` (see [access description](https://biohpc.cornell.edu/lab/userguide.aspx?a=access#A3) or the [SSH section](ssh)). All commands (`sbatch, squeue, sinfo`, etc) have to be run with option `--cluster cbsueccosl01` (but see [one-time setup](onetimesetup-slurm)).
 
 There is only one partition (queue) containing all nodes, default parameters (changeable through SLURM options at submission, see below) are:
 

@@ -9,6 +9,21 @@ The general ECCO landing page at BIOHPC ([https://biohpc.cornell.edu/lab/ecco.ht
 - Stata (various versions)
 - OxMetrics 
 
+:::{admonition} Note on Stata variants
+:class: dropdown
+
+On our installed Stata, all three variants are available:
+
+- Stata/BE (Basic Edition) (`stata` command)
+- Stata/SE (Standard Edition) (`stata-se` command)
+- Stata/MP (Multiprocessor Edition) (`stata-mp` command)
+
+You probably do not want to use `stata` except for quick tests. You may not want to use `stata-mp` unless you know that you will leverage the additional cores, since it will **consume** more cores (you need to request more cores in your SLURM job) and may not be faster for smaller jobs.
+
+Pre-pending each command with `x` (lower-case; e.g., `xstata-mp`) will run the command in a graphical mode. See the [Graphical applications](graphical) page for more details.
+
+:::
+
 In addition, all regular [BioHPC-maintained software](https://biohpc.cornell.edu/lab/userguide.aspx?a=software) is available, see the [full list](https://biohpc.cornell.edu/lab/userguide.aspx?a=software). You search through the list with `ctrl-f` or `cmd-f` in your browser.
 
 - [R](https://biohpc.cornell.edu/lab/userguide.aspx?a=software&i=37#c) (multiple versions)

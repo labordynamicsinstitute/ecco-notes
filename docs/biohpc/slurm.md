@@ -15,6 +15,8 @@ kernelspec:
 :tags: ["remove-input","full-width"]
 import os
 import re
+import pandas as pd
+from datetime import datetime
 
 
 def find_project_root(start_dir='.', file_to_find='favicon.ico'):
@@ -45,6 +47,74 @@ def find_project_root(start_dir='.', file_to_find='favicon.ico'):
 
 # Example usage
 project_root = find_project_root()
+
+# Load and process nodes data for slot calculation
+nodes = pd.read_csv(os.path.join(project_root,"_data", "ecconodes.csv"))
+# limit to flex and slurm nodes
+nodes = nodes[nodes['allocation'].str.contains('flex|slurm',na=False)]
+# compute total cores as cores * CPUs
+
+# Adjust cores calculation based on hyperthreading (HT)
+nodes['cores'] = nodes['cores per CPU'] * nodes['CPUs']
+nodes.loc[nodes['HT'] == True, 'cores'] *= 2
+
+# Parse eccoload.txt for nodes presently in the cluster
+def parse_eccoload(file_path):
+    allocated_nodes = []
+    try:
+        with open(file_path, 'r') as file:
+            content = file.read()
+            lines = content.splitlines()
+            for line in lines:
+                if 'cbsuecco' in line:
+                    parts = line.split()
+                    nodelist = parts[-1]
+                    
+                    if '[' in nodelist:
+                        base_name = nodelist.split('[')[0]
+                        ranges_part = nodelist.split('[')[1].rstrip(']')
+                        
+                        for range_part in ranges_part.split(','):
+                            range_part = range_part.rstrip(']')
+                            
+                            if '-' in range_part:
+                                try:
+                                    start, end = map(int, range_part.split('-'))
+                                    for i in range(start, end + 1):
+                                        if i < 10:
+                                            allocated_nodes.append(f"{base_name}0{i}")
+                                        else:
+                                            allocated_nodes.append(f"{base_name}{i}")
+                                except ValueError as e:
+                                    print(f"Error parsing range: {range_part} - {e}")
+                            else:
+                                try:
+                                    num = int(range_part)
+                                    if num < 10:
+                                        allocated_nodes.append(f"{base_name}0{num}")
+                                    else:
+                                        allocated_nodes.append(f"{base_name}{num}")
+                                except ValueError:
+                                    allocated_nodes.append(f"{base_name}{range_part}")
+                    else:
+                        allocated_nodes.append(nodelist)
+    except FileNotFoundError:
+        print(f"Error: File not found at {file_path}")
+    except IOError as e:
+        print(f"Error reading file: {e}")
+        
+    return allocated_nodes
+
+# Calculate current and total available cores
+eccoload_path = os.path.join(project_root, "_data", "eccoload.txt")
+allocated_node_names = parse_eccoload(eccoload_path)
+allocated_nodes = nodes[nodes['Nodename'].isin(allocated_node_names)]
+current_total_cores = allocated_nodes['cores'].sum()
+max_possible_cores = nodes['cores'].sum()
+
+# Get current date and time
+current_date_time = datetime.now().strftime("%B %d, %Y at %I:%M %p")
+
 #print(f"Project root directory: {project_root}")
 ```
 
@@ -52,7 +122,13 @@ project_root = find_project_root()
 
 # Job scheduler on BioHPC
 
-A SLURM cluster `cbsueccosl01` is maintained by Lars on behalf of Econ, on several nodes. Some are dedicated to the SLURM scheduler, others "borrowed"; the latter might not always be available. There are between 48 and 144 "slots" (cpus) available for compute jobs (see [Table](fulltable)).
+A SLURM cluster `cbsueccosl01` is maintained by Lars on behalf of Econ, on several nodes. Some are dedicated to the SLURM scheduler, others "borrowed"; the latter might not always be available.
+
+```{code-cell} ipython3
+:tags: ["remove-input","full-width"]
+from IPython.display import Markdown, display
+display(Markdown(f"As of {current_date_time}, there are **{current_total_cores} \"slots\"** (cpus) available for compute jobs (out of a maximum possible {max_possible_cores}) - see [Table](#fulltable)."))
+```
 
 ## Who can use
 
@@ -121,41 +197,22 @@ The following table shows the allocated nodes. Nodes marked `flex` may not be av
 ```{code-cell} ipython3
 :tags: ["remove-input","full-width"]
 from IPython.display import HTML
-import pandas as pd
 # from jupyter_datatables import init_datatables_mode, render_datatable
-import os
 from itables import init_notebook_mode, show
 
 init_notebook_mode(all_interactive=True)
-
-# uses the earlier function find_project_root()
-# Example usage
-project_root = find_project_root()
-#print(f"Project root directory: {project_root}")
-
-
-nodes = pd.read_csv(os.path.join(project_root,"_data", "ecconodes.csv"))
-# limit to flex and slurm nodes
-nodes = nodes[nodes['allocation'].str.contains('flex|slurm',na=False)]
-# compute total cores as cores * CPUs
-
-# Adjust cores calculation based on hyperthreading (HT)
-nodes['cores'] = nodes['cores per CPU'] * nodes['CPUs']
-nodes.loc[nodes['HT'] == True, 'cores'] *= 2
-
 
 # reorder columns
 # override the order of columns - this may need to be adjusted if the column names change
 columns = ['Nodename', 'allocation', 'cores','RAM',  'local storage in TB', 'model','cores per CPU', 'CPUs', 'HT','cpu benchmark (single thread)', 'vintage' ]
 
 # Reorder the columns
-nodes = nodes[columns]
+nodes_display = nodes[columns]
 
-
-#table = nodes.to_html(index=False, classes='table table-striped table-bordered table-sm', escape=False, render_links=True)
+#table = nodes_display.to_html(index=False, classes='table table-striped table-bordered table-sm', escape=False, render_links=True)
 # Render the HTML table in Jupyter Notebook
 #HTML(table)
-show(nodes, lengthMenu=[15, 25, 50], layout={"topStart": "search"}, classes="display compact")
+show(nodes_display, lengthMenu=[15, 25, 50], layout={"topStart": "search"}, classes="display compact")
 
 ```
 
@@ -165,15 +222,11 @@ show(nodes, lengthMenu=[15, 25, 50], layout={"topStart": "search"}, classes="dis
 ```{code-cell} ipython3
 :tags: ["remove-input","full-width"]
 
-# Filter for flex and slurm nodes
-filtered_nodes = nodes[nodes['allocation'].str.contains('flex|slurm', na=False)]
+# Compute total RAM for flex and slurm nodes
+total_ram = nodes['RAM'].sum()
 
-# Compute total cores and RAM for flex nodes
-total_cores = filtered_nodes['cores'].sum()
-total_ram = filtered_nodes['RAM'].sum()
-
-# Display the results
-print(f"Total cores possible across all SLURM nodes: {total_cores}")
+# Display the results (cores already calculated earlier)
+print(f"Total cores possible across all SLURM nodes: {max_possible_cores}")
 print(f"Total RAM possible across all SLURM nodes: {total_ram} GB")
 ```
 
@@ -181,84 +234,10 @@ print(f"Total RAM possible across all SLURM nodes: {total_ram} GB")
 ```{code-cell} ipython3
 :tags: ["remove-input","full-width"]
 
-# Parse eccoload.txt for nodes presently in the cluster
-def parse_eccoload(file_path):
-    """
-    Parse the eccoload.txt file to extract the list of nodes currently allocated to the cluster.
-    
-    Args:
-        file_path (str): Path to the eccoload.txt file.
-        
-    Returns:
-        list: A list of node names currently allocated to the cluster.
-    """
-    allocated_nodes = []
-    try:
-        with open(file_path, 'r') as file:
-            content = file.read()
-            # Look for lines with NODELIST at the end
-            lines = content.splitlines()
-            for line in lines:
-                if 'cbsuecco' in line:
-                    parts = line.split()
-                    # Get the last part which contains the node list
-                    nodelist = parts[-1]
-                    
-                    # Process the nodelist to get individual node names
-                    if '[' in nodelist:
-                        # Handle patterns like cbsuecco[13-14]
-                        base_name = nodelist.split('[')[0]
-                        ranges_part = nodelist.split('[')[1].rstrip(']')
-                        
-                        # Process each comma-separated range
-                        for range_part in ranges_part.split(','):
-                            # Clean the range part to ensure no trailing brackets
-                            range_part = range_part.rstrip(']')
-                            
-                            if '-' in range_part:
-                                # Handle ranges like 13-14
-                                try:
-                                    start, end = map(int, range_part.split('-'))
-                                    for i in range(start, end + 1):
-                                        if i < 10:
-                                            allocated_nodes.append(f"{base_name}0{i}")
-                                        else:
-                                            allocated_nodes.append(f"{base_name}{i}")
-                                except ValueError as e:
-                                    print(f"Error parsing range: {range_part} - {e}")
-                            else:
-                                # Handle single numbers
-                                try:
-                                    num = int(range_part)
-                                    if num < 10:
-                                        allocated_nodes.append(f"{base_name}0{num}")
-                                    else:
-                                        allocated_nodes.append(f"{base_name}{num}")
-                                except ValueError:
-                                    # If not a number, just add as is
-                                    allocated_nodes.append(f"{base_name}{range_part}")
-                    else:
-                        # Handle simple node names without brackets
-                        allocated_nodes.append(nodelist)
-    except FileNotFoundError:
-        print(f"Error: File not found at {file_path}")
-    except IOError as e:
-        print(f"Error reading file: {e}")
-        
-    return allocated_nodes
-
-# Get the list of allocated nodes
-eccoload_path = os.path.join(project_root, "_data", "eccoload.txt")
-allocated_nodes = parse_eccoload(eccoload_path)
-
-# Filter the nodes DataFrame for the allocated nodes
-allocated_nodes = nodes[nodes['Nodename'].isin(allocated_nodes)]
-
-# Compute total cores and RAM for flex nodes
-alloc_total_cores = allocated_nodes['cores'].sum()
+# Compute total RAM for currently allocated nodes
 alloc_total_ram = allocated_nodes['RAM'].sum()
 
-# Display the results
-print(f"Total cores currently available across all SLURM nodes: {alloc_total_cores}")
+# Display the results (cores already calculated earlier)
+print(f"Total cores currently available across all SLURM nodes: {current_total_cores}")
 print(f"Total RAM currently available across all SLURM nodes: {alloc_total_ram} GB")
 ```
