@@ -78,20 +78,30 @@ srun -w cbsueccoXX --nprocs 8 --pty bash -l
 
 ## Interactive GUI jobs
 
-You should be able to get interactive GUI jobs (Stata, MATLAB) to work as follows:
+Once you have set yourself up for "X11" jobs (see [Graphical applications](graphical), you should be able to get interactive GUI jobs (Stata, MATLAB) to work as follows:
+
+- Get an interactive shell, as above, but with additional parameters (if you haven't done the [One-time setup](onetimesetup-slurm), add `--cluster cbsueccosl01`):
 
 ```bash
 srun -n 2 -N1 --mem=8G  --x11 --pty bash -l
+```
+
+then, for Stata (see [Software page](software) for variants))
+
+```bash
 /usr/local/stata18/xstata
 ```
 
-or 
+or, for MATLAB (see [Software page](software) for variants):
 
 ```bash
 srun -n 2 -N1 --mem=8G  --x11 --pty bash -l
 /local/opt/MATLAB/R2023a/bin/matlab
 ```
-When done, type `exit` to exit the interactive session. Note that you must align the requested CPU count (`-n 2`) with the expected usage of the MATLAB and Stata/MP. While just opening them will not cause a problem, our Stata/MP version will use up to 8 cores, and MATLAB, unless specifically configured not to do so, will utilize the amount of *physical* cores on the system. For any serious computing, please use non-interactive mode, or adjust the number of cores you request accordingly.
+
+When done, type `exit` to exit the interactive session. 
+
+Note that you must align the requested CPU count (`-n 2`) with the expected usage of the MATLAB and Stata variants. While just opening them will not cause a problem, our Stata/MP version will use up to 8 cores (e.g., use `-n 9`), and MATLAB, unless specifically configured not to do so, will utilize the amount of *physical* cores on the system (for instance, use `-n 55` if running on a 54-CPU machine that has hyper-threading turn on, and `-n 54` if not). In general, you want the compute job to have 1 core for the terminal you launch it from, and as many cores as the software will consume. For any serious computing, please use [non-interactive mode](sbatchexample), or adjust the number of cores you request accordingly.
 
 :::{warning}
 

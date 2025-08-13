@@ -509,17 +509,24 @@ document.write(`
 </section>
 <section id="interactive-gui-jobs">
 <h2>Interactive GUI jobs<a class="headerlink" href="#interactive-gui-jobs" title="Link to this heading">#</a></h2>
-<p>You should be able to get interactive GUI jobs (Stata, MATLAB) to work as follows:</p>
+<p>Once you have set yourself up for “X11” jobs (see <a class="reference internal" href="../graphical.html#graphical"><span class="std std-ref">Graphical applications</span></a>, you should be able to get interactive GUI jobs (Stata, MATLAB) to work as follows:</p>
+<ul class="simple">
+<li><p>Get an interactive shell, as above, but with additional parameters (if you haven’t done the <a class="reference internal" href="#onetimesetup-slurm"><span class="std std-ref">One-time setup</span></a>, add <code class="docutils literal notranslate"><span class="pre">--cluster</span> <span class="pre">cbsueccosl01</span></code>):</p></li>
+</ul>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>srun<span class="w"> </span>-n<span class="w"> </span><span class="m">2</span><span class="w"> </span>-N1<span class="w"> </span>--mem<span class="o">=</span>8G<span class="w">  </span>--x11<span class="w"> </span>--pty<span class="w"> </span>bash<span class="w"> </span>-l
-/usr/local/stata18/xstata
 </pre></div>
 </div>
-<p>or</p>
+<p>then, for Stata (see <a class="reference internal" href="software.html#software"><span class="std std-ref">Software page</span></a> for variants))</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>/usr/local/stata18/xstata
+</pre></div>
+</div>
+<p>or, for MATLAB (see <a class="reference internal" href="software.html#software"><span class="std std-ref">Software page</span></a> for variants):</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>srun<span class="w"> </span>-n<span class="w"> </span><span class="m">2</span><span class="w"> </span>-N1<span class="w"> </span>--mem<span class="o">=</span>8G<span class="w">  </span>--x11<span class="w"> </span>--pty<span class="w"> </span>bash<span class="w"> </span>-l
 /local/opt/MATLAB/R2023a/bin/matlab
 </pre></div>
 </div>
-<p>When done, type <code class="docutils literal notranslate"><span class="pre">exit</span></code> to exit the interactive session. Note that you must align the requested CPU count (<code class="docutils literal notranslate"><span class="pre">-n</span> <span class="pre">2</span></code>) with the expected usage of the MATLAB and Stata/MP. While just opening them will not cause a problem, our Stata/MP version will use up to 8 cores, and MATLAB, unless specifically configured not to do so, will utilize the amount of <em>physical</em> cores on the system. For any serious computing, please use non-interactive mode, or adjust the number of cores you request accordingly.</p>
+<p>When done, type <code class="docutils literal notranslate"><span class="pre">exit</span></code> to exit the interactive session.</p>
+<p>Note that you must align the requested CPU count (<code class="docutils literal notranslate"><span class="pre">-n</span> <span class="pre">2</span></code>) with the expected usage of the MATLAB and Stata variants. While just opening them will not cause a problem, our Stata/MP version will use up to 8 cores (e.g., use <code class="docutils literal notranslate"><span class="pre">-n</span> <span class="pre">9</span></code>), and MATLAB, unless specifically configured not to do so, will utilize the amount of <em>physical</em> cores on the system (for instance, use <code class="docutils literal notranslate"><span class="pre">-n</span> <span class="pre">55</span></code> if running on a 54-CPU machine that has hyper-threading turn on, and <code class="docutils literal notranslate"><span class="pre">-n</span> <span class="pre">54</span></code> if not). In general, you want the compute job to have 1 core for the terminal you launch it from, and as many cores as the software will consume. For any serious computing, please use <a class="reference internal" href="sbatch.html#sbatchexample"><span class="std std-ref">non-interactive mode</span></a>, or adjust the number of cores you request accordingly.</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
 <p>It is technically feasible to login to each node without using SLURM. However, this confuses the job scheduler. Do not abuse this, <strong>exclusion from use of the cluster may be the consequence</strong>.</p>

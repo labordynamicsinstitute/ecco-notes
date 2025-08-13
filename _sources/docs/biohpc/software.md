@@ -7,7 +7,6 @@ The general ECCO landing page at BIOHPC ([https://biohpc.cornell.edu/lab/ecco.ht
 
 - MATLAB (various versions)
 - Stata (various versions)
-- OxMetrics 
 
 :::{admonition} Note on Stata variants
 :class: dropdown
