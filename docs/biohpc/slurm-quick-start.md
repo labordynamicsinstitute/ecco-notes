@@ -68,11 +68,18 @@ If you need a specific node, use
 srun -w cbsueccoXX --pty bash -l
 ```
 
-You can use all valid SLURM command line options (the same as are listed in a `sbatch` file) as well. In their absence, you will get default values (limitations).[^limits] For instance, the above invocations get unlimited memory, but are limited to **1 task** on **1 CPU**. If you needed to use more within your interactive shell, you might want to specify
+You can use all valid SLURM command line options (the same as are listed in a `sbatch` file) as well. In their absence, you will get default values (limitations).[^limits] For instance, the above invocations get unlimited memory, but are limited to **1 task** on **1 CPU**. If you needed to use more within your interactive shell, for instance , you might want to specify
 
 ```bash
-srun -w cbsueccoXX --nprocs 8 --pty bash -l
+srun --nodelist cbsueccoXX --cpus-per-task 8 --pty bash -l
 ```
+or
+
+```bash
+srun -w cbsueccoXX -c 8 --pty bash -l
+```
+
+to run an 8-core job on node `cbsueccoXX` ([documentation](https://slurm.schedmd.com/sbatch.html)).
 
 [^limits]: You can get a list of all the default values by getting a login shell (`srun --pty bash -l`), then listing all the SLURM-related environment variables (`export | grep SLURM`).
 
@@ -83,7 +90,13 @@ Once you have set yourself up for "X11" jobs (see [Graphical applications](graph
 - Get an interactive shell, as above, but with additional parameters (if you haven't done the [One-time setup](onetimesetup-slurm), add `--cluster cbsueccosl01`):
 
 ```bash
-srun -n 2 -N1 --mem=8G  --x11 --pty bash -l
+srun --cpus-per-task 2 --nodes 1 --mem=8G  --x11 --pty bash -l
+```
+
+or
+
+```bash
+srun -c 2 -N1 --mem=8G --x11 --pty bash -l
 ```
 
 then, for Stata (see [Software page](software) for variants))
@@ -95,13 +108,13 @@ then, for Stata (see [Software page](software) for variants))
 or, for MATLAB (see [Software page](software) for variants):
 
 ```bash
-srun -n 2 -N1 --mem=8G  --x11 --pty bash -l
+srun -c 2 -N1 --mem=8G  --x11 --pty bash -l
 /local/opt/MATLAB/R2023a/bin/matlab
 ```
 
 When done, type `exit` to exit the interactive session. 
 
-Note that you must align the requested CPU count (`-n 2`) with the expected usage of the MATLAB and Stata variants. While just opening them will not cause a problem, our Stata/MP version will use up to 8 cores (e.g., use `-n 9`), and MATLAB, unless specifically configured not to do so, will utilize the amount of *physical* cores on the system (for instance, use `-n 55` if running on a 54-CPU machine that has hyper-threading turn on, and `-n 54` if not). In general, you want the compute job to have 1 core for the terminal you launch it from, and as many cores as the software will consume. For any serious computing, please use [non-interactive mode](sbatchexample), or adjust the number of cores you request accordingly.
+Note that you must align the requested CPU count (`-c 2`) with the expected usage of the MATLAB and Stata variants. While just opening them will not cause a problem, our Stata/MP version will use up to 8 cores (e.g., use `-c 9`), and MATLAB, unless specifically configured not to do so, will utilize the amount of *physical* cores on the system (for instance, use `-c 55` if running on a 54-CPU machine that has hyper-threading turn on, and `-n 54` if not). In general, you want the compute job to have 1 core for the terminal you launch it from, and as many cores as the software will consume. For any serious computing, please use [non-interactive mode](sbatchexample), or adjust the number of cores you request accordingly.
 
 :::{warning}
 
