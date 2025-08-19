@@ -1,11 +1,14 @@
-            460718   regular G05_cali    ljp96  R 18-20:59:14      1 cbsuecco08
-            460719   regular G15_cali    ljp96  R 18-20:59:09      1 cbsueccosl03
-            524549   regular    a7130     lv39  R 4-15:22:26      1 cbsuecco02
-            525394   regular iterate_    ljp96  R 12-04:14:39      1 cbsueccosl04
-            525399   regular G19_cali    ljp96  R 12-04:04:41      1 cbsuecco01
-            528809   regular    ADA41   jl4459  R 3-22:01:56      1 cbsuecco14
-            528810   regular    ADA42   jl4459  R 3-22:01:53      1 cbsuecco13
-            528811   regular    ADA43   jl4459  R 3-22:01:50      1 cbsuecco12
-            528813   regular    ADA32   jl4459  R 3-22:01:44      1 cbsuecco10
+            460718   regular G05_cali    ljp96  R 18-21:59:16      1 cbsuecco08
+            460719   regular G15_cali    ljp96  R 18-21:59:11      1 cbsueccosl03
+            524549   regular    a7130     lv39  R 4-16:22:28      1 cbsuecco02
+            525394   regular iterate_    ljp96  R 12-05:14:41      1 cbsueccosl04
+            525399   regular G19_cali    ljp96  R 12-05:04:43      1 cbsuecco01
+            528809   regular    ADA41   jl4459  R 3-23:01:58      1 cbsuecco14
+            528810   regular    ADA42   jl4459  R 3-23:01:55      1 cbsuecco13
+            528811   regular    ADA43   jl4459  R 3-23:01:52      1 cbsuecco12
+            528813   regular    ADA32   jl4459  R 3-23:01:46      1 cbsuecco10
             528842   regular  aer7440 dagr5998 PD       0:00      1 (Resources)
             528852   regular  aer7440 dagr5998 PD       0:00      1 (Priority)
+            528853   regular     bash   dac429  R      15:21      1 cbsuecco07
+            528854   regular rais_cle    ts724  R       9:47      1 cbsuecco09
+            528855   regular     bash   ss3977  R       4:58      1 cbsuecco13
