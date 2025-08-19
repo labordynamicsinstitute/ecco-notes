@@ -1,10 +1,11 @@
-            460718   regular G05_cali    ljp96  R 18-14:59:15      1 cbsuecco08
-            460719   regular G15_cali    ljp96  R 18-14:59:10      1 cbsueccosl03
-            524549   regular    a7130     lv39  R 4-09:22:27      1 cbsuecco02
-            525394   regular iterate_    ljp96  R 11-22:14:40      1 cbsueccosl04
-            525399   regular G19_cali    ljp96  R 11-22:04:42      1 cbsuecco01
-            528809   regular    ADA41   jl4459  R 3-16:01:57      1 cbsuecco14
-            528810   regular    ADA42   jl4459  R 3-16:01:54      1 cbsuecco13
-            528811   regular    ADA43   jl4459  R 3-16:01:51      1 cbsuecco12
-            528813   regular    ADA32   jl4459  R 3-16:01:45      1 cbsuecco10
+            460718   regular G05_cali    ljp96  R 18-15:59:18      1 cbsuecco08
+            460719   regular G15_cali    ljp96  R 18-15:59:13      1 cbsueccosl03
+            524549   regular    a7130     lv39  R 4-10:22:30      1 cbsuecco02
+            525394   regular iterate_    ljp96  R 11-23:14:43      1 cbsueccosl04
+            525399   regular G19_cali    ljp96  R 11-23:04:45      1 cbsuecco01
+            528809   regular    ADA41   jl4459  R 3-17:02:00      1 cbsuecco14
+            528810   regular    ADA42   jl4459  R 3-17:01:57      1 cbsuecco13
+            528811   regular    ADA43   jl4459  R 3-17:01:54      1 cbsuecco12
+            528813   regular    ADA32   jl4459  R 3-17:01:48      1 cbsuecco10
             528842   regular  aer7440 dagr5998 PD       0:00      1 (Resources)
+            528845   regular  rep7896   dac429  R       9:41      1 cbsuecco09
