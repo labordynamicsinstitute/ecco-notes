@@ -1,8 +1,8 @@
-            460718   regular G05_cali    ljp96  R 21-23:59:19      1 cbsuecco08
-            460719   regular G15_cali    ljp96  R 21-23:59:14      1 cbsueccosl03
-            524549   regular    a7130     lv39  R 7-18:22:31      1 cbsuecco02
-            525394   regular iterate_    ljp96  R 15-07:14:44      1 cbsueccosl04
-            528809   regular    ADA41   jl4459  R 7-01:02:01      1 cbsuecco14
-            528813   regular    ADA32   jl4459  R 7-01:01:49      1 cbsuecco10
+            460718   regular G05_cali    ljp96  R 22-01:02:26      1 cbsuecco08
+            460719   regular G15_cali    ljp96  R 22-01:02:21      1 cbsueccosl03
+            524549   regular    a7130     lv39  R 7-19:25:38      1 cbsuecco02
+            525394   regular iterate_    ljp96  R 15-08:17:51      1 cbsueccosl04
+            528809   regular    ADA41   jl4459  R 7-02:05:08      1 cbsuecco14
+            528813   regular    ADA32   jl4459  R 7-02:04:56      1 cbsuecco10
             528852   regular  aer7440 dagr5998 PD       0:00      1 (Priority)
-            528883   regular rais_cle    ts724 PD       0:00      1 (Resources)
+            528883   regular rais_cle    ts724 PD       0:00      1 (Nodes required for job are DOWN, DRAINED or reserved for jobs in higher priority partitions)
