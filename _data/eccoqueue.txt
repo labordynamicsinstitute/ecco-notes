@@ -1,2 +1,1 @@
-            528958   regular     bash     lv39  R    6:44:40      1 cbsuecco13
-            528961   regular  aer7440 dagr5998  R    1:02:46      1 cbsuecco14
+            528958   regular     bash     lv39  R    7:44:40      1 cbsuecco13
