@@ -1,5 +1,4 @@
-            528958   regular     bash     lv39  R 1-22:44:43      1 cbsuecco13
-            528996   regular  aer7306 dagr5998  R   17:01:49      1 cbsuecco14
-            528998   regular     bash   ss3977  R    3:25:55      1 cbsuecco14
-            528999   regular    a7685     lv39  R    1:10:14      1 cbsuecco09
-            529000   regular     bash   ss3977  R    1:06:40      1 cbsuecco14
+            528958   regular     bash     lv39  R 1-23:44:40      1 cbsuecco13
+            528996   regular  aer7306 dagr5998  R   18:01:46      1 cbsuecco14
+            528999   regular    a7685     lv39  R    2:10:11      1 cbsuecco09
+            529000   regular     bash   ss3977  R    2:06:37      1 cbsuecco14
