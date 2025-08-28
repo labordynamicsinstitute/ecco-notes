@@ -1,1 +1,2 @@
-            529021   regular  aer7306 dagr5998  R   21:52:08      1 cbsuecco02
+            529021   regular  aer7306 dagr5998  R   22:52:07      1 cbsuecco02
+            529022   regular     bash     lv39  R       2:59      1 cbsuecco13
