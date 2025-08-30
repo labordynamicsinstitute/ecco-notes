@@ -1,4 +1,4 @@
-            529021   regular  aer7306 dagr5998  R 2-06:52:06      1 cbsuecco02
-            529028   regular G05_cali    ljp96  R    7:53:46      1 cbsuecco13
-            529029   regular G19_cali    ljp96  R    7:53:41      1 cbsuecco14
-            529030   regular G15_cali    ljp96  R    7:53:34      1 cbsuecco13
+            529028   regular G05_cali    ljp96  R    8:53:50      1 cbsuecco13
+            529029   regular G19_cali    ljp96  R    8:53:45      1 cbsuecco14
+            529030   regular G15_cali    ljp96  R    8:53:38      1 cbsuecco13
+            529033   regular  aer7306 dagr5998  R      37:30      1 cbsuecco02
