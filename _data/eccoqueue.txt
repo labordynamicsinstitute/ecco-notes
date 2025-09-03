@@ -1,4 +1,4 @@
-            529028   regular G05_cali    ljp96  R 4-20:53:52      1 cbsuecco13
-            529029   regular G19_cali    ljp96  R 4-20:53:47      1 cbsuecco14
-            529030   regular G15_cali    ljp96  R 4-20:53:40      1 cbsuecco13
-            530339   regular  rep8061   dac429  R   15:03:21      1 cbsuecco02
+            529028   regular G05_cali    ljp96  R 4-21:53:49      1 cbsuecco13
+            529029   regular G19_cali    ljp96  R 4-21:53:44      1 cbsuecco14
+            529030   regular G15_cali    ljp96  R 4-21:53:37      1 cbsuecco13
+            530339   regular  rep8061   dac429  R   16:03:18      1 cbsuecco02
