@@ -1,5 +1,5 @@
-            529028   regular G05_cali    ljp96  R 6-12:53:46      1 cbsuecco13
-            529029   regular G19_cali    ljp96  R 6-12:53:41      1 cbsuecco14
-            529030   regular G15_cali    ljp96  R 6-12:53:34      1 cbsuecco13
-            530342   regular  rep8061   dac429  R 1-06:59:27      1 cbsuecco02
+            529028   regular G05_cali    ljp96  R 6-13:53:46      1 cbsuecco13
+            529029   regular G19_cali    ljp96  R 6-13:53:41      1 cbsuecco14
+            529030   regular G15_cali    ljp96  R 6-13:53:34      1 cbsuecco13
+            530342   regular  rep8061   dac429  R 1-07:59:27      1 cbsuecco02
             530360   regular  aer7306 dagr5998 PD       0:00      1 (Resources)
