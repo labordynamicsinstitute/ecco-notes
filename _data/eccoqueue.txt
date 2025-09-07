@@ -1,5 +1,6 @@
-            529028   regular G05_cali    ljp96  R 8-23:53:46      1 cbsuecco13
-            529029   regular G19_cali    ljp96  R 8-23:53:41      1 cbsuecco14
-            529030   regular G15_cali    ljp96  R 8-23:53:34      1 cbsuecco13
+            529028   regular G05_cali    ljp96  R 9-00:53:46      1 cbsuecco13
+            529029   regular G19_cali    ljp96  R 9-00:53:41      1 cbsuecco14
+            529030   regular G15_cali    ljp96  R 9-00:53:34      1 cbsuecco13
             530417   regular  aer7306 dagr5998 PD       0:00      1 (Resources)
-            531422   regular     bash   dac429  R    1:13:12      1 cbsuecco14
+            531422   regular     bash   dac429  R    2:13:12      1 cbsuecco14
+            531423   regular poaching    fm469  R      10:14      1 cbsuecco14
