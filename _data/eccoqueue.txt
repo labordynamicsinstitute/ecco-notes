@@ -1,8 +1,4 @@
-            529028   regular G05_cali    ljp96  R 12-23:53:47      1 cbsuecco13
-            529029   regular G19_cali    ljp96  R 12-23:53:42      1 cbsuecco14
-            529030   regular G15_cali    ljp96  R 12-23:53:35      1 cbsuecco13
+            529028   regular G05_cali    ljp96  R 13-00:53:47      1 cbsuecco13
+            529029   regular G19_cali    ljp96  R 13-00:53:42      1 cbsuecco14
+            529030   regular G15_cali    ljp96  R 13-00:53:35      1 cbsuecco13
             530417   regular  aer7306 dagr5998 PD       0:00      1 (Resources)
-        532436_990   regular boot_par   alw327  R    1:01:13      1 cbsuecco14
-        532436_992   regular boot_par   alw327  R      57:02      1 cbsuecco14
-        532436_999   regular boot_par   alw327  R      53:02      1 cbsuecco13
-            533391   regular poaching    fm469  R    1:38:17      1 cbsuecco12
