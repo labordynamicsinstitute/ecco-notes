@@ -1,9 +1,9 @@
-            529028   regular G05_cali    ljp96  R 15-11:53:46      1 cbsuecco13
-            529029   regular G19_cali    ljp96  R 15-11:53:41      1 cbsuecco14
-            529030   regular G15_cali    ljp96  R 15-11:53:34      1 cbsuecco13
+            529028   regular G05_cali    ljp96  R 15-12:53:46      1 cbsuecco13
+            529029   regular G19_cali    ljp96  R 15-12:53:41      1 cbsuecco14
+            529030   regular G15_cali    ljp96  R 15-12:53:34      1 cbsuecco13
             530417   regular  aer7306 dagr5998 PD       0:00      1 (Resources)
-            535462   regular poaching    fm469  R      35:19      1 cbsuecco14
-            535463   regular poaching    fm469  R      35:19      1 cbsuecco13
-            535464   regular poaching    fm469  R      35:19      1 cbsuecco14
-            535465   regular poaching    fm469  R      35:19      1 cbsuecco09
-            535466   regular poaching    fm469  R      35:19      1 cbsuecco10
+            535462   regular poaching    fm469  R    1:35:19      1 cbsuecco14
+            535463   regular poaching    fm469  R    1:35:19      1 cbsuecco13
+            535464   regular poaching    fm469  R    1:35:19      1 cbsuecco14
+            535465   regular poaching    fm469  R    1:35:19      1 cbsuecco09
+            535466   regular poaching    fm469  R    1:35:19      1 cbsuecco10
