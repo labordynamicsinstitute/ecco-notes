@@ -1,5 +1,4 @@
-            529028   regular G05_cali    ljp96  R 20-02:53:47      1 cbsuecco13
-            529029   regular G19_cali    ljp96  R 20-02:53:42      1 cbsuecco14
-            529030   regular G15_cali    ljp96  R 20-02:53:35      1 cbsuecco13
+            529028   regular G05_cali    ljp96  R 20-03:53:49      1 cbsuecco13
+            529029   regular G19_cali    ljp96  R 20-03:53:44      1 cbsuecco14
+            529030   regular G15_cali    ljp96  R 20-03:53:37      1 cbsuecco13
             530417   regular  aer7306 dagr5998 PD       0:00      1 (Resources)
-            536496   regular poaching    fm469  R      32:06      1 cbsuecco14
