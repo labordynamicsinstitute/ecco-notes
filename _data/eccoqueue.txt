@@ -1,13 +1,12 @@
-            529028   regular G05_cali    ljp96  R 26-06:53:47      1 cbsuecco13
+            529028   regular G05_cali    ljp96  R 26-07:53:47      1 cbsuecco13
             530417   regular  aer7306 dagr5998 PD       0:00      1 (Resources)
-            536509   regular    ADA31   jl4459  R 4-00:45:24      1 cbsuecco13
-            536510   regular    ADA32   jl4459  R 4-00:44:54      1 cbsuecco14
-            536511   regular    ADA33   jl4459  R 4-00:44:54      1 cbsuecco07
-            536512   regular    ADA34   jl4459  R 4-00:44:54      1 cbsuecco09
-            536513   regular    ADA35   jl4459  R 4-00:44:54      1 cbsuecco10
-            536514   regular    ADA36   jl4459  R 4-00:44:54      1 cbsuecco11
-            536537   regular  aer8056 dagr5998  R 1-04:38:22      1 cbsuecco14
-            536540   regular    ADA37   jl4459  R 1-00:20:59      1 cbsuecco12
-            536551   regular  aer8048 dagr5998  R    1:51:01      1 cbsuecco14
-            536552   regular poaching    fm469  R    1:06:07      1 cbsuecco01
-            536554   regular     bash    lb746  R      22:53      1 cbsuecco13
+            536509   regular    ADA31   jl4459  R 4-01:45:24      1 cbsuecco13
+            536510   regular    ADA32   jl4459  R 4-01:44:54      1 cbsuecco14
+            536511   regular    ADA33   jl4459  R 4-01:44:54      1 cbsuecco07
+            536512   regular    ADA34   jl4459  R 4-01:44:54      1 cbsuecco09
+            536513   regular    ADA35   jl4459  R 4-01:44:54      1 cbsuecco10
+            536514   regular    ADA36   jl4459  R 4-01:44:54      1 cbsuecco11
+            536537   regular  aer8056 dagr5998  R 1-05:38:22      1 cbsuecco14
+            536540   regular    ADA37   jl4459  R 1-01:20:59      1 cbsuecco12
+            536551   regular  aer8048 dagr5998  R    2:51:01      1 cbsuecco14
+            536552   regular poaching    fm469  R    2:06:07      1 cbsuecco01
