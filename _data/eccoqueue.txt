@@ -1,6 +1,5 @@
-            529028   regular G05_cali    ljp96  R 27-21:53:47      1 cbsuecco13
-            530417   regular  aer7306 dagr5998  R      24:38      1 cbsuecco14
-            536562   regular    ADA37   jl4459  R   22:03:48      1 cbsuecco11
-            536563   regular    ADA38   jl4459  R   22:03:47      1 cbsuecco12
-            536765   regular poaching    fm469  R   15:41:35      1 cbsuecco01
-            537571   regular Correlat   ss3977  R      16:22      1 cbsuecco13
+            529028   regular G05_cali    ljp96  R 27-22:53:53      1 cbsuecco13
+            530417   regular  aer7306 dagr5998  R    1:24:44      1 cbsuecco14
+            536562   regular    ADA37   jl4459  R   23:03:54      1 cbsuecco11
+            536563   regular    ADA38   jl4459  R   23:03:53      1 cbsuecco12
+            536765   regular poaching    fm469  R   16:41:41      1 cbsuecco01
