@@ -1,6 +1,5 @@
-            529028   regular G05_cali    ljp96  R 28-05:53:46      1 cbsuecco13
-            530417   regular  aer7306 dagr5998  R    8:24:37      1 cbsuecco14
-            536562   regular    ADA37   jl4459  R 1-06:03:47      1 cbsuecco11
-            536563   regular    ADA38   jl4459  R 1-06:03:46      1 cbsuecco12
-            537574   regular  aer8056 dagr5998  R    3:26:51      1 cbsuecco13
-            537576   regular  aer8048 dagr5998  R    1:36:13      1 cbsuecco13
+            529028   regular G05_cali    ljp96  R 28-06:53:50      1 cbsuecco13
+            530417   regular  aer7306 dagr5998  R    9:24:41      1 cbsuecco14
+            536562   regular    ADA37   jl4459  R 1-07:03:51      1 cbsuecco11
+            536563   regular    ADA38   jl4459  R 1-07:03:50      1 cbsuecco12
+            537574   regular  aer8056 dagr5998  R    4:26:55      1 cbsuecco13
