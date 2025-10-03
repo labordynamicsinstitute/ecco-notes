@@ -1,9 +1,6 @@
-            539779   regular  aer8216 dagr5998  R 1-11:58:17      1 cbsuecco02
-            540468   regular    ADA31   jl4459  R 1-04:04:34      1 cbsuecco14
-            540469   regular    ADA32   jl4459  R 1-04:04:31      1 cbsuecco13
-            540470   regular    ADA33   jl4459  R 1-04:04:28      1 cbsuecco09
-            540471   regular    ADA34   jl4459  R 1-04:04:25      1 cbsuecco11
-            540472   regular    ADA35   jl4459  R   21:57:37      1 cbsuecco10
-            540473   regular    ADA36   jl4459  R   21:55:57      1 cbsuecco12
-            540474   regular    ADA37   jl4459 PD       0:00      1 (Resources)
-            540475   regular    ADA38   jl4459 PD       0:00      1 (Resources)
+            540702   regular    ADA31   jl4459  R      15:38      1 cbsuecco13
+            540703   regular    ADA51   jl4459  R      15:30      1 cbsuecco14
+            540704   regular    ADA32   jl4459  R       9:18      1 cbsuecco09
+            540705   regular    ADA33   jl4459  R       9:14      1 cbsuecco10
+            540706   regular    ADA34   jl4459  R       9:11      1 cbsuecco11
+            540707   regular    ADA35   jl4459  R       8:58      1 cbsuecco12
