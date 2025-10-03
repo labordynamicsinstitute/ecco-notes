@@ -1,11 +1,11 @@
-            529028   regular G05_cali    ljp96  R 34-21:53:47      1 cbsuecco13
-            539779   regular  aer8216 dagr5998  R 1-05:58:17      1 cbsuecco02
-            540468   regular    ADA31   jl4459  R   22:04:34      1 cbsuecco14
-            540469   regular    ADA32   jl4459  R   22:04:31      1 cbsuecco13
-            540470   regular    ADA33   jl4459  R   22:04:28      1 cbsuecco09
-            540471   regular    ADA34   jl4459  R   22:04:25      1 cbsuecco11
-            540472   regular    ADA35   jl4459  R   15:57:37      1 cbsuecco10
-            540473   regular    ADA36   jl4459  R   15:55:57      1 cbsuecco12
+            529028   regular G05_cali    ljp96  R 34-22:54:02      1 cbsuecco13
+            539779   regular  aer8216 dagr5998  R 1-06:58:32      1 cbsuecco02
+            540468   regular    ADA31   jl4459  R   23:04:49      1 cbsuecco14
+            540469   regular    ADA32   jl4459  R   23:04:46      1 cbsuecco13
+            540470   regular    ADA33   jl4459  R   23:04:43      1 cbsuecco09
+            540471   regular    ADA34   jl4459  R   23:04:40      1 cbsuecco11
+            540472   regular    ADA35   jl4459  R   16:57:52      1 cbsuecco10
+            540473   regular    ADA36   jl4459  R   16:56:12      1 cbsuecco12
             540474   regular    ADA37   jl4459 PD       0:00      1 (Resources)
             540475   regular    ADA38   jl4459 PD       0:00      1 (Resources)
-            540701   regular     bash   ss3977  R      11:29      1 cbsuecco14
+            540701   regular     bash   ss3977  R    1:11:44      1 cbsuecco14
