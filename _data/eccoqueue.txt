@@ -1,8 +1,8 @@
-            540702   regular    ADA31   jl4459  R 1-00:15:37      1 cbsuecco13
-            540704   regular    ADA32   jl4459  R 1-00:09:17      1 cbsuecco09
-            540705   regular    ADA33   jl4459  R 1-00:09:13      1 cbsuecco10
-            540706   regular    ADA34   jl4459  R 1-00:09:10      1 cbsuecco11
-            540707   regular    ADA35   jl4459  R 1-00:08:57      1 cbsuecco12
-       540717_2012   regular coworker    fm469  R    3:35:09      1 cbsuecco14
-       540717_2014   regular coworker    fm469  R    3:35:09      1 cbsuecco14
-       540717_2015   regular coworker    fm469  R    3:35:09      1 cbsuecco14
+            540702   regular    ADA31   jl4459  R 1-01:15:37      1 cbsuecco13
+            540704   regular    ADA32   jl4459  R 1-01:09:17      1 cbsuecco09
+            540705   regular    ADA33   jl4459  R 1-01:09:13      1 cbsuecco10
+            540706   regular    ADA34   jl4459  R 1-01:09:10      1 cbsuecco11
+            540707   regular    ADA35   jl4459  R 1-01:08:57      1 cbsuecco12
+       540717_2012   regular coworker    fm469  R    4:35:09      1 cbsuecco14
+       540717_2014   regular coworker    fm469  R    4:35:09      1 cbsuecco14
+       540717_2015   regular coworker    fm469  R    4:35:09      1 cbsuecco14
