@@ -1,6 +1,6 @@
-            540702   regular    ADA31   jl4459  R    3:15:37      1 cbsuecco13
-            540704   regular    ADA32   jl4459  R    3:09:17      1 cbsuecco09
-            540705   regular    ADA33   jl4459  R    3:09:13      1 cbsuecco10
-            540706   regular    ADA34   jl4459  R    3:09:10      1 cbsuecco11
-            540707   regular    ADA35   jl4459  R    3:08:57      1 cbsuecco12
-            540709   regular poaching    fm469  R    2:40:41      1 cbsuecco01
+            540702   regular    ADA31   jl4459  R    4:15:40      1 cbsuecco13
+            540704   regular    ADA32   jl4459  R    4:09:20      1 cbsuecco09
+            540705   regular    ADA33   jl4459  R    4:09:16      1 cbsuecco10
+            540706   regular    ADA34   jl4459  R    4:09:13      1 cbsuecco11
+            540707   regular    ADA35   jl4459  R    4:09:00      1 cbsuecco12
+            540709   regular poaching    fm469  R    3:40:44      1 cbsuecco01
