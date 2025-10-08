@@ -1,3 +1,11 @@
-            540706   regular    ADA34   jl4459  R 4-18:09:15      1 cbsuecco11
-            540762   regular    ADA35   jl4459  R   22:46:00      1 cbsuecco13
-            540771   regular  aer8216 dagr5998  R    8:27:18      1 cbsuecco02
+            540706   regular    ADA34   jl4459  R 4-19:09:11      1 cbsuecco11
+            540762   regular    ADA35   jl4459  R   23:45:56      1 cbsuecco13
+            540771   regular  aer8216 dagr5998  R    9:27:14      1 cbsuecco02
+          540799_1   regular poaching    fm469  R      17:21      1 cbsuecco14
+          540799_2   regular poaching    fm469  R      17:21      1 cbsuecco07
+          540799_3   regular poaching    fm469  R      17:21      1 cbsuecco09
+            540810   regular    ADA31   jl4459  R       4:48      1 cbsuecco14
+            540811   regular    ADA32   jl4459  R       4:42      1 cbsuecco10
+            540812   regular    ADA33   jl4459  R       4:39      1 cbsuecco12
+            540813   regular    ADA34   jl4459  R       4:36      1 cbsuecco13
+            540814   regular    ADA34   jl4459 PD       0:00      1 (Resources)
