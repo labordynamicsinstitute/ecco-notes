@@ -1,5 +1,6 @@
-            540706   regular    ADA34   jl4459  R 4-16:09:14      1 cbsuecco11
-            540762   regular    ADA35   jl4459  R   20:45:59      1 cbsuecco13
-            540771   regular  aer8216 dagr5998  R    6:27:17      1 cbsuecco02
-       540788_2014   regular coworker    fm469  R    8:58:08      1 cbsuecco01
-       540788_2015   regular coworker    fm469  R    8:58:08      1 cbsueccosl03
+            540706   regular    ADA34   jl4459  R 4-17:09:12      1 cbsuecco11
+            540762   regular    ADA35   jl4459  R   21:45:57      1 cbsuecco13
+            540771   regular  aer8216 dagr5998  R    7:27:15      1 cbsuecco02
+          540795_1   regular poaching    fm469  R       3:33      1 cbsuecco14
+          540795_2   regular poaching    fm469  R       3:33      1 cbsuecco07
+          540795_3   regular poaching    fm469  R       3:33      1 cbsuecco09
