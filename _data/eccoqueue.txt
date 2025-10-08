@@ -1,6 +1,5 @@
-            540706   regular    ADA34   jl4459  R 4-03:09:10      1 cbsuecco11
-       540754_2014   regular coworker    fm469  R    8:24:04      1 cbsuecco01
-       540754_2015   regular coworker    fm469  R    8:24:04      1 cbsuecco02
-       540754_2016   regular coworker    fm469  R    8:24:04      1 cbsueccosl03
-            540762   regular    ADA35   jl4459  R    7:45:55      1 cbsuecco13
+            540706   regular    ADA34   jl4459  R 4-04:09:13      1 cbsuecco11
+       540754_2014   regular coworker    fm469  R    9:24:07      1 cbsuecco01
+       540754_2015   regular coworker    fm469  R    9:24:07      1 cbsuecco02
+            540762   regular    ADA35   jl4459  R    8:45:58      1 cbsuecco13
             540771   regular  aer8216 dagr5998 PD       0:00      1 (Resources)
