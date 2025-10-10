@@ -1,6 +1,7 @@
-            540706   regular    ADA34   jl4459  R 6-08:09:11      1 cbsuecco11
-            540762   regular    ADA35   jl4459  R 2-12:45:56      1 cbsuecco13
-            540827   regular    ADA31   jl4459  R 1-10:47:48      1 cbsuecco14
-            540828   regular    ADA32   jl4459  R 1-10:47:45      1 cbsuecco07
-            540829   regular    ADA33   jl4459  R 1-10:47:32      1 cbsuecco10
-            540830   regular    ADA34   jl4459  R 1-10:47:29      1 cbsuecco12
+            540706   regular    ADA34   jl4459  R 6-09:09:10      1 cbsuecco11
+            540762   regular    ADA35   jl4459  R 2-13:45:55      1 cbsuecco13
+            540827   regular    ADA31   jl4459  R 1-11:47:47      1 cbsuecco14
+            540828   regular    ADA32   jl4459  R 1-11:47:44      1 cbsuecco07
+            540829   regular    ADA33   jl4459  R 1-11:47:31      1 cbsuecco10
+            540830   regular    ADA34   jl4459  R 1-11:47:28      1 cbsuecco12
+            540870   regular construc   alw327  R       0:51      1 cbsuecco09
