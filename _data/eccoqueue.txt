@@ -1,4 +1,6 @@
-            540706   regular    ADA34   jl4459  R 10-02:09:10      1 cbsuecco11
-            540827   regular    ADA31   jl4459  R 5-04:47:47      1 cbsuecco14
-            540828   regular    ADA32   jl4459  R 5-04:47:44      1 cbsuecco07
-            544052   regular     bash dagr5998  R      22:39      1 cbsuecco13
+            540706   regular    ADA34   jl4459  R 10-03:09:10      1 cbsuecco11
+            540827   regular    ADA31   jl4459  R 5-05:47:47      1 cbsuecco14
+            540828   regular    ADA32   jl4459  R 5-05:47:44      1 cbsuecco07
+            544052   regular     bash dagr5998  R    1:22:39      1 cbsuecco13
+            544053   regular  aer7414 dagr5998  R      49:40      1 cbsuecco13
+            544055   regular  aer7203 dagr5998  R      24:49      1 cbsuecco13
