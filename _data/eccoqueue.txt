@@ -1,9 +1,5 @@
-            540706   regular    ADA34   jl4459  R 11-14:09:11      1 cbsuecco11
-            540827   regular    ADA31   jl4459  R 6-16:47:48      1 cbsuecco14
-            540828   regular    ADA32   jl4459  R 6-16:47:45      1 cbsuecco07
-       544059_2010   regular poach_in    fm469  R    6:07:50      1 cbsuecco13
-       544059_2011   regular poach_in    fm469  R    6:07:50      1 cbsuecco13
-       544059_2012   regular poach_in    fm469  R    6:07:50      1 cbsuecco09
-       544059_2013   regular poach_in    fm469  R    6:07:50      1 cbsuecco10
-       544059_2014   regular poach_in    fm469  R    6:07:50      1 cbsuecco12
-       544059_2015   regular poach_in    fm469  R    6:07:50      1 cbsuecco14
+            540706   regular    ADA34   jl4459  R 11-15:09:15      1 cbsuecco11
+            540827   regular    ADA31   jl4459  R 6-17:47:52      1 cbsuecco14
+            540828   regular    ADA32   jl4459  R 6-17:47:49      1 cbsuecco07
+       544059_2011   regular poach_in    fm469  R    7:07:54      1 cbsuecco13
+       544059_2015   regular poach_in    fm469  R    7:07:54      1 cbsuecco14
