@@ -1,5 +1,4 @@
-          544121_0   regular poaching    fm469  R      55:54      1 cbsuecco14
-          544121_1   regular poaching    fm469  R      55:54      1 cbsuecco13
-          544121_2   regular poaching    fm469  R      55:54      1 cbsuecco14
-          544121_3   regular poaching    fm469  R      55:54      1 cbsuecco13
-            544126   regular     bash dagr5998  R       0:49      1 cbsuecco13
+          544121_0   regular poaching    fm469  R    1:55:52      1 cbsuecco14
+          544121_1   regular poaching    fm469  R    1:55:52      1 cbsuecco13
+          544121_2   regular poaching    fm469  R    1:55:52      1 cbsuecco14
+          544121_3   regular poaching    fm469  R    1:55:52      1 cbsuecco13
