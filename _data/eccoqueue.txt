@@ -1,4 +1,3 @@
-          544121_0   regular poaching    fm469  R    1:55:52      1 cbsuecco14
-          544121_1   regular poaching    fm469  R    1:55:52      1 cbsuecco13
-          544121_2   regular poaching    fm469  R    1:55:52      1 cbsuecco14
-          544121_3   regular poaching    fm469  R    1:55:52      1 cbsuecco13
+          544121_0   regular poaching    fm469  R    2:55:52      1 cbsuecco14
+          544121_1   regular poaching    fm469  R    2:55:52      1 cbsuecco13
+          544121_2   regular poaching    fm469  R    2:55:52      1 cbsuecco14
