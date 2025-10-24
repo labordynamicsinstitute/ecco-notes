@@ -1,0 +1,8 @@
+       544147_2010   regular poach_in    fm469  R      53:11      1 cbsuecco13
+       544147_2011   regular poach_in    fm469  R      53:11      1 cbsuecco14
+       544147_2012   regular poach_in    fm469  R      53:11      1 cbsuecco13
+       544147_2013   regular poach_in    fm469  R      53:11      1 cbsuecco14
+       544147_2014   regular poach_in    fm469  R      53:11      1 cbsuecco07
+       544147_2015   regular poach_in    fm469  R      53:11      1 cbsuecco09
+       544147_2016   regular poach_in    fm469  R      53:11      1 cbsuecco10
+            544155   regular sch_mgmt    fm469  R       4:17      1 cbsuecco11
