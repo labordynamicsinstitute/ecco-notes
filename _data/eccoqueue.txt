@@ -1,7 +1,7 @@
-       544183_2010   regular poach_in    fm469  R    1:39:18      1 cbsuecco13
-       544183_2011   regular poach_in    fm469  R    1:39:18      1 cbsuecco14
-       544183_2012   regular poach_in    fm469  R    1:39:18      1 cbsuecco13
-       544183_2013   regular poach_in    fm469  R    1:39:18      1 cbsuecco14
-       544183_2014   regular poach_in    fm469  R    1:39:18      1 cbsuecco07
-       544183_2015   regular poach_in    fm469  R    1:39:18      1 cbsuecco09
-       544183_2016   regular poach_in    fm469  R    1:39:18      1 cbsuecco10
+       544183_2010   regular poach_in    fm469  R    2:39:18      1 cbsuecco13
+       544183_2011   regular poach_in    fm469  R    2:39:18      1 cbsuecco14
+       544183_2012   regular poach_in    fm469  R    2:39:18      1 cbsuecco13
+       544183_2013   regular poach_in    fm469  R    2:39:18      1 cbsuecco14
+       544183_2014   regular poach_in    fm469  R    2:39:18      1 cbsuecco07
+       544183_2015   regular poach_in    fm469  R    2:39:18      1 cbsuecco09
+       544183_2016   regular poach_in    fm469  R    2:39:18      1 cbsuecco10
