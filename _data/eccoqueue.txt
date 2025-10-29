@@ -1,5 +1,5 @@
-            544229   regular sch_mgmt    fm469  R    5:21:33      1 cbsuecco02
-          544234_0   regular poaching    fm469  R      33:35      1 cbsuecco13
-          544234_1   regular poaching    fm469  R      33:35      1 cbsuecco14
-          544234_2   regular poaching    fm469  R      33:35      1 cbsuecco13
-          544234_3   regular poaching    fm469  R      33:35      1 cbsuecco14
+            544229   regular sch_mgmt    fm469  R    6:21:29      1 cbsuecco02
+          544234_0   regular poaching    fm469  R    1:33:31      1 cbsuecco13
+          544234_1   regular poaching    fm469  R    1:33:31      1 cbsuecco14
+          544234_2   regular poaching    fm469  R    1:33:31      1 cbsuecco13
+          544234_3   regular poaching    fm469  R    1:33:31      1 cbsuecco14
