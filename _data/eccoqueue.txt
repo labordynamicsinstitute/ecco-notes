@@ -1,2 +1,3 @@
-            544314   regular  aer7203 dagr5998  R   13:59:53      1 cbsuecco14
-            544317   regular poaching    fm469  R    3:50:48      1 cbsuecco13
+            544314   regular  aer7203 dagr5998  R   14:59:56      1 cbsuecco14
+            544317   regular poaching    fm469  R    4:50:51      1 cbsuecco13
+            544327   regular  aer6943 dagr5998  R      41:25      1 cbsuecco13
