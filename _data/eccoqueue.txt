@@ -1,2 +1,9 @@
-            544314   regular  aer7203 dagr5998  R   10:59:52      1 cbsuecco14
-            544317   regular poaching    fm469  R      50:47      1 cbsuecco13
+            544314   regular  aer7203 dagr5998  R   11:59:53      1 cbsuecco14
+            544317   regular poaching    fm469  R    1:50:48      1 cbsuecco13
+       544318_2010   regular poach_in    fm469  R       0:41      1 cbsuecco14
+       544318_2011   regular poach_in    fm469  R       0:41      1 cbsuecco07
+       544318_2012   regular poach_in    fm469  R       0:41      1 cbsuecco09
+       544318_2013   regular poach_in    fm469  R       0:41      1 cbsuecco10
+       544318_2014   regular poach_in    fm469  R       0:41      1 cbsuecco11
+       544318_2015   regular poach_in    fm469  R       0:41      1 cbsuecco12
+       544318_2016   regular poach_in    fm469  R       0:41      1 cbsuecco09
