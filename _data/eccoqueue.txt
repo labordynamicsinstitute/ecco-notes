@@ -1,3 +1,4 @@
-            544344   regular  rep8061   dac429  R 1-06:03:34      1 cbsuecco02
-            544365   regular  aer7203 dagr5998  R   19:52:12      1 cbsuecco13
-            544392   regular  aer6943 dagr5998  R    2:39:13      1 cbsuecco14
+            544344   regular  rep8061   dac429  R 1-07:03:33      1 cbsuecco02
+            544365   regular  aer7203 dagr5998  R   20:52:11      1 cbsuecco13
+            544392   regular  aer6943 dagr5998  R    3:39:12      1 cbsuecco14
+            544394   regular     bash    lb746  R      43:27      1 cbsuecco13
