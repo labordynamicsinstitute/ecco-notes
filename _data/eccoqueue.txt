@@ -1,3 +1,2 @@
-            544344   regular  rep8061   dac429  R 2-02:03:32      1 cbsuecco02
-            544392   regular  aer6943 dagr5998  R   22:39:11      1 cbsuecco14
-            544409   regular poaching    fm469  R      11:42      1 cbsuecco13
+            544344   regular  rep8061   dac429  R 2-03:03:36      1 cbsuecco02
+            544392   regular  aer6943 dagr5998  R   23:39:15      1 cbsuecco14
