@@ -1,5 +1,4 @@
-            544344   regular  rep8061   dac429  R 1-15:03:38      1 cbsuecco02
-            544365   regular  aer7203 dagr5998  R 1-04:52:16      1 cbsuecco13
-            544392   regular  aer6943 dagr5998  R   11:39:17      1 cbsuecco14
-       544396_2012   regular poach_in    fm469  R    6:01:39      1 cbsuecco07
-            544405   regular     bash    lb746  R      56:02      1 cbsuecco14
+            544344   regular  rep8061   dac429  R 1-16:03:32      1 cbsuecco02
+            544365   regular  aer7203 dagr5998  R 1-05:52:10      1 cbsuecco13
+            544392   regular  aer6943 dagr5998  R   12:39:11      1 cbsuecco14
+       544396_2012   regular poach_in    fm469  R    7:01:33      1 cbsuecco07
