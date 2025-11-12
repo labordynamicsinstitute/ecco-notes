@@ -1,4 +1,4 @@
-            544428   regular  aer6943 dagr5998  R 4-11:15:27      1 cbsuecco13
-            544433   regular     bash     lv39  R 4-02:33:10      1 cbsuecco14
-            544461   regular     bash     lv39  R 1-10:23:58      1 cbsuecco14
-            544485   regular     bash    lb746  R      23:00      1 cbsuecco14
+            544428   regular  aer6943 dagr5998  R 4-12:15:26      1 cbsuecco13
+            544433   regular     bash     lv39  R 4-03:33:09      1 cbsuecco14
+            544461   regular     bash     lv39  R 1-11:23:57      1 cbsuecco14
+            544485   regular     bash    lb746  R    1:22:59      1 cbsuecco14
