@@ -1,6 +1,4 @@
-            544433   regular     bash     lv39  R 6-02:33:08      1 cbsuecco14
-            544461   regular     bash     lv39  R 3-10:23:56      1 cbsuecco14
-            544493   regular     bash   dac429  R 1-06:12:00      1 cbsuecco13
-            544498   regular sch_mgmt    fm469  R 1-04:29:50      1 cbsuecco14
-            544517   regular  Nov13_1    lb746  R      49:15      1 cbsuecco13
-            544518   regular sch_mgmt    fm469  R       6:43      1 cbsuecco09
+            544433   regular     bash     lv39  R 6-03:33:09      1 cbsuecco14
+            544461   regular     bash     lv39  R 3-11:23:57      1 cbsuecco14
+            544493   regular     bash   dac429  R 1-07:12:01      1 cbsuecco13
+            544498   regular sch_mgmt    fm469  R 1-05:29:51      1 cbsuecco14
