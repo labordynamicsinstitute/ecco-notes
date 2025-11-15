@@ -1,4 +1,2 @@
-            544498   regular sch_mgmt    fm469  R 2-15:29:52      1 cbsuecco14
-            544539   regular  rep8365   dac429  R      41:25      1 cbsuecco13
-            544540   regular     bash   dac429  R      34:07      1 cbsuecco13
-            544541   regular     bash   dac429  R       1:47      1 cbsuecco14
+            544498   regular sch_mgmt    fm469  R 2-16:29:50      1 cbsuecco14
+            544539   regular  rep8365   dac429  R    1:41:23      1 cbsuecco13
