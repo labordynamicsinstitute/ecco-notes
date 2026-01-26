@@ -180,3 +180,24 @@ JOB2=$(sbatch --parsable --dependency=afterok:${JOB1} sbatch-2.sh | cut -d ';' -
 
 See more details about `--dependency` [here](https://slurm.schedmd.com/sbatch.html). 
 The code above uses the --parsable condition to limit the output to {JOBID};{CLUSTER}. It then pipes {JOBID};{CLUSTER} to the bash command `cut`, which splits {JOBID};{CLUSTER} by `;`, and returns just the {JOBID}. The {JOBID} is then used to define `--dependency=afterok:${JOB1}`, which instructs SLURM to run JOB2 only after JOB1 has finished.   
+
+### Holding Submitted SBATCH Jobs
+
+Sometimes it can be helpful to hold a SBATCH job from running. For example, when you don't want to overwhelm the queue, you can hold a subset of jobs then release them once the first jobs finish up. To hold a job,
+
+```
+scontrol hold {JOBID}
+```
+
+At this point, when you check the `squeue`, you will see 
+
+```
+{JOBID}   regular   {NAME}   {NETID} PD       0:00      1 (JobHeldUser)
+```
+
+indicating it being held. The job will remain there until it is released. To release the job, run the command
+
+```
+scontrol release {JOBID}
+```
+

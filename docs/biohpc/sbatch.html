@@ -439,6 +439,7 @@ document.write(`
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#stata-example">Stata example</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#limit-the-number-of-jobs-running-in-an-sbatch-array">Limit the number of jobs running in an SBATCH array</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#running-sbatch-jobs-in-sequence">Running SBATCH jobs in sequence</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#holding-submitted-sbatch-jobs">Holding Submitted SBATCH Jobs</a></li>
 </ul>
 </li>
 </ul>
@@ -618,6 +619,21 @@ JOB2=$(sbatch --parsable --dependency=afterok:${JOB1} sbatch-2.sh | cut -d &#39;
 <p>See more details about <code class="docutils literal notranslate"><span class="pre">--dependency</span></code> <a class="reference external" href="https://slurm.schedmd.com/sbatch.html">here</a>.
 The code above uses the –parsable condition to limit the output to {JOBID};{CLUSTER}. It then pipes {JOBID};{CLUSTER} to the bash command <code class="docutils literal notranslate"><span class="pre">cut</span></code>, which splits {JOBID};{CLUSTER} by <code class="docutils literal notranslate"><span class="pre">;</span></code>, and returns just the {JOBID}. The {JOBID} is then used to define <code class="docutils literal notranslate"><span class="pre">--dependency=afterok:${JOB1}</span></code>, which instructs SLURM to run JOB2 only after JOB1 has finished.</p>
 </section>
+<section id="holding-submitted-sbatch-jobs">
+<h3>Holding Submitted SBATCH Jobs<a class="headerlink" href="#holding-submitted-sbatch-jobs" title="Link to this heading">#</a></h3>
+<p>Sometimes it can be helpful to hold a SBATCH job from running. For example, when you don’t want to overwhelm the queue, you can hold a subset of jobs then release them once the first jobs finish up. To hold a job,</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">scontrol</span> <span class="n">hold</span> <span class="p">{</span><span class="n">JOBID</span><span class="p">}</span>
+</pre></div>
+</div>
+<p>At this point, when you check the <code class="docutils literal notranslate"><span class="pre">squeue</span></code>, you will see</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="p">{</span><span class="n">JOBID</span><span class="p">}</span>   <span class="n">regular</span>   <span class="p">{</span><span class="n">NAME</span><span class="p">}</span>   <span class="p">{</span><span class="n">NETID</span><span class="p">}</span> <span class="n">PD</span>       <span class="mi">0</span><span class="p">:</span><span class="mi">00</span>      <span class="mi">1</span> <span class="p">(</span><span class="n">JobHeldUser</span><span class="p">)</span>
+</pre></div>
+</div>
+<p>indicating it being held. The job will remain there until it is released. To release the job, run the command</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">scontrol</span> <span class="n">release</span> <span class="p">{</span><span class="n">JOBID</span><span class="p">}</span>
+</pre></div>
+</div>
+</section>
 </section>
 </section>
 
@@ -691,6 +707,7 @@ The code above uses the –parsable condition to limit the output to {JOBID};{CL
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#stata-example">Stata example</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#limit-the-number-of-jobs-running-in-an-sbatch-array">Limit the number of jobs running in an SBATCH array</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#running-sbatch-jobs-in-sequence">Running SBATCH jobs in sequence</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#holding-submitted-sbatch-jobs">Holding Submitted SBATCH Jobs</a></li>
 </ul>
 </li>
 </ul>
