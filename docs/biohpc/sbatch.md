@@ -188,13 +188,14 @@ Sometimes it can be helpful to hold a SBATCH job from running. For example, when
 ```
 scontrol hold {JOBID}
 ```
-At this point, when you check the queue, you will see 
+
+At this point, when you check the `squeue`, you will see 
 
 ```
-545798   regular   name   netid PD       0:00      1 (JobHeldUser)
+{JOBID}   regular   {NAME}   {NETID} PD       0:00      1 (JobHeldUser)
 ```
 
-indicating it beind held. The job will remain there until it is released. To release the job, run the command
+indicating it being held. The job will remain there until it is released. To release the job, run the command
 
 ```
 scontrol release {JOBID}
