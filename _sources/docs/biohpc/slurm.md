@@ -204,7 +204,7 @@ init_notebook_mode(all_interactive=True)
 
 # reorder columns
 # override the order of columns - this may need to be adjusted if the column names change
-columns = ['Nodename', 'allocation', 'cores','RAM',  'local storage in TB', 'model','cores per CPU', 'CPUs', 'HT','cpu benchmark (single thread)', 'vintage' ]
+columns = ['Nodename', 'allocation', 'partition','cores','RAM',  'local storage in TB', 'model','cores per CPU', 'CPUs', 'HT','cpu benchmark (single thread)', 'vintage' ]
 
 # Reorder the columns
 nodes_display = nodes[columns]
