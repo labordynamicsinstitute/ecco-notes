@@ -1,8 +1,8 @@
-            545160   regular   G15_19    ljp96  R 19-21:23:09      1 cbsuecco01
-            545161   regular   G15_20    ljp96  R 19-21:23:05      1 cbsuecco02
+            545160   regular   G15_19    ljp96  R 19-22:23:09      1 cbsuecco01
+            545161   regular   G15_20    ljp96  R 19-22:23:05      1 cbsuecco02
             545375   regular  aer8448 dagr5998 PD       0:00      1 (Resources)
             545484   regular  rep7549   dac429 PD       0:00      1 (Priority)
-            545583   regular sch_mgmt    fm469  R 9-04:36:33      1 cbsuecco10
+            545583   regular sch_mgmt    fm469  R 9-05:36:33      1 cbsuecco10
     545766_[2-5%1]   regular bootstra   dac429 PD       0:00      1 (JobHeldUser)
     545767_[2-5%1]   regular bootstra   dac429 PD       0:00      1 (JobHeldUser)
     545768_[2-5%1]   regular bootstra   dac429 PD       0:00      1 (JobHeldUser)
@@ -20,24 +20,26 @@
     545782_[2-5%1]   regular bootstra   dac429 PD       0:00      1 (JobHeldUser)
     545783_[2-5%1]   regular bootstra   dac429 PD       0:00      1 (JobHeldUser)
     545784_[2-5%1]   regular bootstra   dac429 PD       0:00      1 (JobHeldUser)
-          545796_4   regular bootstra   dac429  R   11:52:50      1 cbsuecco13
+          545796_4   regular bootstra   dac429  R   12:52:50      1 cbsuecco13
           545796_5   regular bootstra   dac429 PD       0:00      1 (JobArrayTaskLimit)
-          545797_5   regular bootstra   dac429  R    8:24:21      1 cbsuecco13
-          545798_5   regular bootstra   dac429  R    1:26:49      1 cbsuecco14
-          545799_5   regular bootstra   dac429  R    7:13:50      1 cbsuecco13
-          545801_5   regular bootstra   dac429  R    4:02:51      1 cbsuecco14
-          545804_4   regular bootstra   dac429  R    7:49:51      1 cbsuecco14
+          545797_5   regular bootstra   dac429  R    9:24:21      1 cbsuecco13
+          545798_5   regular bootstra   dac429  R    2:26:49      1 cbsuecco14
+          545799_5   regular bootstra   dac429  R    8:13:50      1 cbsuecco13
+          545801_5   regular bootstra   dac429  R    5:02:51      1 cbsuecco14
+          545804_4   regular bootstra   dac429  R    8:49:51      1 cbsuecco14
           545804_5   regular bootstra   dac429 PD       0:00      1 (JobArrayTaskLimit)
-          545805_1   regular bootstra   dac429  R    6:50:50      1 cbsuecco14
+          545805_1   regular bootstra   dac429  R    7:50:50      1 cbsuecco14
     545805_[2-5%1]   regular bootstra   dac429 PD       0:00      1 (JobArrayTaskLimit)
-          545806_1   regular bootstra   dac429  R    6:50:50      1 cbsuecco09
+          545806_1   regular bootstra   dac429  R    7:50:50      1 cbsuecco09
     545806_[2-5%1]   regular bootstra   dac429 PD       0:00      1 (JobArrayTaskLimit)
-          545807_1   regular bootstra   dac429  R    6:50:50      1 cbsuecco12
+          545807_1   regular bootstra   dac429  R    7:50:50      1 cbsuecco12
     545807_[2-5%1]   regular bootstra   dac429 PD       0:00      1 (JobArrayTaskLimit)
-          545808_1   regular bootstra   dac429  R    6:50:50      1 cbsuecco07
+          545808_1   regular bootstra   dac429  R    7:50:50      1 cbsuecco07
     545808_[2-5%1]   regular bootstra   dac429 PD       0:00      1 (JobArrayTaskLimit)
-    545809_[1-5%1]   regular bootstra   dac429 PD       0:00      1 (JobHeldUser)
-    545810_[1-5%1]   regular bootstra   dac429 PD       0:00      1 (JobHeldUser)
+          545809_1   regular bootstra   dac429  R      59:30      1 cbsuecco13
+    545809_[2-5%1]   regular bootstra   dac429 PD       0:00      1 (JobArrayTaskLimit)
+          545810_1   regular bootstra   dac429  R      59:30      1 cbsuecco10
+    545810_[2-5%1]   regular bootstra   dac429 PD       0:00      1 (JobArrayTaskLimit)
     545811_[1-5%1]   regular bootstra   dac429 PD       0:00      1 (JobHeldUser)
-            546078   regular    ADA64   jl4459  R      17:48      1 cbsuecco11
+            546078   regular    ADA64   jl4459  R    1:17:48      1 cbsuecco11
             546079   regular    ADA35   jl4459 PD       0:00      1 (Priority)
