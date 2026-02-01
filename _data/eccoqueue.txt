@@ -1,18 +1,18 @@
-            545160   regular   G15_19    ljp96  R 22-12:23:09      1 cbsuecco01
-            545161   regular   G15_20    ljp96  R 22-12:23:05      1 cbsuecco02
+            545160   regular   G15_19    ljp96  R 22-13:23:09      1 cbsuecco01
+            545161   regular   G15_20    ljp96  R 22-13:23:05      1 cbsuecco02
             545375   regular  aer8448 dagr5998 PD       0:00      1 (Resources)
             545484   regular  rep7549   dac429 PD       0:00      1 (Priority)
-            545583   regular sch_mgmt    fm469  R 11-19:36:33      1 cbsuecco10
-          545769_4   regular bootstra   dac429  R    6:16:16      1 cbsuecco14
+            545583   regular sch_mgmt    fm469  R 11-20:36:33      1 cbsuecco10
+          545769_4   regular bootstra   dac429  R    7:16:16      1 cbsuecco14
           545769_5   regular bootstra   dac429 PD       0:00      1 (JobArrayTaskLimit)
-          545770_4   regular bootstra   dac429  R    5:28:46      1 cbsuecco13
+          545770_4   regular bootstra   dac429  R    6:28:46      1 cbsuecco13
           545770_5   regular bootstra   dac429 PD       0:00      1 (JobArrayTaskLimit)
-          545771_4   regular bootstra   dac429  R    3:02:46      1 cbsuecco13
+          545771_4   regular bootstra   dac429  R    4:02:46      1 cbsuecco13
           545771_5   regular bootstra   dac429 PD       0:00      1 (JobArrayTaskLimit)
-          545772_3   regular bootstra   dac429  R   12:02:18      1 cbsuecco06
+          545772_3   regular bootstra   dac429  R   13:02:18      1 cbsuecco06
     545772_[4-5%1]   regular bootstra   dac429 PD       0:00      1 (JobArrayTaskLimit)
-          545773_3   regular bootstra   dac429  R    8:50:47      1 cbsuecco14
-    545773_[4-5%1]   regular bootstra   dac429 PD       0:00      1 (JobArrayTaskLimit)
+          545773_4   regular bootstra   dac429  R      45:46      1 cbsuecco07
+          545773_5   regular bootstra   dac429 PD       0:00      1 (JobArrayTaskLimit)
     545774_[2-5%1]   regular bootstra   dac429 PD       0:00      1 (JobHeldUser)
     545775_[2-5%1]   regular bootstra   dac429 PD       0:00      1 (JobHeldUser)
     545776_[2-5%1]   regular bootstra   dac429 PD       0:00      1 (JobHeldUser)
@@ -22,10 +22,10 @@
     545782_[2-5%1]   regular bootstra   dac429 PD       0:00      1 (JobHeldUser)
     545783_[2-5%1]   regular bootstra   dac429 PD       0:00      1 (JobHeldUser)
     545784_[2-5%1]   regular bootstra   dac429 PD       0:00      1 (JobHeldUser)
-            546079   regular    ADA35   jl4459  R 2-13:25:37      1 cbsuecco12
-         546138_10   regular prodentr   dac429  R    4:00:47      1 cbsuecco11
-         546138_11   regular prodentr   dac429  R    3:04:46      1 cbsuecco13
-         546138_12   regular prodentr   dac429  R    1:58:17      1 cbsuecco09
+            546079   regular    ADA35   jl4459  R 2-14:25:37      1 cbsuecco12
+         546138_10   regular prodentr   dac429  R    5:00:47      1 cbsuecco11
+         546138_11   regular prodentr   dac429  R    4:04:46      1 cbsuecco13
+         546138_12   regular prodentr   dac429  R    2:58:17      1 cbsuecco09
  546138_[13-200%5]   regular prodentr   dac429 PD       0:00      1 (JobArrayTaskLimit)
-          546138_8   regular prodentr   dac429  R    6:51:46      1 cbsuecco14
-          546138_9   regular prodentr   dac429  R    4:07:18      1 cbsuecco10
+          546138_8   regular prodentr   dac429  R    7:51:46      1 cbsuecco14
+          546138_9   regular prodentr   dac429  R    5:07:18      1 cbsuecco10
