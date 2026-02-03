@@ -1,19 +1,19 @@
-            545161   regular   G15_20    ljp96  R 24-21:23:05      1 cbsuecco02
+            545161   regular   G15_20    ljp96  R 24-22:23:05      1 cbsuecco02
             545484   regular  rep7549   dac429 PD       0:00      1 (Resources)
-            545583   regular sch_mgmt    fm469  R 14-04:36:33      1 cbsuecco10
-          545779_3   regular bootstra   dac429  R   20:11:39      1 cbsuecco02
-    545779_[4-5%1]   regular bootstra   dac429 PD       0:00      1 (JobArrayTaskLimit)
-          545781_4   regular bootstra   dac429  R    1:23:39      1 cbsuecco10
+            545583   regular sch_mgmt    fm469  R 14-05:36:33      1 cbsuecco10
+          545779_4   regular bootstra   dac429  R      16:38      1 cbsuecco12
+          545779_5   regular bootstra   dac429 PD       0:00      1 (JobArrayTaskLimit)
+          545781_4   regular bootstra   dac429  R    2:23:39      1 cbsuecco10
           545781_5   regular bootstra   dac429 PD       0:00      1 (JobArrayTaskLimit)
     545783_[2-5%1]   regular bootstra   dac429 PD       0:00      1 (JobHeldUser)
     545784_[2-5%1]   regular bootstra   dac429 PD       0:00      1 (JobHeldUser)
-         546138_41   regular prodentr   dac429  R    7:34:39      1 cbsuecco13
-         546138_42   regular prodentr   dac429  R    5:21:08      1 cbsuecco11
-         546138_43   regular prodentr   dac429  R    4:23:09      1 cbsuecco14
-         546138_44   regular prodentr   dac429  R    1:46:38      1 cbsuecco14
-         546138_45   regular prodentr   dac429  R      46:09      1 cbsuecco07
+         546138_41   regular prodentr   dac429  R    8:34:39      1 cbsuecco13
+         546138_42   regular prodentr   dac429  R    6:21:08      1 cbsuecco11
+         546138_43   regular prodentr   dac429  R    5:23:09      1 cbsuecco14
+         546138_44   regular prodentr   dac429  R    2:46:38      1 cbsuecco14
+         546138_45   regular prodentr   dac429  R    1:46:09      1 cbsuecco07
  546138_[46-200%5]   regular prodentr   dac429 PD       0:00      1 (JobArrayTaskLimit)
-            546169   regular  aer8448 dagr5998 PD       0:00      1 (Priority)
-            546199   regular    ADA32   jl4459  R 1-02:54:08      1 cbsuecco13
-            546212   regular    ADA33   jl4459  R   14:59:26      1 cbsuecco09
-            546251   regular  aer8308 dagr5998  R    2:55:39      1 cbsuecco12
+            546199   regular    ADA32   jl4459  R 1-03:54:08      1 cbsuecco13
+            546212   regular    ADA33   jl4459  R   15:59:26      1 cbsuecco09
+            546251   regular  aer8308 dagr5998  R    3:55:39      1 cbsuecco12
+            546262   regular  aer8604 dagr5998  R       1:33      1 cbsuecco01
