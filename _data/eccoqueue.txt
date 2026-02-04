@@ -1,18 +1,17 @@
-            545161   regular   G15_20    ljp96  R 25-19:23:05      1 cbsuecco02
+            545161   regular   G15_20    ljp96  R 25-20:23:05      1 cbsuecco02
             545484   regular  rep7549   dac429 PD       0:00      1 (Resources)
-            545583   regular sch_mgmt    fm469  R 15-02:36:33      1 cbsuecco10
-          545783_5   regular bootstra   dac429  R      41:35      1 cbsueccosl03
-          545784_2   regular bootstra   dac429  R    4:18:08      1 cbsuecco14
-          545784_3   regular bootstra   dac429  R    4:16:33      1 cbsuecco01
-          545784_4   regular bootstra   dac429  R    4:16:33      1 cbsuecco06
-          545784_5   regular bootstra   dac429 PD       0:00      1 (JobArrayTaskLimit)
-         546138_51   regular prodentr   dac429  R   10:35:26      1 cbsuecco14
-         546138_52   regular prodentr   dac429  R    9:51:03      1 cbsuecco11
-         546138_53   regular prodentr   dac429  R    8:16:34      1 cbsuecco07
-         546138_54   regular prodentr   dac429  R    7:44:55      1 cbsuecco13
-         546138_55   regular prodentr   dac429  R    3:21:34      1 cbsuecco12
-         546138_56   regular prodentr   dac429  R      41:35      1 cbsuecco10
-         546138_57   regular prodentr   dac429  R       2:35      1 cbsuecco14
+            545583   regular sch_mgmt    fm469  R 15-03:36:33      1 cbsuecco10
+          545783_5   regular bootstra   dac429  R    1:41:35      1 cbsueccosl03
+          545784_3   regular bootstra   dac429  R    5:16:33      1 cbsuecco01
+          545784_4   regular bootstra   dac429  R    5:16:33      1 cbsuecco06
+          545784_5   regular bootstra   dac429  R      43:04      1 cbsueccosl04
+         546138_51   regular prodentr   dac429  R   11:35:26      1 cbsuecco14
+         546138_52   regular prodentr   dac429  R   10:51:03      1 cbsuecco11
+         546138_53   regular prodentr   dac429  R    9:16:34      1 cbsuecco07
+         546138_54   regular prodentr   dac429  R    8:44:55      1 cbsuecco13
+         546138_55   regular prodentr   dac429  R    4:21:34      1 cbsuecco12
+         546138_56   regular prodentr   dac429  R    1:41:35      1 cbsuecco10
+         546138_57   regular prodentr   dac429  R    1:02:35      1 cbsuecco14
  546138_[58-200%8]   regular prodentr   dac429 PD       0:00      1 (Priority)
-            546199   regular    ADA32   jl4459  R 2-00:54:08      1 cbsuecco13
-            546212   regular    ADA33   jl4459  R 1-12:59:26      1 cbsuecco09
+            546199   regular    ADA32   jl4459  R 2-01:54:08      1 cbsuecco13
+            546212   regular    ADA33   jl4459  R 1-13:59:26      1 cbsuecco09
