@@ -1,18 +1,17 @@
-            545161   regular   G15_20    ljp96  R 25-00:23:05      1 cbsuecco02
+            545161   regular   G15_20    ljp96  R 25-01:23:05      1 cbsuecco02
             545484   regular  rep7549   dac429 PD       0:00      1 (Resources)
-            545583   regular sch_mgmt    fm469  R 14-07:36:33      1 cbsuecco10
-          545779_4   regular bootstra   dac429  R    2:16:38      1 cbsuecco12
+            545583   regular sch_mgmt    fm469  R 14-08:36:33      1 cbsuecco10
+          545779_4   regular bootstra   dac429  R    3:16:38      1 cbsuecco12
           545779_5   regular bootstra   dac429 PD       0:00      1 (JobArrayTaskLimit)
-          545781_4   regular bootstra   dac429  R    4:23:39      1 cbsuecco10
-          545781_5   regular bootstra   dac429 PD       0:00      1 (JobArrayTaskLimit)
+          545781_5   regular bootstra   dac429  R      30:27      1 cbsuecco10
     545783_[2-5%1]   regular bootstra   dac429 PD       0:00      1 (JobHeldUser)
     545784_[2-5%1]   regular bootstra   dac429 PD       0:00      1 (JobHeldUser)
-         546138_44   regular prodentr   dac429  R    4:46:38      1 cbsuecco14
-         546138_45   regular prodentr   dac429  R    3:46:09      1 cbsuecco07
-         546138_46   regular prodentr   dac429  R    1:09:53      1 cbsuecco13
-         546138_47   regular prodentr   dac429  R      48:20      1 cbsuecco11
-         546138_48   regular prodentr   dac429  R       1:33      1 cbsuecco14
+         546138_44   regular prodentr   dac429  R    5:46:38      1 cbsuecco14
+         546138_45   regular prodentr   dac429  R    4:46:09      1 cbsuecco07
+         546138_46   regular prodentr   dac429  R    2:09:53      1 cbsuecco13
+         546138_47   regular prodentr   dac429  R    1:48:20      1 cbsuecco11
+         546138_48   regular prodentr   dac429  R    1:01:33      1 cbsuecco14
  546138_[49-200%5]   regular prodentr   dac429 PD       0:00      1 (JobArrayTaskLimit)
-            546199   regular    ADA32   jl4459  R 1-05:54:08      1 cbsuecco13
-            546212   regular    ADA33   jl4459  R   17:59:26      1 cbsuecco09
-            546266   regular  aer8308 dagr5998  R      49:20      1 cbsuecco12
+            546199   regular    ADA32   jl4459  R 1-06:54:08      1 cbsuecco13
+            546212   regular    ADA33   jl4459  R   18:59:26      1 cbsuecco09
+            546266   regular  aer8308 dagr5998  R    1:49:20      1 cbsuecco12
