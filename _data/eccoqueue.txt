@@ -1,14 +1,16 @@
-            545161   regular   G15_20    ljp96  R 26-16:23:05      1 cbsuecco02
+            545161   regular   G15_20    ljp96  R 26-17:23:05      1 cbsuecco02
             545484   regular  rep7549   dac429 PD       0:00      1 (Resources)
-            545583   regular sch_mgmt    fm469  R 15-23:36:33      1 cbsuecco10
-         546138_61   regular prodentr   dac429  R   10:45:32      1 cbsuecco12
-         546138_62   regular prodentr   dac429  R    7:36:33      1 cbsuecco10
-         546138_63   regular prodentr   dac429  R    6:58:33      1 cbsuecco07
-         546138_64   regular prodentr   dac429  R    6:53:33      1 cbsuecco14
-         546138_65   regular prodentr   dac429  R    6:06:04      1 cbsuecco14
-         546138_66   regular prodentr   dac429  R    4:56:34      1 cbsuecco11
-         546138_67   regular prodentr   dac429  R    1:22:33      1 cbsuecco13
+            545583   regular sch_mgmt    fm469  R 16-00:36:33      1 cbsuecco10
+         546138_61   regular prodentr   dac429  R   11:45:32      1 cbsuecco12
+         546138_62   regular prodentr   dac429  R    8:36:33      1 cbsuecco10
+         546138_63   regular prodentr   dac429  R    7:58:33      1 cbsuecco07
+         546138_64   regular prodentr   dac429  R    7:53:33      1 cbsuecco14
+         546138_65   regular prodentr   dac429  R    7:06:04      1 cbsuecco14
+         546138_66   regular prodentr   dac429  R    5:56:34      1 cbsuecco11
+         546138_67   regular prodentr   dac429  R    2:22:33      1 cbsuecco13
  546138_[68-200%8]   regular prodentr   dac429 PD       0:00      1 (Priority)
-            546199   regular    ADA32   jl4459  R 2-21:54:08      1 cbsuecco13
-            546212   regular    ADA33   jl4459  R 2-09:59:26      1 cbsuecco09
+            546199   regular    ADA32   jl4459  R 2-22:54:08      1 cbsuecco13
+            546212   regular    ADA33   jl4459  R 2-10:59:26      1 cbsuecco09
             546287   regular    ADA66   jl4459 PD       0:00      1 (Priority)
+            546303   regular     bash     lv39  R       9:19      1 cbsuecco01
+            546304   regular  aer8308 dagr5998  R       1:33      1 cbsuecco06
