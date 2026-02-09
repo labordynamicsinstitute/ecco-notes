@@ -1,9 +1,9 @@
 Nodename,allocation,partition,model,cores per CPU,CPUs,HT,RAM,local storage in TB,cpu benchmark (single thread),cpu benchmark (system),vintage
-cbsuecco01,slurm,regular,Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz,16,2,FALSE,256,0.2,1939,35085,2017
-cbsuecco02,slurm,"lgmem,slow",Intel(R) Xeon(R) CPU E7- 8837 @ 2.67GHz,8,4,FALSE,1024,4.3,1284,21891,2011
+cbsuecco01,slurm,default,Intel(R) Xeon(R) Gold 6130 CPU @ 2.10GHz,16,2,FALSE,256,0.2,1939,35085,2017
+cbsuecco02,slurm,"lgmem",Intel(R) Xeon(R) CPU E7- 8837 @ 2.67GHz,8,4,FALSE,1024,4.3,1284,21891,2011
 cbsuecco06,flex,interactive,AMD Opteron(tm) Processor 6380,16,2,FALSE,256,2.5,1091,13476,2011
-cbsuecco07,slurm,regular,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,14,2,TRUE,128,0.2,1952,28971,2016
-cbsuecco08,slurm,regular,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,14,2,TRUE,128,0.2,1952,28971,2016
+cbsuecco07,slurm,default,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,14,2,TRUE,128,0.2,1952,28971,2016
+cbsuecco08,slurm,default,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,14,2,TRUE,128,0.2,1952,28971,2016
 cbsuecco09,slurm,fast,Intel(R) Xeon(R) Gold 5420+ @ 2.0-4.1GHz,28,2,FALSE,256,3.5,3418,57593,2024
 cbsuecco10,slurm,fast,Intel(R) Xeon(R) Gold 5420+ @ 2.0-4.1GHz,28,2,FALSE,256,3.5,3418,57593,2024
 cbsuecco11,flex,fast,Intel(R) Xeon(R) Gold 5420+ @ 2.0-4.1GHz,28,2,FALSE,256,3.5,3418,57593,2024
