@@ -1,20 +1,20 @@
-        546138_109   regular prodentr   dac429  R   14:28:28      1 cbsuecco07
-        546138_110   regular prodentr   dac429  R   10:47:30      1 cbsuecco13
-        546138_111   regular prodentr   dac429  R    6:22:08      1 cbsuecco14
-        546138_112   regular prodentr   dac429  R    5:47:05      1 cbsuecco11
-        546138_113   regular prodentr   dac429  R    4:28:12      1 cbsuecco10
-        546138_114   regular prodentr   dac429  R    3:42:08      1 cbsuecco12
-        546138_115   regular prodentr   dac429  R    2:52:06      1 cbsuecco14
+        546138_109   regular prodentr   dac429  R   15:28:27      1 cbsuecco07
+        546138_110   regular prodentr   dac429  R   11:47:29      1 cbsuecco13
+        546138_111   regular prodentr   dac429  R    7:22:07      1 cbsuecco14
+        546138_112   regular prodentr   dac429  R    6:47:04      1 cbsuecco11
+        546138_113   regular prodentr   dac429  R    5:28:11      1 cbsuecco10
+        546138_114   regular prodentr   dac429  R    4:42:07      1 cbsuecco12
+        546138_115   regular prodentr   dac429  R    3:52:05      1 cbsuecco14
 546138_[116-200%8]   regular prodentr   dac429 PD       0:00      1 (Resources)
-            546199   regular    ADA32   jl4459  R 6-23:54:09      1 cbsuecco13
-            546212   regular    ADA33   jl4459  R 6-11:59:27      1 cbsuecco09
+            546199   regular    ADA32   jl4459  R 7-00:54:08      1 cbsuecco13
+            546212   regular    ADA33   jl4459  R 6-12:59:26      1 cbsuecco09
             546287   regular    ADA66   jl4459 PD       0:00      1 (Priority)
-            546368   regular  rep7549   dac429  R 1-00:19:30      1 cbsuecco02
-          546409_1   regular vary_eps   dac429  R    3:11:43      2 cbsuecco14,cbsueccosl03
+            546368   regular  rep7549   dac429  R 1-01:19:29      1 cbsuecco02
+          546409_1   regular vary_eps   dac429  R    4:11:42      2 cbsuecco14,cbsueccosl03
    546409_[2-10%2]   regular vary_eps   dac429 PD       0:00      2 (JobHeldUser)
-          546410_1   regular vary_cyc   dac429  R       9:13      2 cbsuecco01,cbsueccosl04
+          546410_1   regular vary_cyc   dac429  R    1:09:12      2 cbsuecco01,cbsueccosl04
     546410_[2-4%1]   regular vary_cyc   dac429 PD       0:00      2 (JobArrayTaskLimit)
             546411   regular fix_a_es   dac429 PD       0:00      2 (JobHeldUser)
             546412   regular    est_z   dac429 PD       0:00      2 (JobHeldUser)
       546413_[1-2]   regular    fix_a   dac429 PD       0:00      2 (JobHeldUser)
-            546416   regular     bash    rr635  R    1:21:00      1 cbsuecco08
+            546418   regular  aer8308 dagr5998  R      33:42      1 cbsuecco08
