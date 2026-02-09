@@ -1,12 +1,19 @@
-        546138_107   regular prodentr   dac429  R   12:49:23      1 cbsuecco12
-        546138_108   regular prodentr   dac429  R   12:20:33      1 cbsuecco14
-        546138_109   regular prodentr   dac429  R   10:28:27      1 cbsuecco07
-        546138_110   regular prodentr   dac429  R    6:47:29      1 cbsuecco13
-        546138_111   regular prodentr   dac429  R    2:22:07      1 cbsuecco14
-        546138_112   regular prodentr   dac429  R    1:47:04      1 cbsuecco11
-        546138_113   regular prodentr   dac429  R      28:11      1 cbsuecco10
-546138_[114-200%8]   regular prodentr   dac429 PD       0:00      1 (Resources)
-            546199   regular    ADA32   jl4459  R 6-19:54:08      1 cbsuecco13
-            546212   regular    ADA33   jl4459  R 6-07:59:26      1 cbsuecco09
+        546138_108   regular prodentr   dac429  R   13:20:33      1 cbsuecco14
+        546138_109   regular prodentr   dac429  R   11:28:27      1 cbsuecco07
+        546138_110   regular prodentr   dac429  R    7:47:29      1 cbsuecco13
+        546138_111   regular prodentr   dac429  R    3:22:07      1 cbsuecco14
+        546138_112   regular prodentr   dac429  R    2:47:04      1 cbsuecco11
+        546138_113   regular prodentr   dac429  R    1:28:11      1 cbsuecco10
+        546138_114   regular prodentr   dac429  R      42:07      1 cbsuecco12
+546138_[115-200%8]   regular prodentr   dac429 PD       0:00      1 (Resources)
+            546199   regular    ADA32   jl4459  R 6-20:54:08      1 cbsuecco13
+            546212   regular    ADA33   jl4459  R 6-08:59:26      1 cbsuecco09
             546287   regular    ADA66   jl4459 PD       0:00      1 (Priority)
-            546368   regular  rep7549   dac429  R   20:19:29      1 cbsuecco02
+            546368   regular  rep7549   dac429  R   21:19:29      1 cbsuecco02
+            546408   regular baseline   dac429  R      11:42      2 cbsuecco01,cbsueccosl04
+          546409_1   regular vary_eps   dac429  R      11:42      2 cbsuecco14,cbsueccosl03
+   546409_[2-10%2]   regular vary_eps   dac429 PD       0:00      2 (JobHeldUser)
+    546410_[1-4%1]   regular vary_cyc   dac429 PD       0:00      2 (Priority)
+            546411   regular fix_a_es   dac429 PD       0:00      2 (JobHeldUser)
+            546412   regular    est_z   dac429 PD       0:00      2 (JobHeldUser)
+      546413_[1-2]   regular    fix_a   dac429 PD       0:00      2 (JobHeldUser)
