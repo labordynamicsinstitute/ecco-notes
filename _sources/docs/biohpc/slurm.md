@@ -192,7 +192,7 @@ which shows that currently, 6 nodes are available for jobs, of which 2 are idle,
 (fulltable)=
 ## List of nodes
 
-The following table shows the allocated nodes. Nodes marked `flex` may not be available. Nodes marked `slurm` are always available. `HT` means "hyper-threading", and effectively [multiplies the number of cores by 2](https://www.intel.com/content/www/us/en/gaming/resources/hyper-threading.html), but may not always lead to performance improvement. MATLAB ignores hyper-threading, and will only use the physical number of cores listed in the `cores` column.
+The following table shows the allocated nodes. Nodes marked `flex` may not be available, because an owner has [reserved](reserving) them. Nodes marked `slurm` are always available. `HT` means "hyper-threading", and effectively [multiplies the number of cores by 2](https://www.intel.com/content/www/us/en/gaming/resources/hyper-threading.html), but may not always lead to performance improvement. MATLAB ignores hyper-threading, and will only use the physical number of cores listed in the `cores` column. The various queues can be requested, but most jobs should use the `default` queue. 
 
 ```{code-cell} ipython3
 :tags: ["remove-input","full-width"]
