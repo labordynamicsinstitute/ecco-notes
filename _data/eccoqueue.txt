@@ -1,8 +1,8 @@
 546138_[116-200%8]   regular prodentr   dac429 PD       0:00      1 (Nodes required for job are DOWN, DRAINED or reserved for jobs in higher priority partitions)
-            546199   regular    ADA32   jl4459  R 8-13:54:08      1 cbsuecco13
-            546212   regular    ADA33   jl4459  R 8-01:59:26      1 cbsuecco09
+            546199   regular    ADA32   jl4459  R 8-14:54:08      1 cbsuecco13
+            546212   regular    ADA33   jl4459  R 8-02:59:26      1 cbsuecco09
             546287   regular    ADA66   jl4459 PD       0:00      1 (Priority)
-            546368   regular  rep7549   dac429  R 2-14:19:29      1 cbsuecco02
+            546368   regular  rep7549   dac429  R 2-15:19:29      1 cbsuecco02
    546409_[2-10%2]   regular vary_eps   dac429 PD       0:00      2 (Priority)
     546410_[2-4%1]   regular vary_cyc   dac429 PD       0:00      2 (JobArrayTaskLimit)
             546411   regular fix_a_es   dac429 PD       0:00      2 (Priority)
