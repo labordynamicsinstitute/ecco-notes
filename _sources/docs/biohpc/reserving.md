@@ -1,5 +1,11 @@
 (reserving)=
-# Requesting exclusive access to an entire node
+# Requesting exclusive access to an entire node (DEPRECATED)
+
+:::{warning}
+
+**DEPRECATED**: The preferred way to get exclusive access to nodes is now via [SLURM](slurm). This page is only relevant if you have paid for adding a node to the cluster, and will soon no longer be available to general users of ECCO.
+
+:::
 
 Once logged in to the BioHPC website, go to [https://biohpc.cornell.edu/lab/labres.aspx](https://biohpc.cornell.edu/lab/labres.aspx), choose `Restricted`. You can reserve any node, up to the time limit imposed by your group membership:
 

@@ -189,10 +189,30 @@ regular*     up   infinite      2   idle cbsuecco01,cbsueccosl01
 
 which shows that currently, 6 nodes are available for jobs, of which 2 are idle, three have some jobs running on them, but can still accept smaller jobs (`mix` means there are free CPUs), and one is completely used (`alloc`).
 
+(queues)=
+## Queues
+
+The [List of nodes](fulltable) shows various `partitions`. These are the job queues on SLURM. 
+
+- `slow` is the default
+- all jobs submitted using [`srun`](srun) (rather than [`sbatch`](sbatchexample)) will be treated as interactive and sent to the interactive partition which has a limit of one CPU per job. 
+- `lgmem` partition requires at least 256GB of RAM to be requested, and will then route to the node with the largest memory. Note that this is a very slow (old) node, so don't do this if you don't need it. 
+- There are no time limits on any partitions, default RAM per job is 4 GB.
+- In order to submit to a specific partition, 
+  - use the `-p` option with `sbatch`, e.g. `sbatch -p lgmem run.sh`. 
+  - specify the partition in the `SBATCH` file with `#SBATCH --partition lgmem`.
+  - If you don't specify a partition, it will be sent to the default (`slow`).
+
 (fulltable)=
 ## List of nodes
 
-The following table shows the allocated nodes. Nodes marked `flex` may not be available, because an owner has [reserved](reserving) them. Nodes marked `slurm` are always available. `HT` means "hyper-threading", and effectively [multiplies the number of cores by 2](https://www.intel.com/content/www/us/en/gaming/resources/hyper-threading.html), but may not always lead to performance improvement. MATLAB ignores hyper-threading, and will only use the physical number of cores listed in the `cores` column. The various queues can be requested, but most jobs should use the `default` queue. 
+The following table shows the allocated nodes. Nodes marked `flex` may not be available, because an owner has [reserved](reserving) them. Nodes marked `slurm` are always available. 
+
+:::{note}
+
+`HT` means "hyper-threading", and effectively [multiplies the number of cores by 2](https://www.intel.com/content/www/us/en/gaming/resources/hyper-threading.html), but may not always lead to performance improvement. MATLAB ignores hyper-threading, and will only use the physical number of cores listed in the `cores` column. The various queues can be requested, but most jobs should use the `default` queue. 
+
+:::
 
 ```{code-cell} ipython3
 :tags: ["remove-input","full-width"]

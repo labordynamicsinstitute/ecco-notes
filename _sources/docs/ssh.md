@@ -3,6 +3,12 @@
 
 ## Getting SSH
 
+::::{admonition} Use of 2FA for SSH
+
+As of February 2026, BioHPC also requires the use of 2FA for SSH. Consult the BioHPC documentation to be sure to make this work.
+
+::::
+
 ::::{tab-set}
 
 :::{tab-item} Windows
