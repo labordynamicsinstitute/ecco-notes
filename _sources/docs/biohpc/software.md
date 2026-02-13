@@ -110,6 +110,13 @@ git pull
 
 The modules listed in the repository will work on the specific nodes that the software is installed. Not all nodes have all software installed. The `module` command only allows the shell to find the software if it is installed, but does not actually install the software.
 
+For MATLAB in particular, due to space constraints, some versions listed in the modules are not available on all nodes. You can use the `sbatch`  `constraint`  option to ensure that your job ends up on a node that has the desired MATLAB version installed (you should still use the `module`  command to then configure your environment to use that version). For instance, to ensure that your job runs on a node with MATLAB R2023b, use
+
+```bash
+sbatch -C matlab_R2023b [other options]
+```
+
+
 :::
 
 #### Using the additional modules

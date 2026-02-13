@@ -541,6 +541,10 @@ git<span class="w"> </span>pull
 <div class="admonition-not-all-modules-listed-are-actually-installed admonition">
 <p class="admonition-title">Not all modules listed are actually installed!</p>
 <p>The modules listed in the repository will work on the specific nodes that the software is installed. Not all nodes have all software installed. The <code class="docutils literal notranslate"><span class="pre">module</span></code> command only allows the shell to find the software if it is installed, but does not actually install the software.</p>
+<p>For MATLAB in particular, due to space constraints, some versions listed in the modules are not available on all nodes. You can use the <code class="docutils literal notranslate"><span class="pre">sbatch</span></code>  <code class="docutils literal notranslate"><span class="pre">constraint</span></code>  option to ensure that your job ends up on a node that has the desired MATLAB version installed (you should still use the <code class="docutils literal notranslate"><span class="pre">module</span></code>  command to then configure your environment to use that version). For instance, to ensure that your job runs on a node with MATLAB R2023b, use</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>sbatch<span class="w"> </span>-C<span class="w"> </span>matlab_R2023b<span class="w"> </span><span class="o">[</span>other<span class="w"> </span>options<span class="o">]</span>
+</pre></div>
+</div>
 </div>
 </section>
 <section id="using-the-additional-modules">
