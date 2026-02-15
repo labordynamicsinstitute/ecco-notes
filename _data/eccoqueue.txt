@@ -1,16 +1,18 @@
-            546427      fast    ADA35   jl4459  R 3-01:42:55      1 cbsuecco09
-            546428      fast    ADA36   jl4459  R 3-01:42:42      1 cbsuecco10
-            546436     lgmem  rep7549   dac429  R 3-01:37:32      1 cbsuecco02
-        546437_133      fast prodentr   dac429  R    9:40:29      1 cbsuecco11
-        546437_134      fast prodentr   dac429  R    9:01:57      1 cbsuecco14
-        546437_135      fast prodentr   dac429  R    8:27:43      1 cbsuecco14
-        546437_136      fast prodentr   dac429  R    6:05:52      1 cbsuecco13
-        546437_137      fast prodentr   dac429  R    2:43:17      1 cbsuecco13
+            546427      fast    ADA35   jl4459  R 3-02:42:55      1 cbsuecco09
+            546428      fast    ADA36   jl4459  R 3-02:42:42      1 cbsuecco10
+            546436     lgmem  rep7549   dac429  R 3-02:37:32      1 cbsuecco02
+        546437_133      fast prodentr   dac429  R   10:40:29      1 cbsuecco11
+        546437_134      fast prodentr   dac429  R   10:01:57      1 cbsuecco14
+        546437_135      fast prodentr   dac429  R    9:27:43      1 cbsuecco14
+        546437_136      fast prodentr   dac429  R    7:05:52      1 cbsuecco13
+        546437_137      fast prodentr   dac429  R    3:43:17      1 cbsuecco13
 546437_[138-200%5]      fast prodentr   dac429 PD       0:00      1 (JobArrayTaskLimit)
-            546469      fast    ADA34   jl4459  R 1-04:21:17      1 cbsuecco12
-            546486      slow    G15_5    ljp96  R 1-20:55:46      1 cbsuecco07
-            546487      slow    G15_6    ljp96  R 1-20:55:42      1 cbsuecco01
-            546488      slow    G15_7    ljp96  R 1-20:55:39      1 cbsuecco08
-            546489      slow    G15_8    ljp96  R 1-20:55:36      1 cbsuecco01
-            546490      slow    G15_9    ljp96  R 1-20:55:33      1 cbsuecco08
+            546469      fast    ADA34   jl4459  R 1-05:21:17      1 cbsuecco12
+            546486      slow    G15_5    ljp96  R 1-21:55:46      1 cbsuecco07
+            546487      slow    G15_6    ljp96  R 1-21:55:42      1 cbsuecco01
+            546488      slow    G15_7    ljp96  R 1-21:55:39      1 cbsuecco08
+            546489      slow    G15_8    ljp96  R 1-21:55:36      1 cbsuecco01
+            546490      slow    G15_9    ljp96  R 1-21:55:33      1 cbsuecco08
             546504     lgmem  aer8448 dagr5998 PD       0:00      1 (Resources)
+            546531      slow  aer8308 dagr5998  R      41:25      1 cbsuecco07
+          546532_0      slow  aer8527 dagr5998  R      28:02      1 cbsuecco07
