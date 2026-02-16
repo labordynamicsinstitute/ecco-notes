@@ -164,7 +164,7 @@ def print_file_as_markdown_code_block(file_path, language=''):
 print_file_as_markdown_code_block(os.path.join(project_root,"_data", 'eccoload.txt'))
 ```
 
-For more details, see the [SLURM Queue](slurm-queue.md) page.
+For more details, see the [SLURM Queue](slurm-queue.md) page. For explanation of the "Partition", see [Queues](queues) section below. 
 
 ## Manually query the latest availability
 
@@ -181,13 +181,16 @@ in a terminal window on the head node,[^quick] to obtain a result such as
 ```bash
 $ sinfo --cluster cbsueccosl01
 CLUSTER: cbsueccosl01
-PARTITION AVAIL  TIMELIMIT  NODES  STATE NODELIST
-regular*     up   infinite      3    mix cbsuecco[07-08],cbsueccosl03
-regular*     up   infinite      1  alloc cbsueccosl04
-regular*     up   infinite      2   idle cbsuecco01,cbsueccosl01
+PARTITION   AVAIL  TIMELIMIT  NODES  STATE NODELIST
+slow*          up   infinite      3    mix cbsuecco[01,07-08]
+fast           up   infinite      4    mix cbsuecco[10-11,13-14]
+fast           up   infinite      2  alloc cbsuecco[09,12]
+lgmem          up   infinite      1    mix cbsuecco02
+interactive    up   infinite      2   idle cbsueccosl[03-04]
+
 ```
 
-which shows that currently, 6 nodes are available for jobs, of which 2 are idle, three have some jobs running on them, but can still accept smaller jobs (`mix` means there are free CPUs), and one is completely used (`alloc`).
+which shows that currently, 2 nodes in the interactive partition (queue) are idle (no jobs running), eight have some jobs running on them, but can still accept smaller jobs (`mix` means there are free CPUs), and two are completely used (`alloc`).
 
 (queues)=
 ## Queues
