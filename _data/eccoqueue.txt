@@ -1,30 +1,27 @@
-            546486      slow    G15_5    ljp96  R 8-20:55:46      1 cbsuecco07
-            546487      slow    G15_6    ljp96  R 8-20:55:42      1 cbsuecco01
-            546488      slow    G15_7    ljp96  R 8-20:55:39      1 cbsuecco08
-            546489      slow    G15_8    ljp96  R 8-20:55:36      1 cbsuecco01
-            546490      slow    G15_9    ljp96  R 8-20:55:33      1 cbsuecco08
-        546576_161      fast  aer8527 dagr5998  R   11:36:01      1 cbsuecco14
-        546576_166      fast  aer8527 dagr5998  R    6:19:37      1 cbsuecco14
-        546576_169      fast  aer8527 dagr5998  R    3:31:37      1 cbsuecco11
-        546576_170      fast  aer8527 dagr5998  R    1:58:36      1 cbsuecco11
-        546576_171      fast  aer8527 dagr5998  R    1:28:43      1 cbsuecco14
-        546576_172      fast  aer8527 dagr5998  R    1:04:10      1 cbsuecco14
-        546576_173      fast  aer8527 dagr5998  R    1:04:10      1 cbsuecco09
-        546576_174      fast  aer8527 dagr5998  R    1:02:54      1 cbsuecco14
-        546576_175      fast  aer8527 dagr5998  R      55:10      1 cbsuecco09
-        546576_176      fast  aer8527 dagr5998  R      30:50      1 cbsuecco14
+            546486      slow    G15_5    ljp96  R 8-21:55:46      1 cbsuecco07
+            546487      slow    G15_6    ljp96  R 8-21:55:42      1 cbsuecco01
+            546488      slow    G15_7    ljp96  R 8-21:55:39      1 cbsuecco08
+            546489      slow    G15_8    ljp96  R 8-21:55:36      1 cbsuecco01
+            546490      slow    G15_9    ljp96  R 8-21:55:33      1 cbsuecco08
+        546576_161      fast  aer8527 dagr5998  R   12:36:01      1 cbsuecco14
+        546576_166      fast  aer8527 dagr5998  R    7:19:37      1 cbsuecco14
+        546576_169      fast  aer8527 dagr5998  R    4:31:37      1 cbsuecco11
+        546576_170      fast  aer8527 dagr5998  R    2:58:36      1 cbsuecco11
+        546576_171      fast  aer8527 dagr5998  R    2:28:43      1 cbsuecco14
+        546576_172      fast  aer8527 dagr5998  R    2:04:10      1 cbsuecco14
+        546576_173      fast  aer8527 dagr5998  R    2:04:10      1 cbsuecco09
+        546576_174      fast  aer8527 dagr5998  R    2:02:54      1 cbsuecco14
+        546576_175      fast  aer8527 dagr5998  R    1:55:10      1 cbsuecco09
+        546576_176      fast  aer8527 dagr5998  R    1:30:50      1 cbsuecco14
 546576_[177-199%10 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
-            546621     lgmem  aer8448 dagr5998  R 2-13:01:03      1 cbsuecco02
+            546621     lgmem  aer8448 dagr5998  R 2-14:01:03      1 cbsuecco02
    546765_[1-10%2]     lgmem vary_eps   dac429 PD       0:00      2 (PartitionConfig)
             546768      slow rs-full-   dac429 PD       0:00      5 (PartitionNodeLimit)
-            546795      fast    ADA34   jl4459  R 2-18:02:51      1 cbsuecco10
-            546797      fast    ADA35   jl4459  R 2-13:28:53      1 cbsuecco12
-            546799      fast    ADA36   jl4459  R   11:18:47      1 cbsuecco13
+            546795      fast    ADA34   jl4459  R 2-19:02:51      1 cbsuecco10
+            546797      fast    ADA35   jl4459  R 2-14:28:53      1 cbsuecco12
+            546799      fast    ADA36   jl4459  R   12:18:47      1 cbsuecco13
             546811      slow  aer8541 dagr5998 PD       0:00      1 (Resources)
-            546813      slow  aer8308 dagr5998  R 2-15:55:24      1 cbsuecco07
+            546813      slow  aer8308 dagr5998  R 2-16:55:24      1 cbsuecco07
             546842     lgmem  aer6381     lv39 PD       0:00      1 (Resources)
-       546917_2012      fast evt_m_mo    fm469  R    2:04:50      1 cbsuecco09
-       546917_2013      fast evt_m_mo    fm469  R    2:01:09      1 cbsuecco09
-       546917_2014      fast evt_m_mo    fm469  R    1:58:40      1 cbsuecco14
-       546917_2015      fast evt_m_mo    fm469  R    1:10:47      1 cbsuecco14
-       546917_2016      fast evt_m_mo    fm469  R      32:57      1 cbsuecco11
+       546917_2015      fast evt_m_mo    fm469  R    2:10:47      1 cbsuecco14
+       546917_2016      fast evt_m_mo    fm469  R    1:32:57      1 cbsuecco11
