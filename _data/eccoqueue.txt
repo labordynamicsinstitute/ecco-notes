@@ -1,21 +1,19 @@
-            546486      slow    G15_5    ljp96  R 9-18:55:46      1 cbsuecco07
-            546487      slow    G15_6    ljp96  R 9-18:55:42      1 cbsuecco01
-            546488      slow    G15_7    ljp96  R 9-18:55:39      1 cbsuecco08
-            546489      slow    G15_8    ljp96  R 9-18:55:36      1 cbsuecco01
-            546490      slow    G15_9    ljp96  R 9-18:55:33      1 cbsuecco08
-        546576_181      fast  aer8527 dagr5998  R   15:51:45      1 cbsuecco14
-        546576_186      fast  aer8527 dagr5998  R   13:16:10      1 cbsuecco14
-        546576_191      fast  aer8527 dagr5998  R    9:06:24      1 cbsuecco11
-        546576_193      fast  aer8527 dagr5998  R    6:36:12      1 cbsuecco14
-        546576_195      fast  aer8527 dagr5998  R    6:07:33      1 cbsuecco14
-        546576_196      fast  aer8527 dagr5998  R    5:37:44      1 cbsuecco09
-        546576_197      fast  aer8527 dagr5998  R    3:46:04      1 cbsuecco14
-        546576_198      fast  aer8527 dagr5998  R    2:55:15      1 cbsuecco09
-        546576_199      fast  aer8527 dagr5998  R    2:14:23      1 cbsuecco14
-            546621     lgmem  aer8448 dagr5998  R 3-11:01:03      1 cbsuecco02
+            546486      slow    G15_5    ljp96  R 9-19:55:47      1 cbsuecco07
+            546487      slow    G15_6    ljp96  R 9-19:55:43      1 cbsuecco01
+            546488      slow    G15_7    ljp96  R 9-19:55:40      1 cbsuecco08
+            546489      slow    G15_8    ljp96  R 9-19:55:37      1 cbsuecco01
+            546490      slow    G15_9    ljp96  R 9-19:55:34      1 cbsuecco08
+        546576_181      fast  aer8527 dagr5998  R   16:51:46      1 cbsuecco14
+        546576_191      fast  aer8527 dagr5998  R   10:06:25      1 cbsuecco11
+        546576_193      fast  aer8527 dagr5998  R    7:36:13      1 cbsuecco14
+        546576_196      fast  aer8527 dagr5998  R    6:37:45      1 cbsuecco09
+        546576_197      fast  aer8527 dagr5998  R    4:46:05      1 cbsuecco14
+        546576_198      fast  aer8527 dagr5998  R    3:55:16      1 cbsuecco09
+        546576_199      fast  aer8527 dagr5998  R    3:14:24      1 cbsuecco14
+            546621     lgmem  aer8448 dagr5998  R 3-12:01:04      1 cbsuecco02
    546765_[1-10%2]     lgmem vary_eps   dac429 PD       0:00      2 (PartitionConfig)
             546768      slow rs-full-   dac429 PD       0:00      5 (PartitionNodeLimit)
-            546795      fast    ADA34   jl4459  R 3-16:02:51      1 cbsuecco10
-            546797      fast    ADA35   jl4459  R 3-11:28:53      1 cbsuecco12
-            546799      fast    ADA36   jl4459  R 1-09:18:47      1 cbsuecco13
+            546795      fast    ADA34   jl4459  R 3-17:02:52      1 cbsuecco10
+            546797      fast    ADA35   jl4459  R 3-12:28:54      1 cbsuecco12
+            546799      fast    ADA36   jl4459  R 1-10:18:48      1 cbsuecco13
             546842     lgmem  aer6381     lv39 PD       0:00      1 (Resources)
