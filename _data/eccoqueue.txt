@@ -1,10 +1,10 @@
-            546486      slow    G15_5    ljp96  R 11-18:55:46      1 cbsuecco07
-            546487      slow    G15_6    ljp96  R 11-18:55:42      1 cbsuecco01
-            546488      slow    G15_7    ljp96  R 11-18:55:39      1 cbsuecco08
-            546489      slow    G15_8    ljp96  R 11-18:55:36      1 cbsuecco01
-            546490      slow    G15_9    ljp96  R 11-18:55:33      1 cbsuecco08
-            546621     lgmem  aer8448 dagr5998  R 5-11:01:03      1 cbsuecco02
+            546486      slow    G15_5    ljp96  R 11-19:55:46      1 cbsuecco07
+            546487      slow    G15_6    ljp96  R 11-19:55:42      1 cbsuecco01
+            546488      slow    G15_7    ljp96  R 11-19:55:39      1 cbsuecco08
+            546489      slow    G15_8    ljp96  R 11-19:55:36      1 cbsuecco01
+            546490      slow    G15_9    ljp96  R 11-19:55:33      1 cbsuecco08
+            546621     lgmem  aer8448 dagr5998  R 5-12:01:03      1 cbsuecco02
    546765_[1-10%2]     lgmem vary_eps   dac429 PD       0:00      2 (PartitionConfig)
             546768      slow rs-full-   dac429 PD       0:00      5 (PartitionNodeLimit)
             546842     lgmem  aer6381     lv39 PD       0:00      1 (Resources)
-            547001      fast    ADA68   jl4459  R   19:03:21      1 cbsuecco14
+            547002      fast    ADA68   jl4459  R       5:46      1 cbsuecco13
