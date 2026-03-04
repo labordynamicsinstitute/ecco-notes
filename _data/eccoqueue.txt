@@ -1,21 +1,21 @@
-            546487      slow    G15_6    ljp96  R 18-05:55:42      1 cbsuecco01
-            546488      slow    G15_7    ljp96  R 18-05:55:39      1 cbsuecco08
-            546489      slow    G15_8    ljp96  R 18-05:55:36      1 cbsuecco01
-            546490      slow    G15_9    ljp96  R 18-05:55:33      1 cbsuecco08
-            546621     lgmem  aer8448 dagr5998  R 11-22:01:03      1 cbsuecco02
+            546487      slow    G15_6    ljp96  R 18-06:55:42      1 cbsuecco01
+            546488      slow    G15_7    ljp96  R 18-06:55:39      1 cbsuecco08
+            546489      slow    G15_8    ljp96  R 18-06:55:36      1 cbsuecco01
+            546490      slow    G15_9    ljp96  R 18-06:55:33      1 cbsuecco08
+            546621     lgmem  aer8448 dagr5998  R 11-23:01:03      1 cbsuecco02
    546765_[1-10%2]     lgmem vary_eps   dac429 PD       0:00      2 (PartitionConfig)
             546842     lgmem  aer6381     lv39 PD       0:00      1 (Resources)
             547013     lgmem  rep7549   dac429 PD       0:00      1 (Priority)
-         547099_49      fast  aer8527 dagr5998  R   18:42:31      1 cbsuecco14
-         547099_57      fast  aer8527 dagr5998  R   10:47:35      1 cbsuecco13
-         547099_58      fast  aer8527 dagr5998  R    7:05:16      1 cbsuecco13
-         547099_59      fast  aer8527 dagr5998  R    6:54:36      1 cbsuecco13
-         547099_60      fast  aer8527 dagr5998  R    6:38:21      1 cbsuecco14
-         547099_61      fast  aer8527 dagr5998  R    6:10:30      1 cbsuecco14
-         547099_62      fast  aer8527 dagr5998  R    5:53:19      1 cbsuecco14
-         547099_63      fast  aer8527 dagr5998  R    5:08:24      1 cbsuecco13
-         547099_64      fast  aer8527 dagr5998  R    3:43:16      1 cbsuecco13
-         547099_65      fast  aer8527 dagr5998  R    2:54:49      1 cbsuecco14
-547099_[66-1000%10 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
-            547168      fast poaching    fm469  R    9:12:35      1 cbsuecco13
-            547182      slow diag_ind    ts724  R    1:48:26      1 cbsuecco07
+         547099_57      fast  aer8527 dagr5998  R   11:47:35      1 cbsuecco13
+         547099_58      fast  aer8527 dagr5998  R    8:05:16      1 cbsuecco13
+         547099_59      fast  aer8527 dagr5998  R    7:54:36      1 cbsuecco13
+         547099_60      fast  aer8527 dagr5998  R    7:38:21      1 cbsuecco14
+         547099_61      fast  aer8527 dagr5998  R    7:10:30      1 cbsuecco14
+         547099_62      fast  aer8527 dagr5998  R    6:53:19      1 cbsuecco14
+         547099_63      fast  aer8527 dagr5998  R    6:08:24      1 cbsuecco13
+         547099_64      fast  aer8527 dagr5998  R    4:43:16      1 cbsuecco13
+         547099_65      fast  aer8527 dagr5998  R    3:54:49      1 cbsuecco14
+         547099_66      fast  aer8527 dagr5998  R      14:00      1 cbsuecco09
+547099_[67-1000%10 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
+            547168      fast poaching    fm469  R   10:12:35      1 cbsuecco13
+            547182      slow diag_ind    ts724  R    2:48:26      1 cbsuecco07
