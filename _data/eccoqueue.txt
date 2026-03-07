@@ -1,18 +1,18 @@
-            546487      slow    G15_6    ljp96  R 21-15:55:42      1 cbsuecco01
-            546489      slow    G15_8    ljp96  R 21-15:55:36      1 cbsuecco01
-            546621     lgmem  aer8448 dagr5998  R 15-08:01:03      1 cbsuecco02
+            546487      slow    G15_6    ljp96  R 21-16:55:42      1 cbsuecco01
+            546489      slow    G15_8    ljp96  R 21-16:55:36      1 cbsuecco01
+            546621     lgmem  aer8448 dagr5998  R 15-09:01:03      1 cbsuecco02
             546842     lgmem  aer6381     lv39 PD       0:00      1 (Resources)
-        547099_184      fast  aer8527 dagr5998  R   13:57:59      1 cbsuecco14
-        547099_185      fast  aer8527 dagr5998  R   13:57:04      1 cbsuecco13
-        547099_188      fast  aer8527 dagr5998  R    8:49:46      1 cbsuecco14
-        547099_189      fast  aer8527 dagr5998  R    8:41:37      1 cbsuecco14
-        547099_190      fast  aer8527 dagr5998  R    8:26:31      1 cbsuecco13
-        547099_191      fast  aer8527 dagr5998  R    7:49:59      1 cbsuecco13
-        547099_192      fast  aer8527 dagr5998  R    6:23:26      1 cbsuecco14
-        547099_193      fast  aer8527 dagr5998  R    5:47:06      1 cbsuecco13
-        547099_194      fast  aer8527 dagr5998  R    2:56:13      1 cbsuecco13
-        547099_195      fast  aer8527 dagr5998  R    1:02:49      1 cbsuecco14
-547099_[196-1000%1 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
+        547099_184      fast  aer8527 dagr5998  R   14:57:59      1 cbsuecco14
+        547099_185      fast  aer8527 dagr5998  R   14:57:04      1 cbsuecco13
+        547099_188      fast  aer8527 dagr5998  R    9:49:46      1 cbsuecco14
+        547099_189      fast  aer8527 dagr5998  R    9:41:37      1 cbsuecco14
+        547099_190      fast  aer8527 dagr5998  R    9:26:31      1 cbsuecco13
+        547099_191      fast  aer8527 dagr5998  R    8:49:59      1 cbsuecco13
+        547099_192      fast  aer8527 dagr5998  R    7:23:26      1 cbsuecco14
+        547099_194      fast  aer8527 dagr5998  R    3:56:13      1 cbsuecco13
+        547099_195      fast  aer8527 dagr5998  R    2:02:49      1 cbsuecco14
+        547099_196      fast  aer8527 dagr5998  R      51:04      1 cbsuecco13
+547099_[197-1000%1 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
             547403     lgmem baseline   dac429 PD       0:00      2 (PartitionConfig)
    547404_[1-10%2]     lgmem vary_eps   dac429 PD       0:00      2 (PartitionConfig)
             547412     lgmem  rep7549   dac429 PD       0:00      1 (Priority)
