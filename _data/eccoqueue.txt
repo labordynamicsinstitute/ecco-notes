@@ -1,16 +1,16 @@
-            546621     lgmem  aer8448 dagr5998  R 17-00:01:03      1 cbsuecco02
+            546621     lgmem  aer8448 dagr5998  R 17-01:01:03      1 cbsuecco02
             546842     lgmem  aer6381     lv39 PD       0:00      1 (Resources)
-        547099_217      fast  aer8527 dagr5998  R   20:29:57      1 cbsuecco13
-        547099_230      fast  aer8527 dagr5998  R    8:52:13      1 cbsuecco13
-        547099_231      fast  aer8527 dagr5998  R    6:11:03      1 cbsuecco14
-        547099_232      fast  aer8527 dagr5998  R    4:37:55      1 cbsuecco14
-        547099_233      fast  aer8527 dagr5998  R    3:57:21      1 cbsuecco13
-        547099_234      fast  aer8527 dagr5998  R    3:43:00      1 cbsuecco13
-        547099_235      fast  aer8527 dagr5998  R    2:02:32      1 cbsuecco14
-        547099_236      fast  aer8527 dagr5998  R    1:59:41      1 cbsuecco14
-        547099_237      fast  aer8527 dagr5998  R    1:37:06      1 cbsuecco14
-        547099_238      fast  aer8527 dagr5998  R    1:25:54      1 cbsuecco13
-547099_[239-1000%1 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
+        547099_230      fast  aer8527 dagr5998  R    9:52:13      1 cbsuecco13
+        547099_231      fast  aer8527 dagr5998  R    7:11:03      1 cbsuecco14
+        547099_232      fast  aer8527 dagr5998  R    5:37:55      1 cbsuecco14
+        547099_233      fast  aer8527 dagr5998  R    4:57:21      1 cbsuecco13
+        547099_234      fast  aer8527 dagr5998  R    4:43:00      1 cbsuecco13
+        547099_235      fast  aer8527 dagr5998  R    3:02:32      1 cbsuecco14
+        547099_236      fast  aer8527 dagr5998  R    2:59:41      1 cbsuecco14
+        547099_237      fast  aer8527 dagr5998  R    2:37:06      1 cbsuecco14
+        547099_238      fast  aer8527 dagr5998  R    2:25:54      1 cbsuecco13
+        547099_239      fast  aer8527 dagr5998  R      37:31      1 cbsuecco13
+547099_[240-1000%1 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
             547412     lgmem  rep7549   dac429 PD       0:00      1 (Priority)
             547510     lgmem baseline   dac429 PD       0:00      1 (Priority)
    547564_[1-10%2]     lgmem vary_eps   dac429 PD       0:00      1 (QOSMinMemory)
