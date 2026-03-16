@@ -1,19 +1,19 @@
-            546621     lgmem  aer8448 dagr5998  R 24-15:01:03      1 cbsuecco02
+            546621     lgmem  aer8448 dagr5998  R 24-16:01:03      1 cbsuecco02
             546842     lgmem  aer6381     lv39 PD       0:00      1 (Priority)
-        547099_418      fast  aer8527 dagr5998  R    6:54:23      1 cbsuecco14
-        547099_419      fast  aer8527 dagr5998  R    6:54:16      1 cbsuecco13
-        547099_420      fast  aer8527 dagr5998  R    5:49:02      1 cbsuecco14
-        547099_421      fast  aer8527 dagr5998  R    5:44:32      1 cbsuecco13
-        547099_422      fast  aer8527 dagr5998  R    3:10:48      1 cbsuecco13
-        547099_423      fast  aer8527 dagr5998  R    2:34:25      1 cbsuecco13
-        547099_424      fast  aer8527 dagr5998  R    2:21:59      1 cbsuecco14
-        547099_425      fast  aer8527 dagr5998  R    2:07:32      1 cbsuecco14
-        547099_426      fast  aer8527 dagr5998  R    1:56:45      1 cbsuecco13
-        547099_427      fast  aer8527 dagr5998  R    1:36:28      1 cbsuecco14
+        547099_418      fast  aer8527 dagr5998  R    7:54:23      1 cbsuecco14
+        547099_419      fast  aer8527 dagr5998  R    7:54:16      1 cbsuecco13
+        547099_420      fast  aer8527 dagr5998  R    6:49:02      1 cbsuecco14
+        547099_421      fast  aer8527 dagr5998  R    6:44:32      1 cbsuecco13
+        547099_422      fast  aer8527 dagr5998  R    4:10:48      1 cbsuecco13
+        547099_423      fast  aer8527 dagr5998  R    3:34:25      1 cbsuecco13
+        547099_424      fast  aer8527 dagr5998  R    3:21:59      1 cbsuecco14
+        547099_425      fast  aer8527 dagr5998  R    3:07:32      1 cbsuecco14
+        547099_426      fast  aer8527 dagr5998  R    2:56:45      1 cbsuecco13
+        547099_427      fast  aer8527 dagr5998  R    2:36:28      1 cbsuecco14
 547099_[428-1000%1 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
             547412     lgmem  rep7549   dac429 PD       0:00      1 (Resources)
             547667      fast   st_cou dagr5998 PD       0:00      1 (Resources)
-            547851      fast    ADA67   jl4459  R    2:07:46      1 cbsuecco09
-            547852      fast    ADA68   jl4459  R    2:07:46      1 cbsuecco10
-            547857      fast   G15_11    ljp96  R    1:13:53      1 cbsuecco13
-            547858 interacti     bash   amg466  R    1:00:00      1 cbsueccosl03
+            547851      fast    ADA67   jl4459  R    3:07:46      1 cbsuecco09
+            547852      fast    ADA68   jl4459  R    3:07:46      1 cbsuecco10
+            547857      fast   G15_11    ljp96  R    2:13:53      1 cbsuecco13
+            547865 interacti     bash   amg466  R      31:43      1 cbsueccosl03
