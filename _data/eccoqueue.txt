@@ -1,15 +1,15 @@
-            546621     lgmem  aer8448 dagr5998  R 26-10:01:04      1 cbsuecco02
+            546621     lgmem  aer8448 dagr5998  R 26-11:01:03      1 cbsuecco02
             546842     lgmem  aer6381     lv39 PD       0:00      1 (Priority)
-        547099_459      fast  aer8527 dagr5998  R   11:00:28      1 cbsuecco13
-        547099_462      fast  aer8527 dagr5998  R    6:53:15      1 cbsuecco14
-        547099_463      fast  aer8527 dagr5998  R    6:20:46      1 cbsuecco14
-        547099_464      fast  aer8527 dagr5998  R    6:14:13      1 cbsuecco14
-        547099_465      fast  aer8527 dagr5998  R    5:57:05      1 cbsuecco13
-        547099_466      fast  aer8527 dagr5998  R    5:47:59      1 cbsuecco14
-        547099_467      fast  aer8527 dagr5998  R    5:45:55      1 cbsuecco13
-        547099_468      fast  aer8527 dagr5998  R    4:16:00      1 cbsuecco13
-        547099_469      fast  aer8527 dagr5998  R    2:53:37      1 cbsuecco13
-        547099_470      fast  aer8527 dagr5998  R      23:47      1 cbsuecco14
+        547099_459      fast  aer8527 dagr5998  R   12:00:27      1 cbsuecco13
+        547099_462      fast  aer8527 dagr5998  R    7:53:14      1 cbsuecco14
+        547099_463      fast  aer8527 dagr5998  R    7:20:45      1 cbsuecco14
+        547099_464      fast  aer8527 dagr5998  R    7:14:12      1 cbsuecco14
+        547099_465      fast  aer8527 dagr5998  R    6:57:04      1 cbsuecco13
+        547099_466      fast  aer8527 dagr5998  R    6:47:58      1 cbsuecco14
+        547099_467      fast  aer8527 dagr5998  R    6:45:54      1 cbsuecco13
+        547099_468      fast  aer8527 dagr5998  R    5:15:59      1 cbsuecco13
+        547099_469      fast  aer8527 dagr5998  R    3:53:36      1 cbsuecco13
+        547099_470      fast  aer8527 dagr5998  R    1:23:46      1 cbsuecco14
 547099_[471-1000%1 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
             547412     lgmem  rep7549   dac429 PD       0:00      1 (Resources)
             547667      fast   st_cou dagr5998 PD       0:00      1 (Resources)
