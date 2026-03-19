@@ -1,39 +1,23 @@
-            546621     lgmem  aer8448 dagr5998  R 27-12:01:03      1 cbsuecco02
+            546621     lgmem  aer8448 dagr5998  R 27-13:01:03      1 cbsuecco02
             546842     lgmem  aer6381     lv39 PD       0:00      1 (Resources)
-        547099_485      fast  aer8527 dagr5998  R   11:10:49      1 cbsuecco11
-        547099_486      fast  aer8527 dagr5998  R   10:41:30      1 cbsuecco12
-        547099_489      fast  aer8527 dagr5998  R    6:39:39      1 cbsuecco13
-        547099_490      fast  aer8527 dagr5998  R    6:35:57      1 cbsuecco14
-        547099_491      fast  aer8527 dagr5998  R    4:53:16      1 cbsuecco14
-        547099_492      fast  aer8527 dagr5998  R    4:48:49      1 cbsuecco13
-        547099_493      fast  aer8527 dagr5998  R    3:07:36      1 cbsuecco14
-        547099_494      fast  aer8527 dagr5998  R    3:04:00      1 cbsuecco13
-        547099_495      fast  aer8527 dagr5998  R    2:03:07      1 cbsuecco14
-        547099_496      fast  aer8527 dagr5998  R    1:27:22      1 cbsuecco13
+        547099_485      fast  aer8527 dagr5998  R   12:10:49      1 cbsuecco11
+        547099_486      fast  aer8527 dagr5998  R   11:41:30      1 cbsuecco12
+        547099_489      fast  aer8527 dagr5998  R    7:39:39      1 cbsuecco13
+        547099_490      fast  aer8527 dagr5998  R    7:35:57      1 cbsuecco14
+        547099_491      fast  aer8527 dagr5998  R    5:53:16      1 cbsuecco14
+        547099_492      fast  aer8527 dagr5998  R    5:48:49      1 cbsuecco13
+        547099_493      fast  aer8527 dagr5998  R    4:07:36      1 cbsuecco14
+        547099_494      fast  aer8527 dagr5998  R    4:04:00      1 cbsuecco13
+        547099_495      fast  aer8527 dagr5998  R    3:03:07      1 cbsuecco14
+        547099_496      fast  aer8527 dagr5998  R    2:27:22      1 cbsuecco13
 547099_[497-1000%1 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
             547412     lgmem  rep7549   dac429 PD       0:00      1 (Priority)
             547667      fast   st_cou dagr5998 PD       0:00      1 (Resources)
-            547963      slow  rep8328   amg466  R   19:13:49      1 cbsuecco01
-            548000      slow  rep8880   sb2683 PD       0:00      1 (Resources)
-            548001      slow  rep8880   sb2683 PD       0:00      1 (Priority)
-            548002      slow  rep8880   sb2683 PD       0:00      1 (Priority)
-            548003      slow  rep8880   sb2683 PD       0:00      1 (Priority)
-            548004      slow  rep8880   sb2683 PD       0:00      1 (Priority)
-            548005      slow  rep8880   sb2683 PD       0:00      1 (Priority)
-            548006      slow  rep8880   sb2683 PD       0:00      1 (Priority)
-            548007      slow  rep8880   sb2683 PD       0:00      1 (Priority)
-            548008      slow  rep8880   sb2683 PD       0:00      1 (Priority)
-            548009      slow  rep8880   sb2683 PD       0:00      1 (Priority)
-            548010      slow  rep8880   sb2683 PD       0:00      1 (Priority)
-            548011      slow  rep8880   sb2683 PD       0:00      1 (Priority)
-            548012      slow  rep8880   sb2683 PD       0:00      1 (Priority)
-            548013      slow  rep8880   sb2683 PD       0:00      1 (Priority)
-            548014      slow  rep8880   sb2683 PD       0:00      1 (Priority)
-            548015      slow  rep8880   sb2683 PD       0:00      1 (Priority)
-            548050      slow  rep7711   dac429  R    2:37:42      1 cbsuecco07
-            548077      fast G15_corn    ljp96  R      20:01      1 cbsuecco13
-            548078      fast G15_corn    ljp96  R      20:01      1 cbsuecco14
-            548079      fast G15_corn    ljp96  R      20:01      1 cbsuecco09
+            547963      slow  rep8328   amg466  R   20:13:49      1 cbsuecco01
+            548050      slow  rep7711   dac429  R    3:37:42      1 cbsuecco07
+            548077      fast G15_corn    ljp96  R    1:20:01      1 cbsuecco13
+            548078      fast G15_corn    ljp96  R    1:20:01      1 cbsuecco14
+            548079      fast G15_corn    ljp96  R    1:20:01      1 cbsuecco09
             548080      fast G15_corn    ljp96 PD       0:00      1 (Dependency)
             548081      fast G15_corn    ljp96 PD       0:00      1 (Dependency)
             548082      fast G15_corn    ljp96 PD       0:00      1 (Dependency)
