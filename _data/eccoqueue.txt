@@ -1,13 +1,13 @@
-            548050      slow  rep7711   dac429  R 4-19:37:42      1 cbsuecco07
-            548125      fast    ADA68   jl4459  R 3-16:38:16      1 cbsuecco12
-            548126      fast    ADA67   jl4459  R 3-16:38:16      1 cbsuecco11
-        548143_562      fast  aer8527 dagr5998  R   11:53:05      1 cbsuecco13
-        548143_564      fast  aer8527 dagr5998  R   11:27:26      1 cbsuecco13
-        548143_565      fast  aer8527 dagr5998  R   10:38:04      1 cbsuecco13
-        548143_568      fast  aer8527 dagr5998  R    9:15:29      1 cbsuecco14
-        548143_572      fast  aer8527 dagr5998  R    3:59:55      1 cbsuecco14
-        548143_573      fast  aer8527 dagr5998  R    2:27:21      1 cbsuecco14
-548143_[574-1000%6 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
-            548218      slow  aer8604 dagr5998  R 1-15:50:12      1 cbsuecco07
-            548224      slow multicou    ts724  R 1-11:40:07      1 cbsuecco01
-            548226     lgmem  aer6381     lv39  R 1-10:53:53      1 cbsuecco02
+            548050      slow  rep7711   dac429  R 4-20:37:42      1 cbsuecco07
+            548125      fast    ADA68   jl4459  R 3-17:38:16      1 cbsuecco12
+            548126      fast    ADA67   jl4459  R 3-17:38:16      1 cbsuecco11
+        548143_562      fast  aer8527 dagr5998  R   12:53:05      1 cbsuecco13
+        548143_564      fast  aer8527 dagr5998  R   12:27:26      1 cbsuecco13
+        548143_568      fast  aer8527 dagr5998  R   10:15:29      1 cbsuecco14
+        548143_572      fast  aer8527 dagr5998  R    4:59:55      1 cbsuecco14
+        548143_573      fast  aer8527 dagr5998  R    3:27:21      1 cbsuecco14
+        548143_574      fast  aer8527 dagr5998  R      45:13      1 cbsuecco13
+548143_[575-1000%6 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
+            548218      slow  aer8604 dagr5998  R 1-16:50:12      1 cbsuecco07
+            548224      slow multicou    ts724  R 1-12:40:07      1 cbsuecco01
+            548226     lgmem  aer6381     lv39  R 1-11:53:53      1 cbsuecco02
