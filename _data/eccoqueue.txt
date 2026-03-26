@@ -1,15 +1,15 @@
-            548050      slow  rep7711   dac429  R 6-18:37:42      1 cbsuecco07
-            548125      fast    ADA68   jl4459  R 5-15:38:16      1 cbsuecco12
-            548126      fast    ADA67   jl4459  R 5-15:38:16      1 cbsuecco11
-        548143_607      fast  aer8527 dagr5998  R    6:44:41      1 cbsuecco13
-        548143_608      fast  aer8527 dagr5998  R    6:24:31      1 cbsuecco13
-        548143_609      fast  aer8527 dagr5998  R    5:55:10      1 cbsuecco14
-        548143_610      fast  aer8527 dagr5998  R    5:22:25      1 cbsuecco13
-        548143_611      fast  aer8527 dagr5998  R    4:30:39      1 cbsuecco14
-        548143_612      fast  aer8527 dagr5998  R    2:18:47      1 cbsuecco14
-548143_[613-1000%6 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
-            548218      slow  aer8604 dagr5998  R 3-14:50:12      1 cbsuecco07
-            548224      slow multicou    ts724  R 3-10:40:07      1 cbsuecco01
-            548268      fast    ADA68   jl4459  R 1-16:48:05      1 cbsuecco09
-            548269      fast    ADA67   jl4459  R 1-16:47:57      1 cbsuecco10
-            548325      slow skill_co    ts724  R    4:02:23      1 cbsuecco08
+            548050      slow  rep7711   dac429  R 6-19:37:42      1 cbsuecco07
+            548125      fast    ADA68   jl4459  R 5-16:38:16      1 cbsuecco12
+            548126      fast    ADA67   jl4459  R 5-16:38:16      1 cbsuecco11
+        548143_607      fast  aer8527 dagr5998  R    7:44:41      1 cbsuecco13
+        548143_608      fast  aer8527 dagr5998  R    7:24:31      1 cbsuecco13
+        548143_610      fast  aer8527 dagr5998  R    6:22:25      1 cbsuecco13
+        548143_611      fast  aer8527 dagr5998  R    5:30:39      1 cbsuecco14
+        548143_612      fast  aer8527 dagr5998  R    3:18:47      1 cbsuecco14
+        548143_613      fast  aer8527 dagr5998  R      31:21      1 cbsuecco14
+548143_[614-1000%6 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
+            548218      slow  aer8604 dagr5998  R 3-15:50:12      1 cbsuecco07
+            548224      slow multicou    ts724  R 3-11:40:07      1 cbsuecco01
+            548268      fast    ADA68   jl4459  R 1-17:48:05      1 cbsuecco09
+            548269      fast    ADA67   jl4459  R 1-17:47:57      1 cbsuecco10
+            548325      slow skill_co    ts724  R    5:02:23      1 cbsuecco08
