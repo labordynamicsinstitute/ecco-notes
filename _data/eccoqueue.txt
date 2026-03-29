@@ -1,24 +1,24 @@
-            548224      slow multicou    ts724  R 6-17:40:07      1 cbsuecco01
-            548358     lgmem  aer6381     lv39  R 2-18:11:55      1 cbsuecco02
-            548385      slow hex_50ns     qr33  R 1-14:45:18      1 cbsuecco01
+            548224      slow multicou    ts724  R 6-18:40:07      1 cbsuecco01
+            548358     lgmem  aer6381     lv39  R 2-19:11:55      1 cbsuecco02
+            548385      slow hex_50ns     qr33  R 1-15:45:18      1 cbsuecco01
             548388      slow quant_bt     qr33 PD       0:00      1 (Resources)
-            548399      slow  aer8901 dagr5998  R 1-13:39:51      1 cbsuecco08
-            548428      fast    itG05    ljp96  R 1-01:01:03      1 cbsuecco13
-            548429      fast    itG05    ljp96  R 1-01:00:37      1 cbsuecco14
-            548432      fast    ADA68   jl4459  R   22:15:38      1 cbsuecco10
-            548433      fast    ADA89   jl4459  R   22:15:25      1 cbsuecco12
-            548434      fast    ADA67   jl4459  R   22:15:14      1 cbsuecco11
-            548435      fast    ADA87   jl4459  R   17:51:55      1 cbsuecco09
+            548399      slow  aer8901 dagr5998  R 1-14:39:51      1 cbsuecco08
+            548428      fast    itG05    ljp96  R 1-02:01:03      1 cbsuecco13
+            548429      fast    itG05    ljp96  R 1-02:00:37      1 cbsuecco14
+            548432      fast    ADA68   jl4459  R   23:15:38      1 cbsuecco10
+            548433      fast    ADA89   jl4459  R   23:15:25      1 cbsuecco12
+            548434      fast    ADA67   jl4459  R   23:15:14      1 cbsuecco11
+            548435      fast    ADA87   jl4459  R   18:51:55      1 cbsuecco09
             548436      fast    ADA79   jl4459 PD       0:00      1 (Resources)
             548437      fast    ADA78   jl4459 PD       0:00      1 (Priority)
-        548455_666      fast  aer8527 dagr5998  R   17:48:23      1 cbsuecco13
-        548455_667      fast  aer8527 dagr5998  R   10:54:29      1 cbsuecco13
-        548455_669      fast  aer8527 dagr5998  R    9:34:23      1 cbsuecco13
-        548455_671      fast  aer8527 dagr5998  R    8:36:13      1 cbsuecco14
-        548455_672      fast  aer8527 dagr5998  R    7:43:35      1 cbsuecco14
-        548455_673      fast  aer8527 dagr5998  R    6:47:51      1 cbsuecco14
-        548455_674      fast  aer8527 dagr5998  R    3:30:33      1 cbsuecco13
-        548455_675      fast  aer8527 dagr5998  R    3:01:30      1 cbsuecco14
-        548455_676      fast  aer8527 dagr5998  R    2:46:32      1 cbsuecco13
-        548455_677      fast  aer8527 dagr5998  R    2:13:56      1 cbsuecco14
-548455_[678-1000%1 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
+        548455_666      fast  aer8527 dagr5998  R   18:48:23      1 cbsuecco13
+        548455_667      fast  aer8527 dagr5998  R   11:54:29      1 cbsuecco13
+        548455_669      fast  aer8527 dagr5998  R   10:34:23      1 cbsuecco13
+        548455_673      fast  aer8527 dagr5998  R    7:47:51      1 cbsuecco14
+        548455_674      fast  aer8527 dagr5998  R    4:30:33      1 cbsuecco13
+        548455_675      fast  aer8527 dagr5998  R    4:01:30      1 cbsuecco14
+        548455_676      fast  aer8527 dagr5998  R    3:46:32      1 cbsuecco13
+        548455_677      fast  aer8527 dagr5998  R    3:13:56      1 cbsuecco14
+        548455_678      fast  aer8527 dagr5998  R      41:29      1 cbsuecco14
+        548455_679      fast  aer8527 dagr5998  R       8:55      1 cbsuecco14
+548455_[680-1000%1 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
