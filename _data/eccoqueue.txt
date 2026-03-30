@@ -1,13 +1,13 @@
-            548224      slow multicou    ts724  R 7-21:40:07      1 cbsuecco01
-            548385      slow hex_50ns     qr33  R 2-18:45:18      1 cbsuecco01
+            548224      slow multicou    ts724  R 7-22:40:07      1 cbsuecco01
+            548385      slow hex_50ns     qr33  R 2-19:45:18      1 cbsuecco01
             548388      slow quant_bt     qr33 PD       0:00      1 (Resources)
-            548428      fast    itG05    ljp96  R 2-05:01:03      1 cbsuecco13
-            548429      fast    itG05    ljp96  R 2-05:00:37      1 cbsuecco14
-            548432      fast    ADA68   jl4459  R 2-02:15:38      1 cbsuecco10
-            548433      fast    ADA89   jl4459  R 2-02:15:25      1 cbsuecco12
-            548434      fast    ADA67   jl4459  R 2-02:15:14      1 cbsuecco11
-            548436      fast    ADA79   jl4459  R    7:48:58      1 cbsuecco09
+            548428      fast    itG05    ljp96  R 2-06:01:03      1 cbsuecco13
+            548429      fast    itG05    ljp96  R 2-06:00:37      1 cbsuecco14
+            548432      fast    ADA68   jl4459  R 2-03:15:38      1 cbsuecco10
+            548433      fast    ADA89   jl4459  R 2-03:15:25      1 cbsuecco12
+            548434      fast    ADA67   jl4459  R 2-03:15:14      1 cbsuecco11
+            548436      fast    ADA79   jl4459  R    8:48:58      1 cbsuecco09
             548437      fast    ADA78   jl4459 PD       0:00      1 (Resources)
 548455_[681-1000%1 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobHeldUser)
-            548483      slow  rep7711   dac429  R 1-02:22:18      1 cbsuecco07
-            548484     lgmem  rep7549   dac429  R   22:06:27      1 cbsuecco02
+            548483      slow  rep7711   dac429  R 1-03:22:18      1 cbsuecco07
+            548484     lgmem  rep7549   dac429  R   23:06:27      1 cbsuecco02
