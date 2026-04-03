@@ -1,28 +1,28 @@
-            548224      slow multicou    ts724  R 11-13:40:07      1 cbsuecco01
-            548428      fast    itG05    ljp96  R 5-21:01:03      1 cbsuecco13
-            548429      fast    itG05    ljp96  R 5-21:00:37      1 cbsuecco14
-        548455_702      fast  aer8527 dagr5998  R    9:21:52      1 cbsuecco13
-        548455_703      fast  aer8527 dagr5998  R    9:07:09      1 cbsuecco14
-        548455_704      fast  aer8527 dagr5998  R    9:03:33      1 cbsuecco14
-        548455_705      fast  aer8527 dagr5998  R    7:31:07      1 cbsuecco13
-        548455_706      fast  aer8527 dagr5998  R    6:15:03      1 cbsuecco14
-        548455_707      fast  aer8527 dagr5998  R    5:58:08      1 cbsuecco14
-        548455_708      fast  aer8527 dagr5998  R    5:12:16      1 cbsuecco13
-        548455_709      fast  aer8527 dagr5998  R    4:06:37      1 cbsuecco14
-        548455_710      fast  aer8527 dagr5998  R    3:20:21      1 cbsuecco13
-        548455_711      fast  aer8527 dagr5998  R    3:18:46      1 cbsuecco13
+            548224      slow multicou    ts724  R 11-14:40:07      1 cbsuecco01
+            548428      fast    itG05    ljp96  R 5-22:01:03      1 cbsuecco13
+            548429      fast    itG05    ljp96  R 5-22:00:37      1 cbsuecco14
+        548455_702      fast  aer8527 dagr5998  R   10:21:52      1 cbsuecco13
+        548455_703      fast  aer8527 dagr5998  R   10:07:09      1 cbsuecco14
+        548455_704      fast  aer8527 dagr5998  R   10:03:33      1 cbsuecco14
+        548455_705      fast  aer8527 dagr5998  R    8:31:07      1 cbsuecco13
+        548455_706      fast  aer8527 dagr5998  R    7:15:03      1 cbsuecco14
+        548455_707      fast  aer8527 dagr5998  R    6:58:08      1 cbsuecco14
+        548455_708      fast  aer8527 dagr5998  R    6:12:16      1 cbsuecco13
+        548455_709      fast  aer8527 dagr5998  R    5:06:37      1 cbsuecco14
+        548455_710      fast  aer8527 dagr5998  R    4:20:21      1 cbsuecco13
+        548455_711      fast  aer8527 dagr5998  R    4:18:46      1 cbsuecco13
 548455_[712-1000%1 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
-            548483      slow  rep7711   dac429  R 4-18:22:18      1 cbsuecco07
-            548484     lgmem  rep7549   dac429  R 4-14:06:27      1 cbsuecco02
+            548483      slow  rep7711   dac429  R 4-19:22:18      1 cbsuecco07
+            548484     lgmem  rep7549   dac429  R 4-15:06:27      1 cbsuecco02
             548513     lgmem  aer8448 dagr5998 PD       0:00      1 (Resources)
-            548518      slow hex_cont     qr33  R 1-18:53:56      1 cbsuecco07
-            548524      fast    ADA68   jl4459  R 1-13:36:34      1 cbsuecco10
-            548525      fast    ADA67   jl4459  R 1-13:36:24      1 cbsuecco12
-            548526      fast    ADA89   jl4459  R 1-02:09:39      1 cbsuecco09
-            548527      fast    ADA87   jl4459  R   22:35:19      1 cbsuecco11
-          548576_1      slow sep_estb    ts724  R   11:25:55      1 cbsuecco08
-          548576_2      slow sep_estb    ts724  R    9:50:29      1 cbsuecco01
-          548576_4      slow sep_estb    ts724  R    8:35:40      1 cbsuecco01
-          548576_5      slow sep_estb    ts724  R    1:53:52      1 cbsuecco07
+            548518      slow hex_cont     qr33  R 1-19:53:56      1 cbsuecco07
+            548524      fast    ADA68   jl4459  R 1-14:36:34      1 cbsuecco10
+            548525      fast    ADA67   jl4459  R 1-14:36:24      1 cbsuecco12
+            548526      fast    ADA89   jl4459  R 1-03:09:39      1 cbsuecco09
+            548527      fast    ADA87   jl4459  R   23:35:19      1 cbsuecco11
+          548576_1      slow sep_estb    ts724  R   12:25:55      1 cbsuecco08
+          548576_2      slow sep_estb    ts724  R   10:50:29      1 cbsuecco01
+          548576_4      slow sep_estb    ts724  R    9:35:40      1 cbsuecco01
+          548576_5      slow sep_estb    ts724  R    2:53:52      1 cbsuecco07
       548576_[6-8]      slow sep_estb    ts724 PD       0:00      1 (Resources)
       548577_[0-3]      slow sep_estb    ts724 PD       0:00      1 (Priority)
