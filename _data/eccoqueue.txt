@@ -1,14 +1,14 @@
-        548455_954      fast  aer8527 dagr5998  R   10:08:55      1 cbsuecco14
-        548455_957      fast  aer8527 dagr5998  R    7:59:36      1 cbsuecco13
-        548455_959      fast  aer8527 dagr5998  R    6:49:27      1 cbsuecco13
-        548455_960      fast  aer8527 dagr5998  R    6:06:32      1 cbsuecco13
-        548455_961      fast  aer8527 dagr5998  R    5:15:19      1 cbsuecco13
-        548455_962      fast  aer8527 dagr5998  R    3:13:09      1 cbsuecco14
-        548455_963      fast  aer8527 dagr5998  R    2:58:53      1 cbsuecco13
-        548455_964      fast  aer8527 dagr5998  R    2:39:29      1 cbsuecco14
-        548455_965      fast  aer8527 dagr5998  R      25:16      1 cbsuecco14
-        548455_966      fast  aer8527 dagr5998  R      18:25      1 cbsuecco14
-548455_[967-1000%1 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
-            548988      slow  aer9057 dagr5998  R 1-01:23:05      1 cbsuecco01
-          549100_1      slow sep_estb    ts724  R    3:57:14      1 cbsuecco08
-            549107      fast  aer8448 dagr5998  R      13:49      1 cbsuecco13
+        548455_954      fast  aer8527 dagr5998  R   11:08:55      1 cbsuecco14
+        548455_957      fast  aer8527 dagr5998  R    8:59:36      1 cbsuecco13
+        548455_960      fast  aer8527 dagr5998  R    7:06:32      1 cbsuecco13
+        548455_961      fast  aer8527 dagr5998  R    6:15:19      1 cbsuecco13
+        548455_962      fast  aer8527 dagr5998  R    4:13:09      1 cbsuecco14
+        548455_963      fast  aer8527 dagr5998  R    3:58:53      1 cbsuecco13
+        548455_964      fast  aer8527 dagr5998  R    3:39:29      1 cbsuecco14
+        548455_965      fast  aer8527 dagr5998  R    1:25:16      1 cbsuecco14
+        548455_966      fast  aer8527 dagr5998  R    1:18:25      1 cbsuecco14
+        548455_967      fast  aer8527 dagr5998  R       7:27      1 cbsuecco13
+548455_[968-1000%1 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
+            548988      slow  aer9057 dagr5998  R 1-02:23:05      1 cbsuecco01
+          549100_1      slow sep_estb    ts724  R    4:57:14      1 cbsuecco08
+            549107      fast  aer8448 dagr5998  R    1:13:49      1 cbsuecco13
