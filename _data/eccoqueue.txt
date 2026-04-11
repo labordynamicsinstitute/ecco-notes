@@ -1,14 +1,14 @@
-        548455_945      fast  aer8527 dagr5998  R   10:14:42      1 cbsuecco13
-        548455_947      fast  aer8527 dagr5998  R    6:19:05      1 cbsuecco14
-        548455_948      fast  aer8527 dagr5998  R    6:01:08      1 cbsuecco13
-        548455_949      fast  aer8527 dagr5998  R    5:56:05      1 cbsuecco13
-        548455_950      fast  aer8527 dagr5998  R    5:39:56      1 cbsuecco13
-        548455_951      fast  aer8527 dagr5998  R    5:32:05      1 cbsuecco13
-        548455_952      fast  aer8527 dagr5998  R    2:14:56      1 cbsuecco14
-        548455_954      fast  aer8527 dagr5998  R    2:08:55      1 cbsuecco14
-        548455_955      fast  aer8527 dagr5998  R    1:36:19      1 cbsuecco14
-        548455_956      fast  aer8527 dagr5998  R       2:07      1 cbsuecco14
-548455_[957-1000%1 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
-            548988      slow  aer9057 dagr5998  R   17:23:05      1 cbsuecco01
+        548455_948      fast  aer8527 dagr5998  R    7:01:08      1 cbsuecco13
+        548455_949      fast  aer8527 dagr5998  R    6:56:05      1 cbsuecco13
+        548455_950      fast  aer8527 dagr5998  R    6:39:56      1 cbsuecco13
+        548455_951      fast  aer8527 dagr5998  R    6:32:05      1 cbsuecco13
+        548455_952      fast  aer8527 dagr5998  R    3:14:56      1 cbsuecco14
+        548455_954      fast  aer8527 dagr5998  R    3:08:55      1 cbsuecco14
+        548455_955      fast  aer8527 dagr5998  R    2:36:19      1 cbsuecco14
+        548455_956      fast  aer8527 dagr5998  R    1:02:07      1 cbsuecco14
+        548455_957      fast  aer8527 dagr5998  R      59:36      1 cbsuecco13
+        548455_958      fast  aer8527 dagr5998  R      27:46      1 cbsuecco14
+548455_[959-1000%1 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
+            548988      slow  aer9057 dagr5998  R   18:23:05      1 cbsuecco01
       549079_[0-1]      slow sep_estb    ts724 PD       0:00      1 (Resources)
-            549080      fast  aer8448 dagr5998  R   10:34:05      1 cbsuecco14
+            549080      fast  aer8448 dagr5998  R   11:34:05      1 cbsuecco14
