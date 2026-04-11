@@ -1,16 +1,16 @@
-        548455_932      fast  aer8527 dagr5998  R   12:06:38      1 cbsuecco14
-        548455_936      fast  aer8527 dagr5998  R    9:30:44      1 cbsuecco09
-        548455_938      fast  aer8527 dagr5998  R    7:12:18      1 cbsuecco14
-        548455_939      fast  aer8527 dagr5998  R    6:31:34      1 cbsuecco13
-        548455_940      fast  aer8527 dagr5998  R    6:30:22      1 cbsuecco13
-        548455_941      fast  aer8527 dagr5998  R    5:26:33      1 cbsuecco14
-        548455_942      fast  aer8527 dagr5998  R    3:24:52      1 cbsuecco13
-        548455_943      fast  aer8527 dagr5998  R    3:09:51      1 cbsuecco13
-        548455_944      fast  aer8527 dagr5998  R    2:09:15      1 cbsuecco14
-        548455_945      fast  aer8527 dagr5998  R      14:42      1 cbsuecco13
+        548455_932      fast  aer8527 dagr5998  R   13:06:38      1 cbsuecco14
+        548455_936      fast  aer8527 dagr5998  R   10:30:44      1 cbsuecco09
+        548455_938      fast  aer8527 dagr5998  R    8:12:18      1 cbsuecco14
+        548455_939      fast  aer8527 dagr5998  R    7:31:34      1 cbsuecco13
+        548455_940      fast  aer8527 dagr5998  R    7:30:22      1 cbsuecco13
+        548455_941      fast  aer8527 dagr5998  R    6:26:33      1 cbsuecco14
+        548455_942      fast  aer8527 dagr5998  R    4:24:52      1 cbsuecco13
+        548455_943      fast  aer8527 dagr5998  R    4:09:51      1 cbsuecco13
+        548455_944      fast  aer8527 dagr5998  R    3:09:15      1 cbsuecco14
+        548455_945      fast  aer8527 dagr5998  R    1:14:42      1 cbsuecco13
 548455_[946-1000%1 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
-            548483      slow  rep7711   dac429  R 12-09:22:18      1 cbsuecco07
-            548984      fast ADA69_al   jl4459  R    9:30:44      1 cbsuecco11
-            548988      slow  aer9057 dagr5998  R    7:23:05      1 cbsuecco01
+            548483      slow  rep7711   dac429  R 12-10:22:18      1 cbsuecco07
+            548984      fast ADA69_al   jl4459  R   10:30:44      1 cbsuecco11
+            548988      slow  aer9057 dagr5998  R    8:23:05      1 cbsuecco01
       549079_[0-1]      slow sep_estb    ts724 PD       0:00      1 (Resources)
-            549080      fast  aer8448 dagr5998  R      34:05      1 cbsuecco14
+            549080      fast  aer8448 dagr5998  R    1:34:05      1 cbsuecco14
