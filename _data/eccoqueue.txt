@@ -1,13 +1,13 @@
-        548455_977      fast  aer8527 dagr5998  R    7:43:36      1 cbsuecco13
-        548455_979      fast  aer8527 dagr5998  R    6:26:36      1 cbsuecco14
-        548455_980      fast  aer8527 dagr5998  R    6:05:41      1 cbsuecco13
-        548455_981      fast  aer8527 dagr5998  R    5:29:25      1 cbsuecco13
-        548455_982      fast  aer8527 dagr5998  R    3:41:33      1 cbsuecco14
-        548455_983      fast  aer8527 dagr5998  R    3:28:15      1 cbsuecco13
-        548455_984      fast  aer8527 dagr5998  R    1:45:53      1 cbsuecco14
-        548455_985      fast  aer8527 dagr5998  R    1:20:21      1 cbsuecco14
-        548455_986      fast  aer8527 dagr5998  R      48:25      1 cbsuecco13
-        548455_987      fast  aer8527 dagr5998  R      34:45      1 cbsuecco14
-548455_[988-1000%1 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
-            548988      slow  aer9057 dagr5998  R 1-19:23:05      1 cbsuecco01
-            549107      fast  aer8448 dagr5998  R   18:13:49      1 cbsuecco13
+        548455_977      fast  aer8527 dagr5998  R    8:43:36      1 cbsuecco13
+        548455_979      fast  aer8527 dagr5998  R    7:26:36      1 cbsuecco14
+        548455_981      fast  aer8527 dagr5998  R    6:29:25      1 cbsuecco13
+        548455_982      fast  aer8527 dagr5998  R    4:41:33      1 cbsuecco14
+        548455_983      fast  aer8527 dagr5998  R    4:28:15      1 cbsuecco13
+        548455_984      fast  aer8527 dagr5998  R    2:45:53      1 cbsuecco14
+        548455_985      fast  aer8527 dagr5998  R    2:20:21      1 cbsuecco14
+        548455_986      fast  aer8527 dagr5998  R    1:48:25      1 cbsuecco13
+        548455_987      fast  aer8527 dagr5998  R    1:34:45      1 cbsuecco14
+        548455_988      fast  aer8527 dagr5998  R       1:42      1 cbsuecco13
+548455_[989-1000%1 fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
+            548988      slow  aer9057 dagr5998  R 1-20:23:05      1 cbsuecco01
+            549107      fast  aer8448 dagr5998  R   19:13:49      1 cbsuecco13
