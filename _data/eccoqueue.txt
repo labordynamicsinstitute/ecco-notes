@@ -1,6 +1,4 @@
-       548455_1000      fast  aer8527 dagr5998  R    9:33:58      1 cbsuecco14
-        548455_996      fast  aer8527 dagr5998  R   12:59:45      1 cbsuecco14
-        548455_998      fast  aer8527 dagr5998  R   11:28:04      1 cbsuecco13
-        548455_999      fast  aer8527 dagr5998  R   11:23:21      1 cbsuecco13
-            548988      slow  aer9057 dagr5998  R 2-17:23:05      1 cbsuecco01
-            549135      fast  aer8448 dagr5998  R   16:29:20      1 cbsuecco13
+        548455_998      fast  aer8527 dagr5998  R   12:28:04      1 cbsuecco13
+        548455_999      fast  aer8527 dagr5998  R   12:23:21      1 cbsuecco13
+            548988      slow  aer9057 dagr5998  R 2-18:23:05      1 cbsuecco01
+            549135      fast  aer8448 dagr5998  R   17:29:20      1 cbsuecco13
