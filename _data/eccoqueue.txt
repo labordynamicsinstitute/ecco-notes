@@ -1,3 +1,6 @@
-        548455_998      fast  aer8527 dagr5998  R   13:28:04      1 cbsuecco13
-            548988      slow  aer9057 dagr5998  R 2-19:23:05      1 cbsuecco01
-            549135      fast  aer8448 dagr5998  R   18:29:20      1 cbsuecco13
+            548988      slow  aer9057 dagr5998  R 2-20:23:05      1 cbsuecco01
+            549135      fast  aer8448 dagr5998  R   19:29:20      1 cbsuecco13
+            549144      slow diag_ind    ts724 PD       0:00      1 (Resources)
+            549145      slow sep_estb    ts724 PD       0:00      1 (Priority)
+            549146      slow  rep7711   dac429  R      22:21      1 cbsuecco07
+            549147 interacti     bash   dac429  R      13:53      1 cbsueccosl03
