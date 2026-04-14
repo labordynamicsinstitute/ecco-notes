@@ -1,7 +1,6 @@
-            548988      slow  aer9057 dagr5998  R 3-13:23:05      1 cbsuecco01
-            549146      slow  rep7711   dac429  R   17:22:21      1 cbsuecco07
-            549165      slow sep_estb    ts724  R   14:00:07      1 cbsuecco08
-        549190_836      fast  aer8527 dagr5998  R   13:54:43      1 cbsuecco14
-            549194     lgmem  aer9057 dagr5998  R   13:52:37      1 cbsuecco02
-            549213      fast  aer8448 dagr5998  R    6:44:27      1 cbsuecco13
-            549215      slow diag_ind    ts724  R    5:45:09      1 cbsuecco01
+            548988      slow  aer9057 dagr5998  R 3-14:23:05      1 cbsuecco01
+            549146      slow  rep7711   dac429  R   18:22:21      1 cbsuecco07
+            549165      slow sep_estb    ts724  R   15:00:07      1 cbsuecco08
+            549194     lgmem  aer9057 dagr5998  R   14:52:37      1 cbsuecco02
+            549213      fast  aer8448 dagr5998  R    7:44:27      1 cbsuecco13
+            549215      slow diag_ind    ts724  R    6:45:09      1 cbsuecco01
