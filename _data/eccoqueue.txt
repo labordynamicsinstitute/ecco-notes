@@ -1,7 +1,6 @@
-            548988      slow  aer9057 dagr5998  R 4-20:23:05      1 cbsuecco01
-            549146      slow  rep7711   dac429  R 2-00:22:21      1 cbsuecco07
-            549194     lgmem  aer9057 dagr5998  R 1-20:52:37      1 cbsuecco02
-            549220 interacti     bash   dac429  R 1-00:31:45      1 cbsueccosl04
-          549237_0      slow skill_cl    ts724  R      23:18      1 cbsuecco07
-          549237_1      slow skill_cl    ts724  R      23:18      1 cbsuecco07
-            549239      slow diag_ind    ts724  R       5:27      1 cbsuecco08
+            548988      slow  aer9057 dagr5998  R 4-21:23:05      1 cbsuecco01
+            549146      slow  rep7711   dac429  R 2-01:22:21      1 cbsuecco07
+            549194     lgmem  aer9057 dagr5998  R 1-21:52:37      1 cbsuecco02
+            549220 interacti     bash   dac429  R 1-01:31:45      1 cbsueccosl04
+          549237_0      slow skill_cl    ts724  R    1:23:18      1 cbsuecco07
+          549237_1      slow skill_cl    ts724  R    1:23:18      1 cbsuecco07
