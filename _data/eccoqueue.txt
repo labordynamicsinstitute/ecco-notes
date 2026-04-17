@@ -1,4 +1,4 @@
-            549146      slow  rep7711   dac429  R 3-18:22:21      1 cbsuecco07
-            549345 interacti     bash   dac429  R 1-11:22:25      1 cbsueccosl03
-        549393_601      fast  aer8527 dagr5998  R   16:01:41      1 cbsuecco13
-            549440      slow diag_exp    ts724  R    1:40:59      1 cbsuecco07
+            549146      slow  rep7711   dac429  R 3-19:22:21      1 cbsuecco07
+            549345 interacti     bash   dac429  R 1-12:22:25      1 cbsueccosl03
+        549393_601      fast  aer8527 dagr5998  R   17:01:41      1 cbsuecco13
+            549440      slow diag_exp    ts724  R    2:40:59      1 cbsuecco07
