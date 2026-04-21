@@ -1,2 +1,13 @@
-            549146      slow  rep7711   dac429  R 7-10:22:32      1 cbsuecco07
-            549506 interacti     bash   dac429  R    8:15:26      1 cbsueccosl03
+            549146      slow  rep7711   dac429  R 7-11:22:32      1 cbsuecco07
+            549506 interacti     bash   dac429  R    9:15:26      1 cbsueccosl03
+         549518_10      fast  aer8527 dagr5998  R      40:01      1 cbsuecco14
+         549518_11      fast  aer8527 dagr5998  R      40:01      1 cbsuecco13
+         549518_12      fast  aer8527 dagr5998  R      40:01      1 cbsuecco14
+ 549518_[13-40%10] fast,slow  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
+          549518_3      fast  aer8527 dagr5998  R      40:01      1 cbsuecco13
+          549518_4      fast  aer8527 dagr5998  R      40:01      1 cbsuecco14
+          549518_5      fast  aer8527 dagr5998  R      40:01      1 cbsuecco13
+          549518_6      fast  aer8527 dagr5998  R      40:01      1 cbsuecco14
+          549518_7      fast  aer8527 dagr5998  R      40:01      1 cbsuecco13
+          549518_8      fast  aer8527 dagr5998  R      40:01      1 cbsuecco14
+          549518_9      fast  aer8527 dagr5998  R      40:01      1 cbsuecco13
