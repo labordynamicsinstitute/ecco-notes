@@ -1,3 +1,14 @@
-            549146      slow  rep7711   dac429  R 9-03:22:21      1 cbsuecco07
-            549564      slow diag_exp    ts724  R   18:12:43      1 cbsuecco01
-            549567      fast localmin    ljp96  R   16:12:03      1 cbsuecco13
+            549146      slow  rep7711   dac429  R 9-04:22:21      1 cbsuecco07
+            549564      slow diag_exp    ts724  R   19:12:43      1 cbsuecco01
+            549567      fast localmin    ljp96  R   17:12:03      1 cbsuecco13
+         549571_30      slow  aer8527 dagr5998  R      26:05      1 cbsuecco07
+         549571_31      slow  aer8527 dagr5998  R      26:05      1 cbsuecco07
+         549571_32      slow  aer8527 dagr5998  R      26:05      1 cbsuecco07
+         549571_33      slow  aer8527 dagr5998  R      26:05      1 cbsuecco08
+         549571_34      slow  aer8527 dagr5998  R      26:05      1 cbsuecco01
+         549571_35      slow  aer8527 dagr5998  R      26:05      1 cbsuecco07
+         549571_36      slow  aer8527 dagr5998  R      26:05      1 cbsuecco08
+         549571_37      slow  aer8527 dagr5998  R      26:05      1 cbsuecco01
+         549571_38      fast  aer8527 dagr5998  R      26:05      1 cbsuecco13
+         549571_39      fast  aer8527 dagr5998  R      26:05      1 cbsuecco13
+         549571_40 slow,fast  aer8527 dagr5998 PD       0:00      1 (JobArrayTaskLimit)
