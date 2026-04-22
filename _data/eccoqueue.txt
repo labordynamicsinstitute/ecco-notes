@@ -1,4 +1,3 @@
-            549146      slow  rep7711   dac429  R 9-02:22:21      1 cbsuecco07
-            549506 interacti     bash   dac429  R 2-00:15:15      1 cbsueccosl03
-            549564      slow diag_exp    ts724  R   17:12:43      1 cbsuecco01
-            549567      fast localmin    ljp96  R   15:12:03      1 cbsuecco13
+            549146      slow  rep7711   dac429  R 9-03:22:21      1 cbsuecco07
+            549564      slow diag_exp    ts724  R   18:12:43      1 cbsuecco01
+            549567      fast localmin    ljp96  R   16:12:03      1 cbsuecco13
