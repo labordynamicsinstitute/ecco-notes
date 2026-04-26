@@ -1,2 +1,2 @@
-            549605      fast  ADA_GA2   jl4459  R 2-23:58:21      1 cbsuecco09
-            549633      fast localmin    ljp96  R 1-23:25:50      1 cbsuecco13
+            549605      fast  ADA_GA2   jl4459  R 3-00:58:21      1 cbsuecco09
+            549633      fast localmin    ljp96  R 2-00:25:50      1 cbsuecco13
