@@ -1,11 +1,30 @@
-            549633      fast localmin    ljp96  R 3-05:25:50      1 cbsuecco13
-            549652      slow  rep7711   dac429  R    5:56:37      1 cbsuecco07
-            549663      slow aearep89   amg466  R    2:24:21      1 cbsuecco07
-            549680      fast  ADA_GA1   jl4459  R      33:14      1 cbsuecco14
-            549681      fast  ADA_GA2   jl4459  R      33:09      1 cbsuecco09
-            549682      fast  ADA_PS1   jl4459  R      33:03      1 cbsuecco10
-            549683      fast  ADA_PS2   jl4459  R      32:59      1 cbsuecco12
-            549684      fast  ADA_GA3   jl4459  R      32:51      1 cbsuecco11
+            549633      fast localmin    ljp96  R 3-06:25:50      1 cbsuecco13
+            549652      slow  rep7711   dac429  R    6:56:37      1 cbsuecco07
+            549663      slow aearep89   amg466  R    3:24:21      1 cbsuecco07
+            549680      fast  ADA_GA1   jl4459  R    1:33:14      1 cbsuecco14
+            549681      fast  ADA_GA2   jl4459  R    1:33:09      1 cbsuecco09
+            549682      fast  ADA_PS1   jl4459  R    1:33:03      1 cbsuecco10
+            549683      fast  ADA_PS2   jl4459  R    1:32:59      1 cbsuecco12
+            549684      fast  ADA_GA3   jl4459  R    1:32:51      1 cbsuecco11
             549685      fast  ADA_PS3   jl4459 PD       0:00      1 (Resources)
             549686      fast  ADA_GA4   jl4459 PD       0:00      1 (Priority)
             549687      fast  ADA_PS4   jl4459 PD       0:00      1 (Priority)
+            549786      slow ancillar   dac429 PD       0:00      1 (DependencyNeverSatisfied)
+        549787_[0]      slow producti   dac429 PD       0:00      1 (DependencyNeverSatisfied)
+        549788_[1]      slow producti   dac429 PD       0:00      1 (DependencyNeverSatisfied)
+            549789      slow determin   dac429 PD       0:00      1 (DependencyNeverSatisfied)
+  549790_[0-63%15]      slow wholesal   dac429 PD       0:00      1 (Dependency)
+            549791     lgmem dynamic_   dac429 PD       0:00      1 (Dependency)
+            549792     lgmem dynamic_   dac429 PD       0:00      1 (Dependency)
+549793_[64-511%15]      slow profits_   dac429 PD       0:00      1 (Dependency)
+549794_[512-895%15      slow profits_   dac429 PD       0:00      1 (Dependency)
+549795_[896-1343%1      slow profits_   dac429 PD       0:00      1 (Dependency)
+549797_[1792-1807%      slow profits_   dac429 PD       0:00      1 (Dependency)
+        549798_[0]     lgmem  cf_main   dac429 PD       0:00      1 (Dependency)
+        549800_[4]     lgmem cf_highp   dac429 PD       0:00      1 (Dependency)
+        549801_[5]     lgmem cf_delay   dac429 PD       0:00      1 (Dependency)
+        549802_[1]     lgmem cf_renew   dac429 PD       0:00      1 (Dependency)
+        549803_[2]     lgmem cf_renew   dac429 PD       0:00      1 (Dependency)
+      549804_[7-9]     lgmem cf_compe   dac429 PD       0:00      1 (Dependency)
+       549805_[10]     lgmem cf_exten   dac429 PD       0:00      1 (Dependency)
+       549806_[11]     lgmem cf_cap_p   dac429 PD       0:00      1 (Dependency)
