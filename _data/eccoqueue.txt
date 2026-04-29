@@ -1,12 +1,11 @@
-            549633      fast localmin    ljp96  R 5-05:25:50      1 cbsuecco13
-            549652      slow  rep7711   dac429  R 2-05:56:37      1 cbsuecco07
-            549808      fast  ADA_GA1   jl4459  R 1-02:30:09      1 cbsuecco14
-            549810      fast  ADA_PS1   jl4459  R 1-02:29:19      1 cbsuecco09
-            549811      fast  ADA_GA2   jl4459  R 1-02:29:11      1 cbsuecco10
-            549812      fast  ADA_PS2   jl4459  R 1-02:29:06      1 cbsuecco12
-            549813      fast  ADA_GA3   jl4459  R 1-02:28:18      1 cbsuecco11
+            549633      fast localmin    ljp96  R 5-06:25:50      1 cbsuecco13
+            549652      slow  rep7711   dac429  R 2-06:56:37      1 cbsuecco07
+            549808      fast  ADA_GA1   jl4459  R 1-03:30:09      1 cbsuecco14
+            549810      fast  ADA_PS1   jl4459  R 1-03:29:19      1 cbsuecco09
+            549811      fast  ADA_GA2   jl4459  R 1-03:29:11      1 cbsuecco10
+            549812      fast  ADA_PS2   jl4459  R 1-03:29:06      1 cbsuecco12
+            549813      fast  ADA_GA3   jl4459  R 1-03:28:18      1 cbsuecco11
             549814      fast  ADA_PS3   jl4459 PD       0:00      1 (Resources)
             549815      fast  ADA_GA4   jl4459 PD       0:00      1 (Priority)
             549816      fast  ADA_PS4   jl4459 PD       0:00      1 (Priority)
-            549820      slow aearep89   amg466  R    1:30:27      1 cbsuecco01
-            549821      slow diag_edu    ts724  R    1:10:51      1 cbsuecco08
+            549820      slow aearep89   amg466  R    2:30:27      1 cbsuecco01
