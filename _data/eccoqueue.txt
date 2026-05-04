@@ -1,35 +1,34 @@
-            549815      fast  ADA_GA4   jl4459  R 1-13:22:40      1 cbsuecco14
-            549816      fast  ADA_PS4   jl4459  R 1-13:22:40      1 cbsuecco09
-            549939      slow  rep7711   dac429  R 2-05:55:39      1 cbsuecco01
+            549815      fast  ADA_GA4   jl4459  R 1-14:22:40      1 cbsuecco14
+            549816      fast  ADA_PS4   jl4459  R 1-14:22:40      1 cbsuecco09
+            549939      slow  rep7711   dac429  R 2-06:55:39      1 cbsuecco01
  549947_[15-63%15]      slow wholesal   dac429 PD       0:00      1 (JobArrayTaskLimit)
             549948     lgmem dynamic_   dac429 PD       0:00      1 (Dependency)
             549949     lgmem dynamic_   dac429 PD       0:00      1 (Dependency)
 549950_[79-511%15]      slow profits_   dac429 PD       0:00      1 (JobArrayTaskLimit)
-       549952_1312      slow profits_   dac429  R       7:08      1 cbsuecco08
-       549952_1313      slow profits_   dac429  R       7:08      1 cbsuecco08
-       549952_1314      slow profits_   dac429  R       7:08      1 cbsuecco08
-       549952_1315      slow profits_   dac429  R       7:08      1 cbsuecco08
-       549952_1316      slow profits_   dac429  R       7:07      1 cbsuecco08
-       549952_1317      slow profits_   dac429  R       7:07      1 cbsuecco08
-       549952_1318      slow profits_   dac429  R       7:07      1 cbsuecco08
-       549952_1319      slow profits_   dac429  R       6:35      1 cbsuecco07
-       549952_1320      slow profits_   dac429  R       6:35      1 cbsuecco07
-       549952_1321      slow profits_   dac429  R       6:35      1 cbsuecco07
-       549952_1322      slow profits_   dac429  R       6:35      1 cbsuecco07
-       549952_1323      slow profits_   dac429  R       6:35      1 cbsuecco07
-       549952_1324      slow profits_   dac429  R       6:35      1 cbsuecco07
-       549952_1325      slow profits_   dac429  R       6:35      1 cbsuecco07
-       549952_1326      slow profits_   dac429  R       6:34      1 cbsuecco07
-549952_[1327-1343%      slow profits_   dac429 PD       0:00      1 (JobArrayTaskLimit)
-       549953_1566      slow profits_   dac429  R      39:17      1 cbsuecco01
-       549953_1568      slow profits_   dac429  R       7:08      1 cbsuecco08
-       549953_1569      slow profits_   dac429  R       7:07      1 cbsuecco08
-       549953_1570      slow profits_   dac429  R       7:07      1 cbsuecco08
-       549953_1571      slow profits_   dac429  R       7:07      1 cbsuecco08
-       549953_1572      slow profits_   dac429  R       6:35      1 cbsuecco07
-       549953_1573      slow profits_   dac429  R       6:35      1 cbsuecco07
-       549953_1574      slow profits_   dac429  R       6:35      1 cbsuecco07
-549953_[1575-1791%      slow profits_   dac429 PD       0:00      1 (Resources)
+       549952_1334      slow profits_   dac429  R       1:44      1 cbsuecco07
+       549952_1335      slow profits_   dac429  R       1:44      1 cbsuecco07
+       549952_1336      slow profits_   dac429  R       1:44      1 cbsuecco07
+       549952_1337      slow profits_   dac429  R       1:44      1 cbsuecco07
+       549952_1338      slow profits_   dac429  R       1:44      1 cbsuecco07
+       549952_1339      slow profits_   dac429  R       1:44      1 cbsuecco07
+       549952_1340      slow profits_   dac429  R       1:44      1 cbsuecco07
+       549952_1341      slow profits_   dac429  R       1:44      1 cbsuecco07
+       549952_1342      slow profits_   dac429  R       1:19      1 cbsuecco08
+       549952_1343      slow profits_   dac429  R       1:19      1 cbsuecco08
+       549953_1580      slow profits_   dac429  R       1:44      1 cbsuecco07
+       549953_1581      slow profits_   dac429  R       1:44      1 cbsuecco07
+       549953_1582      slow profits_   dac429  R       1:43      1 cbsuecco07
+       549953_1583      slow profits_   dac429  R       1:19      1 cbsuecco08
+       549953_1584      slow profits_   dac429  R       1:19      1 cbsuecco08
+       549953_1585      slow profits_   dac429  R       1:19      1 cbsuecco08
+       549953_1586      slow profits_   dac429  R       1:19      1 cbsuecco08
+       549953_1587      slow profits_   dac429  R       1:19      1 cbsuecco08
+       549953_1588      slow profits_   dac429  R       1:19      1 cbsuecco08
+       549953_1589      slow profits_   dac429  R       1:19      1 cbsuecco08
+       549953_1590      slow profits_   dac429  R       1:19      1 cbsuecco08
+       549953_1591      slow profits_   dac429  R       1:19      1 cbsuecco08
+       549953_1592      slow profits_   dac429  R       1:14      1 cbsuecco01
+549953_[1593-1791%      slow profits_   dac429 PD       0:00      1 (Resources)
 549954_[1792-1807%      slow profits_   dac429 PD       0:00      1 (Priority)
         549955_[0]     lgmem  cf_main   dac429 PD       0:00      1 (Dependency)
         549956_[6]     lgmem cf_batte   dac429 PD       0:00      1 (Dependency)
@@ -41,9 +40,9 @@
        549962_[10]     lgmem cf_exten   dac429 PD       0:00      1 (Dependency)
        549963_[11]     lgmem cf_cap_p   dac429 PD       0:00      1 (Dependency)
             549964      slow process_   dac429 PD       0:00      1 (Dependency)
-            549967      fast  ADA_GA1   jl4459  R 1-13:22:40      1 cbsuecco12
-            549968      fast  ADA_GA2   jl4459  R 1-13:22:40      1 cbsuecco11
-            549970      fast  ADA_PS2   jl4459  R 1-13:21:35      1 cbsuecco10
-            549971      fast  ADA_GA3   jl4459  R      31:59      1 cbsuecco13
-            550729      slow aearep89   amg466  R    9:23:17      1 cbsuecco01
-            550917 interacti     bash    lb746  R    3:23:19      1 cbsueccosl03
+            549967      fast  ADA_GA1   jl4459  R 1-14:22:40      1 cbsuecco12
+            549968      fast  ADA_GA2   jl4459  R 1-14:22:40      1 cbsuecco11
+            549970      fast  ADA_PS2   jl4459  R 1-14:21:35      1 cbsuecco10
+            549971      fast  ADA_GA3   jl4459  R    1:31:59      1 cbsuecco13
+            550729      slow aearep89   amg466  R   10:23:17      1 cbsuecco01
+            550917 interacti     bash    lb746  R    4:23:19      1 cbsueccosl03
