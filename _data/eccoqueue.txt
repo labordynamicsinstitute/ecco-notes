@@ -1,9 +1,8 @@
-            549939      slow  rep7711   dac429  R 5-23:55:39      1 cbsuecco01
-            549967      fast  ADA_GA1   jl4459  R 5-07:22:40      1 cbsuecco12
-            549968      fast  ADA_GA2   jl4459  R 5-07:22:40      1 cbsuecco11
-            549971      fast  ADA_GA3   jl4459  R 3-18:31:59      1 cbsuecco13
-            551493      fast localmin    ljp96  R   20:21:54      1 cbsuecco14
-            551495      fast sch_mgmt    fm469  R   17:25:55      1 cbsuecco09
-            551502 interacti     bash     lv39  R    3:55:37      1 cbsueccosl03
-            551503     lgmem  aer9019 dagr5998  R    2:52:44      1 cbsuecco02
-            551506     lgmem  aer9057 dagr5998 PD       0:00      1 (Resources)
+            549939      slow  rep7711   dac429  R 6-00:55:39      1 cbsuecco01
+            549967      fast  ADA_GA1   jl4459  R 5-08:22:40      1 cbsuecco12
+            549968      fast  ADA_GA2   jl4459  R 5-08:22:40      1 cbsuecco11
+            549971      fast  ADA_GA3   jl4459  R 3-19:31:59      1 cbsuecco13
+            551493      fast localmin    ljp96  R   21:21:54      1 cbsuecco14
+            551495      fast sch_mgmt    fm469  R   18:25:55      1 cbsuecco09
+            551502 interacti     bash     lv39  R    4:55:37      1 cbsueccosl03
+            551506     lgmem  aer9057 dagr5998  R       0:13      1 cbsuecco02
