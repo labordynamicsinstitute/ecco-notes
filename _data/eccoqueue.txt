@@ -1,84 +1,84 @@
             552113     lgmem dynamic_   dac429 PD       0:00      1 (DependencyNeverSatisfied)
             552114     lgmem dynamic_   dac429 PD       0:00      1 (Dependency)
-        552116_592      fast profits_   dac429  R 1-20:40:57      1 cbsuecco14
-        552116_593      fast profits_   dac429  R 1-20:40:30      1 cbsuecco14
-        552116_595      fast profits_   dac429  R 1-19:55:19      1 cbsuecco14
-        552116_596      fast profits_   dac429  R 1-19:39:45      1 cbsuecco14
-        552116_597      fast profits_   dac429  R 1-19:23:04      1 cbsuecco14
-        552116_598      fast profits_   dac429  R 1-18:34:34      1 cbsuecco14
-        552116_599      fast profits_   dac429  R 1-16:11:48      1 cbsuecco14
-        552116_600      fast profits_   dac429  R 1-15:41:47      1 cbsuecco14
-        552116_601      fast profits_   dac429  R 1-14:27:19      1 cbsuecco14
-        552116_602      fast profits_   dac429  R 1-13:14:39      1 cbsuecco14
-        552116_603      fast profits_   dac429  R 1-11:23:54      1 cbsuecco14
-        552116_604      fast profits_   dac429  R   17:11:02      1 cbsuecco09
-        552116_605      fast profits_   dac429  R   17:10:08      1 cbsuecco11
-        552116_606      fast profits_   dac429  R   17:07:34      1 cbsuecco09
-        552116_607      fast profits_   dac429  R   17:07:34      1 cbsuecco09
-        552116_608      fast profits_   dac429  R   17:07:34      1 cbsuecco09
-        552116_609      fast profits_   dac429  R   17:07:34      1 cbsuecco09
-        552116_610      fast profits_   dac429  R   17:07:34      1 cbsuecco09
-        552116_611      fast profits_   dac429  R   17:07:34      1 cbsuecco09
-        552116_612      fast profits_   dac429  R   17:07:34      1 cbsuecco09
-        552116_613      fast profits_   dac429  R   17:07:34      1 cbsuecco09
-        552116_614      fast profits_   dac429  R   17:07:34      1 cbsuecco09
-        552116_615      fast profits_   dac429  R   17:07:34      1 cbsuecco09
-        552116_616      fast profits_   dac429  R   17:07:34      1 cbsuecco09
-        552116_617      fast profits_   dac429  R   17:07:34      1 cbsuecco09
-        552116_618      fast profits_   dac429  R   17:07:34      1 cbsuecco09
-        552116_619      fast profits_   dac429  R   17:07:34      1 cbsuecco09
-        552116_620      fast profits_   dac429  R   17:07:34      1 cbsuecco09
-        552116_621      fast profits_   dac429  R   17:07:34      1 cbsuecco09
-        552116_622      fast profits_   dac429  R   17:07:34      1 cbsuecco09
-        552116_623      fast profits_   dac429  R   17:07:34      1 cbsuecco09
-        552116_624      fast profits_   dac429  R   17:07:34      1 cbsuecco09
-        552116_625      fast profits_   dac429  R   17:07:34      1 cbsuecco09
-        552116_626      fast profits_   dac429  R   17:07:34      1 cbsuecco09
-        552116_627      fast profits_   dac429  R   17:07:34      1 cbsuecco10
-        552116_628      fast profits_   dac429  R   17:07:34      1 cbsuecco10
-        552116_629      fast profits_   dac429  R   17:07:34      1 cbsuecco10
-        552116_630      fast profits_   dac429  R   17:07:34      1 cbsuecco10
-        552116_631      fast profits_   dac429  R   17:07:34      1 cbsuecco11
-        552116_632      fast profits_   dac429  R   17:07:34      1 cbsuecco11
-        552116_633      fast profits_   dac429  R   17:07:34      1 cbsuecco11
-        552116_634      fast profits_   dac429  R   17:07:34      1 cbsuecco11
-        552116_635      fast profits_   dac429  R   17:07:34      1 cbsuecco11
-        552116_636      fast profits_   dac429  R   17:07:34      1 cbsuecco11
-        552116_637      fast profits_   dac429  R   17:07:34      1 cbsuecco11
-        552116_638      fast profits_   dac429  R   17:07:34      1 cbsuecco11
-        552116_639      fast profits_   dac429  R   17:07:34      1 cbsuecco11
-        552116_640      fast profits_   dac429  R   17:07:34      1 cbsuecco11
-        552116_641      fast profits_   dac429  R   17:07:34      1 cbsuecco11
-        552116_642      fast profits_   dac429  R   17:07:34      1 cbsuecco11
-        552116_643      fast profits_   dac429  R   17:07:34      1 cbsuecco11
-        552116_644      fast profits_   dac429  R   17:07:34      1 cbsuecco11
-        552116_645      fast profits_   dac429  R   17:07:34      1 cbsuecco11
-        552116_646      fast profits_   dac429  R   17:07:34      1 cbsuecco11
-        552116_647      fast profits_   dac429  R   17:07:34      1 cbsuecco11
-        552116_648      fast profits_   dac429  R   17:07:34      1 cbsuecco11
-        552116_649      fast profits_   dac429  R   17:07:34      1 cbsuecco11
-        552116_650      fast profits_   dac429  R   17:07:34      1 cbsuecco11
-        552116_651      fast profits_   dac429  R   17:07:34      1 cbsuecco11
-        552116_652      fast profits_   dac429  R    1:44:19      1 cbsuecco14
-        552116_653      fast profits_   dac429  R    1:41:11      1 cbsuecco14
-        552116_654      fast profits_   dac429  R    1:32:28      1 cbsuecco14
-        552116_655      fast profits_   dac429  R    1:31:53      1 cbsuecco14
-        552116_656      fast profits_   dac429  R    1:31:22      1 cbsuecco14
-        552116_657      fast profits_   dac429  R    1:22:41      1 cbsuecco14
-        552116_658      fast profits_   dac429  R    1:15:17      1 cbsuecco14
-        552116_659      fast profits_   dac429  R    1:14:33      1 cbsuecco14
-        552116_660      fast profits_   dac429  R    1:11:22      1 cbsuecco14
-        552116_661      fast profits_   dac429  R      44:21      1 cbsuecco14
-        552116_662      fast profits_   dac429  R       0:50      1 cbsuecco14
-552116_[663-895%90      fast profits_   dac429 PD       0:00      1 (Resources)
+        552116_599      fast profits_   dac429  R 1-17:11:48      1 cbsuecco14
+        552116_600      fast profits_   dac429  R 1-16:41:47      1 cbsuecco14
+        552116_601      fast profits_   dac429  R 1-15:27:19      1 cbsuecco14
+        552116_602      fast profits_   dac429  R 1-14:14:39      1 cbsuecco14
+        552116_603      fast profits_   dac429  R 1-12:23:54      1 cbsuecco14
+        552116_604      fast profits_   dac429  R   18:11:02      1 cbsuecco09
+        552116_605      fast profits_   dac429  R   18:10:08      1 cbsuecco11
+        552116_606      fast profits_   dac429  R   18:07:34      1 cbsuecco09
+        552116_607      fast profits_   dac429  R   18:07:34      1 cbsuecco09
+        552116_608      fast profits_   dac429  R   18:07:34      1 cbsuecco09
+        552116_609      fast profits_   dac429  R   18:07:34      1 cbsuecco09
+        552116_610      fast profits_   dac429  R   18:07:34      1 cbsuecco09
+        552116_611      fast profits_   dac429  R   18:07:34      1 cbsuecco09
+        552116_612      fast profits_   dac429  R   18:07:34      1 cbsuecco09
+        552116_613      fast profits_   dac429  R   18:07:34      1 cbsuecco09
+        552116_614      fast profits_   dac429  R   18:07:34      1 cbsuecco09
+        552116_615      fast profits_   dac429  R   18:07:34      1 cbsuecco09
+        552116_616      fast profits_   dac429  R   18:07:34      1 cbsuecco09
+        552116_617      fast profits_   dac429  R   18:07:34      1 cbsuecco09
+        552116_618      fast profits_   dac429  R   18:07:34      1 cbsuecco09
+        552116_619      fast profits_   dac429  R   18:07:34      1 cbsuecco09
+        552116_620      fast profits_   dac429  R   18:07:34      1 cbsuecco09
+        552116_621      fast profits_   dac429  R   18:07:34      1 cbsuecco09
+        552116_622      fast profits_   dac429  R   18:07:34      1 cbsuecco09
+        552116_623      fast profits_   dac429  R   18:07:34      1 cbsuecco09
+        552116_624      fast profits_   dac429  R   18:07:34      1 cbsuecco09
+        552116_625      fast profits_   dac429  R   18:07:34      1 cbsuecco09
+        552116_626      fast profits_   dac429  R   18:07:34      1 cbsuecco09
+        552116_627      fast profits_   dac429  R   18:07:34      1 cbsuecco10
+        552116_628      fast profits_   dac429  R   18:07:34      1 cbsuecco10
+        552116_629      fast profits_   dac429  R   18:07:34      1 cbsuecco10
+        552116_630      fast profits_   dac429  R   18:07:34      1 cbsuecco10
+        552116_631      fast profits_   dac429  R   18:07:34      1 cbsuecco11
+        552116_632      fast profits_   dac429  R   18:07:34      1 cbsuecco11
+        552116_633      fast profits_   dac429  R   18:07:34      1 cbsuecco11
+        552116_634      fast profits_   dac429  R   18:07:34      1 cbsuecco11
+        552116_635      fast profits_   dac429  R   18:07:34      1 cbsuecco11
+        552116_636      fast profits_   dac429  R   18:07:34      1 cbsuecco11
+        552116_637      fast profits_   dac429  R   18:07:34      1 cbsuecco11
+        552116_638      fast profits_   dac429  R   18:07:34      1 cbsuecco11
+        552116_639      fast profits_   dac429  R   18:07:34      1 cbsuecco11
+        552116_640      fast profits_   dac429  R   18:07:34      1 cbsuecco11
+        552116_641      fast profits_   dac429  R   18:07:34      1 cbsuecco11
+        552116_642      fast profits_   dac429  R   18:07:34      1 cbsuecco11
+        552116_643      fast profits_   dac429  R   18:07:34      1 cbsuecco11
+        552116_644      fast profits_   dac429  R   18:07:34      1 cbsuecco11
+        552116_645      fast profits_   dac429  R   18:07:34      1 cbsuecco11
+        552116_646      fast profits_   dac429  R   18:07:34      1 cbsuecco11
+        552116_647      fast profits_   dac429  R   18:07:34      1 cbsuecco11
+        552116_648      fast profits_   dac429  R   18:07:34      1 cbsuecco11
+        552116_649      fast profits_   dac429  R   18:07:34      1 cbsuecco11
+        552116_650      fast profits_   dac429  R   18:07:34      1 cbsuecco11
+        552116_651      fast profits_   dac429  R   18:07:34      1 cbsuecco11
+        552116_652      fast profits_   dac429  R    2:44:19      1 cbsuecco14
+        552116_653      fast profits_   dac429  R    2:41:11      1 cbsuecco14
+        552116_654      fast profits_   dac429  R    2:32:28      1 cbsuecco14
+        552116_655      fast profits_   dac429  R    2:31:53      1 cbsuecco14
+        552116_656      fast profits_   dac429  R    2:31:22      1 cbsuecco14
+        552116_657      fast profits_   dac429  R    2:22:41      1 cbsuecco14
+        552116_658      fast profits_   dac429  R    2:15:17      1 cbsuecco14
+        552116_659      fast profits_   dac429  R    2:14:33      1 cbsuecco14
+        552116_660      fast profits_   dac429  R    2:11:22      1 cbsuecco14
+        552116_661      fast profits_   dac429  R    1:44:21      1 cbsuecco14
+        552116_662      fast profits_   dac429  R    1:00:50      1 cbsuecco14
+        552116_663      fast profits_   dac429  R      58:23      1 cbsuecco14
+        552116_664      fast profits_   dac429  R      48:43      1 cbsuecco14
+        552116_665      fast profits_   dac429  R      43:52      1 cbsuecco14
+        552116_666      fast profits_   dac429  R      17:44      1 cbsuecco14
+        552116_667      fast profits_   dac429  R       9:16      1 cbsuecco14
+        552116_668      fast profits_   dac429  R       3:57      1 cbsuecco14
+552116_[669-895%90      fast profits_   dac429 PD       0:00      1 (Resources)
 552117_[896-1343%9      fast profits_   dac429 PD       0:00      1 (Dependency)
 552118_[1344-1791%      fast profits_   dac429 PD       0:00      1 (Dependency)
 552119_[1792-1807%      fast profits_   dac429 PD       0:00      1 (Dependency)
-            557384      slow     wrap dagr5998  R   16:04:04      1 cbsuecco08
-            557385      slow     wrap dagr5998  R   16:04:04      1 cbsuecco01
-            557386      slow     wrap dagr5998  R   15:56:15      1 cbsuecco01
-            557387      slow     wrap dagr5998  R   15:53:05      1 cbsuecco07
-            557388      slow     wrap dagr5998  R   12:33:33      1 cbsuecco01
+            557384      slow     wrap dagr5998  R   17:04:04      1 cbsuecco08
+            557385      slow     wrap dagr5998  R   17:04:04      1 cbsuecco01
+            557386      slow     wrap dagr5998  R   16:56:15      1 cbsuecco01
+            557387      slow     wrap dagr5998  R   16:53:05      1 cbsuecco07
+            557388      slow     wrap dagr5998  R   13:33:33      1 cbsuecco01
             557389      slow     wrap dagr5998 PD       0:00      1 (Resources)
             557390      slow     wrap dagr5998 PD       0:00      1 (Dependency)
             557391      slow     wrap dagr5998 PD       0:00      1 (Dependency)
@@ -98,6 +98,6 @@
             557405      slow     wrap dagr5998 PD       0:00      1 (Dependency)
             557406      slow     wrap dagr5998 PD       0:00      1 (Dependency)
             557407      slow     wrap dagr5998 PD       0:00      1 (Dependency)
-            557409      fast sch_mgmt    fm469  R 5-19:01:51      1 cbsuecco10
+            557409      fast sch_mgmt    fm469  R 5-20:01:51      1 cbsuecco10
             557582      slow  aer9255 dagr5998 PD       0:00      1 (Priority)
             557583      slow  aer9253 dagr5998 PD       0:00      1 (Priority)
