@@ -1,10 +1,29 @@
             552113     lgmem dynamic_   dac429 PD       0:00      1 (DependencyNeverSatisfied)
             552114     lgmem dynamic_   dac429 PD       0:00      1 (Dependency)
-552116_[876-895%90      fast profits_   dac429 PD       0:00      1 (Nodes required for job are DOWN, DRAINED or reserved for jobs in higher priority partitions)
+        552116_876      fast profits_   dac429  R      55:34      1 cbsuecco09
+        552116_877      fast profits_   dac429  R      55:34      1 cbsuecco09
+        552116_878      fast profits_   dac429  R      55:34      1 cbsuecco09
+        552116_879      fast profits_   dac429  R      55:34      1 cbsuecco09
+        552116_880      fast profits_   dac429  R      55:34      1 cbsuecco09
+        552116_881      fast profits_   dac429  R      55:34      1 cbsuecco09
+        552116_882      fast profits_   dac429  R      55:34      1 cbsuecco09
+        552116_883      fast profits_   dac429  R      55:34      1 cbsuecco09
+        552116_884      fast profits_   dac429  R      55:34      1 cbsuecco09
+        552116_885      fast profits_   dac429  R      55:34      1 cbsuecco09
+        552116_886      fast profits_   dac429  R      55:34      1 cbsuecco09
+        552116_887      fast profits_   dac429  R      55:34      1 cbsuecco09
+        552116_888      fast profits_   dac429  R      55:34      1 cbsuecco09
+        552116_889      fast profits_   dac429  R      55:34      1 cbsuecco09
+        552116_890      fast profits_   dac429  R      55:34      1 cbsuecco09
+        552116_891      fast profits_   dac429  R      55:34      1 cbsuecco09
+        552116_892      fast profits_   dac429  R      55:34      1 cbsuecco09
+        552116_893      fast profits_   dac429  R      55:34      1 cbsuecco09
+        552116_894      fast profits_   dac429  R      55:34      1 cbsuecco09
+        552116_895      fast profits_   dac429  R      55:34      1 cbsuecco09
 552117_[896-1343%9      fast profits_   dac429 PD       0:00      1 (Dependency)
 552118_[1344-1791%      fast profits_   dac429 PD       0:00      1 (Dependency)
 552119_[1792-1807%      fast profits_   dac429 PD       0:00      1 (Dependency)
-            557827      slow     wrap dagr5998  R 2-21:08:24      1 cbsuecco01
+            557827      slow     wrap dagr5998  R 2-22:08:23      1 cbsuecco01
             557863      slow     wrap dagr5998 PD       0:00      1 (Resources)
             557864      slow     wrap dagr5998 PD       0:00      1 (Dependency)
             557865      slow     wrap dagr5998 PD       0:00      1 (Dependency)
@@ -40,9 +59,6 @@
             557895      slow     wrap dagr5998 PD       0:00      1 (Dependency)
             557896      slow     wrap dagr5998 PD       0:00      1 (Dependency)
             557897      slow     wrap dagr5998 PD       0:00      1 (Dependency)
-            557988      slow  aerXXXX dagr5998  R   21:55:53      1 cbsuecco07
-            558003      slow sch_mgmt    fm469  R    1:12:22      1 cbsuecco07
-            558004      slow     peru    fm469  R    1:10:27      1 cbsuecco08
-            558007 interacti     bash dagr5998  R    1:03:16      1 cbsueccosl03
-            558008      slow     peru    fm469  R      47:08      1 cbsuecco01
-            558010      slow  aer9559 dagr5998  R      12:03      1 cbsuecco07
+            557988      slow  aerXXXX dagr5998  R   22:55:52      1 cbsuecco07
+            558008      slow     peru    fm469  R    1:47:07      1 cbsuecco01
+            558035      slow  aer9559 dagr5998  R      27:47      1 cbsuecco07
