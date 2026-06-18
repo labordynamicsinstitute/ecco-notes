@@ -4,7 +4,7 @@
 552117_[896-1343%9      fast profits_   dac429 PD       0:00      1 (Dependency)
 552118_[1344-1791%      fast profits_   dac429 PD       0:00      1 (Dependency)
 552119_[1792-1807%      fast profits_   dac429 PD       0:00      1 (Dependency)
-            557827      slow     wrap dagr5998  R 2-19:08:23      1 cbsuecco01
+            557827      slow     wrap dagr5998  R 2-20:08:23      1 cbsuecco01
             557863      slow     wrap dagr5998 PD       0:00      1 (Resources)
             557864      slow     wrap dagr5998 PD       0:00      1 (Dependency)
             557865      slow     wrap dagr5998 PD       0:00      1 (Dependency)
@@ -40,4 +40,8 @@
             557895      slow     wrap dagr5998 PD       0:00      1 (Dependency)
             557896      slow     wrap dagr5998 PD       0:00      1 (Dependency)
             557897      slow     wrap dagr5998 PD       0:00      1 (Dependency)
-            557988      slow  aerXXXX dagr5998  R   19:55:52      1 cbsuecco07
+            557988      slow  aerXXXX dagr5998  R   20:55:52      1 cbsuecco07
+            558003      slow sch_mgmt    fm469  R      12:21      1 cbsuecco07
+            558004      slow     peru    fm469  R      10:26      1 cbsuecco08
+            558005      slow  aer9559 dagr5998  R       8:02      1 cbsuecco07
+            558007 interacti     bash dagr5998  R       3:15      1 cbsueccosl03
