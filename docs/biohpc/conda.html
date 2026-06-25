@@ -8,7 +8,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
 
-    <title>SLURM Queue &#8212; ECCO Computing Notes</title>
+    <title>Running Python and R from Stata (with conda) &#8212; ECCO Computing Notes</title>
   
   
   
@@ -57,12 +57,10 @@
     <script async="async" src="../../_static/sphinx-thebe.js?v=c100c467"></script>
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'docs/biohpc/slurm-queue';</script>
-    <link rel="canonical" href="https://labordynamicsinstitute.github.io/ecco-notes/docs/biohpc/slurm-queue.html" />
+    <script>DOCUMENTATION_OPTIONS.pagename = 'docs/biohpc/conda';</script>
+    <link rel="canonical" href="https://labordynamicsinstitute.github.io/ecco-notes/docs/biohpc/conda.html" />
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Requesting exclusive access to an entire node (DEPRECATED)" href="reserving.html" />
-    <link rel="prev" title="Julia example" href="julia.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -123,6 +121,8 @@
     <div class="bd-container__inner bd-page-width">
       
       
+      
+        
       
       <div class="bd-sidebar-primary bd-sidebar">
         
@@ -185,7 +185,7 @@
 <li class="toctree-l1"><a class="reference internal" href="../access.html">General access rules</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Using SLURM</span></p>
-<ul class="current nav bd-sidenav">
+<ul class="nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="slurm.html">Job scheduler on BioHPC</a></li>
 <li class="toctree-l1"><a class="reference internal" href="slurm-quick-start.html">Quick start</a></li>
 <li class="toctree-l1"><a class="reference internal" href="software.html">Software</a></li>
@@ -193,7 +193,7 @@
 <li class="toctree-l1"><a class="reference internal" href="stata.html">Stata example</a></li>
 <li class="toctree-l1"><a class="reference internal" href="matlab.html">MATLAB example</a></li>
 <li class="toctree-l1"><a class="reference internal" href="julia.html">Julia example</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">SLURM Queue</a></li>
+<li class="toctree-l1"><a class="reference internal" href="slurm-queue.html">SLURM Queue</a></li>
 </ul>
 <p aria-level="2" class="caption" role="heading"><span class="caption-text">Reserving a node on BioHPC Linux</span></p>
 <ul class="nav bd-sidenav">
@@ -292,7 +292,7 @@
       
       
       
-      <li><a href="https://github.com/labordynamicsinstitute/ecco-notes/edit/main/docs/biohpc/slurm-queue.md" target="_blank"
+      <li><a href="https://github.com/labordynamicsinstitute/ecco-notes/edit/main/docs/biohpc/conda.md" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -309,7 +309,7 @@
       
       
       
-      <li><a href="https://github.com/labordynamicsinstitute/ecco-notes/issues/new?title=Issue%20on%20page%20%2Fdocs/biohpc/slurm-queue.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/labordynamicsinstitute/ecco-notes/issues/new?title=Issue%20on%20page%20%2Fdocs/biohpc/conda.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -339,7 +339,7 @@
       
       
       
-      <li><a href="../../_sources/docs/biohpc/slurm-queue.md" target="_blank"
+      <li><a href="../../_sources/docs/biohpc/conda.md" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -410,7 +410,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -421,11 +423,22 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>SLURM Queue</h1>
+    <h1>Running Python and R from Stata (with conda)</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#loading-conda">Loading conda</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-the-environment">Creating the environment</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-it-from-stata">Using it from Stata</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sbatch-script">SBATCH script</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -435,19 +448,99 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="slurm-queue">
-<h1>SLURM Queue<a class="headerlink" href="#slurm-queue" title="Link to this heading">#</a></h1>
-<div class="cell tag_remove-input tag_full-width docutils container">
+  <section class="tex2jax_ignore mathjax_ignore" id="running-python-and-r-from-stata-with-conda">
+<h1>Running Python and R from Stata (with conda)<a class="headerlink" href="#running-python-and-r-from-stata-with-conda" title="Link to this heading">#</a></h1>
+<p>Often we will want to call Python or R from inside Stata, this will often look like <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">script</span> <span class="pre">example.py</span></code>, <code class="docutils literal notranslate"><span class="pre">shell</span> <span class="pre">Rscript</span> <span class="pre">example.R</span></code>, or use a stata package like <code class="docutils literal notranslate"><span class="pre">rsource</span></code>. By default the new process inherits Stata’s environment and picks up whatever <code class="docutils literal notranslate"><span class="pre">python3</span></code> or <code class="docutils literal notranslate"><span class="pre">Rscript</span></code> is first on the <code class="docutils literal notranslate"><span class="pre">PATH</span></code> (which is often not our intended version). A <a class="reference external" href="https://docs.conda.io/">conda</a> environment fixes this: we create an environment with the intended software and package versions and activate it before running code so there is no ambiguitity.</p>
+<section id="loading-conda">
+<h2>Loading conda<a class="headerlink" href="#loading-conda" title="Link to this heading">#</a></h2>
+<p>Follow instructions <a class="reference external" href="https://biohpc.cornell.edu/lab/doc/Software_Installation_exercises1.html">at BioHPC</a> on how to install <code class="docutils literal notranslate"><span class="pre">miniconda</span></code> in your home directory, then the line</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="nb">source</span><span class="w"> </span><span class="nv">$HOME</span>/miniconda3/bin/activate
+</pre></div>
 </div>
-<p>The following is a snapshot of the most recent queue, roughly ordered by when the job was submitted. A status of <code class="docutils literal notranslate"><span class="pre">R</span></code> indicates the job is running, with the <code class="docutils literal notranslate"><span class="pre">ELAPSED</span> <span class="pre">TIME</span></code> indicating how long it has been running. A status of <code class="docutils literal notranslate"><span class="pre">PD</span></code> indicates the job is pending, with the <code class="docutils literal notranslate"><span class="pre">REASON</span></code> indicating why it is pending. The key reasons a job might still be pending are:</p>
-<ul class="simple">
-<li><p><code class="docutils literal notranslate"><span class="pre">Priority</span></code>: The resources are available, but the job is waiting for a higher priority job to finish.</p></li>
-<li><p><code class="docutils literal notranslate"><span class="pre">Resources</span></code>: The job is waiting for resources to become available. This can happen if the job requests more resources than are currently available on the cluster.</p></li>
-</ul>
-<div class="cell tag_remove-input tag_full-width docutils container">
-<div class="cell_output docutils container">
-<div class="output text_html"><table><tr><th>JOBID</th><th>PARTITION</th><th>NAME</th><th>STATUS</th><th>ELAPSED TIME</th><th>NODES</th><th>NODELIST(REASON)</th></tr><tr><td>552113</td><td>lgmem</td><td>dynamic_</td><td>PD</td><td>0:00</td><td>1</td><td>(DependencyNeverSatisfied)</td></tr><tr><td>552114</td><td>lgmem</td><td>dynamic_</td><td>PD</td><td>0:00</td><td>1</td><td>(Dependency)</td></tr><tr><td>552117_1138</td><td>fast</td><td>profits_</td><td>R</td><td>1-14:48:26</td><td>1</td><td>cbsuecco14</td></tr><tr><td>552117_1142</td><td>fast</td><td>profits_</td><td>R</td><td>1-14:20:24</td><td>1</td><td>cbsuecco14</td></tr><tr><td>552117_1147</td><td>fast</td><td>profits_</td><td>R</td><td>1-14:05:24</td><td>1</td><td>cbsuecco14</td></tr><tr><td>552117_1151</td><td>fast</td><td>profits_</td><td>R</td><td>1-13:46:39</td><td>1</td><td>cbsuecco14</td></tr><tr><td>552117_1152</td><td>fast</td><td>profits_</td><td>R</td><td>1-13:46:34</td><td>1</td><td>cbsuecco14</td></tr><tr><td>552117_1154</td><td>fast</td><td>profits_</td><td>R</td><td>1-13:36:07</td><td>1</td><td>cbsuecco14</td></tr><tr><td>552117_1156</td><td>fast</td><td>profits_</td><td>R</td><td>1-13:29:09</td><td>1</td><td>cbsuecco14</td></tr><tr><td>552117_1160</td><td>fast</td><td>profits_</td><td>R</td><td>1-13:16:49</td><td>1</td><td>cbsuecco14</td></tr><tr><td>552117_1162</td><td>fast</td><td>profits_</td><td>R</td><td>1-13:08:53</td><td>1</td><td>cbsuecco14</td></tr><tr><td>552117_1171</td><td>fast</td><td>profits_</td><td>R</td><td>1-12:25:21</td><td>1</td><td>cbsuecco14</td></tr><tr><td>552117_1172</td><td>fast</td><td>profits_</td><td>R</td><td>1-12:15:55</td><td>1</td><td>cbsuecco10</td></tr><tr><td>552117_1177</td><td>fast</td><td>profits_</td><td>R</td><td>1-11:53:16</td><td>1</td><td>cbsuecco10</td></tr><tr><td>552117_1178</td><td>fast</td><td>profits_</td><td>R</td><td>1-11:49:02</td><td>1</td><td>cbsuecco11</td></tr><tr><td>552117_1179</td><td>fast</td><td>profits_</td><td>R</td><td>1-11:45:52</td><td>1</td><td>cbsuecco09</td></tr><tr><td>552117_1182</td><td>fast</td><td>profits_</td><td>R</td><td>1-11:40:09</td><td>1</td><td>cbsuecco10</td></tr><tr><td>552117_1184</td><td>fast</td><td>profits_</td><td>R</td><td>1-11:34:28</td><td>1</td><td>cbsuecco09</td></tr><tr><td>552117_1185</td><td>fast</td><td>profits_</td><td>R</td><td>1-11:31:47</td><td>1</td><td>cbsuecco10</td></tr><tr><td>552117_1186</td><td>fast</td><td>profits_</td><td>R</td><td>1-11:31:08</td><td>1</td><td>cbsuecco10</td></tr><tr><td>552117_1187</td><td>fast</td><td>profits_</td><td>R</td><td>1-11:24:31</td><td>1</td><td>cbsuecco11</td></tr><tr><td>552117_1188</td><td>fast</td><td>profits_</td><td>R</td><td>1-11:21:15</td><td>1</td><td>cbsuecco09</td></tr><tr><td>552117_1189</td><td>fast</td><td>profits_</td><td>R</td><td>1-11:21:07</td><td>1</td><td>cbsuecco10</td></tr><tr><td>552117_1192</td><td>fast</td><td>profits_</td><td>R</td><td>1-11:14:20</td><td>1</td><td>cbsuecco14</td></tr><tr><td>552117_1193</td><td>fast</td><td>profits_</td><td>R</td><td>1-11:12:29</td><td>1</td><td>cbsuecco10</td></tr><tr><td>552117_1194</td><td>fast</td><td>profits_</td><td>R</td><td>1-10:55:18</td><td>1</td><td>cbsuecco14</td></tr><tr><td>552117_1195</td><td>fast</td><td>profits_</td><td>R</td><td>1-10:52:09</td><td>1</td><td>cbsuecco10</td></tr><tr><td>552117_1196</td><td>fast</td><td>profits_</td><td>R</td><td>1-10:46:27</td><td>1</td><td>cbsuecco10</td></tr><tr><td>552117_1197</td><td>fast</td><td>profits_</td><td>R</td><td>1-10:21:08</td><td>1</td><td>cbsuecco11</td></tr><tr><td>552117_1198</td><td>fast</td><td>profits_</td><td>R</td><td>1-10:16:43</td><td>1</td><td>cbsuecco11</td></tr><tr><td>552117_1199</td><td>fast</td><td>profits_</td><td>R</td><td>1-10:14:00</td><td>1</td><td>cbsuecco14</td></tr><tr><td>552117_1200</td><td>fast</td><td>profits_</td><td>R</td><td>1-10:10:06</td><td>1</td><td>cbsuecco09</td></tr><tr><td>552117_1201</td><td>fast</td><td>profits_</td><td>R</td><td>1-10:05:13</td><td>1</td><td>cbsuecco11</td></tr><tr><td>552117_1202</td><td>fast</td><td>profits_</td><td>R</td><td>1-10:02:28</td><td>1</td><td>cbsuecco14</td></tr><tr><td>552117_1203</td><td>fast</td><td>profits_</td><td>R</td><td>1-09:52:36</td><td>1</td><td>cbsuecco11</td></tr><tr><td>552117_1204</td><td>fast</td><td>profits_</td><td>R</td><td>1-09:46:55</td><td>1</td><td>cbsuecco11</td></tr><tr><td>552117_1205</td><td>fast</td><td>profits_</td><td>R</td><td>1-09:27:51</td><td>1</td><td>cbsuecco10</td></tr><tr><td>552117_1206</td><td>fast</td><td>profits_</td><td>R</td><td>1-09:23:11</td><td>1</td><td>cbsuecco09</td></tr><tr><td>552117_1207</td><td>fast</td><td>profits_</td><td>R</td><td>1-09:21:21</td><td>1</td><td>cbsuecco09</td></tr><tr><td>552117_1208</td><td>fast</td><td>profits_</td><td>R</td><td>1-09:12:12</td><td>1</td><td>cbsuecco10</td></tr><tr><td>552117_1209</td><td>fast</td><td>profits_</td><td>R</td><td>1-09:04:02</td><td>1</td><td>cbsuecco10</td></tr><tr><td>552117_1210</td><td>fast</td><td>profits_</td><td>R</td><td>1-09:03:59</td><td>1</td><td>cbsuecco11</td></tr><tr><td>552117_1211</td><td>fast</td><td>profits_</td><td>R</td><td>1-09:01:47</td><td>1</td><td>cbsuecco10</td></tr><tr><td>552117_1212</td><td>fast</td><td>profits_</td><td>R</td><td>1-08:51:41</td><td>1</td><td>cbsuecco10</td></tr><tr><td>552117_1213</td><td>fast</td><td>profits_</td><td>R</td><td>1-08:42:18</td><td>1</td><td>cbsuecco09</td></tr><tr><td>552117_1214</td><td>fast</td><td>profits_</td><td>R</td><td>1-08:11:37</td><td>1</td><td>cbsuecco09</td></tr><tr><td>552117_1215</td><td>fast</td><td>profits_</td><td>R</td><td>1-08:03:14</td><td>1</td><td>cbsuecco14</td></tr><tr><td>552117_1216</td><td>fast</td><td>profits_</td><td>R</td><td>1-07:52:55</td><td>1</td><td>cbsuecco09</td></tr><tr><td>552117_1217</td><td>fast</td><td>profits_</td><td>R</td><td>1-06:46:35</td><td>1</td><td>cbsuecco14</td></tr><tr><td>552117_1218</td><td>fast</td><td>profits_</td><td>R</td><td>1-04:48:31</td><td>1</td><td>cbsuecco10</td></tr><tr><td>552117_1219</td><td>fast</td><td>profits_</td><td>R</td><td>1-04:16:40</td><td>1</td><td>cbsuecco14</td></tr><tr><td>552117_1220</td><td>fast</td><td>profits_</td><td>R</td><td>1-04:12:11</td><td>1</td><td>cbsuecco10</td></tr><tr><td>552117_1221</td><td>fast</td><td>profits_</td><td>R</td><td>1-03:52:44</td><td>1</td><td>cbsuecco14</td></tr><tr><td>552117_1222</td><td>fast</td><td>profits_</td><td>R</td><td>1-03:43:31</td><td>1</td><td>cbsuecco14</td></tr><tr><td>552117_1223</td><td>fast</td><td>profits_</td><td>R</td><td>1-02:52:15</td><td>1</td><td>cbsuecco14</td></tr><tr><td>552117_1224</td><td>fast</td><td>profits_</td><td>R</td><td>1-01:51:11</td><td>1</td><td>cbsuecco14</td></tr><tr><td>552117_1225</td><td>fast</td><td>profits_</td><td>R</td><td>1-00:10:05</td><td>1</td><td>cbsuecco14</td></tr><tr><td>552117_1226</td><td>fast</td><td>profits_</td><td>R</td><td>4:03:38</td><td>1</td><td>cbsuecco09</td></tr><tr><td>552117_1227</td><td>fast</td><td>profits_</td><td>R</td><td>3:37:54</td><td>1</td><td>cbsuecco09</td></tr><tr><td>552117_1228</td><td>fast</td><td>profits_</td><td>R</td><td>3:10:13</td><td>1</td><td>cbsuecco11</td></tr><tr><td>552117_1229</td><td>fast</td><td>profits_</td><td>R</td><td>3:04:04</td><td>1</td><td>cbsuecco11</td></tr><tr><td>552117_1230</td><td>fast</td><td>profits_</td><td>R</td><td>3:02:19</td><td>1</td><td>cbsuecco10</td></tr><tr><td>552117_1231</td><td>fast</td><td>profits_</td><td>R</td><td>3:00:08</td><td>1</td><td>cbsuecco09</td></tr><tr><td>552117_1232</td><td>fast</td><td>profits_</td><td>R</td><td>2:53:06</td><td>1</td><td>cbsuecco09</td></tr><tr><td>552117_1233</td><td>fast</td><td>profits_</td><td>R</td><td>2:44:18</td><td>1</td><td>cbsuecco11</td></tr><tr><td>552117_1234</td><td>fast</td><td>profits_</td><td>R</td><td>2:44:10</td><td>1</td><td>cbsuecco09</td></tr><tr><td>552117_1235</td><td>fast</td><td>profits_</td><td>R</td><td>2:42:38</td><td>1</td><td>cbsuecco11</td></tr><tr><td>552117_1236</td><td>fast</td><td>profits_</td><td>R</td><td>2:41:09</td><td>1</td><td>cbsuecco11</td></tr><tr><td>552117_1237</td><td>fast</td><td>profits_</td><td>R</td><td>2:34:48</td><td>1</td><td>cbsuecco10</td></tr><tr><td>552117_1238</td><td>fast</td><td>profits_</td><td>R</td><td>2:27:01</td><td>1</td><td>cbsuecco11</td></tr><tr><td>552117_1239</td><td>fast</td><td>profits_</td><td>R</td><td>2:22:33</td><td>1</td><td>cbsuecco09</td></tr><tr><td>552117_1240</td><td>fast</td><td>profits_</td><td>R</td><td>2:16:26</td><td>1</td><td>cbsuecco09</td></tr><tr><td>552117_1241</td><td>fast</td><td>profits_</td><td>R</td><td>2:16:16</td><td>1</td><td>cbsuecco11</td></tr><tr><td>552117_1242</td><td>fast</td><td>profits_</td><td>R</td><td>2:15:51</td><td>1</td><td>cbsuecco09</td></tr><tr><td>552117_1243</td><td>fast</td><td>profits_</td><td>R</td><td>2:02:47</td><td>1</td><td>cbsuecco11</td></tr><tr><td>552117_1244</td><td>fast</td><td>profits_</td><td>R</td><td>1:43:41</td><td>1</td><td>cbsuecco11</td></tr><tr><td>552117_1245</td><td>fast</td><td>profits_</td><td>R</td><td>1:23:52</td><td>1</td><td>cbsuecco11</td></tr><tr><td>552117_1246</td><td>fast</td><td>profits_</td><td>R</td><td>1:11:17</td><td>1</td><td>cbsuecco11</td></tr><tr><td>552117_1247</td><td>fast</td><td>profits_</td><td>R</td><td>1:11:07</td><td>1</td><td>cbsuecco11</td></tr><tr><td>552117_1248</td><td>fast</td><td>profits_</td><td>R</td><td>52:46</td><td>1</td><td>cbsuecco09</td></tr><tr><td>552117_1249</td><td>fast</td><td>profits_</td><td>R</td><td>30:19</td><td>1</td><td>cbsuecco10</td></tr><tr><td>552117_1250</td><td>fast</td><td>profits_</td><td>R</td><td>28:46</td><td>1</td><td>cbsuecco10</td></tr><tr><td>552117_1251</td><td>fast</td><td>profits_</td><td>R</td><td>24:05</td><td>1</td><td>cbsuecco09</td></tr><tr><td>552117_1252</td><td>fast</td><td>profits_</td><td>R</td><td>23:47</td><td>1</td><td>cbsuecco11</td></tr><tr><td>552117_1253</td><td>fast</td><td>profits_</td><td>R</td><td>14:30</td><td>1</td><td>cbsuecco10</td></tr><tr><td>552117_1254</td><td>fast</td><td>profits_</td><td>R</td><td>14:30</td><td>1</td><td>cbsuecco09</td></tr><tr><td>552117_1255</td><td>fast</td><td>profits_</td><td>R</td><td>11:51</td><td>1</td><td>cbsuecco09</td></tr><tr><td>552117_1256</td><td>fast</td><td>profits_</td><td>R</td><td>10:21</td><td>1</td><td>cbsuecco10</td></tr><tr><td>552117_1257</td><td>fast</td><td>profits_</td><td>R</td><td>6:17</td><td>1</td><td>cbsuecco09</td></tr><tr><td>552117_1258</td><td>fast</td><td>profits_</td><td>R</td><td>5:45</td><td>1</td><td>cbsuecco11</td></tr><tr><td>552117_[1259-1343%</td><td>fast</td><td>profits_</td><td>PD</td><td>0:00</td><td>1</td><td>(Resources)</td></tr><tr><td>552118_[1344-1791%</td><td>fast</td><td>profits_</td><td>PD</td><td>0:00</td><td>1</td><td>(Dependency)</td></tr><tr><td>552119_[1792-1807%</td><td>fast</td><td>profits_</td><td>PD</td><td>0:00</td><td>1</td><td>(Dependency)</td></tr><tr><td>558331</td><td>slow</td><td>wrap</td><td>R</td><td>1-01:53:24</td><td>1</td><td>cbsuecco01</td></tr><tr><td>558332</td><td>slow</td><td>wrap</td><td>R</td><td>1-01:53:24</td><td>1</td><td>cbsuecco01</td></tr><tr><td>558333</td><td>slow</td><td>wrap</td><td>R</td><td>22:53:08</td><td>1</td><td>cbsuecco07</td></tr><tr><td>558334</td><td>slow</td><td>wrap</td><td>R</td><td>12:35:01</td><td>1</td><td>cbsuecco01</td></tr><tr><td>558335</td><td>slow</td><td>wrap</td><td>PD</td><td>0:00</td><td>1</td><td>(Priority)</td></tr><tr><td>558336</td><td>slow</td><td>wrap</td><td>PD</td><td>0:00</td><td>1</td><td>(Priority)</td></tr><tr><td>558337</td><td>slow</td><td>wrap</td><td>PD</td><td>0:00</td><td>1</td><td>(Dependency)</td></tr><tr><td>558338</td><td>slow</td><td>wrap</td><td>PD</td><td>0:00</td><td>1</td><td>(Dependency)</td></tr><tr><td>558339</td><td>slow</td><td>wrap</td><td>PD</td><td>0:00</td><td>1</td><td>(Dependency)</td></tr><tr><td>558340</td><td>slow</td><td>wrap</td><td>PD</td><td>0:00</td><td>1</td><td>(Dependency)</td></tr><tr><td>558341</td><td>slow</td><td>wrap</td><td>PD</td><td>0:00</td><td>1</td><td>(Dependency)</td></tr><tr><td>558342</td><td>slow</td><td>wrap</td><td>PD</td><td>0:00</td><td>1</td><td>(Dependency)</td></tr><tr><td>558343</td><td>slow</td><td>wrap</td><td>PD</td><td>0:00</td><td>1</td><td>(Dependency)</td></tr><tr><td>558344</td><td>slow</td><td>wrap</td><td>PD</td><td>0:00</td><td>1</td><td>(Dependency)</td></tr><tr><td>558345</td><td>slow</td><td>wrap</td><td>PD</td><td>0:00</td><td>1</td><td>(Dependency)</td></tr><tr><td>558346</td><td>slow</td><td>wrap</td><td>PD</td><td>0:00</td><td>1</td><td>(Dependency)</td></tr><tr><td>558347</td><td>slow</td><td>wrap</td><td>PD</td><td>0:00</td><td>1</td><td>(Dependency)</td></tr><tr><td>558348</td><td>slow</td><td>wrap</td><td>PD</td><td>0:00</td><td>1</td><td>(Dependency)</td></tr><tr><td>558349</td><td>slow</td><td>wrap</td><td>PD</td><td>0:00</td><td>1</td><td>(Dependency)</td></tr><tr><td>558350</td><td>slow</td><td>wrap</td><td>PD</td><td>0:00</td><td>1</td><td>(Dependency)</td></tr><tr><td>558351</td><td>slow</td><td>wrap</td><td>PD</td><td>0:00</td><td>1</td><td>(Dependency)</td></tr><tr><td>558352</td><td>slow</td><td>wrap</td><td>PD</td><td>0:00</td><td>1</td><td>(Dependency)</td></tr><tr><td>558353</td><td>slow</td><td>wrap</td><td>PD</td><td>0:00</td><td>1</td><td>(Dependency)</td></tr><tr><td>558354</td><td>slow</td><td>wrap</td><td>PD</td><td>0:00</td><td>1</td><td>(Dependency)</td></tr><tr><td>558449</td><td>slow</td><td>aer9559</td><td>R</td><td>1-02:18:35</td><td>1</td><td>cbsuecco08</td></tr><tr><td>558467</td><td>slow</td><td>RunJulia</td><td>R</td><td>3:51:04</td><td>1</td><td>cbsuecco07</td></tr><tr><td>558491</td><td>slow</td><td>statutor</td><td>PD</td><td>0:00</td><td>1</td><td>(Resources)</td></tr></table><p>Generated on: 2026-06-25 20:17:44</p></div></div>
+<p>will load conda. Conda will need to be loaded <strong>every time</strong> before creating or activating an environment.</p>
+</section>
+<section id="creating-the-environment">
+<h2>Creating the environment<a class="headerlink" href="#creating-the-environment" title="Link to this heading">#</a></h2>
+<p>A conda environment is a named, self-contained set of package versions. A single environment can hold both Python and R, so you do not need separate environments for the two languages. You create it once and it stays until you delete it, and you simply activate it whenever you need it. There are two equivalent ways to create one.</p>
+<p><strong>From an <code class="docutils literal notranslate"><span class="pre">environment.yml</span></code> file.</strong> This is the better option, because the file
+is a written record of exactly what the environment contains. Keep it alongside
+your code so the environment can be recreated later. Each
+line under <code class="docutils literal notranslate"><span class="pre">dependencies</span></code> is a package. <code class="docutils literal notranslate"><span class="pre">=</span></code> pins a specific version, and
+<code class="docutils literal notranslate"><span class="pre">conda-forge</span></code> is the public (and free!) repository the packages are downloaded from:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="c1"># example environment.yml</span>
+<span class="n">name</span><span class="p">:</span> <span class="p">(</span><span class="n">your_env_name</span><span class="p">)</span>
+<span class="n">channels</span><span class="p">:</span>
+  <span class="o">-</span> <span class="n">conda</span><span class="o">-</span><span class="n">forge</span>
+<span class="n">dependencies</span><span class="p">:</span>
+  <span class="o">-</span> <span class="n">python</span><span class="o">=</span><span class="mf">3.10</span>
+  <span class="o">-</span> <span class="n">r</span><span class="o">-</span><span class="n">base</span><span class="o">=</span><span class="mf">4.3</span>
+  <span class="o">-</span> <span class="n">pandas</span><span class="o">=</span><span class="mf">2.2</span>
+  <span class="o">-</span> <span class="n">r</span><span class="o">-</span><span class="n">fixest</span>
+</pre></div>
 </div>
+<p>Then build it from that file:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>source $HOME/miniconda3/bin/activate
+conda env create -f environment.yml
+</pre></div>
+</div>
+<p><strong>In one line.</strong> If you would rather not write a file, list the same packages
+directly on the command line. <code class="docutils literal notranslate"><span class="pre">-n</span></code> sets the environment name and <code class="docutils literal notranslate"><span class="pre">-c</span></code> sets the
+channel:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>source $HOME/miniconda3/bin/activate
+conda create -n (your_env_name) -c conda-forge python=3.10 r-base=4.3 pandas=2.2 r-fixest
+</pre></div>
+</div>
+<p>Either way, you can confirm the environment was created with <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">env</span> <span class="pre">list</span></code>. Both of these options should be run on a compute node.</p>
+</section>
+<section id="using-it-from-stata">
+<h2>Using it from Stata<a class="headerlink" href="#using-it-from-stata" title="Link to this heading">#</a></h2>
+<p>Load conda and activate the environment <strong>before</strong> launching Stata, so future processes inherit it:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>source $HOME/miniconda3/bin/activate
+conda activate (your_env_name)
+</pre></div>
+</div>
+<p><strong>Python.</strong> If the do-file runs Python via the command line (i.e. <code class="docutils literal notranslate"><span class="pre">shell</span> <span class="pre">python</span> <span class="pre">example.py</span></code>), it works automatically from the activated
+environment because the environment’s <code class="docutils literal notranslate"><span class="pre">PATH</span></code> is inherited. No extra setup is needed.</p>
+<p>You only need the next step to use Stata’s <em>built-in</em> Python (a
+<code class="docutils literal notranslate"><span class="pre">python:</span></code> … <code class="docutils literal notranslate"><span class="pre">end</span></code> block, or <code class="docutils literal notranslate"><span class="pre">python</span> <span class="pre">script</span> <span class="pre">file.py</span></code>). Then, Stata must be pointed at the environment.
+Stata can read the <code class="docutils literal notranslate"><span class="pre">CONDA_PREFIX</span></code> that activating the environment set for us:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">*</span> <span class="n">main</span><span class="o">.</span><span class="n">do</span>
+<span class="n">local</span> <span class="n">pyexec</span> <span class="p">:</span> <span class="n">environment</span> <span class="n">CONDA_PREFIX</span>
+<span class="n">python</span> <span class="nb">set</span> <span class="n">exec</span> <span class="s2">&quot;`pyexec&#39;/bin/python3&quot;</span>
+</pre></div>
+</div>
+<p><strong>R.</strong> Stata has no native R integration; <code class="docutils literal notranslate"><span class="pre">rsource</span></code> (and <code class="docutils literal notranslate"><span class="pre">shell</span></code>) just
+calls <code class="docutils literal notranslate"><span class="pre">Rscript</span></code> on the <code class="docutils literal notranslate"><span class="pre">PATH</span></code>, which is already pinned after activating our environment.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>To actually <em>run</em> a script, you use <code class="docutils literal notranslate"><span class="pre">shell</span></code> as shown below. Output from
+<code class="docutils literal notranslate"><span class="pre">shell</span></code> is not reliably captured in Stata’s batch log (<code class="docutils literal notranslate"><span class="pre">main.log</span></code>), so redirect
+it to its own file and print that to the stata log file:</p>
+<div class="highlight-none notranslate"><div class="highlight"><pre><span></span>*somewhere in main.do
+shell python example_python.py &gt; example_python.log 2&gt;&amp;1
+type example_python.log
+
+shell Rscript example_R.R &gt; example_R.log 2&gt;&amp;1
+type example_R.log
+</pre></div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">2&gt;&amp;1</span></code> sends error messages to the same file as normal output, so a script that
+fails still leaves a readable log.</p>
+</div>
+</section>
+<section id="sbatch-script">
+<h2>SBATCH script<a class="headerlink" href="#sbatch-script" title="Link to this heading">#</a></h2>
+<p>Use the default options from the <a class="reference internal" href="#sbatch.html#sbatchexample"><span class="xref myst">SBATCH example</span></a>,
+then add:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>source $HOME/miniconda3/bin/activate
+conda activate (your_env_name)
+
+module load stata/18
+stata-mp -b main.do
+</pre></div>
+</div>
+<p>You may also create your conda environment in the sbatch script but it should only be run the first time; either delete or comment out the creation after the environment exists.</p>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -480,24 +573,6 @@ document.write(`
                 <footer class="prev-next-footer">
                   
 <div class="prev-next-area">
-    <a class="left-prev"
-       href="julia.html"
-       title="previous page">
-      <i class="fa-solid fa-angle-left"></i>
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Julia example</p>
-      </div>
-    </a>
-    <a class="right-next"
-       href="reserving.html"
-       title="next page">
-      <div class="prev-next-info">
-        <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Requesting exclusive access to an entire node (DEPRECATED)</p>
-      </div>
-      <i class="fa-solid fa-angle-right"></i>
-    </a>
 </div>
                 </footer>
               
@@ -505,7 +580,23 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#loading-conda">Loading conda</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#creating-the-environment">Creating the environment</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#using-it-from-stata">Using it from Stata</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sbatch-script">SBATCH script</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
