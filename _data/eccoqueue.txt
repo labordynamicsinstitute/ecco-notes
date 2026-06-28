@@ -1,11 +1,10 @@
-            558467      slow RunJulia   as4596  R 2-08:51:03      1 cbsuecco07
-            558564      slow  aer9559 dagr5998  R 1-09:37:56      1 cbsuecco01
-            558567      slow     wrap dagr5998  R 1-09:29:06      1 cbsuecco08
-            558568      slow     wrap dagr5998  R 1-09:29:06      1 cbsuecco01
-            558569      slow     wrap dagr5998  R 1-09:29:06      1 cbsuecco01
-            558570      slow     wrap dagr5998  R 1-09:29:04      1 cbsuecco07
-            558571      fast     wrap dagr5998  R 1-09:28:46      1 cbsuecco13
-            558572      fast     wrap dagr5998  R 1-09:28:46      1 cbsuecco13
+            558467      slow RunJulia   as4596  R 2-09:51:03      1 cbsuecco07
+            558564      slow  aer9559 dagr5998  R 1-10:37:56      1 cbsuecco01
+            558567      slow     wrap dagr5998  R 1-10:29:06      1 cbsuecco08
+            558568      slow     wrap dagr5998  R 1-10:29:06      1 cbsuecco01
+            558569      slow     wrap dagr5998  R 1-10:29:06      1 cbsuecco01
+            558570      slow     wrap dagr5998  R 1-10:29:04      1 cbsuecco07
+            558572      fast     wrap dagr5998  R 1-10:28:46      1 cbsuecco13
             558573      slow     wrap dagr5998 PD       0:00      1 (Dependency)
             558574      slow     wrap dagr5998 PD       0:00      1 (Dependency)
             558575      slow     wrap dagr5998 PD       0:00      1 (Dependency)
@@ -25,7 +24,7 @@
             558589      slow     wrap dagr5998 PD       0:00      1 (Dependency)
             558590      slow     wrap dagr5998 PD       0:00      1 (Dependency)
             558592      slow aearep96   dbm246 PD       0:00      1 (Resources)
-            558609      fast    ADA90   jl4459  R   18:00:59      1 cbsuecco12
+            558609      fast    ADA90   jl4459  R   19:00:59      1 cbsuecco12
             558656      slow RunMatLa    df477 PD       0:00      1 (Priority)
-            558661 interacti     bash     lv39  R    2:52:23      1 cbsueccosl04
-            558662 interacti     bash     lv39  R    1:58:56      1 cbsueccosl03
+            558661 interacti     bash     lv39  R    3:52:23      1 cbsueccosl04
+            558662 interacti     bash     lv39  R    2:58:56      1 cbsueccosl03
