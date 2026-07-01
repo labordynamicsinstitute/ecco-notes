@@ -1,12 +1,12 @@
-            558467      slow RunJulia   as4596  R 5-21:51:03      1 cbsuecco07
-            558583      slow     wrap dagr5998  R   19:09:05      1 cbsuecco01
-            558584      slow     wrap dagr5998  R   19:09:05      1 cbsuecco01
-            558585      slow     wrap dagr5998  R   19:09:05      1 cbsuecco01
-            558586      slow     wrap dagr5998  R   14:06:13      1 cbsuecco07
+            558467      slow RunJulia   as4596  R 5-22:51:03      1 cbsuecco07
+            558583      slow     wrap dagr5998  R   20:09:05      1 cbsuecco01
+            558584      slow     wrap dagr5998  R   20:09:05      1 cbsuecco01
+            558585      slow     wrap dagr5998  R   20:09:05      1 cbsuecco01
+            558586      slow     wrap dagr5998  R   15:06:13      1 cbsuecco07
             558587      slow     wrap dagr5998 PD       0:00      1 (Priority)
             558588      slow     wrap dagr5998 PD       0:00      1 (Priority)
             558589      slow     wrap dagr5998 PD       0:00      1 (Priority)
             558590      slow     wrap dagr5998 PD       0:00      1 (Priority)
-            558661 interacti     bash     lv39  R 3-15:52:23      1 cbsueccosl04
-            558670      slow  aer9559 dagr5998  R   22:14:53      1 cbsuecco08
+            558661 interacti     bash     lv39  R 3-16:52:23      1 cbsueccosl04
+            558670      slow  aer9559 dagr5998  R   23:14:53      1 cbsuecco08
             558671      slow aearep90   dbm246 PD       0:00      1 (Resources)
