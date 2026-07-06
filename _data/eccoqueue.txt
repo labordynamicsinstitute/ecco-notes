@@ -1,7 +1,7 @@
-            558588      slow     wrap dagr5998  R 2-11:23:51      1 cbsuecco01
-            558589      slow     wrap dagr5998  R 1-23:04:46      1 cbsuecco01
-            558590      slow     wrap dagr5998  R 1-10:07:31      1 cbsuecco01
-            558661 interacti     bash     lv39  R 8-11:52:23      1 cbsueccosl04
-            558684      slow  aer9559 dagr5998  R    2:46:05      1 cbsuecco08
+            558588      slow     wrap dagr5998  R 2-12:23:51      1 cbsuecco01
+            558589      slow     wrap dagr5998  R 2-00:04:46      1 cbsuecco01
+            558590      slow     wrap dagr5998  R 1-11:07:31      1 cbsuecco01
+            558661 interacti     bash     lv39  R 8-12:52:23      1 cbsueccosl04
+            558684      slow  aer9559 dagr5998  R    3:46:05      1 cbsuecco08
             558768      slow RunMatLa    df477 PD       0:00      1 (Resources)
-            558770      slow  aer9559 dagr5998  R       6:16      1 cbsuecco07
+            558770      slow  aer9559 dagr5998  R    1:06:16      1 cbsuecco07
