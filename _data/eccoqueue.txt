@@ -1,7 +1,7 @@
-            558588      slow     wrap dagr5998  R 3-02:23:52      1 cbsuecco01
-            558589      slow     wrap dagr5998  R 2-14:04:47      1 cbsuecco01
-            558590      slow     wrap dagr5998  R 2-01:07:32      1 cbsuecco01
-            558661 interacti     bash     lv39  R 9-02:52:24      1 cbsueccosl04
-            558684      slow  aer9559 dagr5998  R   17:46:06      1 cbsuecco08
-            558770      slow  aer9559 dagr5998  R   15:06:17      1 cbsuecco07
-            558781 interacti     bash     lv39  R    4:05:54      1 cbsueccosl03
+            558588      slow     wrap dagr5998  R 3-03:23:52      1 cbsuecco01
+            558589      slow     wrap dagr5998  R 2-15:04:47      1 cbsuecco01
+            558590      slow     wrap dagr5998  R 2-02:07:32      1 cbsuecco01
+            558661 interacti     bash     lv39  R 9-03:52:24      1 cbsueccosl04
+            558684      slow  aer9559 dagr5998  R   18:46:06      1 cbsuecco08
+            558770      slow  aer9559 dagr5998  R   16:06:17      1 cbsuecco07
+            558781 interacti     bash     lv39  R    5:05:54      1 cbsueccosl03
