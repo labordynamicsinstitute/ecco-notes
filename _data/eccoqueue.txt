@@ -1,7 +1,7 @@
-            558589      slow     wrap dagr5998  R 6-20:04:47      1 cbsuecco01
-            558590      slow     wrap dagr5998  R 6-07:07:32      1 cbsuecco01
-            558661 interacti     bash     lv39  R 13-08:52:24      1 cbsueccosl04
-            558781 interacti     bash     lv39  R 4-10:05:54      1 cbsueccosl03
-            558798      fast RunMatLa    df477  R 3-13:21:31      1 cbsuecco13
-            558824      fast  ADA91ga   jl4459  R 1-18:37:58      1 cbsuecco14
-            558826      fast loop69_a   jl4459  R 1-16:42:35      1 cbsuecco09
+            558589      slow     wrap dagr5998  R 6-21:04:46      1 cbsuecco01
+            558590      slow     wrap dagr5998  R 6-08:07:31      1 cbsuecco01
+            558661 interacti     bash     lv39  R 13-09:52:23      1 cbsueccosl04
+            558781 interacti     bash     lv39  R 4-11:05:53      1 cbsueccosl03
+            558798      fast RunMatLa    df477  R 3-14:21:30      1 cbsuecco13
+            558824      fast  ADA91ga   jl4459  R 1-19:37:57      1 cbsuecco14
+            558826      fast loop69_a   jl4459  R 1-17:42:34      1 cbsuecco09
