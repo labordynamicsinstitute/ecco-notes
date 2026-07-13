@@ -1,6 +1,10 @@
-            558589      slow     wrap dagr5998  R 9-02:04:46      1 cbsuecco01
-            558590      slow     wrap dagr5998  R 8-13:07:31      1 cbsuecco01
-            558661 interacti     bash     lv39  R 15-14:52:23      1 cbsueccosl04
-            558781 interacti     bash     lv39  R 6-16:05:53      1 cbsueccosl03
-            558850      fast  ADA92ga   jl4459  R   17:45:37      1 cbsuecco13
-            558860      fast RunMatLa    df477  R   14:08:25      1 cbsuecco14
+            558589      slow     wrap dagr5998  R 9-03:04:46      1 cbsuecco01
+            558590      slow     wrap dagr5998  R 8-14:07:31      1 cbsuecco01
+            558661 interacti     bash     lv39  R 15-15:52:23      1 cbsueccosl04
+            558781 interacti     bash     lv39  R 6-17:05:53      1 cbsueccosl03
+            558850      fast  ADA92ga   jl4459  R   18:45:37      1 cbsuecco13
+            558860      fast RunMatLa    df477  R   15:08:25      1 cbsuecco14
+            558869      slow aearep65   dbm246  R      36:14      1 cbsuecco07
+          558870_0      slow combined   dbm246  R      33:32      1 cbsuecco07
+          558870_1      slow combined   dbm246  R      33:32      1 cbsuecco08
+          558870_2      slow combined   dbm246 PD       0:00      1 (Resources)
