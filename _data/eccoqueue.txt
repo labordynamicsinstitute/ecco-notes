@@ -1,9 +1,7 @@
-            558590      slow     wrap dagr5998  R 9-15:07:31      1 cbsuecco01
-            558850      fast  ADA92ga   jl4459  R 1-19:45:37      1 cbsuecco13
-            558860      fast RunMatLa    df477  R 1-16:08:25      1 cbsuecco14
-            558977      fast  MNEmain    nhk44  R   20:07:29      1 cbsuecco09
-            559102      fast 9860Mono dagr5998  R   19:37:31      1 cbsuecco12
-            561164      fast boot_mai   alw327  R    8:25:45      1 cbsuecco14
-            561173 interacti     bash    fr245  R    1:31:00      1 cbsueccosl03
-         561254_74      slow sims_add   dbm246  R      46:21      1 cbsuecco07
-         561254_77      slow sims_add   dbm246  R      40:28      1 cbsuecco08
+            558590      slow     wrap dagr5998  R 9-16:07:31      1 cbsuecco01
+            558850      fast  ADA92ga   jl4459  R 1-20:45:37      1 cbsuecco13
+            558860      fast RunMatLa    df477  R 1-17:08:25      1 cbsuecco14
+            558977      fast  MNEmain    nhk44  R   21:07:29      1 cbsuecco09
+            559102      fast 9860Mono dagr5998  R   20:37:31      1 cbsuecco12
+            561164      fast boot_mai   alw327  R    9:25:45      1 cbsuecco14
+            561173 interacti     bash    fr245  R    2:31:00      1 cbsueccosl03
