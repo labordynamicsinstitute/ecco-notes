@@ -1,8 +1,8 @@
-            558860      fast RunMatLa    df477  R 4-22:08:26      1 cbsuecco14
-            561173 interacti     bash    fr245  R 3-07:31:01      1 cbsueccosl03
-            561334      fast   9860MC dagr5998  R 3-04:57:13      1 cbsuecco14
-            561503      fast 9860Stev dagr5998  R 2-02:37:16      1 cbsuecco12
-            561508      slow     wrap dagr5998  R 2-01:01:22      1 cbsuecco01
+            558860      fast RunMatLa    df477  R 4-23:08:25      1 cbsuecco14
+            561173 interacti     bash    fr245  R 3-08:31:00      1 cbsueccosl03
+            561334      fast   9860MC dagr5998  R 3-05:57:12      1 cbsuecco14
+            561503      fast 9860Stev dagr5998  R 2-03:37:15      1 cbsuecco12
+            561508      slow     wrap dagr5998  R 2-02:01:21      1 cbsuecco01
             561510      fast p1v39f_0   alw327 PD       0:00      1 (DependencyNeverSatisfied)
             561511      fast p1v39f_0   alw327 PD       0:00      1 (Dependency)
       561512_[1-2]      fast p1v39f_0   alw327 PD       0:00      1 (Dependency)
@@ -30,45 +30,5 @@
       561534_[1-6]      fast p1v39f_2   alw327 PD       0:00      1 (Dependency)
       561535_[1-6]      fast p1v39f_2   alw327 PD       0:00      1 (Dependency)
             561536      fast p1v39f_2   alw327 PD       0:00      1 (Dependency)
-            561546      fast  MNEmain    nhk44  R   17:35:27      1 cbsuecco09
-        561547_700      fast boot_mai   alw327  R       6:57      1 cbsuecco13
-        561547_701      fast boot_mai   alw327  R       6:51      1 cbsuecco13
-        561547_704      fast boot_mai   alw327  R       5:31      1 cbsuecco11
-        561547_705      fast boot_mai   alw327  R       5:17      1 cbsuecco10
-        561547_706      fast boot_mai   alw327  R       5:13      1 cbsuecco10
-        561547_707      fast boot_mai   alw327  R       5:00      1 cbsuecco10
-        561547_708      fast boot_mai   alw327  R       4:58      1 cbsuecco11
-        561547_709      fast boot_mai   alw327  R       4:57      1 cbsuecco11
-        561547_710      fast boot_mai   alw327  R       4:51      1 cbsuecco11
-        561547_711      fast boot_mai   alw327  R       4:47      1 cbsuecco11
-        561547_712      fast boot_mai   alw327  R       4:46      1 cbsuecco11
-        561547_713      fast boot_mai   alw327  R       4:45      1 cbsuecco10
-        561547_714      fast boot_mai   alw327  R       4:44      1 cbsuecco11
-        561547_715      fast boot_mai   alw327  R       4:44      1 cbsuecco10
-        561547_716      fast boot_mai   alw327  R       4:42      1 cbsuecco11
-        561547_717      fast boot_mai   alw327  R       4:36      1 cbsuecco10
-        561547_718      fast boot_mai   alw327  R       4:32      1 cbsuecco10
-        561547_719      fast boot_mai   alw327  R       4:31      1 cbsuecco10
-        561547_720      fast boot_mai   alw327  R       4:24      1 cbsuecco11
-        561547_721      fast boot_mai   alw327  R       4:23      1 cbsuecco10
-        561547_722      fast boot_mai   alw327  R       4:23      1 cbsuecco11
-        561547_723      fast boot_mai   alw327  R       4:22      1 cbsuecco11
-        561547_725      fast boot_mai   alw327  R       4:14      1 cbsuecco10
-        561547_726      fast boot_mai   alw327  R       4:07      1 cbsuecco10
-        561547_728      fast boot_mai   alw327  R       2:52      1 cbsuecco14
-        561547_729      fast boot_mai   alw327  R       2:19      1 cbsuecco13
-        561547_730      fast boot_mai   alw327  R       2:12      1 cbsuecco13
-        561547_731      fast boot_mai   alw327  R       2:04      1 cbsuecco11
-        561547_732      fast boot_mai   alw327  R       1:57      1 cbsuecco13
-        561547_733      fast boot_mai   alw327  R       1:56      1 cbsuecco13
-        561547_734      fast boot_mai   alw327  R       1:44      1 cbsuecco14
-        561547_735      fast boot_mai   alw327  R       1:24      1 cbsuecco13
-        561547_736      fast boot_mai   alw327  R       1:23      1 cbsuecco10
-        561547_737      fast boot_mai   alw327  R       1:17      1 cbsuecco13
-        561547_738      fast boot_mai   alw327  R       1:09      1 cbsuecco13
-        561547_739      fast boot_mai   alw327  R       1:09      1 cbsuecco13
-        561547_740      fast boot_mai   alw327  R       1:09      1 cbsuecco13
-        561547_741      fast boot_mai   alw327  R       1:07      1 cbsuecco13
-        561547_742      fast boot_mai   alw327  R       0:29      1 cbsuecco12
-        561547_743      fast boot_mai   alw327  R       0:02      1 cbsuecco12
-561547_[744-1000%5      fast boot_mai   alw327 PD       0:00      1 (Resources)
+            561546      fast  MNEmain    nhk44  R   18:35:26      1 cbsuecco09
+            562547      slow RunStata    kn463  R       8:02      1 cbsuecco07
