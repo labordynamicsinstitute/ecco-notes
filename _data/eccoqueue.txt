@@ -1,8 +1,8 @@
-            558860      fast RunMatLa    df477  R 7-20:08:25      1 cbsuecco14
-            561173 interacti     bash    fr245  R 6-05:31:00      1 cbsueccosl03
-            561334      fast   9860MC dagr5998  R 6-02:57:12      1 cbsuecco14
-            561508      slow     wrap dagr5998  R 4-23:01:21      1 cbsuecco01
-            561546      fast  MNEmain    nhk44  R 3-15:35:26      1 cbsuecco09
+            558860      fast RunMatLa    df477  R 7-21:08:25      1 cbsuecco14
+            561173 interacti     bash    fr245  R 6-06:31:00      1 cbsueccosl03
+            561334      fast   9860MC dagr5998  R 6-03:57:12      1 cbsuecco14
+            561508      slow     wrap dagr5998  R 5-00:01:21      1 cbsuecco01
+            561546      fast  MNEmain    nhk44  R 3-16:35:26      1 cbsuecco09
             562804      fast P1V39T_0   alw327 PD       0:00      1 (DependencyNeverSatisfied)
             562805      fast P1V39T_0   alw327 PD       0:00      1 (Dependency)
       562806_[1-2]      fast P1V39T_0   alw327 PD       0:00      1 (Dependency)
@@ -57,6 +57,4 @@
       562893_[1-6]      fast P1V39T_2   alw327 PD       0:00      1 (Dependency)
       562894_[1-6]      fast P1V39T_2   alw327 PD       0:00      1 (Dependency)
             562895      fast P1V39T_2   alw327 PD       0:00      1 (Dependency)
-            562899 interacti     bash    fr245  R    1:20:50      1 cbsueccosl04
-            562901      fast 9860Stev dagr5998  R      53:24      1 cbsuecco13
-            562902 interacti     bash    lb746  R      14:15      1 cbsueccosl03
+            562901      fast 9860Stev dagr5998  R    1:53:24      1 cbsuecco13
