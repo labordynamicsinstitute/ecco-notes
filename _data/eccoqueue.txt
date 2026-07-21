@@ -1,6 +1,8 @@
-            558860      fast RunMatLa    df477  R 8-15:08:25      1 cbsuecco14
-            561173 interacti     bash    fr245  R 7-00:31:00      1 cbsueccosl03
-            561334      fast   9860MC dagr5998  R 6-21:57:12      1 cbsuecco14
-            561508      slow     wrap dagr5998  R 5-18:01:21      1 cbsuecco01
-            561546      fast  MNEmain    nhk44  R 4-10:35:26      1 cbsuecco09
+            558860      fast RunMatLa    df477  R 8-16:08:25      1 cbsuecco14
+            561173 interacti     bash    fr245  R 7-01:31:00      1 cbsueccosl03
+            561334      fast   9860MC dagr5998  R 6-22:57:12      1 cbsuecco14
+            561508      slow     wrap dagr5998  R 5-19:01:21      1 cbsuecco01
+            561546      fast  MNEmain    nhk44  R 4-11:35:26      1 cbsuecco09
             562903      slow aearep90   dbm246 PD       0:00      1 (Resources)
+            562904 interacti     bash    fr245  R      53:22      1 cbsueccosl04
+            562905     lgmem 9860Stev dagr5998  R       0:29      1 cbsuecco02
