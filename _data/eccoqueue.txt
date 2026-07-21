@@ -1,9 +1,8 @@
-            558860      fast RunMatLa    df477  R 8-17:08:25      1 cbsuecco14
-            561173 interacti     bash    fr245  R 7-02:31:00      1 cbsueccosl03
-            561334      fast   9860MC dagr5998  R 6-23:57:12      1 cbsuecco14
-            561546      fast  MNEmain    nhk44  R 4-12:35:26      1 cbsuecco09
-            562904 interacti     bash    fr245  R    1:53:22      1 cbsueccosl04
-            562905     lgmem 9860Stev dagr5998  R    1:00:29      1 cbsuecco02
-            562906 interacti     bash dagr5998  R      55:05      1 cbsueccosl03
-            562909      fast P1V39T_0   alw327  R       0:43      1 cbsuecco13
-            562910      fast P1_WIP_S   alw327  R       0:05      1 cbsuecco13
+            558860      fast RunMatLa    df477  R 8-18:08:26      1 cbsuecco14
+            561173 interacti     bash    fr245  R 7-03:31:01      1 cbsueccosl03
+            561334      fast   9860MC dagr5998  R 7-00:57:13      1 cbsuecco14
+            561546      fast  MNEmain    nhk44  R 4-13:35:27      1 cbsuecco09
+            562904 interacti     bash    fr245  R    2:53:23      1 cbsueccosl04
+            562905     lgmem 9860Stev dagr5998  R    2:00:30      1 cbsuecco02
+            562906 interacti     bash dagr5998  R    1:55:06      1 cbsueccosl03
+            562909      fast P1V39T_0   alw327  R    1:00:44      1 cbsuecco13
