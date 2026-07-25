@@ -1,45 +1,9 @@
-            558860      fast RunMatLa    df477  R 12-09:08:25      1 cbsuecco14
-            561173 interacti     bash    fr245  R 10-18:31:00      1 cbsueccosl03
-            561334      fast   9860MC dagr5998  R 10-15:57:12      1 cbsuecco14
-            561546      fast  MNEmain    nhk44  R 8-04:35:26      1 cbsuecco09
-            562905     lgmem 9860Stev dagr5998  R 3-17:00:29      1 cbsuecco02
-       563046_1000      fast P1RV1_12   alw327  R    5:12:29      1 cbsuecco14
-        563046_867      fast P1RV1_12   alw327  R    7:07:55      1 cbsuecco13
-        563046_869      fast P1RV1_12   alw327  R    7:07:13      1 cbsuecco13
-        563046_871      fast P1RV1_12   alw327  R    7:05:48      1 cbsuecco13
-        563046_875      fast P1RV1_12   alw327  R    7:03:46      1 cbsuecco13
-        563046_876      fast P1RV1_12   alw327  R    7:03:44      1 cbsuecco13
-        563046_877      fast P1RV1_12   alw327  R    7:03:27      1 cbsuecco13
-        563046_879      fast P1RV1_12   alw327  R    7:03:08      1 cbsuecco13
-        563046_881      fast P1RV1_12   alw327  R    7:02:28      1 cbsuecco13
-        563046_888      fast P1RV1_12   alw327  R    7:00:38      1 cbsuecco13
-        563046_889      fast P1RV1_12   alw327  R    7:00:10      1 cbsuecco13
-        563046_891      fast P1RV1_12   alw327  R    6:58:44      1 cbsuecco13
-        563046_894      fast P1RV1_12   alw327  R    6:56:08      1 cbsuecco13
-        563046_895      fast P1RV1_12   alw327  R    6:55:22      1 cbsuecco13
-        563046_896      fast P1RV1_12   alw327  R    6:54:53      1 cbsuecco13
-        563046_897      fast P1RV1_12   alw327  R    6:52:49      1 cbsuecco13
-        563046_898      fast P1RV1_12   alw327  R    6:51:36      1 cbsuecco13
-        563046_899      fast P1RV1_12   alw327  R    6:49:20      1 cbsuecco13
-        563046_900      fast P1RV1_12   alw327  R    6:47:31      1 cbsuecco13
-        563046_916      fast P1RV1_12   alw327  R    6:18:46      1 cbsuecco13
-        563046_926      fast P1RV1_12   alw327  R    6:14:57      1 cbsuecco13
-        563046_952      fast P1RV1_12   alw327  R    5:50:48      1 cbsuecco13
-        563046_959      fast P1RV1_12   alw327  R    5:47:53      1 cbsuecco13
-        563046_961      fast P1RV1_12   alw327  R    5:47:52      1 cbsuecco13
-        563046_977      fast P1RV1_12   alw327  R    5:37:42      1 cbsuecco13
-        563046_978      fast P1RV1_12   alw327  R    5:37:35      1 cbsuecco13
-        563046_981      fast P1RV1_12   alw327  R    5:35:54      1 cbsuecco13
-        563046_991      fast P1RV1_12   alw327  R    5:31:39      1 cbsuecco13
-        563046_992      fast P1RV1_12   alw327  R    5:30:11      1 cbsuecco14
-        563046_993      fast P1RV1_12   alw327  R    5:30:10      1 cbsuecco13
-        563046_994      fast P1RV1_12   alw327  R    5:26:00      1 cbsuecco14
-        563046_995      fast P1RV1_12   alw327  R    5:24:27      1 cbsuecco14
-        563046_996      fast P1RV1_12   alw327  R    5:23:48      1 cbsuecco13
-        563046_998      fast P1RV1_12   alw327  R    5:21:35      1 cbsuecco13
-        563046_999      fast P1RV1_12   alw327  R    5:20:33      1 cbsuecco13
-  563047_[1-10%10]      fast P1RV1_13   alw327 PD       0:00      1 (Dependency)
-  563048_[1-10%10]      fast P1RV1_14   alw327 PD       0:00      1 (Dependency)
+            558860      fast RunMatLa    df477  R 12-10:08:25      1 cbsuecco14
+            561173 interacti     bash    fr245  R 10-19:31:00      1 cbsueccosl03
+            561334      fast   9860MC dagr5998  R 10-16:57:12      1 cbsuecco14
+            561546      fast  MNEmain    nhk44  R 8-05:35:26      1 cbsuecco09
+            562905     lgmem 9860Stev dagr5998  R 3-18:00:29      1 cbsuecco02
+  563048_[1-10%10]      fast P1RV1_14   alw327 PD       0:00      1 (DependencyNeverSatisfied)
             563049      fast P1RV1_15   alw327 PD       0:00      1 (Dependency)
             563050      fast P1RV1_16   alw327 PD       0:00      1 (Dependency)
 563051_[1-1000%50]      fast P1RV1_17   alw327 PD       0:00      1 (Dependency)
@@ -54,6 +18,6 @@
       563060_[1-6]      fast P1RV1_26   alw327 PD       0:00      1 (Dependency)
       563061_[1-6]      fast P1RV1_27   alw327 PD       0:00      1 (Dependency)
             563062      fast P1RV1_28   alw327 PD       0:00      1 (Dependency)
-            564412      slow aearep90   dbm246  R   18:24:47      1 cbsuecco01
-            564838      slow  aer9058 dagr5998  R   13:23:04      1 cbsuecco08
-            565109      slow RunStata    kn463  R    7:56:12      1 cbsuecco07
+            564412      slow aearep90   dbm246  R   19:24:47      1 cbsuecco01
+            564838      slow  aer9058 dagr5998  R   14:23:04      1 cbsuecco08
+            565109      slow RunStata    kn463  R    8:56:12      1 cbsuecco07
