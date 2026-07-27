@@ -1,10 +1,10 @@
-            558860      fast RunMatLa    df477  R 14-08:08:25      1 cbsuecco14
-            561173 interacti     bash    fr245  R 12-17:31:00      1 cbsueccosl03
-            561334      fast   9860MC dagr5998  R 12-14:57:12      1 cbsuecco14
-            561546      fast  MNEmain    nhk44  R 10-03:35:26      1 cbsuecco09
-            562905     lgmem 9860Stev dagr5998  R 5-16:00:29      1 cbsuecco02
-            564838      slow  aer9058 dagr5998  R 2-12:23:04      1 cbsuecco08
-            565328      fast P1RV1_16   alw327  R 1-14:51:20      1 cbsuecco13
+            558860      fast RunMatLa    df477  R 14-09:08:25      1 cbsuecco14
+            561173 interacti     bash    fr245  R 12-18:31:00      1 cbsueccosl03
+            561334      fast   9860MC dagr5998  R 12-15:57:12      1 cbsuecco14
+            561546      fast  MNEmain    nhk44  R 10-04:35:26      1 cbsuecco09
+            562905     lgmem 9860Stev dagr5998  R 5-17:00:29      1 cbsuecco02
+            564838      slow  aer9058 dagr5998  R 2-13:23:04      1 cbsuecco08
+            565328      fast P1RV1_16   alw327  R 1-15:51:20      1 cbsuecco13
 565329_[1-1000%50]      fast P1RV1_17   alw327 PD       0:00      1 (Dependency)
       565330_[1-2]      fast P1RV1_18   alw327 PD       0:00      1 (Dependency)
             565331      fast P1RV1_19   alw327 PD       0:00      1 (Dependency)
@@ -17,7 +17,7 @@
       565338_[1-6]      fast P1RV1_26   alw327 PD       0:00      1 (Dependency)
       565339_[1-6]      fast P1RV1_27   alw327 PD       0:00      1 (Dependency)
             565340      fast P1RV1_28   alw327 PD       0:00      1 (Dependency)
-            565355      slow RunStata    kn463  R   15:43:55      1 cbsuecco07
-            565369      slow  aer9288 dagr5998  R    4:37:37      1 cbsuecco01
-            565370 interacti     bash   as4596  R      16:38      1 cbsueccosl04
-            565371      slow  rep9285   as4596  R      15:29      1 cbsuecco08
+            565355      slow RunStata    kn463  R   16:43:55      1 cbsuecco07
+            565369      slow  aer9288 dagr5998  R    5:37:37      1 cbsuecco01
+            565370 interacti     bash   as4596  R    1:16:38      1 cbsueccosl04
+            565372      slow  rep9285   as4596  R       0:57      1 cbsuecco08
