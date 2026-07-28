@@ -1,60 +1,10 @@
-            558860      fast RunMatLa    df477  R 15-17:08:25      1 cbsuecco14
-            561173 interacti     bash    fr245  R 14-02:31:00      1 cbsueccosl03
-            561334      fast   9860MC dagr5998  R 13-23:57:12      1 cbsuecco14
-            561546      fast  MNEmain    nhk44  R 11-12:35:26      1 cbsuecco09
-            564838      slow  aer9058 dagr5998  R 3-21:23:04      1 cbsuecco08
-            565355      slow RunStata    kn463  R 2-00:43:55      1 cbsuecco07
-       565388_1000      fast P1RV1_17   alw327 PD       0:00      1 (JobArrayTaskLimit)
-        565388_930      fast P1RV1_17   alw327  R    1:32:27      1 cbsuecco13
-        565388_939      fast P1RV1_17   alw327  R    1:12:59      1 cbsuecco13
-        565388_940      fast P1RV1_17   alw327  R    1:12:53      1 cbsuecco13
-        565388_945      fast P1RV1_17   alw327  R    1:07:31      1 cbsuecco13
-        565388_953      fast P1RV1_17   alw327  R    1:04:09      1 cbsuecco11
-        565388_955      fast P1RV1_17   alw327  R    1:01:08      1 cbsuecco13
-        565388_956      fast P1RV1_17   alw327  R      56:27      1 cbsuecco10
-        565388_957      fast P1RV1_17   alw327  R      55:35      1 cbsuecco11
-        565388_958      fast P1RV1_17   alw327  R      53:16      1 cbsuecco13
-        565388_959      fast P1RV1_17   alw327  R      51:34      1 cbsuecco12
-        565388_960      fast P1RV1_17   alw327  R      50:23      1 cbsuecco12
-        565388_961      fast P1RV1_17   alw327  R      49:15      1 cbsuecco12
-        565388_962      fast P1RV1_17   alw327  R      48:04      1 cbsuecco13
-        565388_963      fast P1RV1_17   alw327  R      47:02      1 cbsuecco11
-        565388_964      fast P1RV1_17   alw327  R      45:20      1 cbsuecco13
-        565388_965      fast P1RV1_17   alw327  R      43:57      1 cbsuecco11
-        565388_966      fast P1RV1_17   alw327  R      42:16      1 cbsuecco11
-        565388_967      fast P1RV1_17   alw327  R      41:33      1 cbsuecco13
-        565388_968      fast P1RV1_17   alw327  R      40:28      1 cbsuecco11
-        565388_969      fast P1RV1_17   alw327  R      37:18      1 cbsuecco11
-        565388_970      fast P1RV1_17   alw327  R      36:22      1 cbsuecco11
-        565388_971      fast P1RV1_17   alw327  R      35:48      1 cbsuecco10
-        565388_972      fast P1RV1_17   alw327  R      33:50      1 cbsuecco10
-        565388_973      fast P1RV1_17   alw327  R      32:34      1 cbsuecco13
-        565388_974      fast P1RV1_17   alw327  R      31:36      1 cbsuecco12
-        565388_975      fast P1RV1_17   alw327  R      31:13      1 cbsuecco11
-        565388_976      fast P1RV1_17   alw327  R      30:45      1 cbsuecco10
-        565388_977      fast P1RV1_17   alw327  R      30:28      1 cbsuecco10
-        565388_978      fast P1RV1_17   alw327  R      29:11      1 cbsuecco14
-        565388_979      fast P1RV1_17   alw327  R      28:06      1 cbsuecco12
-        565388_980      fast P1RV1_17   alw327  R      24:15      1 cbsuecco11
-        565388_981      fast P1RV1_17   alw327  R      21:40      1 cbsuecco13
-        565388_982      fast P1RV1_17   alw327  R      19:08      1 cbsuecco12
-        565388_983      fast P1RV1_17   alw327  R      17:39      1 cbsuecco12
-        565388_984      fast P1RV1_17   alw327  R      17:23      1 cbsuecco13
-        565388_985      fast P1RV1_17   alw327  R      14:17      1 cbsuecco14
-        565388_986      fast P1RV1_17   alw327  R      13:54      1 cbsuecco10
-        565388_987      fast P1RV1_17   alw327  R      10:00      1 cbsuecco12
-        565388_988      fast P1RV1_17   alw327  R       6:39      1 cbsuecco10
-        565388_989      fast P1RV1_17   alw327  R       6:39      1 cbsuecco12
-        565388_990      fast P1RV1_17   alw327  R       5:58      1 cbsuecco12
-        565388_991      fast P1RV1_17   alw327  R       5:28      1 cbsuecco12
-        565388_992      fast P1RV1_17   alw327  R       5:04      1 cbsuecco11
-        565388_993      fast P1RV1_17   alw327  R       4:35      1 cbsuecco10
-        565388_994      fast P1RV1_17   alw327  R       4:26      1 cbsuecco10
-        565388_995      fast P1RV1_17   alw327  R       3:57      1 cbsuecco10
-        565388_996      fast P1RV1_17   alw327  R       2:45      1 cbsuecco10
-        565388_997      fast P1RV1_17   alw327  R       2:43      1 cbsuecco10
-        565388_998      fast P1RV1_17   alw327  R       1:51      1 cbsuecco11
-        565388_999      fast P1RV1_17   alw327  R       0:24      1 cbsuecco12
+            558860      fast RunMatLa    df477  R 15-18:08:25      1 cbsuecco14
+            561173 interacti     bash    fr245  R 14-03:31:00      1 cbsueccosl03
+            561334      fast   9860MC dagr5998  R 14-00:57:12      1 cbsuecco14
+            561546      fast  MNEmain    nhk44  R 11-13:35:26      1 cbsuecco09
+            564838      slow  aer9058 dagr5998  R 3-22:23:04      1 cbsuecco08
+            565355      slow RunStata    kn463  R 2-01:43:55      1 cbsuecco07
+       565388_1000      fast P1RV1_17   alw327  R      56:26      1 cbsuecco13
       565389_[1-2]      fast P1RV1_18   alw327 PD       0:00      1 (Dependency)
             565390      fast P1RV1_19   alw327 PD       0:00      1 (Dependency)
             565391      fast P1RV1_20   alw327 PD       0:00      1 (Dependency)
@@ -66,7 +16,5 @@
       565397_[1-6]      fast P1RV1_26   alw327 PD       0:00      1 (Dependency)
       565398_[1-6]      fast P1RV1_27   alw327 PD       0:00      1 (Dependency)
             565399      fast P1RV1_28   alw327 PD       0:00      1 (Dependency)
-            565491      slow  aer9288 dagr5998  R    2:55:14      1 cbsuecco01
-            566414 interacti     bash   alw327  R      30:06      1 cbsueccosl04
+            565491      slow  aer9288 dagr5998  R    3:55:14      1 cbsuecco01
             566422 interacti P1_STORA   alw327 PD       0:00      1 (QOSMaxCpuPerJobLimit)
-          566426_7      fast P1_STORA   alw327  R      12:33      1 cbsuecco13
