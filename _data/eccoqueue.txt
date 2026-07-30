@@ -1,9 +1,37 @@
-            558860      fast RunMatLa    df477  R 17-20:08:25      1 cbsuecco14
-            561173 interacti     bash    fr245  R 16-05:31:00      1 cbsueccosl03
-            561334      fast   9860MC dagr5998  R 16-02:57:12      1 cbsuecco14
-            561546      fast  MNEmain    nhk44  R 13-15:35:26      1 cbsuecco09
-            564838      slow  aer9058 dagr5998  R 6-00:23:04      1 cbsuecco08
-            565355      slow RunStata    kn463  R 4-03:43:55      1 cbsuecco07
+            558860      fast RunMatLa    df477  R 17-21:08:25      1 cbsuecco14
+            561173 interacti     bash    fr245  R 16-06:31:00      1 cbsueccosl03
+            561334      fast   9860MC dagr5998  R 16-03:57:12      1 cbsuecco14
+            561546      fast  MNEmain    nhk44  R 13-16:35:26      1 cbsuecco09
+            564838      slow  aer9058 dagr5998  R 6-01:23:04      1 cbsuecco08
+            565355      slow RunStata    kn463  R 4-04:43:55      1 cbsuecco07
             566422 interacti P1_STORA   alw327 PD       0:00      1 (QOSMaxCpuPerJobLimit)
-            566525      slow aearep90   dbm246  R   21:47:22      1 cbsuecco01
+            566525      slow aearep90   dbm246  R   22:47:22      1 cbsuecco01
             566526      slow  aer9841 dagr5998 PD       0:00      1 (Resources)
+         566547_10      fast p1v84_s0   alw327  R      59:18      1 cbsuecco13
+         566547_13      fast p1v84_s0   alw327  R      59:18      1 cbsuecco13
+         566547_14      fast p1v84_s0   alw327  R      59:18      1 cbsuecco13
+         566547_21      fast p1v84_s0   alw327  R      59:18      1 cbsuecco13
+         566547_22      fast p1v84_s0   alw327  R      59:18      1 cbsuecco13
+         566547_23      fast p1v84_s0   alw327  R      59:18      1 cbsuecco13
+         566547_24      fast p1v84_s0   alw327  R      59:18      1 cbsuecco13
+         566547_27      fast p1v84_s0   alw327  R      59:18      1 cbsuecco13
+         566547_28      fast p1v84_s0   alw327  R      59:18      1 cbsuecco13
+         566547_31      fast p1v84_s0   alw327  R      59:18      1 cbsuecco13
+         566547_32      fast p1v84_s0   alw327  R      59:18      1 cbsuecco13
+         566547_33      fast p1v84_s0   alw327  R      59:18      1 cbsuecco13
+         566547_34      fast p1v84_s0   alw327  R      59:18      1 cbsuecco13
+          566547_3      fast p1v84_s0   alw327  R      59:18      1 cbsuecco13
+         566547_41      fast p1v84_s0   alw327  R      59:18      1 cbsuecco13
+         566547_43      fast p1v84_s0   alw327  R      59:18      1 cbsuecco13
+         566547_45      fast p1v84_s0   alw327  R      59:18      1 cbsuecco13
+         566547_47      fast p1v84_s0   alw327  R      59:18      1 cbsuecco13
+          566547_4      fast p1v84_s0   alw327  R      59:18      1 cbsuecco13
+          566547_7      fast p1v84_s0   alw327  R      59:18      1 cbsuecco13
+          566547_8      fast p1v84_s0   alw327  R      59:18      1 cbsuecco13
+          566547_9      fast p1v84_s0   alw327  R      59:18      1 cbsuecco13
+  566597_[1-10%10]      fast p1v84_s1   alw327 PD       0:00      1 (Dependency)
+566598_[1-1000%150      fast p1v84_s1   alw327 PD       0:00      1 (Dependency)
+  566599_[1-10%10]      fast p1v84_s1   alw327 PD       0:00      1 (Dependency)
+            566600      fast p1v84_s1   alw327 PD       0:00      1 (Dependency)
+566601_[1-1000%50]      fast p1v84_s1   alw327 PD       0:00      1 (Dependency)
+            566602      fast p1v84_ag   alw327 PD       0:00      1 (Dependency)
