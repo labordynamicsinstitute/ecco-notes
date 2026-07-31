@@ -1,32 +1,22 @@
-            558860      fast RunMatLa    df477  R 18-03:08:25      1 cbsuecco14
-            561173 interacti     bash    fr245  R 16-12:31:00      1 cbsueccosl03
-            561334      fast   9860MC dagr5998  R 16-09:57:12      1 cbsuecco14
-            561546      fast  MNEmain    nhk44  R 13-22:35:26      1 cbsuecco09
-            564838      slow  aer9058 dagr5998  R 6-07:23:04      1 cbsuecco08
-            565355      slow RunStata    kn463  R 4-10:43:55      1 cbsuecco07
+            558860      fast RunMatLa    df477  R 18-04:08:25      1 cbsuecco14
+            561173 interacti     bash    fr245  R 16-13:31:00      1 cbsueccosl03
+            561334      fast   9860MC dagr5998  R 16-10:57:12      1 cbsuecco14
+            561546      fast  MNEmain    nhk44  R 13-23:35:26      1 cbsuecco09
+            564838      slow  aer9058 dagr5998  R 6-08:23:04      1 cbsuecco08
+            565355      slow RunStata    kn463  R 4-11:43:55      1 cbsuecco07
             566422 interacti P1_STORA   alw327 PD       0:00      1 (QOSMaxCpuPerJobLimit)
-            566525      slow aearep90   dbm246  R 1-04:47:22      1 cbsuecco01
+            566525      slow aearep90   dbm246  R 1-05:47:22      1 cbsuecco01
             566526      slow  aer9841 dagr5998 PD       0:00      1 (Resources)
-       566598_1000      fast p1v84_s1   alw327  R      11:44      1 cbsuecco14
-        566598_980      fast p1v84_s1   alw327  R      20:16      1 cbsuecco14
-        566598_981      fast p1v84_s1   alw327  R      19:21      1 cbsuecco14
-        566598_982      fast p1v84_s1   alw327  R      18:42      1 cbsuecco14
-        566598_987      fast p1v84_s1   alw327  R      16:15      1 cbsuecco14
-        566598_988      fast p1v84_s1   alw327  R      16:05      1 cbsuecco14
-        566598_989      fast p1v84_s1   alw327  R      15:59      1 cbsuecco14
-        566598_991      fast p1v84_s1   alw327  R      15:41      1 cbsuecco14
-        566598_992      fast p1v84_s1   alw327  R      15:19      1 cbsuecco14
-        566598_993      fast p1v84_s1   alw327  R      14:46      1 cbsuecco14
-        566598_994      fast p1v84_s1   alw327  R      14:26      1 cbsuecco14
-        566598_995      fast p1v84_s1   alw327  R      12:39      1 cbsuecco13
-        566598_996      fast p1v84_s1   alw327  R      12:35      1 cbsuecco14
-        566598_998      fast p1v84_s1   alw327  R      11:55      1 cbsuecco14
-        566598_999      fast p1v84_s1   alw327  R      11:46      1 cbsuecco13
-  566599_[1-10%10]      fast p1v84_s1   alw327 PD       0:00      1 (Dependency)
-            566600      fast p1v84_s1   alw327 PD       0:00      1 (Dependency)
-566601_[1-1000%50]      fast p1v84_s1   alw327 PD       0:00      1 (Dependency)
+         566601_21      fast p1v84_s1   alw327  R       6:45      1 cbsuecco13
+         566601_22      fast p1v84_s1   alw327  R       6:40      1 cbsuecco13
+         566601_23      fast p1v84_s1   alw327  R       5:29      1 cbsuecco13
+         566601_24      fast p1v84_s1   alw327  R       5:22      1 cbsuecco13
+         566601_25      fast p1v84_s1   alw327  R       4:43      1 cbsuecco14
+         566601_26      fast p1v84_s1   alw327  R       3:27      1 cbsuecco13
+         566601_27      fast p1v84_s1   alw327  R       0:22      1 cbsuecco14
+566601_[28-1000%50      fast p1v84_s1   alw327 PD       0:00      1 (Resources)
             566602      fast p1v84_ag   alw327 PD       0:00      1 (Dependency)
-            566857      fast ADA_hpc_   jl4459  R    4:39:45      1 cbsuecco11
-            566858      fast ADA_hpc_   jl4459  R    4:39:40      1 cbsuecco12
-            566875      fast ADA_hpc_   jl4459  R    4:37:30      1 cbsuecco10
-            567238      fast msm_k0re    ljp96  R    3:05:40      1 cbsuecco13
+            566857      fast ADA_hpc_   jl4459  R    5:39:45      1 cbsuecco11
+            566858      fast ADA_hpc_   jl4459  R    5:39:40      1 cbsuecco12
+            566875      fast ADA_hpc_   jl4459  R    5:37:30      1 cbsuecco10
+            567238      fast msm_k0re    ljp96  R    4:05:40      1 cbsuecco13
