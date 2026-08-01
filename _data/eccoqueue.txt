@@ -1,34 +1,34 @@
-            558860      fast RunMatLa    df477  R 19-19:08:25      1 cbsuecco14
-            561173 interacti     bash    fr245  R 18-04:31:00      1 cbsueccosl03
-            561334      fast   9860MC dagr5998  R 18-01:57:12      1 cbsuecco14
-            561546      fast  MNEmain    nhk44  R 15-14:35:26      1 cbsuecco09
+            558860      fast RunMatLa    df477  R 19-20:08:25      1 cbsuecco14
+            561173 interacti     bash    fr245  R 18-05:31:00      1 cbsueccosl03
+            561334      fast   9860MC dagr5998  R 18-02:57:12      1 cbsuecco14
+            561546      fast  MNEmain    nhk44  R 15-15:35:26      1 cbsuecco09
             566422 interacti P1_STORA   alw327 PD       0:00      1 (QOSMaxCpuPerJobLimit)
-            566525      slow aearep90   dbm246  R 2-20:47:22      1 cbsuecco01
-        568387_892      slow p1v84_s1   alw327  R      50:29      1 cbsuecco07
-        568387_902      slow p1v84_s1   alw327  R      33:14      1 cbsuecco07
-        568387_903      slow p1v84_s1   alw327  R      32:16      1 cbsuecco07
-        568387_907      slow p1v84_s1   alw327  R      28:25      1 cbsuecco07
-        568387_908      fast p1v84_s1   alw327  R      24:10      1 cbsuecco13
-        568387_909      slow p1v84_s1   alw327  R      20:55      1 cbsuecco08
-        568387_910      fast p1v84_s1   alw327  R      20:03      1 cbsuecco13
-        568387_911      fast p1v84_s1   alw327  R      17:00      1 cbsuecco13
-        568387_912      slow p1v84_s1   alw327  R      16:56      1 cbsuecco08
-        568387_913      slow p1v84_s1   alw327  R      16:26      1 cbsuecco08
-        568387_914      fast p1v84_s1   alw327  R      15:03      1 cbsuecco14
-        568387_915      fast p1v84_s1   alw327  R      12:45      1 cbsuecco13
-        568387_916      fast p1v84_s1   alw327  R       6:47      1 cbsuecco13
-        568387_917      fast p1v84_s1   alw327  R       6:31      1 cbsuecco13
-        568387_918      fast p1v84_s1   alw327  R       5:45      1 cbsuecco13
-        568387_919      fast p1v84_s1   alw327  R       3:58      1 cbsuecco13
-        568387_920      fast p1v84_s1   alw327  R       2:45      1 cbsuecco13
-        568387_921      slow p1v84_s1   alw327  R       2:26      1 cbsuecco07
-        568387_922      slow p1v84_s1   alw327  R       2:26      1 cbsuecco08
-        568387_923      slow p1v84_s1   alw327  R       1:26      1 cbsuecco08
-        568387_924      fast p1v84_s1   alw327  R       0:52      1 cbsuecco13
-568387_[925-1000%3 fast,slow p1v84_s1   alw327 PD       0:00      1 (Priority)
+            566525      slow aearep90   dbm246  R 2-21:47:22      1 cbsuecco01
+        568387_928      slow p1v84_s1   alw327  R      50:26      1 cbsuecco07
+        568387_932      slow p1v84_s1   alw327  R      43:25      1 cbsuecco07
+        568387_937      slow p1v84_s1   alw327  R      39:55      1 cbsuecco07
+        568387_943      slow p1v84_s1   alw327  R      30:26      1 cbsuecco08
+        568387_944      fast p1v84_s1   alw327  R      30:11      1 cbsuecco13
+        568387_945      slow p1v84_s1   alw327  R      26:56      1 cbsuecco08
+        568387_947      slow p1v84_s1   alw327  R      24:25      1 cbsuecco07
+        568387_948      fast p1v84_s1   alw327  R      22:20      1 cbsuecco13
+        568387_949      fast p1v84_s1   alw327  R      20:22      1 cbsuecco13
+        568387_950      fast p1v84_s1   alw327  R      15:19      1 cbsuecco13
+        568387_951      fast p1v84_s1   alw327  R      14:51      1 cbsuecco14
+        568387_952      slow p1v84_s1   alw327  R      14:26      1 cbsuecco08
+        568387_953      fast p1v84_s1   alw327  R      12:11      1 cbsuecco13
+        568387_954      slow p1v84_s1   alw327  R      10:25      1 cbsuecco08
+        568387_955      slow p1v84_s1   alw327  R       9:25      1 cbsuecco08
+        568387_956      fast p1v84_s1   alw327  R       7:33      1 cbsuecco14
+        568387_957      slow p1v84_s1   alw327  R       7:25      1 cbsuecco07
+        568387_958      fast p1v84_s1   alw327  R       6:38      1 cbsuecco13
+        568387_959      fast p1v84_s1   alw327  R       4:51      1 cbsuecco13
+        568387_960      fast p1v84_s1   alw327  R       4:02      1 cbsuecco13
+        568387_961      fast p1v84_s1   alw327  R       3:22      1 cbsuecco13
+        568387_962      fast p1v84_s1   alw327  R       2:35      1 cbsuecco13
+568387_[963-1000%3 fast,slow p1v84_s1   alw327 PD       0:00      1 (Priority)
             568388      fast p1v84_ag   alw327 PD       0:00      1 (Dependency)
-            568645      fast ADA_hpc_   jl4459  R   21:49:05      1 cbsuecco11
-            568724      fast ADA_hpc_   jl4459  R    2:54:25      1 cbsuecco12
+            568645      fast ADA_hpc_   jl4459  R   22:49:05      1 cbsuecco11
+            568724      fast ADA_hpc_   jl4459  R    3:54:25      1 cbsuecco12
       568889_[442] fast,slow p1v84_s1   alw327 PD       0:00      1 (Priority)
-            569136      fast msm_k0re    ljp96  R    5:26:10      1 cbsuecco14
             569333      slow RunStata    kn463 PD       0:00      1 (Resources)
