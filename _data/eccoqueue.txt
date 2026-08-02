@@ -1,14 +1,14 @@
-            558860      fast RunMatLa    df477  R 20-18:08:25      1 cbsuecco14
-            561173 interacti     bash    fr245  R 19-03:31:00      1 cbsueccosl03
-            561334      fast   9860MC dagr5998  R 19-00:57:12      1 cbsuecco14
-            561546      fast  MNEmain    nhk44  R 16-13:35:26      1 cbsuecco09
+            558860      fast RunMatLa    df477  R 20-19:08:25      1 cbsuecco14
+            561173 interacti     bash    fr245  R 19-04:31:00      1 cbsueccosl03
+            561334      fast   9860MC dagr5998  R 19-01:57:12      1 cbsuecco14
+            561546      fast  MNEmain    nhk44  R 16-14:35:26      1 cbsuecco09
             566422 interacti P1_STORA   alw327 PD       0:00      1 (QOSMaxCpuPerJobLimit)
-            568724      fast ADA_hpc_   jl4459  R 1-01:54:25      1 cbsuecco12
-            569333      slow RunStata    kn463  R   20:43:29      1 cbsuecco07
-            569431      fast ADA_x0ra   jl4459  R    1:22:29      1 cbsuecco13
-            569432      fast ADA_x0ra   jl4459  R    1:22:29      1 cbsuecco10
-            569433      fast ADA_x0ra   jl4459  R    1:22:29      1 cbsuecco11
-            569435      fast ADA_x0ra   jl4459  R    1:22:17      1 cbsuecco14
-            569436      fast ADA_x0ra   jl4459  R    1:22:17      1 cbsuecco14
+            568724      fast ADA_hpc_   jl4459  R 1-02:54:25      1 cbsuecco12
+            569333      slow RunStata    kn463  R   21:43:29      1 cbsuecco07
+            569431      fast ADA_x0ra   jl4459  R    2:22:29      1 cbsuecco13
+            569432      fast ADA_x0ra   jl4459  R    2:22:29      1 cbsuecco10
+            569433      fast ADA_x0ra   jl4459  R    2:22:29      1 cbsuecco11
+            569435      fast ADA_x0ra   jl4459  R    2:22:17      1 cbsuecco14
+            569436      fast ADA_x0ra   jl4459  R    2:22:17      1 cbsuecco14
             569438      fast ADA_x0ra   jl4459 PD       0:00      1 (Dependency)
-            569439      slow ADA_x0ra   jl4459  R    1:19:53      1 cbsuecco01
+            569439      slow ADA_x0ra   jl4459  R    2:19:53      1 cbsuecco01
