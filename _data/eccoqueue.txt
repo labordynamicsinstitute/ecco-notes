@@ -1,9 +1,9 @@
-            558860      fast RunMatLa    df477  R 21-18:08:25      1 cbsuecco14
-            561173 interacti     bash    fr245  R 20-03:31:00      1 cbsueccosl03
-            561334      fast   9860MC dagr5998  R 20-00:57:12      1 cbsuecco14
-            561546      fast  MNEmain    nhk44  R 17-13:35:26      1 cbsuecco09
+            558860      fast RunMatLa    df477  R 21-19:08:25      1 cbsuecco14
+            561173 interacti     bash    fr245  R 20-04:31:00      1 cbsueccosl03
+            561334      fast   9860MC dagr5998  R 20-01:57:12      1 cbsuecco14
+            561546      fast  MNEmain    nhk44  R 17-14:35:26      1 cbsuecco09
             566422 interacti P1_STORA   alw327 PD       0:00      1 (QOSMaxCpuPerJobLimit)
-            568724      fast ADA_hpc_   jl4459  R 2-01:54:25      1 cbsuecco12
-            569333      slow RunStata    kn463  R 1-20:43:29      1 cbsuecco07
-            569447      slow master.3   as4596  R    8:39:08      1 cbsuecco08
-            569449      fast msm_pm12    ljp96  R    2:05:20      1 cbsuecco14
+            568724      fast ADA_hpc_   jl4459  R 2-02:54:25      1 cbsuecco12
+            569333      slow RunStata    kn463  R 1-21:43:29      1 cbsuecco07
+            569447      slow master.3   as4596  R    9:39:08      1 cbsuecco08
+            569449      fast msm_pm12    ljp96  R    3:05:20      1 cbsuecco14
