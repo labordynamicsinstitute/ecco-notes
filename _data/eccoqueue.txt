@@ -1,13 +1,13 @@
-            558860      fast RunMatLa    df477  R 21-13:08:25      1 cbsuecco14
-            561173 interacti     bash    fr245  R 19-22:31:00      1 cbsueccosl03
-            561334      fast   9860MC dagr5998  R 19-19:57:12      1 cbsuecco14
-            561546      fast  MNEmain    nhk44  R 17-08:35:26      1 cbsuecco09
+            558860      fast RunMatLa    df477  R 21-14:08:25      1 cbsuecco14
+            561173 interacti     bash    fr245  R 19-23:31:00      1 cbsueccosl03
+            561334      fast   9860MC dagr5998  R 19-20:57:12      1 cbsuecco14
+            561546      fast  MNEmain    nhk44  R 17-09:35:26      1 cbsuecco09
             566422 interacti P1_STORA   alw327 PD       0:00      1 (QOSMaxCpuPerJobLimit)
-            568724      fast ADA_hpc_   jl4459  R 1-20:54:25      1 cbsuecco12
-            569333      slow RunStata    kn463  R 1-15:43:29      1 cbsuecco07
-            569431      fast ADA_x0ra   jl4459  R   20:22:29      1 cbsuecco13
-            569432      fast ADA_x0ra   jl4459  R   20:22:29      1 cbsuecco10
-            569433      fast ADA_x0ra   jl4459  R   20:22:29      1 cbsuecco11
-            569436      fast ADA_x0ra   jl4459  R   20:22:17      1 cbsuecco14
+            568724      fast ADA_hpc_   jl4459  R 1-21:54:25      1 cbsuecco12
+            569333      slow RunStata    kn463  R 1-16:43:29      1 cbsuecco07
+            569431      fast ADA_x0ra   jl4459  R   21:22:29      1 cbsuecco13
+            569432      fast ADA_x0ra   jl4459  R   21:22:29      1 cbsuecco10
+            569433      fast ADA_x0ra   jl4459  R   21:22:29      1 cbsuecco11
+            569436      fast ADA_x0ra   jl4459  R   21:22:17      1 cbsuecco14
             569438      fast ADA_x0ra   jl4459 PD       0:00      1 (Dependency)
-            569447      slow master.3   as4596  R    3:39:08      1 cbsuecco08
+            569447      slow master.3   as4596  R    4:39:08      1 cbsuecco08
