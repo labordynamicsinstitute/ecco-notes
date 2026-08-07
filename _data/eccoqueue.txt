@@ -1,37 +1,37 @@
-            561173 interacti     bash    fr245  R 23-10:31:00      1 cbsueccosl03
-            561546      fast  MNEmain    nhk44  R 20-20:35:26      1 cbsuecco09
-            570840      fast ADA_hpc_   jl4459  R 2-06:48:03      1 cbsuecco12
-        571055_853      slow P1_17_bo   alw327  R      25:45      1 cbsuecco07
-        571055_855      slow P1_17_bo   alw327  R      25:17      1 cbsuecco07
-        571055_860      slow P1_17_bo   alw327  R      23:39      1 cbsuecco07
-        571055_863      slow P1_17_bo   alw327  R      21:29      1 cbsuecco08
-        571055_873      fast P1_17_bo   alw327  R      15:33      1 cbsuecco14
-        571055_874      fast P1_17_bo   alw327  R      15:13      1 cbsuecco13
-        571055_875      fast P1_17_bo   alw327  R      13:15      1 cbsuecco13
-        571055_876      slow P1_17_bo   alw327  R      12:46      1 cbsuecco08
-        571055_877      fast P1_17_bo   alw327  R      11:49      1 cbsuecco13
-        571055_878      fast P1_17_bo   alw327  R       9:51      1 cbsuecco13
-        571055_879      fast P1_17_bo   alw327  R       9:16      1 cbsuecco14
-        571055_880      fast P1_17_bo   alw327  R       8:52      1 cbsuecco14
-        571055_881      fast P1_17_bo   alw327  R       8:48      1 cbsuecco14
-        571055_882      slow P1_17_bo   alw327  R       8:29      1 cbsuecco08
-        571055_883      fast P1_17_bo   alw327  R       8:00      1 cbsuecco14
-        571055_884      slow P1_17_bo   alw327  R       7:51      1 cbsuecco07
-        571055_885      fast P1_17_bo   alw327  R       7:31      1 cbsuecco13
-        571055_886      slow P1_17_bo   alw327  R       6:13      1 cbsuecco08
-        571055_887      fast P1_17_bo   alw327  R       5:52      1 cbsuecco14
-        571055_888      fast P1_17_bo   alw327  R       5:10      1 cbsuecco13
-        571055_889      slow P1_17_bo   alw327  R       5:00      1 cbsuecco08
-        571055_890      fast P1_17_bo   alw327  R       4:14      1 cbsuecco13
-        571055_891      fast P1_17_bo   alw327  R       3:34      1 cbsuecco14
-        571055_892      fast P1_17_bo   alw327  R       3:20      1 cbsuecco14
-        571055_893      fast P1_17_bo   alw327  R       3:09      1 cbsuecco14
-        571055_894      fast P1_17_bo   alw327  R       2:28      1 cbsuecco13
-        571055_895      slow P1_17_bo   alw327  R       1:12      1 cbsuecco07
-        571055_896      fast P1_17_bo   alw327  R       1:08      1 cbsuecco13
-        571055_897      fast P1_17_bo   alw327  R       1:05      1 cbsuecco14
-        571055_898      fast P1_17_bo   alw327  R       0:14      1 cbsuecco13
-571055_[899-1000%3 fast,slow P1_17_bo   alw327 PD       0:00      1 (JobArrayTaskLimit)
+            561173 interacti     bash    fr245  R 23-11:31:00      1 cbsueccosl03
+            561546      fast  MNEmain    nhk44  R 20-21:35:26      1 cbsuecco09
+            570840      fast ADA_hpc_   jl4459  R 2-07:48:03      1 cbsuecco12
+        571055_955      slow P1_17_bo   alw327  R      26:26      1 cbsuecco07
+        571055_961      slow P1_17_bo   alw327  R      21:24      1 cbsuecco08
+        571055_965      slow P1_17_bo   alw327  R      19:17      1 cbsuecco08
+        571055_967      slow P1_17_bo   alw327  R      17:53      1 cbsuecco08
+        571055_971      fast P1_17_bo   alw327  R      15:38      1 cbsuecco14
+        571055_972      fast P1_17_bo   alw327  R      15:37      1 cbsuecco14
+        571055_973      fast P1_17_bo   alw327  R      14:48      1 cbsuecco13
+        571055_974      slow P1_17_bo   alw327  R      14:41      1 cbsuecco08
+        571055_975      slow P1_17_bo   alw327  R      13:36      1 cbsuecco07
+        571055_976      fast P1_17_bo   alw327  R      12:38      1 cbsuecco13
+        571055_977      fast P1_17_bo   alw327  R      11:50      1 cbsuecco14
+        571055_978      fast P1_17_bo   alw327  R      11:48      1 cbsuecco14
+        571055_979      fast P1_17_bo   alw327  R      11:17      1 cbsuecco13
+        571055_980      fast P1_17_bo   alw327  R      10:23      1 cbsuecco13
+        571055_981      fast P1_17_bo   alw327  R       9:01      1 cbsuecco13
+        571055_982      fast P1_17_bo   alw327  R       7:53      1 cbsuecco13
+        571055_983      slow P1_17_bo   alw327  R       7:53      1 cbsuecco07
+        571055_984      fast P1_17_bo   alw327  R       5:59      1 cbsuecco14
+        571055_985      fast P1_17_bo   alw327  R       5:55      1 cbsuecco14
+        571055_986      fast P1_17_bo   alw327  R       5:48      1 cbsuecco13
+        571055_987      fast P1_17_bo   alw327  R       5:30      1 cbsuecco14
+        571055_988      fast P1_17_bo   alw327  R       4:53      1 cbsuecco14
+        571055_989      slow P1_17_bo   alw327  R       4:27      1 cbsuecco08
+        571055_990      fast P1_17_bo   alw327  R       3:52      1 cbsuecco13
+        571055_991      slow P1_17_bo   alw327  R       3:45      1 cbsuecco07
+        571055_992      fast P1_17_bo   alw327  R       3:19      1 cbsuecco14
+        571055_993      slow P1_17_bo   alw327  R       2:29      1 cbsuecco07
+        571055_994      fast P1_17_bo   alw327  R       2:01      1 cbsuecco13
+        571055_995      fast P1_17_bo   alw327  R       1:01      1 cbsuecco13
+        571055_996      fast P1_17_bo   alw327  R       0:10      1 cbsuecco14
+571055_[997-1000%3 fast,slow P1_17_bo   alw327 PD       0:00      1 (JobArrayTaskLimit)
     571056_[1-2%2]      fast P1_18_ta   alw327 PD       0:00      1 (Dependency)
             571057      fast P1_19_ta   alw327 PD       0:00      1 (Dependency)
             571058      fast P1_20_ta   alw327 PD       0:00      1 (Dependency)
@@ -43,6 +43,6 @@
     571064_[1-6%6]      fast P1_26_pl   alw327 PD       0:00      1 (Dependency)
     571065_[1-6%6]      fast P1_27_pl   alw327 PD       0:00      1 (Dependency)
             571066      fast P1_28_pl   alw327 PD       0:00      1 (Dependency)
-            571662      slow master.3   as4596  R   23:25:39      1 cbsuecco01
-            573899 interacti     bash   as4596  R    2:32:54      1 cbsueccosl04
+            571662      slow master.3   as4596  R 1-00:25:39      1 cbsuecco01
+            573899 interacti     bash   as4596  R    3:32:54      1 cbsueccosl04
             573958      slow RunStata    kn463 PD       0:00      8 (PartitionConfig)
