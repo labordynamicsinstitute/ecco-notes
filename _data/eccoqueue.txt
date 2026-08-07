@@ -1,4 +1,4 @@
-            561173 interacti     bash    fr245  R 24-02:31:00      1 cbsueccosl03
-            561546      fast  MNEmain    nhk44  R 21-12:35:26      1 cbsuecco09
-            571662      slow master.3   as4596  R 1-15:25:39      1 cbsuecco01
+            561173 interacti     bash    fr245  R 24-03:31:00      1 cbsueccosl03
+            561546      fast  MNEmain    nhk44  R 21-13:35:26      1 cbsuecco09
+            571662      slow master.3   as4596  R 1-16:25:39      1 cbsuecco01
             573958      slow RunStata    kn463 PD       0:00      8 (PartitionConfig)
