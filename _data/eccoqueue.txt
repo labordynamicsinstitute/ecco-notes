@@ -1,6 +1,5 @@
-            561173 interacti     bash    fr245  R 23-12:31:00      1 cbsueccosl03
-            561546      fast  MNEmain    nhk44  R 20-22:35:26      1 cbsuecco09
-            570840      fast ADA_hpc_   jl4459  R 2-08:48:03      1 cbsuecco12
-            571662      slow master.3   as4596  R 1-01:25:39      1 cbsuecco01
-            573899 interacti     bash   as4596  R    4:32:54      1 cbsueccosl04
+            561173 interacti     bash    fr245  R 23-13:31:00      1 cbsueccosl03
+            561546      fast  MNEmain    nhk44  R 20-23:35:26      1 cbsuecco09
+            570840      fast ADA_hpc_   jl4459  R 2-09:48:03      1 cbsuecco12
+            571662      slow master.3   as4596  R 1-02:25:39      1 cbsuecco01
             573958      slow RunStata    kn463 PD       0:00      8 (PartitionConfig)
