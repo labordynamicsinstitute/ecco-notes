@@ -1,7 +1,9 @@
-            561173 interacti     bash    fr245  R 25-00:31:00      1 cbsueccosl03
-            561546      fast  MNEmain    nhk44  R 22-10:35:26      1 cbsuecco09
+            561173 interacti     bash    fr245  R 25-01:31:00      1 cbsueccosl03
+            561546      fast  MNEmain    nhk44  R 22-11:35:26      1 cbsuecco09
             573958      slow RunStata    kn463 PD       0:00      8 (PartitionConfig)
-            574265      fast ADA_hpc_   jl4459  R   16:52:19      1 cbsuecco13
-            574266      fast ADA_hpc_   jl4459  R   16:10:04      1 cbsuecco14
-            574267      fast ADA_hpc_   jl4459  R   16:10:03      1 cbsuecco10
-            574268      fast ADA_hpc_   jl4459  R   16:10:03      1 cbsuecco12
+            574265      fast ADA_hpc_   jl4459  R   17:52:19      1 cbsuecco13
+            574266      fast ADA_hpc_   jl4459  R   17:10:04      1 cbsuecco14
+            574267      fast ADA_hpc_   jl4459  R   17:10:03      1 cbsuecco10
+            574268      fast ADA_hpc_   jl4459  R   17:10:03      1 cbsuecco12
+  574271_[0-17%18]      fast P1_VAL18   alw327 PD       0:00      1 (Resources)
+            574272      fast P1_VAL_R   alw327 PD       0:00      1 (Dependency)
