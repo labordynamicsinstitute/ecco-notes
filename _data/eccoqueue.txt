@@ -1,10 +1,7 @@
-            561173 interacti     bash    fr245  R 27-04:31:01      1 cbsueccosl03
-            561546      fast  MNEmain    nhk44  R 24-14:35:27      1 cbsuecco09
+            561173 interacti     bash    fr245  R 27-05:31:00      1 cbsueccosl03
+            561546      fast  MNEmain    nhk44  R 24-15:35:26      1 cbsuecco09
             573958      slow RunStata    kn463 PD       0:00      8 (PartitionConfig)
-            575486      fast P1_01_co   alw327  R      30:02      1 cbsuecco13
-            575487      fast P1_02_si   alw327 PD       0:00      1 (Dependency)
-            575488      fast P1_03_bo   alw327 PD       0:00      1 (Dependency)
-    575489_[1-2%2]      fast P1_04_bo   alw327 PD       0:00      1 (Dependency)
+          575489_1      fast P1_04_bo   alw327  R       9:26      1 cbsuecco13
   575490_[1-10%10]      fast P1_05_bo   alw327 PD       0:00      1 (Dependency)
   575491_[1-10%10]      fast P1_06_bo   alw327 PD       0:00      1 (Dependency)
   575492_[1-50%50]      fast P1_07_bo   alw327 PD       0:00      1 (Dependency)
