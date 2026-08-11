@@ -1,5 +1,5 @@
-            561173 interacti     bash    fr245  R 28-02:31:00      1 cbsueccosl03
-            561546      fast  MNEmain    nhk44  R 25-12:35:26      1 cbsuecco09
+            561173 interacti     bash    fr245  R 28-03:31:01      1 cbsueccosl03
+            561546      fast  MNEmain    nhk44  R 25-13:35:27      1 cbsuecco09
   575550_[1-10%10]      fast P1_13_bo   alw327 PD       0:00      1 (DependencyNeverSatisfied)
   575551_[1-10%10]      fast P1_14_bo   alw327 PD       0:00      1 (Dependency)
             575552      fast P1_15_bo   alw327 PD       0:00      1 (Dependency)
@@ -16,9 +16,14 @@
     575563_[1-6%6]      fast P1_26_pl   alw327 PD       0:00      1 (Dependency)
     575564_[1-6%6]      fast P1_27_pl   alw327 PD       0:00      1 (Dependency)
             575565      fast P1_28_pl   alw327 PD       0:00      1 (Dependency)
-            575567      fast ADA_pyhp   jl4459  R   15:23:37      1 cbsuecco10
-            575568      fast ADA_pyhp   jl4459  R   15:23:31      1 cbsuecco12
-            575569      fast ADA_pyhp   jl4459  R   15:23:24      1 cbsuecco11
-            575570      fast ADA_pyhp   jl4459  R   15:17:47      1 cbsuecco14
-            575571      fast ADA_pyhp   jl4459  R    6:25:37      1 cbsuecco13
+            575567      fast ADA_pyhp   jl4459  R   16:23:38      1 cbsuecco10
+            575568      fast ADA_pyhp   jl4459  R   16:23:32      1 cbsuecco12
+            575569      fast ADA_pyhp   jl4459  R   16:23:25      1 cbsuecco11
+            575570      fast ADA_pyhp   jl4459  R   16:17:48      1 cbsuecco14
+            575571      fast ADA_pyhp   jl4459  R    7:25:38      1 cbsuecco13
             575697      slow RunStata    kn463 PD       0:00      8 (PartitionConfig)
+        577715_154      slow P1_12_RE   alw327  R      23:07      1 cbsuecco07
+        577715_155      slow P1_12_RE   alw327  R      23:07      1 cbsuecco07
+        577715_156      slow P1_12_RE   alw327  R      23:07      1 cbsuecco07
+        577715_157      slow P1_12_RE   alw327  R      23:07      1 cbsuecco07
+        577715_158      slow P1_12_RE   alw327  R      23:07      1 cbsuecco07
