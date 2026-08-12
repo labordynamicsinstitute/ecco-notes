@@ -1,15 +1,9 @@
-            561173 interacti     bash    fr245  R 29-01:31:00      1 cbsueccosl03
-            575556      fast P1_19_ta   alw327  R       6:36      1 cbsuecco13
-            575557 fast,slow P1_20_ta   alw327 PD       0:00      1 (Dependency)
-    575558_[1-3%3] fast,slow P1_21_ta   alw327 PD       0:00      1 (Dependency)
-            575559 fast,slow P1_22_ta   alw327 PD       0:00      1 (Dependency)
-            575560 fast,slow P1_23_ta   alw327 PD       0:00      1 (Dependency)
-            575561 fast,slow P1_24_pl   alw327 PD       0:00      1 (Dependency)
-            575562 fast,slow P1_25_pl   alw327 PD       0:00      1 (Dependency)
+            561173 interacti     bash    fr245  R 29-02:31:00      1 cbsueccosl03
+            575562      fast P1_25_pl   alw327  R      44:41      1 cbsuecco13
     575563_[1-6%6] fast,slow P1_26_pl   alw327 PD       0:00      1 (Dependency)
     575564_[1-6%6] fast,slow P1_27_pl   alw327 PD       0:00      1 (Dependency)
             575565 fast,slow P1_28_pl   alw327 PD       0:00      1 (Dependency)
-            575567      fast ADA_pyhp   jl4459  R 1-14:23:37      1 cbsuecco10
-            575569      fast ADA_pyhp   jl4459  R 1-14:23:24      1 cbsuecco11
-            575570      fast ADA_pyhp   jl4459  R 1-14:17:47      1 cbsuecco14
+            575567      fast ADA_pyhp   jl4459  R 1-15:23:37      1 cbsuecco10
+            575569      fast ADA_pyhp   jl4459  R 1-15:23:24      1 cbsuecco11
+            575570      fast ADA_pyhp   jl4459  R 1-15:17:47      1 cbsuecco14
             575697      slow RunStata    kn463 PD       0:00      8 (PartitionConfig)
