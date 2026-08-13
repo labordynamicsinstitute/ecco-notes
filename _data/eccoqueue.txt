@@ -1,4 +1,4 @@
-            561173 interacti     bash    fr245  R 30-01:31:00      1 cbsueccosl03
+            561173 interacti     bash    fr245  R 30-02:31:00      1 cbsueccosl03
             578742      slow RunStata    kn463 PD       0:00      8 (PartitionNodeLimit)
   578911_[1-10%10]      fast P1_13_bo   alw327 PD       0:00      1 (DependencyNeverSatisfied)
   578912_[1-10%10]      fast P1_14_bo   alw327 PD       0:00      1 (Dependency)
@@ -16,6 +16,8 @@
     578924_[1-6%6]      fast P1_26_pl   alw327 PD       0:00      1 (Dependency)
     578925_[1-6%6]      fast P1_27_pl   alw327 PD       0:00      1 (Dependency)
             578926      fast P1_28_pl   alw327 PD       0:00      1 (Dependency)
-            581079      fast ADA_clau   jl4459  R       2:52      1 cbsuecco14
-            581080      fast ADA_clau   jl4459  R       2:52      1 cbsuecco09
-            581081      fast ADA_clau   jl4459  R       2:52      1 cbsuecco10
+            581079      fast ADA_clau   jl4459  R    1:02:52      1 cbsuecco14
+            581080      fast ADA_clau   jl4459  R    1:02:52      1 cbsuecco09
+            581081      fast ADA_clau   jl4459  R    1:02:52      1 cbsuecco10
+            581082 interacti     bash     lv39  R       1:21      1 cbsueccosl04
+        581083_847      fast P1_12_RE   alw327  R       0:44      1 cbsuecco13
