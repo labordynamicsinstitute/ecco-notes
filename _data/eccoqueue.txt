@@ -1,4 +1,5 @@
-            561173 interacti     bash    fr245  R 29-11:31:01      1 cbsueccosl03
-            575567      fast ADA_pyhp   jl4459  R 2-00:23:38      1 cbsuecco10
+            561173 interacti     bash    fr245  R 29-12:31:00      1 cbsueccosl03
+            575567      fast ADA_pyhp   jl4459  R 2-01:23:37      1 cbsuecco10
             578742      slow RunStata    kn463 PD       0:00      8 (PartitionNodeLimit)
-            578753      fast MNEresum    nhk44  R    7:09:15      1 cbsuecco09
+            578753      fast MNEresum    nhk44  R    8:09:14      1 cbsuecco09
+            578822      fast P1_SCI_C   alw327  R       2:31      1 cbsuecco13
