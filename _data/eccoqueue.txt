@@ -1,34 +1,33 @@
-            561173 interacti     bash    fr245  R 30-15:31:00      1 cbsueccosl03
-            578742      slow RunStata    kn463 PD       0:00      8 (PartitionNodeLimit)
-        578915_656      slow P1_17_bo   alw327  R      53:16      1 cbsuecco08
-        578915_657      slow P1_17_bo   alw327  R      49:39      1 cbsuecco01
-        578915_658      slow P1_17_bo   alw327  R      49:07      1 cbsuecco07
-        578915_659      slow P1_17_bo   alw327  R      48:20      1 cbsuecco01
-        578915_661      fast P1_17_bo   alw327  R      45:52      1 cbsuecco13
-        578915_662      slow P1_17_bo   alw327  R      42:46      1 cbsuecco07
-        578915_663      fast P1_17_bo   alw327  R      41:20      1 cbsuecco13
-        578915_664      slow P1_17_bo   alw327  R      38:56      1 cbsuecco01
-        578915_665      slow P1_17_bo   alw327  R      38:32      1 cbsuecco01
-        578915_666      fast P1_17_bo   alw327  R      38:27      1 cbsuecco13
-        578915_667      fast P1_17_bo   alw327  R      38:13      1 cbsuecco13
-        578915_668      slow P1_17_bo   alw327  R      35:43      1 cbsuecco01
-        578915_669      slow P1_17_bo   alw327  R      35:30      1 cbsuecco07
-        578915_670      fast P1_17_bo   alw327  R      33:33      1 cbsuecco13
-        578915_671      fast P1_17_bo   alw327  R      28:20      1 cbsuecco13
-        578915_672      slow P1_17_bo   alw327  R      26:51      1 cbsuecco07
-        578915_673      slow P1_17_bo   alw327  R      21:27      1 cbsuecco08
-        578915_674      slow P1_17_bo   alw327  R      21:21      1 cbsuecco08
-        578915_675      fast P1_17_bo   alw327  R      21:03      1 cbsuecco13
-        578915_676      slow P1_17_bo   alw327  R      20:46      1 cbsuecco01
-        578915_677      slow P1_17_bo   alw327  R      20:44      1 cbsuecco01
-        578915_678      slow P1_17_bo   alw327  R      17:59      1 cbsuecco07
-        578915_679      slow P1_17_bo   alw327  R      17:10      1 cbsuecco01
-        578915_680      fast P1_17_bo   alw327  R      14:10      1 cbsuecco13
-        578915_681      slow P1_17_bo   alw327  R      13:37      1 cbsuecco08
-        578915_682      fast P1_17_bo   alw327  R      12:25      1 cbsuecco13
-        578915_683      slow P1_17_bo   alw327  R       7:05      1 cbsuecco08
-        578915_684      fast P1_17_bo   alw327  R       2:52      1 cbsuecco13
-578915_[685-1000%5 fast,slow P1_17_bo   alw327 PD       0:00      1 (Resources)
+            561173 interacti     bash    fr245  R 30-16:31:00      1 cbsueccosl03
+        578915_688      slow P1_17_bo   alw327  R      55:46      1 cbsuecco01
+        578915_691      slow P1_17_bo   alw327  R      51:33      1 cbsuecco01
+        578915_693      slow P1_17_bo   alw327  R      44:42      1 cbsuecco07
+        578915_694      slow P1_17_bo   alw327  R      40:47      1 cbsuecco01
+        578915_695      slow P1_17_bo   alw327  R      40:01      1 cbsuecco01
+        578915_696      fast P1_17_bo   alw327  R      39:28      1 cbsuecco13
+        578915_697      fast P1_17_bo   alw327  R      36:08      1 cbsuecco13
+        578915_698      slow P1_17_bo   alw327  R      35:06      1 cbsuecco01
+        578915_699      slow P1_17_bo   alw327  R      32:03      1 cbsuecco08
+        578915_700      slow P1_17_bo   alw327  R      31:31      1 cbsuecco08
+        578915_701      slow P1_17_bo   alw327  R      30:57      1 cbsuecco07
+        578915_702      slow P1_17_bo   alw327  R      29:45      1 cbsuecco07
+        578915_703      fast P1_17_bo   alw327  R      26:50      1 cbsuecco13
+        578915_704      slow P1_17_bo   alw327  R      25:34      1 cbsuecco01
+        578915_705      slow P1_17_bo   alw327  R      24:29      1 cbsuecco08
+        578915_706      slow P1_17_bo   alw327  R      23:08      1 cbsuecco01
+        578915_707      fast P1_17_bo   alw327  R      22:35      1 cbsuecco13
+        578915_708      slow P1_17_bo   alw327  R      17:30      1 cbsuecco08
+        578915_709      slow P1_17_bo   alw327  R      17:00      1 cbsuecco01
+        578915_710      fast P1_17_bo   alw327  R      15:13      1 cbsuecco13
+        578915_711      slow P1_17_bo   alw327  R      13:12      1 cbsuecco07
+        578915_712      fast P1_17_bo   alw327  R      11:56      1 cbsuecco13
+        578915_713      fast P1_17_bo   alw327  R      10:32      1 cbsuecco13
+        578915_714      fast P1_17_bo   alw327  R       8:08      1 cbsuecco13
+        578915_715      fast P1_17_bo   alw327  R       4:38      1 cbsuecco13
+        578915_716      slow P1_17_bo   alw327  R       4:00      1 cbsuecco07
+        578915_717      fast P1_17_bo   alw327  R       3:52      1 cbsuecco13
+        578915_718      slow P1_17_bo   alw327  R       2:30      1 cbsuecco08
+578915_[719-1000%5 fast,slow P1_17_bo   alw327 PD       0:00      1 (Priority)
     578916_[1-2%2]      fast P1_18_ta   alw327 PD       0:00      1 (Dependency)
             578917      fast P1_19_ta   alw327 PD       0:00      1 (Dependency)
             578918      fast P1_20_ta   alw327 PD       0:00      1 (Dependency)
@@ -40,6 +39,7 @@
     578924_[1-6%6]      fast P1_26_pl   alw327 PD       0:00      1 (Dependency)
     578925_[1-6%6]      fast P1_27_pl   alw327 PD       0:00      1 (Dependency)
             578926      fast P1_28_pl   alw327 PD       0:00      1 (Dependency)
-            581610      fast sim_tabl     lv39  R    5:26:03      1 cbsuecco09
-            581611      fast sim_tabl     lv39  R    5:25:01      1 cbsuecco10
-            581614      fast sim_tabl     lv39  R    4:16:32      1 cbsuecco11
+            581610      fast sim_tabl     lv39  R    6:26:03      1 cbsuecco09
+            581611      fast sim_tabl     lv39  R    6:25:01      1 cbsuecco10
+            581614      fast sim_tabl     lv39  R    5:16:32      1 cbsuecco11
+            581845      slow RunStata    kn463 PD       0:00      1 (Resources)
