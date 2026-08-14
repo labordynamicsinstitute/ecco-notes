@@ -1,5 +1,5 @@
-            561173 interacti     bash    fr245  R 31-05:31:00      1 cbsueccosl03
-    578916_[1-2%2]      fast P1_18_ta   alw327 PD       0:00      1 (Priority)
+            561173 interacti     bash    fr245  R 31-06:31:00      1 cbsueccosl03
+    578916_[1-2%2]      fast P1_18_ta   alw327 PD       0:00      1 (Resources)
             578917      fast P1_19_ta   alw327 PD       0:00      1 (Dependency)
             578918      fast P1_20_ta   alw327 PD       0:00      1 (Dependency)
     578919_[1-3%3]      fast P1_21_ta   alw327 PD       0:00      1 (Dependency)
@@ -10,31 +10,30 @@
     578924_[1-6%6]      fast P1_26_pl   alw327 PD       0:00      1 (Dependency)
     578925_[1-6%6]      fast P1_27_pl   alw327 PD       0:00      1 (Dependency)
             578926      fast P1_28_pl   alw327 PD       0:00      1 (Dependency)
-            581610      fast sim_tabl     lv39  R   19:26:03      1 cbsuecco09
-            581611      fast sim_tabl     lv39  R   19:25:01      1 cbsuecco10
-            581614      fast sim_tabl     lv39  R   18:16:32      1 cbsuecco11
-            581845      slow RunStata    kn463  R    3:07:19      1 cbsuecco01
-            582063      fast csm5_gro    gs754 PD       0:00      1 (Priority)
+            581610      fast sim_tabl     lv39  R   20:26:03      1 cbsuecco09
+            581611      fast sim_tabl     lv39  R   20:25:01      1 cbsuecco10
+            581614      fast sim_tabl     lv39  R   19:16:32      1 cbsuecco11
+            582063      slow csm5_gro    gs754  R      20:04      1 cbsuecco07
     582119_[1-344] fast,slow csm6v2_b    gs754 PD       0:00      1 (Dependency)
-            582120      fast csm7v2_m    gs754 PD       0:00      1 (Dependency)
-            582121      fast    csm8a    gs754 PD       0:00      1 (Dependency)
-            582122      fast    csm8b    gs754 PD       0:00      1 (Dependency)
-            582123      fast    csm8c    gs754 PD       0:00      1 (Dependency)
-            582124      fast    csm8d    gs754 PD       0:00      1 (Dependency)
-            582125      fast    csm8e    gs754 PD       0:00      1 (Dependency)
-            582126      fast csm8rend    gs754 PD       0:00      1 (Dependency)
-            582127      fast csm9a_fi    gs754 PD       0:00      1 (Dependency)
-            582128      fast csm9b_cc    gs754 PD       0:00      1 (Dependency)
-            582129      fast csm9c_be    gs754 PD       0:00      1 (Dependency)
-            582131      fast csm9e_fi    gs754 PD       0:00      1 (Dependency)
-            582554      fast ADA_arm_   jl4459  R    2:54:01      1 cbsuecco12
-            582555      fast ADA_arm_   jl4459  R    3:20:35      1 cbsuecco14
+            582120 fast,slow csm7v2_m    gs754 PD       0:00      1 (Dependency)
+            582121 fast,slow    csm8a    gs754 PD       0:00      1 (Dependency)
+            582122 fast,slow    csm8b    gs754 PD       0:00      1 (Dependency)
+            582123 fast,slow    csm8c    gs754 PD       0:00      1 (Dependency)
+            582124 fast,slow    csm8d    gs754 PD       0:00      1 (Dependency)
+            582125 fast,slow    csm8e    gs754 PD       0:00      1 (Dependency)
+            582126 fast,slow csm8rend    gs754 PD       0:00      1 (Dependency)
+            582127 fast,slow csm9a_fi    gs754 PD       0:00      1 (Dependency)
+            582128 fast,slow csm9b_cc    gs754 PD       0:00      1 (Dependency)
+            582129 fast,slow csm9c_be    gs754 PD       0:00      1 (Dependency)
+            582131 fast,slow csm9e_fi    gs754 PD       0:00      1 (Dependency)
+            582554      fast ADA_arm_   jl4459  R    3:54:01      1 cbsuecco12
+            582555      fast ADA_arm_   jl4459  R    4:20:35      1 cbsuecco14
             582556      fast ADA_arm_   jl4459 PD       0:00      1 (Priority)
-            582557      fast ADA_arm_   jl4459  R    2:57:59      1 cbsuecco13
+            582557      fast ADA_arm_   jl4459  R    3:57:59      1 cbsuecco13
             582558      fast ADA_arm_   jl4459 PD       0:00      1 (Priority)
             582561      fast ADA_arm_   jl4459 PD       0:00      1 (Dependency)
             582562      fast ADA_arm_   jl4459 PD       0:00      1 (Dependency)
-            582681      fast csm4_fin    gs754 PD       0:00      1 (Resources)
+            582681      slow csm4_fin    gs754  R      20:01      1 cbsuecco07
             582685 fast,slow csmA_06p    gs754 PD       0:00      1 (Dependency)
             582686 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
             582687 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
