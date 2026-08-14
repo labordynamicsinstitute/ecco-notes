@@ -1,5 +1,5 @@
-            561173 interacti     bash    fr245  R 31-06:31:00      1 cbsueccosl03
-    578916_[1-2%2]      fast P1_18_ta   alw327 PD       0:00      1 (Resources)
+            561173 interacti     bash    fr245  R 31-07:31:00      1 cbsueccosl03
+    578916_[1-2%2]      fast P1_18_ta   alw327 PD       0:00      1 (Priority)
             578917      fast P1_19_ta   alw327 PD       0:00      1 (Dependency)
             578918      fast P1_20_ta   alw327 PD       0:00      1 (Dependency)
     578919_[1-3%3]      fast P1_21_ta   alw327 PD       0:00      1 (Dependency)
@@ -10,10 +10,10 @@
     578924_[1-6%6]      fast P1_26_pl   alw327 PD       0:00      1 (Dependency)
     578925_[1-6%6]      fast P1_27_pl   alw327 PD       0:00      1 (Dependency)
             578926      fast P1_28_pl   alw327 PD       0:00      1 (Dependency)
-            581610      fast sim_tabl     lv39  R   20:26:03      1 cbsuecco09
-            581611      fast sim_tabl     lv39  R   20:25:01      1 cbsuecco10
-            581614      fast sim_tabl     lv39  R   19:16:32      1 cbsuecco11
-            582063      slow csm5_gro    gs754  R      20:04      1 cbsuecco07
+            581610      fast sim_tabl     lv39  R   21:26:03      1 cbsuecco09
+            581611      fast sim_tabl     lv39  R   21:25:01      1 cbsuecco10
+            581614      fast sim_tabl     lv39  R   20:16:32      1 cbsuecco11
+            582063      slow csm5_gro    gs754  R    1:20:04      1 cbsuecco07
     582119_[1-344] fast,slow csm6v2_b    gs754 PD       0:00      1 (Dependency)
             582120 fast,slow csm7v2_m    gs754 PD       0:00      1 (Dependency)
             582121 fast,slow    csm8a    gs754 PD       0:00      1 (Dependency)
@@ -26,30 +26,33 @@
             582128 fast,slow csm9b_cc    gs754 PD       0:00      1 (Dependency)
             582129 fast,slow csm9c_be    gs754 PD       0:00      1 (Dependency)
             582131 fast,slow csm9e_fi    gs754 PD       0:00      1 (Dependency)
-            582554      fast ADA_arm_   jl4459  R    3:54:01      1 cbsuecco12
-            582555      fast ADA_arm_   jl4459  R    4:20:35      1 cbsuecco14
+            582554      fast ADA_arm_   jl4459  R    4:54:01      1 cbsuecco12
+            582555      fast ADA_arm_   jl4459  R    5:20:35      1 cbsuecco14
             582556      fast ADA_arm_   jl4459 PD       0:00      1 (Priority)
-            582557      fast ADA_arm_   jl4459  R    3:57:59      1 cbsuecco13
+            582557      fast ADA_arm_   jl4459  R    4:57:59      1 cbsuecco13
             582558      fast ADA_arm_   jl4459 PD       0:00      1 (Priority)
             582561      fast ADA_arm_   jl4459 PD       0:00      1 (Dependency)
             582562      fast ADA_arm_   jl4459 PD       0:00      1 (Dependency)
-            582681      slow csm4_fin    gs754  R      20:01      1 cbsuecco07
+            582681      slow csm4_fin    gs754  R    1:20:01      1 cbsuecco07
             582685 fast,slow csmA_06p    gs754 PD       0:00      1 (Dependency)
-            582686 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
-            582687 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
-            582688 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
-            582689 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
-            582690 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
-            582691 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
-            582692 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
-            582693 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
-            582694 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
-            582695 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
-            582696 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
-            582697 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
-            582698 fast,slow csmA_16_    gs754 PD       0:00      1 (Dependency)
-            582699 fast,slow csmA_16_    gs754 PD       0:00      1 (Dependency)
-            582700 fast,slow csmA_16_    gs754 PD       0:00      1 (Dependency)
-            582701 fast,slow csmA_16_    gs754 PD       0:00      1 (Dependency)
-            582702 fast,slow csmA_16_    gs754 PD       0:00      1 (Dependency)
             582703 fast,slow csmA_13m    gs754 PD       0:00      1 (Dependency)
+            582704      slow csmP_pol    gs754  R      27:02      1 cbsuecco07
+            582705 fast,slow csmF_fin    gs754 PD       0:00      1 (Dependency)
+            582706      slow csmA_15_    gs754  R      21:39      1 cbsuecco07
+            582707 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
+            582708 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
+            582709 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
+            582710 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
+            582711 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
+            582712 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
+            582713 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
+            582714 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
+            582715 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
+            582716 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
+            582717 fast,slow csmA_15_    gs754 PD       0:00      1 (Dependency)
+            582718 fast,slow csmA_16_    gs754 PD       0:00      1 (Dependency)
+            582719 fast,slow csmA_16_    gs754 PD       0:00      1 (Dependency)
+            582720 fast,slow csmA_16_    gs754 PD       0:00      1 (Dependency)
+            582721 fast,slow csmA_16_    gs754 PD       0:00      1 (Dependency)
+            582722 fast,slow csmA_16_    gs754 PD       0:00      1 (Dependency)
+            582723      fast amm_did_    ljp96 PD       0:00      1 (Resources)
