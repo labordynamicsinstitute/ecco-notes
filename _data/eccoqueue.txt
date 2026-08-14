@@ -1,31 +1,5 @@
-            561173 interacti     bash    fr245  R 31-01:31:00      1 cbsueccosl03
-       578915_1000      fast P1_17_bo   alw327  R       2:01      1 cbsuecco13
-        578915_963      slow P1_17_bo   alw327  R    1:07:07      1 cbsuecco07
-        578915_968      slow P1_17_bo   alw327  R      59:37      1 cbsuecco07
-        578915_977      slow P1_17_bo   alw327  R      45:37      1 cbsuecco08
-        578915_978      slow P1_17_bo   alw327  R      34:37      1 cbsuecco08
-        578915_979      fast P1_17_bo   alw327  R      33:07      1 cbsuecco13
-        578915_980      slow P1_17_bo   alw327  R      33:05      1 cbsuecco07
-        578915_981      fast P1_17_bo   alw327  R      31:50      1 cbsuecco13
-        578915_982      fast P1_17_bo   alw327  R      30:51      1 cbsuecco13
-        578915_983      fast P1_17_bo   alw327  R      27:40      1 cbsuecco13
-        578915_984      slow P1_17_bo   alw327  R      21:17      1 cbsuecco07
-        578915_985      slow P1_17_bo   alw327  R      19:47      1 cbsuecco01
-        578915_986      fast P1_17_bo   alw327  R      17:39      1 cbsuecco13
-        578915_987      slow P1_17_bo   alw327  R      17:16      1 cbsuecco08
-        578915_988      slow P1_17_bo   alw327  R      13:46      1 cbsuecco08
-        578915_989      fast P1_17_bo   alw327  R      11:44      1 cbsuecco13
-        578915_990      slow P1_17_bo   alw327  R      10:46      1 cbsuecco07
-        578915_991      slow P1_17_bo   alw327  R       9:46      1 cbsuecco01
-        578915_992      slow P1_17_bo   alw327  R       8:46      1 cbsuecco01
-        578915_993      slow P1_17_bo   alw327  R       6:46      1 cbsuecco01
-        578915_994      fast P1_17_bo   alw327  R       4:53      1 cbsuecco13
-        578915_995      fast P1_17_bo   alw327  R       4:53      1 cbsuecco13
-        578915_996      slow P1_17_bo   alw327  R       4:46      1 cbsuecco01
-        578915_997      slow P1_17_bo   alw327  R       4:16      1 cbsuecco08
-        578915_998      slow P1_17_bo   alw327  R       3:16      1 cbsuecco01
-        578915_999      slow P1_17_bo   alw327  R       2:46      1 cbsuecco01
-    578916_[1-2%2]      fast P1_18_ta   alw327 PD       0:00      1 (Dependency)
+            561173 interacti     bash    fr245  R 31-02:31:00      1 cbsueccosl03
+    578916_[1-2%2]      fast P1_18_ta   alw327 PD       0:00      1 (Priority)
             578917      fast P1_19_ta   alw327 PD       0:00      1 (Dependency)
             578918      fast P1_20_ta   alw327 PD       0:00      1 (Dependency)
     578919_[1-3%3]      fast P1_21_ta   alw327 PD       0:00      1 (Dependency)
@@ -36,13 +10,11 @@
     578924_[1-6%6]      fast P1_26_pl   alw327 PD       0:00      1 (Dependency)
     578925_[1-6%6]      fast P1_27_pl   alw327 PD       0:00      1 (Dependency)
             578926      fast P1_28_pl   alw327 PD       0:00      1 (Dependency)
-            581610      fast sim_tabl     lv39  R   15:26:03      1 cbsuecco09
-            581611      fast sim_tabl     lv39  R   15:25:01      1 cbsuecco10
-            581614      fast sim_tabl     lv39  R   14:16:32      1 cbsuecco11
-            581845      slow RunStata    kn463 PD       0:00      1 (Resources)
-            582060      fast csm2_fin    gs754 PD       0:00      1 (JobHeldAdmin)
-            582062      fast csm4_fin    gs754 PD       0:00      1 (JobHeldAdmin)
-            582063      fast csm5_gro    gs754 PD       0:00      1 (Dependency)
+            581610      fast sim_tabl     lv39  R   16:26:03      1 cbsuecco09
+            581611      fast sim_tabl     lv39  R   16:25:01      1 cbsuecco10
+            581614      fast sim_tabl     lv39  R   15:16:32      1 cbsuecco11
+            581845      slow RunStata    kn463  R       7:19      1 cbsuecco01
+            582063      fast csm5_gro    gs754 PD       0:00      1 (DependencyNeverSatisfied)
     582119_[1-344]      fast csm6v2_b    gs754 PD       0:00      1 (Dependency)
             582120      fast csm7v2_m    gs754 PD       0:00      1 (Dependency)
             582121      fast    csm8a    gs754 PD       0:00      1 (Dependency)
@@ -54,58 +26,17 @@
             582127      fast csm9a_fi    gs754 PD       0:00      1 (Dependency)
             582128      fast csm9b_cc    gs754 PD       0:00      1 (Dependency)
             582129      fast csm9c_be    gs754 PD       0:00      1 (Dependency)
-            582131      fast csm9e_fi    gs754 PD       0:00      1 (Dependency)
-        582248_100      fast csmR_fil    gs754  R      55:58      1 cbsuecco14
-         582248_14      fast csmR_fil    gs754  R    1:03:32      1 cbsuecco12
-         582248_15      fast csmR_fil    gs754  R    1:03:30      1 cbsuecco12
-         582248_19      fast csmR_fil    gs754  R    1:03:19      1 cbsuecco14
-          582248_1      fast csmR_fil    gs754  R    1:08:49      1 cbsuecco12
-         582248_20      fast csmR_fil    gs754  R    1:03:11      1 cbsuecco12
-         582248_21      fast csmR_fil    gs754  R    1:03:10      1 cbsuecco14
-         582248_23      fast csmR_fil    gs754  R    1:02:57      1 cbsuecco13
-         582248_25      fast csmR_fil    gs754  R    1:02:57      1 cbsuecco13
-         582248_26      fast csmR_fil    gs754  R    1:02:57      1 cbsuecco13
-         582248_27      fast csmR_fil    gs754  R    1:02:57      1 cbsuecco13
-         582248_31      fast csmR_fil    gs754  R    1:02:24      1 cbsuecco12
-         582248_32      fast csmR_fil    gs754  R    1:02:13      1 cbsuecco12
-          582248_3      fast csmR_fil    gs754  R    1:08:43      1 cbsuecco12
-         582248_41      fast csmR_fil    gs754  R    1:01:39      1 cbsuecco14
-         582248_42      fast csmR_fil    gs754  R    1:00:52      1 cbsuecco14
-         582248_43      fast csmR_fil    gs754  R    1:00:48      1 cbsuecco12
-         582248_44      fast csmR_fil    gs754  R    1:00:46      1 cbsuecco12
-         582248_45      fast csmR_fil    gs754  R    1:00:41      1 cbsuecco12
-         582248_50      fast csmR_fil    gs754  R    1:00:15      1 cbsuecco12
-         582248_55      fast csmR_fil    gs754  R      59:53      1 cbsuecco14
-         582248_57      fast csmR_fil    gs754  R      59:48      1 cbsuecco14
-         582248_61      fast csmR_fil    gs754  R      59:48      1 cbsuecco14
-         582248_66      fast csmR_fil    gs754  R      59:32      1 cbsuecco14
-         582248_67      fast csmR_fil    gs754  R      59:23      1 cbsuecco12
-         582248_71      fast csmR_fil    gs754  R      59:07      1 cbsuecco12
-         582248_72      fast csmR_fil    gs754  R      59:03      1 cbsuecco14
-         582248_73      fast csmR_fil    gs754  R      58:55      1 cbsuecco14
-         582248_76      fast csmR_fil    gs754  R      58:31      1 cbsuecco12
-         582248_77      fast csmR_fil    gs754  R      58:19      1 cbsuecco14
-         582248_79      fast csmR_fil    gs754  R      58:19      1 cbsuecco12
-         582248_80      fast csmR_fil    gs754  R      57:56      1 cbsuecco12
-         582248_81      fast csmR_fil    gs754  R      57:56      1 cbsuecco12
-         582248_83      fast csmR_fil    gs754  R      57:42      1 cbsuecco12
-         582248_84      fast csmR_fil    gs754  R      57:42      1 cbsuecco14
-         582248_87      fast csmR_fil    gs754  R      57:32      1 cbsuecco14
-         582248_92      fast csmR_fil    gs754  R      56:56      1 cbsuecco12
-         582248_93      fast csmR_fil    gs754  R      56:49      1 cbsuecco14
-         582248_95      fast csmR_fil    gs754  R      56:23      1 cbsuecco14
-         582248_96      fast csmR_fil    gs754  R      56:22      1 cbsuecco12
-         582248_99      fast csmR_fil    gs754  R      55:59      1 cbsuecco14
-            582249      fast csmR_dri    gs754 PD       0:00      1 (Dependency)
-        582414_100      fast csmR_fil    gs754  R       6:46      1 cbsuecco14
-         582414_53      fast csmR_fil    gs754  R      14:16      1 cbsuecco12
-         582414_59      fast csmR_fil    gs754  R      13:46      1 cbsuecco14
-         582414_71      fast csmR_fil    gs754  R      11:16      1 cbsuecco14
-         582414_73      fast csmR_fil    gs754  R      11:16      1 cbsuecco14
-         582414_81      fast csmR_fil    gs754  R       9:16      1 cbsuecco14
-         582414_87      fast csmR_fil    gs754  R       8:16      1 cbsuecco14
-         582414_89      fast csmR_fil    gs754  R       7:46      1 cbsuecco14
-         582414_97      fast csmR_fil    gs754  R       7:16      1 cbsuecco12
-         582414_98      fast csmR_fil    gs754  R       6:46      1 cbsuecco14
-            582415      fast csmR_dri    gs754 PD       0:00      1 (Dependency)
-            582489      fast amm_did_    ljp96  R       4:05      1 cbsuecco14
+            582131      fast csm9e_fi    gs754 PD       0:00      1 (DependencyNeverSatisfied)
+         582248_83      fast csmR_fil    gs754  R    1:57:42      1 cbsuecco12
+            582554      fast ADA_arm_   jl4459 PD       0:00      1 (Priority)
+            582555      fast ADA_arm_   jl4459  R      20:35      1 cbsuecco14
+            582556      fast ADA_arm_   jl4459 PD       0:00      1 (Priority)
+            582557      fast ADA_arm_   jl4459 PD       0:00      1 (Resources)
+            582558      fast ADA_arm_   jl4459 PD       0:00      1 (Priority)
+            582561      fast ADA_arm_   jl4459 PD       0:00      1 (Dependency)
+            582562      fast ADA_arm_   jl4459 PD       0:00      1 (Dependency)
+            582623      fast csmR_drv    gs754 PD       0:00      1 (Dependency)
+         582625_58      fast csmR_fil    gs754  R      11:38      1 cbsuecco13
+         582625_64      fast csmR_fil    gs754  R      11:38      1 cbsuecco13
+         582625_72      fast csmR_fil    gs754  R      10:38      1 cbsuecco13
+            582626      fast csmR_dri    gs754 PD       0:00      1 (Dependency)
