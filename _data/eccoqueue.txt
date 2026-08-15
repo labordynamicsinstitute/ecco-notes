@@ -1,5 +1,5 @@
-            561173 interacti     bash    fr245  R 31-09:31:00      1 cbsueccosl03
-    578916_[1-2%2]      fast P1_18_ta   alw327 PD       0:00      1 (Priority)
+            561173 interacti     bash    fr245  R 31-10:31:00      1 cbsueccosl03
+    578916_[1-2%2]      fast P1_18_ta   alw327 PD       0:00      1 (Resources)
             578917      fast P1_19_ta   alw327 PD       0:00      1 (Dependency)
             578918      fast P1_20_ta   alw327 PD       0:00      1 (Dependency)
     578919_[1-3%3]      fast P1_21_ta   alw327 PD       0:00      1 (Dependency)
@@ -10,79 +10,79 @@
     578924_[1-6%6]      fast P1_26_pl   alw327 PD       0:00      1 (Dependency)
     578925_[1-6%6]      fast P1_27_pl   alw327 PD       0:00      1 (Dependency)
             578926      fast P1_28_pl   alw327 PD       0:00      1 (Dependency)
-            581610      fast sim_tabl     lv39  R   23:26:03      1 cbsuecco09
-            581611      fast sim_tabl     lv39  R   23:25:01      1 cbsuecco10
-            581614      fast sim_tabl     lv39  R   22:16:32      1 cbsuecco11
-         582119_11      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco07
-         582119_14      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_15      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_16      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_17      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_18      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_19      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco08
-          582119_1      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco07
-         582119_22      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_23      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco08
-         582119_24      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_26      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_28      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-          582119_2      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco07
-         582119_30      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_32      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_34      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_36      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_38      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-          582119_3      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco07
-         582119_42      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_44      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_45      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco08
-         582119_46      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_47      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco08
-         582119_48      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_50      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_52      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_54      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_56      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_58      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_59      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-          582119_5      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco07
-         582119_60      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_61      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_62      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_63      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_64      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_65      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco01
-         582119_66      slow csm6v2_b    gs754  R    1:29:12      1 cbsuecco07
-         582119_69      slow csm6v2_b    gs754  R    1:16:30      1 cbsuecco07
-         582119_70      slow csm6v2_b    gs754  R    1:14:29      1 cbsuecco08
-         582119_71      slow csm6v2_b    gs754  R      49:27      1 cbsuecco08
-         582119_72      slow csm6v2_b    gs754  R      46:26      1 cbsuecco08
-         582119_73      slow csm6v2_b    gs754  R      44:06      1 cbsuecco08
-         582119_74      slow csm6v2_b    gs754  R      35:15      1 cbsuecco08
-         582119_75      slow csm6v2_b    gs754  R      34:32      1 cbsuecco08
-         582119_76      slow csm6v2_b    gs754  R      33:34      1 cbsuecco08
-         582119_77      slow csm6v2_b    gs754  R      32:17      1 cbsuecco08
-         582119_78      slow csm6v2_b    gs754  R      31:09      1 cbsuecco07
-         582119_79      slow csm6v2_b    gs754  R      30:54      1 cbsuecco08
-          582119_7      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco07
-         582119_80      slow csm6v2_b    gs754  R      30:24      1 cbsuecco08
-         582119_81      slow csm6v2_b    gs754  R      30:20      1 cbsuecco08
-         582119_82      slow csm6v2_b    gs754  R      26:27      1 cbsuecco08
-         582119_83      slow csm6v2_b    gs754  R      25:49      1 cbsuecco08
-         582119_84      slow csm6v2_b    gs754  R      25:03      1 cbsuecco07
-         582119_85      slow csm6v2_b    gs754  R      24:36      1 cbsuecco08
-         582119_86      slow csm6v2_b    gs754  R      22:54      1 cbsuecco08
-         582119_87      slow csm6v2_b    gs754  R      18:44      1 cbsuecco08
-         582119_88      slow csm6v2_b    gs754  R      16:44      1 cbsuecco07
-         582119_89      slow csm6v2_b    gs754  R      11:45      1 cbsuecco01
-          582119_8      slow csm6v2_b    gs754  R    1:29:44      1 cbsuecco07
-         582119_90      slow csm6v2_b    gs754  R      10:39      1 cbsuecco01
-         582119_91      slow csm6v2_b    gs754  R       6:24      1 cbsuecco07
-         582119_92      slow csm6v2_b    gs754  R       4:48      1 cbsuecco07
-         582119_93      slow csm6v2_b    gs754  R       3:55      1 cbsuecco07
-         582119_94      slow csm6v2_b    gs754  R       2:22      1 cbsuecco07
-         582119_95      slow csm6v2_b    gs754  R       0:21      1 cbsuecco07
-   582119_[96-344] fast,slow csm6v2_b    gs754 PD       0:00      1 (Resources)
+            581610      fast sim_tabl     lv39  R 1-00:26:03      1 cbsuecco09
+            581611      fast sim_tabl     lv39  R 1-00:25:01      1 cbsuecco10
+            581614      fast sim_tabl     lv39  R   23:16:32      1 cbsuecco11
+        582119_100      slow csm6v2_b    gs754  R      56:07      1 cbsuecco01
+        582119_101      slow csm6v2_b    gs754  R      55:31      1 cbsuecco08
+        582119_102      slow csm6v2_b    gs754  R      55:04      1 cbsuecco08
+        582119_103      slow csm6v2_b    gs754  R      53:51      1 cbsuecco01
+        582119_104      slow csm6v2_b    gs754  R      53:47      1 cbsuecco01
+        582119_105      slow csm6v2_b    gs754  R      53:41      1 cbsuecco07
+        582119_106      slow csm6v2_b    gs754  R      48:54      1 cbsuecco07
+        582119_107      slow csm6v2_b    gs754  R      48:28      1 cbsuecco01
+        582119_108      slow csm6v2_b    gs754  R      47:05      1 cbsuecco07
+        582119_109      slow csm6v2_b    gs754  R      46:56      1 cbsuecco08
+        582119_110      slow csm6v2_b    gs754  R      46:30      1 cbsuecco01
+        582119_111      slow csm6v2_b    gs754  R      45:13      1 cbsuecco01
+        582119_113      slow csm6v2_b    gs754  R      44:13      1 cbsuecco07
+        582119_114      slow csm6v2_b    gs754  R      43:53      1 cbsuecco01
+        582119_115      slow csm6v2_b    gs754  R      43:40      1 cbsuecco07
+        582119_116      slow csm6v2_b    gs754  R      43:21      1 cbsuecco08
+        582119_117      slow csm6v2_b    gs754  R      41:21      1 cbsuecco01
+        582119_118      slow csm6v2_b    gs754  R      40:42      1 cbsuecco08
+        582119_119      slow csm6v2_b    gs754  R      37:43      1 cbsuecco01
+        582119_120      slow csm6v2_b    gs754  R      37:23      1 cbsuecco08
+        582119_121      slow csm6v2_b    gs754  R      36:44      1 cbsuecco07
+        582119_122      slow csm6v2_b    gs754  R      33:57      1 cbsuecco08
+        582119_123      slow csm6v2_b    gs754  R      32:40      1 cbsuecco08
+        582119_124      slow csm6v2_b    gs754  R      32:11      1 cbsuecco01
+        582119_125      slow csm6v2_b    gs754  R      31:44      1 cbsuecco01
+        582119_126      slow csm6v2_b    gs754  R      31:15      1 cbsuecco08
+        582119_127      slow csm6v2_b    gs754  R      30:53      1 cbsuecco01
+        582119_128      slow csm6v2_b    gs754  R      29:02      1 cbsuecco01
+        582119_129      slow csm6v2_b    gs754  R      28:57      1 cbsuecco01
+        582119_130      slow csm6v2_b    gs754  R      28:55      1 cbsuecco01
+        582119_131      slow csm6v2_b    gs754  R      28:09      1 cbsuecco08
+        582119_132      slow csm6v2_b    gs754  R      28:01      1 cbsuecco08
+        582119_133      slow csm6v2_b    gs754  R      27:21      1 cbsuecco08
+        582119_134      slow csm6v2_b    gs754  R      26:37      1 cbsuecco01
+        582119_135      slow csm6v2_b    gs754  R      25:42      1 cbsuecco08
+        582119_136      slow csm6v2_b    gs754  R      24:51      1 cbsuecco08
+        582119_137      slow csm6v2_b    gs754  R      24:27      1 cbsuecco01
+        582119_138      slow csm6v2_b    gs754  R      23:19      1 cbsuecco07
+        582119_139      slow csm6v2_b    gs754  R      21:50      1 cbsuecco01
+        582119_140      slow csm6v2_b    gs754  R      21:39      1 cbsuecco01
+        582119_141      slow csm6v2_b    gs754  R      20:57      1 cbsuecco07
+        582119_142      slow csm6v2_b    gs754  R      20:31      1 cbsuecco08
+        582119_143      slow csm6v2_b    gs754  R      20:18      1 cbsuecco01
+        582119_144      slow csm6v2_b    gs754  R      19:38      1 cbsuecco08
+        582119_145      slow csm6v2_b    gs754  R      19:30      1 cbsuecco01
+        582119_146      slow csm6v2_b    gs754  R      11:38      1 cbsuecco07
+        582119_147      slow csm6v2_b    gs754  R      10:18      1 cbsuecco01
+        582119_148      slow csm6v2_b    gs754  R       8:45      1 cbsuecco08
+        582119_149      slow csm6v2_b    gs754  R       4:10      1 cbsuecco01
+        582119_150      slow csm6v2_b    gs754  R       2:28      1 cbsuecco01
+        582119_151      slow csm6v2_b    gs754  R       1:44      1 cbsuecco07
+  582119_[152-344] fast,slow csm6v2_b    gs754 PD       0:00      1 (Resources)
+         582119_26      slow csm6v2_b    gs754  R    2:29:44      1 cbsuecco01
+         582119_36      slow csm6v2_b    gs754  R    2:29:44      1 cbsuecco01
+         582119_54      slow csm6v2_b    gs754  R    2:29:44      1 cbsuecco01
+         582119_66      slow csm6v2_b    gs754  R    2:29:12      1 cbsuecco07
+         582119_77      slow csm6v2_b    gs754  R    1:32:17      1 cbsuecco08
+         582119_82      slow csm6v2_b    gs754  R    1:26:27      1 cbsuecco08
+         582119_88      slow csm6v2_b    gs754  R    1:16:44      1 cbsuecco07
+         582119_89      slow csm6v2_b    gs754  R    1:11:45      1 cbsuecco01
+         582119_90      slow csm6v2_b    gs754  R    1:10:39      1 cbsuecco01
+         582119_91      slow csm6v2_b    gs754  R    1:06:24      1 cbsuecco07
+         582119_92      slow csm6v2_b    gs754  R    1:04:48      1 cbsuecco07
+         582119_93      slow csm6v2_b    gs754  R    1:03:55      1 cbsuecco07
+         582119_94      slow csm6v2_b    gs754  R    1:02:22      1 cbsuecco07
+         582119_95      slow csm6v2_b    gs754  R    1:00:21      1 cbsuecco07
+         582119_96      slow csm6v2_b    gs754  R      58:29      1 cbsuecco01
+         582119_97      slow csm6v2_b    gs754  R      57:48      1 cbsuecco01
+         582119_98      slow csm6v2_b    gs754  R      57:11      1 cbsuecco01
+         582119_99      slow csm6v2_b    gs754  R      56:42      1 cbsuecco08
             582120 fast,slow csm7v2_m    gs754 PD       0:00      1 (Dependency)
             582121 fast,slow    csm8a    gs754 PD       0:00      1 (Priority)
             582122 fast,slow    csm8b    gs754 PD       0:00      1 (Priority)
@@ -91,17 +91,17 @@
             582125 fast,slow    csm8e    gs754 PD       0:00      1 (Priority)
             582126 fast,slow csm8rend    gs754 PD       0:00      1 (Dependency)
             582131 fast,slow csm9e_fi    gs754 PD       0:00      1 (Dependency)
-            582554      fast ADA_arm_   jl4459  R    6:54:01      1 cbsuecco12
-            582555      fast ADA_arm_   jl4459  R    7:20:35      1 cbsuecco14
+            582554      fast ADA_arm_   jl4459  R    7:54:01      1 cbsuecco12
+            582555      fast ADA_arm_   jl4459  R    8:20:35      1 cbsuecco14
             582556      fast ADA_arm_   jl4459 PD       0:00      1 (Priority)
-            582557      fast ADA_arm_   jl4459  R    6:57:59      1 cbsuecco13
+            582557      fast ADA_arm_   jl4459  R    7:57:59      1 cbsuecco13
             582558      fast ADA_arm_   jl4459 PD       0:00      1 (Priority)
             582561      fast ADA_arm_   jl4459 PD       0:00      1 (Dependency)
             582562      fast ADA_arm_   jl4459 PD       0:00      1 (Dependency)
-            582681      slow csm4_fin    gs754  R    3:20:01      1 cbsuecco07
+            582681      slow csm4_fin    gs754  R    4:20:01      1 cbsuecco07
             582685 fast,slow csmA_06p    gs754 PD       0:00      1 (Priority)
             582703 fast,slow csmA_13m    gs754 PD       0:00      1 (Dependency)
-            582704      slow csmP_pol    gs754  R    2:27:02      1 cbsuecco07
+            582704      slow csmP_pol    gs754  R    3:27:02      1 cbsuecco07
             582705 fast,slow csmF_fin    gs754 PD       0:00      1 (Priority)
             582707 fast,slow csmA_15_    gs754 PD       0:00      1 (Priority)
             582708 fast,slow csmA_15_    gs754 PD       0:00      1 (Priority)
@@ -119,5 +119,6 @@
             582720 fast,slow csmA_16_    gs754 PD       0:00      1 (Dependency)
             582721 fast,slow csmA_16_    gs754 PD       0:00      1 (Dependency)
             582722 fast,slow csmA_16_    gs754 PD       0:00      1 (Dependency)
-            582725      slow csmA_15_    gs754  R    1:31:21      1 cbsuecco07
-            582793      fast csm9c_be    gs754 PD       0:00      1 (Resources)
+            582725      slow csmA_15_    gs754  R    2:31:21      1 cbsuecco07
+            582793      fast csm9c_be    gs754 PD       0:00      1 (Priority)
+            582885     lgmem RunStata    kn463  R      11:20      1 cbsuecco02
