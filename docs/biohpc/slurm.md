@@ -217,6 +217,12 @@ The following table shows the allocated nodes. Nodes marked `flex` may not be av
 
 :::
 
+:::{note}
+
+🤖 For AI coding of your SLURM submission, you can point the agent at <https://github.com/labordynamicsinstitute/ecco-notes/blob/main/_data/ecconodes.csv> for machine-readable version of this table.
+
+:::
+
 ```{code-cell} ipython3
 :tags: ["remove-input","full-width"]
 from IPython.display import HTML
