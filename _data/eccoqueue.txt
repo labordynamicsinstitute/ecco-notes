@@ -1,14 +1,14 @@
-            561173 interacti     bash    fr245  R 34-00:31:00      1 cbsueccosl03
-            581614      fast sim_tabl     lv39  R 3-13:16:32      1 cbsuecco11
-            582556      fast ADA_arm_   jl4459  R   23:26:35      1 cbsuecco12
-            582558      fast ADA_arm_   jl4459  R   23:09:57      1 cbsuecco13
-            582561      fast ADA_arm_   jl4459  R   16:27:03      1 cbsuecco14
-            582562      fast ADA_arm_   jl4459  R   16:40:44      1 cbsuecco09
-            583187 fast,slow csmA16p_    gs754 PD       0:00      1 (DependencyNeverSatisfied)
-            583190 fast,slow csmA16p_    gs754 PD       0:00      1 (DependencyNeverSatisfied)
-            583193 fast,slow csmA16p_    gs754 PD       0:00      1 (DependencyNeverSatisfied)
-            583196 fast,slow csmA16p_    gs754 PD       0:00      1 (DependencyNeverSatisfied)
-            583199 fast,slow csmA16p_    gs754 PD       0:00      1 (DependencyNeverSatisfied)
+            561173 interacti     bash    fr245  R 34-01:31:01      1 cbsueccosl03
+            581614      fast sim_tabl     lv39  R 3-14:16:33      1 cbsuecco11
+            582556      fast ADA_arm_   jl4459  R 1-00:26:36      1 cbsuecco12
+            582558      fast ADA_arm_   jl4459  R 1-00:09:58      1 cbsuecco13
+            582561      fast ADA_arm_   jl4459  R   17:27:04      1 cbsuecco14
+            582562      fast ADA_arm_   jl4459  R   17:40:45      1 cbsuecco09
+            583187 fast,slow csmA16p_    gs754 PD       0:00      1 (Dependency)
+            583190      fast csmA16p_    gs754  R       3:32      1 cbsuecco10
+            583193      fast csmA16p_    gs754  R       8:05      1 cbsuecco10
+            583196 fast,slow csmA16p_    gs754 PD       0:00      1 (Dependency)
+            583199 fast,slow csmA16p_    gs754 PD       0:00      1 (Dependency)
      584575_[1-20] fast,slow csmA16s_    gs754 PD       0:00      1 (Dependency)
             584576 fast,slow csmA16m_    gs754 PD       0:00      1 (Dependency)
      584577_[1-20] fast,slow csmA16s_    gs754 PD       0:00      1 (Dependency)
@@ -19,3 +19,10 @@
             584582 fast,slow csmA16m_    gs754 PD       0:00      1 (Dependency)
     584583_[1-100] fast,slow csmA16s_    gs754 PD       0:00      1 (Dependency)
             584584 fast,slow csmA16m_    gs754 PD       0:00      1 (Dependency)
+            587967      slow sp122ful    cil35  R      35:59      1 cbsuecco07
+            587973      slow csmA15z5    gs754  R      33:28      1 cbsuecco01
+            587976      slow csmA15z5    gs754  R      33:28      1 cbsuecco01
+            587977      slow csmA15z5    gs754  R      33:28      1 cbsuecco01
+            587978      slow csmA15z5    gs754  R      33:28      1 cbsuecco08
+            587979      slow csmA15z5    gs754  R      33:28      1 cbsuecco01
+            587980      slow csmA15z5    gs754  R      33:28      1 cbsuecco08
