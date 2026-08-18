@@ -1,6 +1,6 @@
-            561173 interacti     bash    fr245  R 34-19:31:01      1 cbsueccosl03
-            582561      fast ADA_arm_   jl4459  R 1-11:27:04      1 cbsuecco14
-            582562      fast ADA_arm_   jl4459  R 1-11:40:45      1 cbsuecco09
-            588064      slow aearep99    nhk44  R   13:57:33      1 cbsuecco07
-            588171     lgmem RunStata    kn463  R    9:04:44      1 cbsuecco02
-            588178      fast  aer9288     lv39  R    6:44:12      1 cbsuecco10
+            561173 interacti     bash    fr245  R 34-20:31:00      1 cbsueccosl03
+            582561      fast ADA_arm_   jl4459  R 1-12:27:03      1 cbsuecco14
+            582562      fast ADA_arm_   jl4459  R 1-12:40:44      1 cbsuecco09
+            588064      slow aearep99    nhk44  R   14:57:32      1 cbsuecco07
+            588171     lgmem RunStata    kn463  R   10:04:43      1 cbsuecco02
+            588178      fast  aer9288     lv39  R    7:44:11      1 cbsuecco10
