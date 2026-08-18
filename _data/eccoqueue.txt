@@ -1,29 +1,23 @@
-            561173 interacti     bash    fr245  R 35-07:31:00      1 cbsueccosl03
-            588171     lgmem RunStata    kn463  R   21:04:43      1 cbsuecco02
-            588178      fast  aer9288     lv39  R   18:44:11      1 cbsuecco10
-        588348_100      slow csmA15fc    gs754  R    1:23:35      1 cbsuecco07
-         588348_51      slow csmA15fc    gs754  R    5:17:54      1 cbsuecco07
-         588348_59      slow csmA15fc    gs754  R    4:40:14      1 cbsuecco01
-         588348_63      slow csmA15fc    gs754  R    4:27:41      1 cbsuecco01
-         588348_74      fast csmA15fc    gs754  R    3:28:39      1 cbsuecco13
-         588348_75      fast csmA15fc    gs754  R    3:20:20      1 cbsuecco13
-         588348_76      fast csmA15fc    gs754  R    3:11:45      1 cbsuecco13
-         588348_78      fast csmA15fc    gs754  R    3:10:19      1 cbsuecco13
-         588348_81      fast csmA15fc    gs754  R    2:57:33      1 cbsuecco13
-         588348_88      fast csmA15fc    gs754  R    2:43:09      1 cbsuecco13
-         588348_89      fast csmA15fc    gs754  R    2:42:43      1 cbsuecco13
-         588348_90      fast csmA15fc    gs754  R    2:39:20      1 cbsuecco13
-         588348_93      fast csmA15fc    gs754  R    2:11:11      1 cbsuecco11
-         588348_94      fast csmA15fc    gs754  R    2:05:23      1 cbsuecco11
-         588348_96      fast csmA15fc    gs754  R    1:51:05      1 cbsuecco09
-         588348_98      fast csmA15fc    gs754  R    1:32:26      1 cbsuecco14
-         588348_99      fast csmA15fc    gs754  R    1:32:03      1 cbsuecco14
-         588349_87      slow csmA15fc    gs754  R    5:01:19      1 cbsuecco01
-         588349_92      slow csmA15fc    gs754  R    4:41:30      1 cbsuecco01
+            561173 interacti     bash    fr245  R 35-08:31:00      1 cbsueccosl03
+            588171     lgmem RunStata    kn463  R   22:04:43      1 cbsuecco02
+            588178      fast  aer9288     lv39  R   19:44:11      1 cbsuecco10
+        588348_100      slow csmA15fc    gs754  R    2:23:35      1 cbsuecco07
+         588348_59      slow csmA15fc    gs754  R    5:40:14      1 cbsuecco01
+         588348_63      slow csmA15fc    gs754  R    5:27:41      1 cbsuecco01
+         588348_76      fast csmA15fc    gs754  R    4:11:45      1 cbsuecco13
+         588348_78      fast csmA15fc    gs754  R    4:10:19      1 cbsuecco13
+         588348_81      fast csmA15fc    gs754  R    3:57:33      1 cbsuecco13
+         588348_89      fast csmA15fc    gs754  R    3:42:43      1 cbsuecco13
+         588348_90      fast csmA15fc    gs754  R    3:39:20      1 cbsuecco13
+         588348_93      fast csmA15fc    gs754  R    3:11:11      1 cbsuecco11
+         588348_94      fast csmA15fc    gs754  R    3:05:23      1 cbsuecco11
+         588348_96      fast csmA15fc    gs754  R    2:51:05      1 cbsuecco09
+         588348_99      fast csmA15fc    gs754  R    2:32:03      1 cbsuecco14
             588350 fast,slow csmA15zc    gs754 PD       0:00      1 (Dependency)
-            588351 fast,slow csmA15zc    gs754 PD       0:00      1 (Dependency)
+            588351      fast csmA15zc    gs754  R      25:47      1 cbsuecco14
  588352_[1-200%30] fast,slow csmA16sg    gs754 PD       0:00      1 (Dependency)
  588353_[1-200%30] fast,slow csmA16sg    gs754 PD       0:00      1 (Dependency)
             588354 fast,slow csmA16mg    gs754 PD       0:00      1 (Dependency)
             588415 fast,slow csmA16mg    gs754 PD       0:00      1 (Dependency)
-            588487      fast ADA_wp_L   jl4459  R    2:54:56      1 cbsuecco12
+            588487      fast ADA_wp_L   jl4459  R    3:54:56      1 cbsuecco12
+            588593      fast msm_sim_    ljp96  R      12:38      1 cbsuecco14
