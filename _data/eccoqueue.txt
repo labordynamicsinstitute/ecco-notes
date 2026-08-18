@@ -1,12 +1,12 @@
-            561173 interacti     bash    fr245  R 34-11:31:00      1 cbsueccosl03
-            582556      fast ADA_arm_   jl4459  R 1-10:26:35      1 cbsuecco12
-            582558      fast ADA_arm_   jl4459  R 1-10:09:57      1 cbsuecco13
-            582561      fast ADA_arm_   jl4459  R 1-03:27:03      1 cbsuecco14
-            582562      fast ADA_arm_   jl4459  R 1-03:40:44      1 cbsuecco09
+            561173 interacti     bash    fr245  R 34-12:31:00      1 cbsueccosl03
+            582556      fast ADA_arm_   jl4459  R 1-11:26:35      1 cbsuecco12
+            582558      fast ADA_arm_   jl4459  R 1-11:09:57      1 cbsuecco13
+            582561      fast ADA_arm_   jl4459  R 1-04:27:03      1 cbsuecco14
+            582562      fast ADA_arm_   jl4459  R 1-04:40:44      1 cbsuecco09
             583196 fast,slow csmA16p_    gs754 PD       0:00      1 (Dependency)
  584581_[1-100%20] fast,slow csmA16s_    gs754 PD       0:00      1 (Dependency)
             584582 fast,slow csmA16m_    gs754 PD       0:00      1 (Dependency)
-            587979      slow csmA15z5    gs754  R   10:33:27      1 cbsuecco01
-            588064      slow aearep99    nhk44  R    5:57:32      1 cbsuecco07
-            588171     lgmem RunStata    kn463  R    1:04:43      1 cbsuecco02
-            588172 interacti     bash     lv39  R      56:53      1 cbsueccosl03
+            587979      slow csmA15z5    gs754  R   11:33:27      1 cbsuecco01
+            588064      slow aearep99    nhk44  R    6:57:32      1 cbsuecco07
+            588171     lgmem RunStata    kn463  R    2:04:43      1 cbsuecco02
+            588175      fast  aer9288     lv39  R      52:18      1 cbsuecco10
