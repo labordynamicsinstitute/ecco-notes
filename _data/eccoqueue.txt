@@ -1,23 +1,15 @@
-            561173 interacti     bash    fr245  R 35-08:31:00      1 cbsueccosl03
-            588171     lgmem RunStata    kn463  R   22:04:43      1 cbsuecco02
-            588178      fast  aer9288     lv39  R   19:44:11      1 cbsuecco10
-        588348_100      slow csmA15fc    gs754  R    2:23:35      1 cbsuecco07
-         588348_59      slow csmA15fc    gs754  R    5:40:14      1 cbsuecco01
-         588348_63      slow csmA15fc    gs754  R    5:27:41      1 cbsuecco01
-         588348_76      fast csmA15fc    gs754  R    4:11:45      1 cbsuecco13
-         588348_78      fast csmA15fc    gs754  R    4:10:19      1 cbsuecco13
-         588348_81      fast csmA15fc    gs754  R    3:57:33      1 cbsuecco13
-         588348_89      fast csmA15fc    gs754  R    3:42:43      1 cbsuecco13
-         588348_90      fast csmA15fc    gs754  R    3:39:20      1 cbsuecco13
-         588348_93      fast csmA15fc    gs754  R    3:11:11      1 cbsuecco11
-         588348_94      fast csmA15fc    gs754  R    3:05:23      1 cbsuecco11
-         588348_96      fast csmA15fc    gs754  R    2:51:05      1 cbsuecco09
-         588348_99      fast csmA15fc    gs754  R    2:32:03      1 cbsuecco14
+            561173 interacti     bash    fr245  R 35-09:31:00      1 cbsueccosl03
+            588171     lgmem RunStata    kn463  R   23:04:43      1 cbsuecco02
+            588178      fast  aer9288     lv39  R   20:44:11      1 cbsuecco10
+         588348_76      fast csmA15fc    gs754  R    5:11:45      1 cbsuecco13
+         588348_89      fast csmA15fc    gs754  R    4:42:43      1 cbsuecco13
+         588348_90      fast csmA15fc    gs754  R    4:39:20      1 cbsuecco13
+         588348_96      fast csmA15fc    gs754  R    3:51:05      1 cbsuecco09
             588350 fast,slow csmA15zc    gs754 PD       0:00      1 (Dependency)
-            588351      fast csmA15zc    gs754  R      25:47      1 cbsuecco14
+            588351      fast csmA15zc    gs754  R    1:25:47      1 cbsuecco14
  588352_[1-200%30] fast,slow csmA16sg    gs754 PD       0:00      1 (Dependency)
  588353_[1-200%30] fast,slow csmA16sg    gs754 PD       0:00      1 (Dependency)
             588354 fast,slow csmA16mg    gs754 PD       0:00      1 (Dependency)
             588415 fast,slow csmA16mg    gs754 PD       0:00      1 (Dependency)
-            588487      fast ADA_wp_L   jl4459  R    3:54:56      1 cbsuecco12
-            588593      fast msm_sim_    ljp96  R      12:38      1 cbsuecco14
+            588487      fast ADA_wp_L   jl4459  R    4:54:56      1 cbsuecco12
+            588599      fast msm_sim_    ljp96  R      29:55      1 cbsuecco14
