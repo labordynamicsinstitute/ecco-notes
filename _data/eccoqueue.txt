@@ -1,23 +1,20 @@
-            561173 interacti     bash    fr245  R 34-09:31:00      1 cbsueccosl03
-            582556      fast ADA_arm_   jl4459  R 1-08:26:35      1 cbsuecco12
-            582558      fast ADA_arm_   jl4459  R 1-08:09:57      1 cbsuecco13
-            582561      fast ADA_arm_   jl4459  R 1-01:27:03      1 cbsuecco14
-            582562      fast ADA_arm_   jl4459  R 1-01:40:44      1 cbsuecco09
+            561173 interacti     bash    fr245  R 34-10:31:01      1 cbsueccosl03
+            582556      fast ADA_arm_   jl4459  R 1-09:26:36      1 cbsuecco12
+            582558      fast ADA_arm_   jl4459  R 1-09:09:58      1 cbsuecco13
+            582561      fast ADA_arm_   jl4459  R 1-02:27:04      1 cbsuecco14
+            582562      fast ADA_arm_   jl4459  R 1-02:40:45      1 cbsuecco09
             583196 fast,slow csmA16p_    gs754 PD       0:00      1 (Dependency)
-         584579_10      slow csmA16s_    gs754  R    7:34:12      1 cbsuecco01
-         584579_12      slow csmA16s_    gs754  R    7:34:12      1 cbsuecco01
-         584579_14      slow csmA16s_    gs754  R    7:34:12      1 cbsuecco01
-         584579_16      slow csmA16s_    gs754  R    7:34:12      1 cbsuecco01
-         584579_18      slow csmA16s_    gs754  R    7:34:12      1 cbsuecco01
-          584579_1      slow csmA16s_    gs754  R    7:34:12      1 cbsuecco01
-          584579_2      slow csmA16s_    gs754  R    7:34:12      1 cbsuecco01
-          584579_4      slow csmA16s_    gs754  R    7:34:12      1 cbsuecco01
-          584579_6      slow csmA16s_    gs754  R    7:34:12      1 cbsuecco01
-          584579_8      slow csmA16s_    gs754  R    7:34:12      1 cbsuecco01
+         584579_14      slow csmA16s_    gs754  R    8:34:13      1 cbsuecco01
+         584579_16      slow csmA16s_    gs754  R    8:34:13      1 cbsuecco01
+          584579_1      slow csmA16s_    gs754  R    8:34:13      1 cbsuecco01
+          584579_2      slow csmA16s_    gs754  R    8:34:13      1 cbsuecco01
+          584579_4      slow csmA16s_    gs754  R    8:34:13      1 cbsuecco01
+          584579_6      slow csmA16s_    gs754  R    8:34:13      1 cbsuecco01
+          584579_8      slow csmA16s_    gs754  R    8:34:13      1 cbsuecco01
             584580 fast,slow csmA16m_    gs754 PD       0:00      1 (Dependency)
  584581_[1-100%20] fast,slow csmA16s_    gs754 PD       0:00      1 (Dependency)
             584582 fast,slow csmA16m_    gs754 PD       0:00      1 (Dependency)
-            587979      slow csmA15z5    gs754  R    8:33:27      1 cbsuecco01
-            588059     lgmem RunStata    kn463  R    5:13:06      1 cbsuecco02
-            588064      slow aearep99    nhk44  R    3:57:32      1 cbsuecco07
-            588067 interacti     bash     lv39  R    3:08:53      1 cbsueccosl04
+            587979      slow csmA15z5    gs754  R    9:33:28      1 cbsuecco01
+            588064      slow aearep99    nhk44  R    4:57:33      1 cbsuecco07
+            588067 interacti     bash     lv39  R    4:08:54      1 cbsueccosl04
+            588171     lgmem RunStata    kn463  R       4:44      1 cbsuecco02
