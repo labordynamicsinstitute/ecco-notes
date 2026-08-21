@@ -1,6 +1,5 @@
-            561173 interacti     bash    fr245  R 38-08:31:00      1 cbsueccosl03
-            588171     lgmem RunStata    kn463  R 3-22:04:43      1 cbsuecco02
-            589301      fast ADA_arm_   jl4459  R 1-09:31:31      1 cbsuecco13
-          589822_1      fast csmA16sg    gs754  R   21:10:58      1 cbsuecco14
-          589831_1      fast csmA16sg    gs754  R   21:10:58      1 cbsuecco14
+            561173 interacti     bash    fr245  R 38-09:31:00      1 cbsueccosl03
+            588171     lgmem RunStata    kn463  R 3-23:04:43      1 cbsuecco02
+            589301      fast ADA_arm_   jl4459  R 1-10:31:31      1 cbsuecco13
+          589831_1      fast csmA16sg    gs754  R   22:10:58      1 cbsuecco14
             589833 fast,slow csmA16mg    gs754 PD       0:00      1 (Dependency)
