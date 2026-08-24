@@ -1,30 +1,6 @@
-            561173 interacti     bash    fr245  R 41-02:31:00      1 cbsueccosl03
-       590397_1000      fast P1_17_bo   alw327  R      18:13      1 cbsuecco12
-        590397_977      slow P1_17_bo   alw327  R      51:30      1 cbsuecco01
-        590397_985      slow P1_17_bo   alw327  R      43:20      1 cbsuecco08
-        590397_986      slow P1_17_bo   alw327  R      42:05      1 cbsuecco01
-        590397_987      slow P1_17_bo   alw327  R      38:25      1 cbsuecco01
-        590397_988      slow P1_17_bo   alw327  R      38:18      1 cbsuecco07
-        590397_989      slow P1_17_bo   alw327  R      37:00      1 cbsuecco01
-        590397_990      slow P1_17_bo   alw327  R      31:13      1 cbsuecco01
-        590397_991      slow P1_17_bo   alw327  R      28:46      1 cbsuecco08
-        590397_992      fast P1_17_bo   alw327  R      28:12      1 cbsuecco12
-        590397_993      slow P1_17_bo   alw327  R      28:00      1 cbsuecco01
-        590397_994      slow P1_17_bo   alw327  R      27:48      1 cbsuecco01
-        590397_995      slow P1_17_bo   alw327  R      27:05      1 cbsuecco08
-        590397_996      fast P1_17_bo   alw327  R      25:57      1 cbsuecco12
-        590397_997      slow P1_17_bo   alw327  R      24:57      1 cbsuecco08
-        590397_998      slow P1_17_bo   alw327  R      22:29      1 cbsuecco08
-        590397_999      fast P1_17_bo   alw327  R      19:05      1 cbsuecco12
-    590398_[1-2%2]      fast P1_18_ta   alw327 PD       0:00      1 (Dependency)
-            590399      fast P1_19_ta   alw327 PD       0:00      1 (Dependency)
-            590400      fast P1_20_ta   alw327 PD       0:00      1 (Dependency)
-    590401_[1-3%3]      fast P1_21_ta   alw327 PD       0:00      1 (Dependency)
-            590402      fast P1_22_ta   alw327 PD       0:00      1 (Dependency)
-            590403      fast P1_23_ta   alw327 PD       0:00      1 (Dependency)
-            590404      fast P1_24_pl   alw327 PD       0:00      1 (Dependency)
-            590405      fast P1_25_pl   alw327 PD       0:00      1 (Dependency)
+            561173 interacti     bash    fr245  R 41-03:31:00      1 cbsueccosl03
+            590405      fast P1_25_pl   alw327  R       2:06      1 cbsuecco12
     590406_[1-6%6]      fast P1_26_pl   alw327 PD       0:00      1 (Dependency)
     590407_[1-6%6]      fast P1_27_pl   alw327 PD       0:00      1 (Dependency)
             590408      fast P1_28_pl   alw327 PD       0:00      1 (Dependency)
-            593554      fast ADA_arm_   jl4459  R      40:22      1 cbsuecco14
+            593554      fast ADA_arm_   jl4459  R    1:40:22      1 cbsuecco14
