@@ -1,3 +1,4 @@
-            561173 interacti     bash    fr245  R 41-07:31:00      1 cbsueccosl03
-            593554      fast ADA_arm_   jl4459  R    5:40:22      1 cbsuecco14
-            593578      fast  aer9288     lv39  R    2:26:55      1 cbsuecco13
+            561173 interacti     bash    fr245  R 41-08:31:00      1 cbsueccosl03
+            593554      fast ADA_arm_   jl4459  R    6:40:22      1 cbsuecco14
+            593578      fast  aer9288     lv39  R    3:26:55      1 cbsuecco13
+            593590      slow bank_eve    ts724  R      41:36      1 cbsuecco07
