@@ -1,6 +1,6 @@
-            561173 interacti     bash    fr245  R 41-03:31:00      1 cbsueccosl03
-            590405      fast P1_25_pl   alw327  R       2:06      1 cbsuecco12
+            561173 interacti     bash    fr245  R 41-04:31:00      1 cbsueccosl03
+            590405      fast P1_25_pl   alw327  R    1:02:06      1 cbsuecco12
     590406_[1-6%6]      fast P1_26_pl   alw327 PD       0:00      1 (Dependency)
     590407_[1-6%6]      fast P1_27_pl   alw327 PD       0:00      1 (Dependency)
             590408      fast P1_28_pl   alw327 PD       0:00      1 (Dependency)
-            593554      fast ADA_arm_   jl4459  R    1:40:22      1 cbsuecco14
+            593554      fast ADA_arm_   jl4459  R    2:40:22      1 cbsuecco14
