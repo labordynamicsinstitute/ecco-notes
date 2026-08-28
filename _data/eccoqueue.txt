@@ -1,2 +1,3 @@
-            561173 interacti     bash    fr245  R 45-00:31:00      1 cbsueccosl03
-            593669 interacti     bash    nlm68  R 1-20:23:42      1 cbsueccosl04
+            561173 interacti     bash    fr245  R 45-01:31:00      1 cbsueccosl03
+            593669 interacti     bash    nlm68  R 1-21:23:42      1 cbsueccosl04
+            593679     lgmem RunStata     lv39  R      13:04      1 cbsuecco02
