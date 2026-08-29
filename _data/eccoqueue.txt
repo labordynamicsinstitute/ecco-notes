@@ -1,4 +1,3 @@
-            561173 interacti     bash    fr245  R 45-14:31:01      1 cbsueccosl03
-            593679     lgmem RunStata     lv39  R   13:13:05      1 cbsuecco02
-            593683      fast faiss_w0    lz436  R    7:12:00      1 cbsuecco13
-            593684      fast faiss_w0    lz436  R    2:55:57      1 cbsuecco09
+            561173 interacti     bash    fr245  R 45-15:31:01      1 cbsueccosl03
+            593679     lgmem RunStata     lv39  R   14:13:05      1 cbsuecco02
+            593683      fast faiss_w0    lz436  R    8:12:00      1 cbsuecco13
