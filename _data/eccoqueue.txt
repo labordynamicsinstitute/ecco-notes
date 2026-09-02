@@ -1,81 +1,16 @@
-            561173 interacti     bash    fr245  R 49-09:31:01      1 cbsueccosl03
-            593679     lgmem RunStata     lv39  R 4-08:13:05      1 cbsuecco02
-            598329      fast ADA_arm_   jl4459  R    7:53:49      1 cbsuecco13
-            598330      fast ADA_arm_   jl4459  R    7:53:48      1 cbsuecco14
-            598332      slow  rep8683   dac429  R    6:16:37      1 cbsuecco07
-            598344      fast silent_m    gs754  R    3:39:10      1 cbsuecco12
-            598346      fast aca4fee2    gs754  R    3:38:53      1 cbsuecco09
-            598514      fast silent_m    gs754  R      16:38      1 cbsuecco12
-            598537      fast 86fa734b    gs754  R       6:52      1 cbsuecco09
-            598538      fast 86fa734b    gs754  R       6:52      1 cbsuecco09
-            598540      fast 86fa734b    gs754  R       6:52      1 cbsuecco09
-            598547      fast 86fa734b    gs754  R       6:49      1 cbsuecco09
-            598554      fast 86fa734b    gs754  R       6:49      1 cbsuecco09
-            598564      fast 86fa734b    gs754  R       6:46      1 cbsuecco09
-            598566      fast 86fa734b    gs754  R       4:54      1 cbsuecco09
-            598568      fast 86fa734b    gs754  R       3:41      1 cbsuecco09
-            598569      fast 86fa734b    gs754  R       3:40      1 cbsuecco09
-            598570      fast 86fa734b    gs754  R       3:22      1 cbsuecco09
-            598571      fast 86fa734b    gs754  R       3:20      1 cbsuecco09
-            598572      fast 86fa734b    gs754  R       3:16      1 cbsuecco09
-            598573      fast 86fa734b    gs754  R       2:24      1 cbsuecco09
-            598575      fast 86fa734b    gs754  R       1:54      1 cbsuecco09
-            598576      fast 86fa734b    gs754  R       1:45      1 cbsuecco09
-            598578      fast 86fa734b    gs754  R       1:09      1 cbsuecco09
-            598579      fast 86fa734b    gs754  R       1:05      1 cbsuecco09
-            598580      fast 86fa734b    gs754  R       1:01      1 cbsuecco09
-            598581      fast 86fa734b    gs754  R       0:48      1 cbsuecco09
-            598582      fast 86fa734b    gs754  R       0:42      1 cbsuecco09
-            598583      fast 86fa734b    gs754  R       0:41      1 cbsuecco09
-            598584      fast 86fa734b    gs754  R       0:38      1 cbsuecco09
-            598585      fast 86fa734b    gs754  R       0:36      1 cbsuecco09
-            598586      fast 86fa734b    gs754  R       0:29      1 cbsuecco09
-            598587      fast 86fa734b    gs754  R       0:21      1 cbsuecco09
-            598588      fast 86fa734b    gs754  R       0:20      1 cbsuecco09
-            598589      fast 86fa734b    gs754  R       0:20      1 cbsuecco09
-            598590      fast 86fa734b    gs754  R       0:16      1 cbsuecco09
-            598591      fast 86fa734b    gs754  R       0:11      1 cbsuecco09
-            598592      fast 86fa734b    gs754  R       0:03      1 cbsuecco09
-            598593      fast 86fa734b    gs754 PD       0:00      1 (Resources)
-            598594      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598595      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598596      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598597      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598598      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598599      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598600      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598601      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598602      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598603      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598604      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598605      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598606      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598607      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598608      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598609      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598610      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598611      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598612      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598613      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598614      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598615      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598616      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598617      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598618      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598619      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598620      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598621      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598622      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598623      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598624      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598625      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598626      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598627      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598628      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598629      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598630      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598631      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598632      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598633      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598634      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
-            598635      fast 86fa734b    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco09)
+            561173 interacti     bash    fr245  R 49-10:31:00      1 cbsueccosl03
+            593679     lgmem RunStata     lv39  R 4-09:13:04      1 cbsuecco02
+            598329      fast ADA_arm_   jl4459  R    8:53:48      1 cbsuecco13
+            598330      fast ADA_arm_   jl4459  R    8:53:47      1 cbsuecco14
+            598332      slow  rep8683   dac429  R    7:16:36      1 cbsuecco07
+            598344      fast silent_m    gs754  R    4:39:09      1 cbsuecco12
+            598346      fast aca4fee2    gs754  R    4:38:52      1 cbsuecco09
+            598514      fast silent_m    gs754  R    1:16:37      1 cbsuecco12
+            598540      fast 86fa734b    gs754  R    1:06:51      1 cbsuecco09
+            598568      fast 86fa734b    gs754  R    1:03:40      1 cbsuecco09
+            598569      fast 86fa734b    gs754  R    1:03:39      1 cbsuecco09
+            598570      fast 86fa734b    gs754  R    1:03:21      1 cbsuecco09
+            598597      fast 86fa734b    gs754  R      59:46      1 cbsuecco09
+            598599      fast 86fa734b    gs754  R      59:37      1 cbsuecco09
+            598611      fast 86fa734b    gs754  R      58:12      1 cbsuecco09
+            598621      fast 86fa734b    gs754  R      57:27      1 cbsuecco09
