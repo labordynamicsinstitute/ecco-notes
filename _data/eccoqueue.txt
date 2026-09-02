@@ -1,4 +1,6 @@
-            561173 interacti     bash    fr245  R 50-05:31:00      1 cbsueccosl03
-            593679     lgmem RunStata     lv39  R 5-04:13:04      1 cbsuecco02
-            598330      fast ADA_arm_   jl4459  R 1-03:53:47      1 cbsuecco14
-            600310      slow  aer9841   dac429  R    1:27:47      1 cbsuecco07
+            561173 interacti     bash    fr245  R 50-06:31:01      1 cbsueccosl03
+            593679     lgmem RunStata     lv39  R 5-05:13:05      1 cbsuecco02
+            598330      fast ADA_arm_   jl4459  R 1-04:53:48      1 cbsuecco14
+            600310      slow  aer9841   dac429  R    2:27:48      1 cbsuecco07
+            600311      fast silent_m    gs754  R       6:48      1 cbsuecco12
+            600312      fast 9979e5df    gs754  R       5:18      1 cbsuecco09
