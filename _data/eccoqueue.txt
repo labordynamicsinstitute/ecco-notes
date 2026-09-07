@@ -1,4 +1,7 @@
-            561173 interacti     bash    fr245  R 55-00:31:00      1 cbsueccosl03
-            593679     lgmem RunStata     lv39  R 9-23:13:04      1 cbsuecco02
-            600821      fast ADA_gid_   jl4459  R 2-00:51:12      1 cbsuecco13
-            600822      fast ADA_gid_   jl4459  R 2-00:51:12      1 cbsuecco09
+            561173 interacti     bash    fr245  R 55-01:31:00      1 cbsueccosl03
+            593679     lgmem RunStata     lv39  R 10-00:13:04      1 cbsuecco02
+            600821      fast ADA_gid_   jl4459  R 2-01:51:12      1 cbsuecco13
+            600822      fast ADA_gid_   jl4459  R 2-01:51:12      1 cbsuecco09
+            600854      fast sm_alway    gs754  R       2:39      1 cbsuecco12
+            600855      slow  aer9841   dac429  R       2:35      1 cbsuecco07
+            600859      fast 63b3c584    gs754  R       0:08      1 cbsuecco10
