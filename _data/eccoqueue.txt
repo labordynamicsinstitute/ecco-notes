@@ -1,79 +1,49 @@
-            561173 interacti     bash    fr245  R 60-04:31:00      1 cbsueccosl03
+            561173 interacti     bash    fr245  R 60-05:31:00      1 cbsueccosl03
             605081      slow sm_paper    gs754 PD       0:00      1 (Dependency)
-            606904      fast ADA_arm_   jl4459  R   23:06:31      1 cbsuecco14
-            607033      fast ADA_arm_   jl4459  R   21:16:27      1 cbsuecco13
-            607034      fast ADA_arm_   jl4459  R    2:00:10      1 cbsuecco12
-            607911      fast 771eef12    gs754  R   10:00:23      1 cbsuecco09
-            608386      fast 771eef12    gs754  R    3:37:16      1 cbsuecco09
-            608389      fast 771eef12    gs754  R    3:34:22      1 cbsuecco09
-            608398      fast 771eef12    gs754  R    3:30:22      1 cbsuecco09
-            608404      fast 771eef12    gs754  R    3:27:22      1 cbsuecco09
-            608406      fast 771eef12    gs754  R    3:27:22      1 cbsuecco09
-            608408      fast 771eef12    gs754  R    3:26:52      1 cbsuecco10
-            608410      fast 771eef12    gs754  R    3:25:22      1 cbsuecco09
-            608412      fast 771eef12    gs754  R    3:23:52      1 cbsuecco10
-            608413      fast 771eef12    gs754  R    3:23:52      1 cbsuecco09
-            608414      fast 771eef12    gs754  R    3:23:52      1 cbsuecco10
-            608415      fast 771eef12    gs754  R    3:22:22      1 cbsuecco09
-            608416      fast 771eef12    gs754  R    3:22:22      1 cbsuecco09
-            608417      fast 771eef12    gs754  R    3:22:22      1 cbsuecco10
-            608420      fast 771eef12    gs754  R    3:20:52      1 cbsuecco10
-            608424      fast 771eef12    gs754  R    3:19:22      1 cbsuecco10
-            608425      fast 771eef12    gs754  R    3:19:22      1 cbsuecco10
-            608426      fast 771eef12    gs754  R    3:19:22      1 cbsuecco09
-            608427      fast 771eef12    gs754  R    3:19:22      1 cbsuecco10
-            608431      fast 771eef12    gs754  R    3:16:52      1 cbsuecco09
-            608432      fast 771eef12    gs754  R    3:16:52      1 cbsuecco09
-            608433      fast 771eef12    gs754  R    3:16:52      1 cbsuecco09
-            608435      fast 771eef12    gs754  R    3:15:22      1 cbsuecco09
-            608436      fast 771eef12    gs754  R    3:15:22      1 cbsuecco09
-            608438      fast 771eef12    gs754  R    3:12:52      1 cbsuecco10
-            608439      fast 771eef12    gs754  R    3:12:52      1 cbsuecco10
-            608440      fast 771eef12    gs754  R    3:12:52      1 cbsuecco09
-            608441      fast 771eef12    gs754  R    3:12:22      1 cbsuecco09
-            608442      fast 771eef12    gs754  R    3:12:22      1 cbsuecco10
-            608443      fast 771eef12    gs754  R    3:11:22      1 cbsuecco10
-            608444      fast 771eef12    gs754  R    3:11:22      1 cbsuecco10
-            608445      fast 771eef12    gs754  R    3:11:22      1 cbsuecco10
-            608446      fast 771eef12    gs754  R    3:11:22      1 cbsuecco10
-            608447      fast 771eef12    gs754  R    3:10:52      1 cbsuecco09
-            608449      fast 771eef12    gs754  R    3:09:22      1 cbsuecco09
-            608451      fast 771eef12    gs754  R    3:08:52      1 cbsuecco10
-            608454      fast 771eef12    gs754  R    3:05:52      1 cbsuecco09
-            608456      fast 771eef12    gs754  R    3:05:22      1 cbsuecco09
-            608457      fast 771eef12    gs754  R    3:04:22      1 cbsuecco10
-            608458      fast 771eef12    gs754  R    3:04:22      1 cbsuecco09
-            608459      fast 771eef12    gs754  R    3:04:22      1 cbsuecco10
-            608460      fast 771eef12    gs754  R    3:03:52      1 cbsuecco09
-            608461      fast 771eef12    gs754  R    3:03:52      1 cbsuecco09
-            608463      fast 771eef12    gs754  R    3:01:42      1 cbsuecco09
-            608464      fast 771eef12    gs754  R    3:01:12      1 cbsuecco10
-            608465      fast 771eef12    gs754  R    3:01:12      1 cbsuecco10
-            608468      fast 771eef12    gs754  R    3:00:12      1 cbsuecco09
-            608469      fast 771eef12    gs754  R    3:00:12      1 cbsuecco09
-            608470      fast 771eef12    gs754  R    2:59:42      1 cbsuecco09
-            608471      fast 771eef12    gs754  R    2:59:42      1 cbsuecco10
-            608475      fast 771eef12    gs754  R    2:58:12      1 cbsuecco10
-            608476      fast 771eef12    gs754  R    2:57:42      1 cbsuecco09
-            608477      fast 771eef12    gs754  R    2:57:42      1 cbsuecco09
-            608478      fast 771eef12    gs754  R    2:57:42      1 cbsuecco10
-            608479      fast 771eef12    gs754  R    2:57:12      1 cbsuecco10
-            608480      fast 771eef12    gs754  R    2:57:12      1 cbsuecco10
-            608481      fast 771eef12    gs754  R    2:56:12      1 cbsuecco10
-            608482      fast 771eef12    gs754  R    2:56:12      1 cbsuecco09
-            608483      fast 771eef12    gs754  R    2:56:12      1 cbsuecco10
-            608484      fast 771eef12    gs754  R    2:55:42      1 cbsuecco09
-            608485      fast 771eef12    gs754  R    2:55:42      1 cbsuecco10
-            608487      fast 771eef12    gs754  R    2:53:06      1 cbsuecco09
-            608488      fast 771eef12    gs754  R    2:53:06      1 cbsuecco10
-            608490      fast 771eef12    gs754  R    2:51:36      1 cbsuecco09
-            608491      fast 771eef12    gs754  R    2:51:06      1 cbsuecco09
-            608492      fast 771eef12    gs754  R    2:51:06      1 cbsuecco10
-            608493      fast 771eef12    gs754  R    2:50:06      1 cbsuecco10
-            608496      fast 771eef12    gs754  R    2:49:36      1 cbsuecco09
-            608509      fast edcd82fb    gs754  R    2:27:12      1 cbsuecco11
-            608510      fast 771eef12    gs754  R    2:24:09      1 cbsuecco10
-            608512      fast edcd82fb    gs754  R    2:16:45      1 cbsuecco11
-            608514      fast edcd82fb    gs754  R    2:01:31      1 cbsuecco11
+            606904      fast ADA_arm_   jl4459  R 1-00:06:31      1 cbsuecco14
+            607033      fast ADA_arm_   jl4459  R   22:16:27      1 cbsuecco13
+            607034      fast ADA_arm_   jl4459  R    3:00:10      1 cbsuecco12
+            607911      fast 771eef12    gs754  R   11:00:23      1 cbsuecco09
+            608433      fast 771eef12    gs754  R    4:16:52      1 cbsuecco09
+            608440      fast 771eef12    gs754  R    4:12:52      1 cbsuecco09
+            608463      fast 771eef12    gs754  R    4:01:42      1 cbsuecco09
+            608476      fast 771eef12    gs754  R    3:57:42      1 cbsuecco09
+            608483      fast 771eef12    gs754  R    3:56:12      1 cbsuecco10
+            608493      fast 771eef12    gs754  R    3:50:06      1 cbsuecco10
+            608510      fast 771eef12    gs754  R    3:24:09      1 cbsuecco10
             608518      slow sm_resum    gs754 PD       0:00      1 (Dependency)
-            608519      slow sm_resum    gs754 PD       0:00      1 (Dependency)
+            608519      slow sm_resum    gs754  R      50:34      1 cbsuecco01
+            608567      fast msm_8p_f    ljp96  R      51:34      1 cbsuecco11
+            608568      fast 3d285bc4    gs754  R      48:37      1 cbsuecco11
+            608569      fast 3d285bc4    gs754  R      48:37      1 cbsuecco11
+            608570      fast 3d285bc4    gs754  R      48:37      1 cbsuecco11
+            608571      fast 3d285bc4    gs754  R      48:37      1 cbsuecco11
+            608572      fast 3d285bc4    gs754  R      48:37      1 cbsuecco11
+            608573      fast 3d285bc4    gs754  R      48:37      1 cbsuecco11
+            608574      fast 3d285bc4    gs754  R      48:34      1 cbsuecco11
+            608575      fast 3d285bc4    gs754  R      48:34      1 cbsuecco11
+            608576      fast 3d285bc4    gs754  R      48:34      1 cbsuecco11
+            608577      fast 3d285bc4    gs754  R      48:34      1 cbsuecco11
+            608578      fast 3d285bc4    gs754  R      48:34      1 cbsuecco11
+            608579      fast 3d285bc4    gs754  R      48:34      1 cbsuecco11
+            608580      fast 3d285bc4    gs754 PD       0:00      1 (Resources)
+            608581      fast 3d285bc4    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco11)
+            608582      fast 3d285bc4    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco11)
+            608583      fast 3d285bc4    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco11)
+            608584      fast 3d285bc4    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco11)
+            608585      fast 3d285bc4    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco11)
+            608586      fast 3d285bc4    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco11)
+            608587      fast 3d285bc4    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco11)
+            608588      fast 3d285bc4    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco11)
+            608589      fast 3d285bc4    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco11)
+            608590      fast 3d285bc4    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco11)
+            608591      fast 3d285bc4    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco11)
+            608592      fast 3d285bc4    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco11)
+            608593      fast 3d285bc4    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco11)
+            608594      fast 3d285bc4    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco11)
+            608595      fast 3d285bc4    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco11)
+            608596      fast 3d285bc4    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco11)
+            608597      fast 3d285bc4    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco11)
+            608598      fast 3d285bc4    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco11)
+            608599      fast 3d285bc4    gs754 PD       0:00      1 (ReqNodeNotAvail, UnavailableNodes:cbsuecco11)
+            608607      fast p1_aug13   alw327  R       5:00      1 cbsuecco10
