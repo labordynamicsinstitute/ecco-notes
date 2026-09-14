@@ -1,8 +1,5 @@
-            561173 interacti     bash    fr245  R 61-23:31:00      1 cbsueccosl03
+            561173 interacti     bash    fr245  R 62-00:31:00      1 cbsueccosl03
             605081      slow sm_paper    gs754 PD       0:00      1 (DependencyNeverSatisfied)
-            608519      slow sm_resum    gs754  R 1-18:50:34      1 cbsuecco01
-            612470     lgmem RunUncer     lv39  R   15:17:02      1 cbsuecco02
-            612594      fast 3d285bc4    gs754  R    8:12:30      1 cbsuecco11
-            612596      fast seed_boo    ljp96  R    1:04:30      1 cbsuecco13
-            612600      fast calib_se    ljp96  R      39:16      1 cbsuecco14
-            612601      fast entry_gr    ljp96  R      18:35      1 cbsuecco13
+            608519      slow sm_resum    gs754  R 1-19:50:34      1 cbsuecco01
+            612470     lgmem RunUncer     lv39  R   16:17:02      1 cbsuecco02
+            612594      fast 3d285bc4    gs754  R    9:12:30      1 cbsuecco11
