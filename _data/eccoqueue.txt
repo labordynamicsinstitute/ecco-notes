@@ -1,5 +1,3 @@
-            561173 interacti     bash    fr245  R 62-21:31:01      1 cbsueccosl03
-            612615      slow sm_appen    gs754  R   20:14:55      1 cbsuecco01
-            612617      slow sm_recov    gs754 PD       0:00      1 (Dependency)
-            613571 interacti     bash     lv39  R   16:58:45      1 cbsueccosl03
-            616281      fast 8c2c2d9f    gs754  R    1:04:42      1 cbsuecco09
+            561173 interacti     bash    fr245  R 62-22:31:00      1 cbsueccosl03
+            612617      slow sm_recov    gs754 PD       0:00      1 (DependencyNeverSatisfied)
+            613571 interacti     bash     lv39  R   17:58:44      1 cbsueccosl03
