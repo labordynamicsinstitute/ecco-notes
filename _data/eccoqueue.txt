@@ -1,12 +1,12 @@
-            561173 interacti     bash    fr245  R 64-01:31:01      1 cbsueccosl03
+            561173 interacti     bash    fr245  R 64-02:31:00      1 cbsueccosl03
             612617      slow sm_recov    gs754 PD       0:00      1 (DependencyNeverSatisfied)
-            616339      fast ADA_arm_   jl4459  R   23:48:19      1 cbsuecco09
-  616351_[10-15%8]      fast sigma_e_    ljp96 PD       0:00      1 (Resources)
-          616351_3      fast sigma_e_    ljp96  R    3:04:58      1 cbsuecco13
-          616351_4      fast sigma_e_    ljp96  R    1:34:44      1 cbsuecco13
-          616351_5      fast sigma_e_    ljp96  R    1:33:03      1 cbsuecco10
-          616351_6      fast sigma_e_    ljp96  R    1:29:13      1 cbsuecco11
-          616351_7      fast sigma_e_    ljp96  R    1:22:59      1 cbsuecco12
-          616351_8      fast sigma_e_    ljp96  R    1:21:16      1 cbsuecco14
-          616351_9      fast sigma_e_    ljp96  R    1:16:39      1 cbsuecco14
+            616339      fast ADA_arm_   jl4459  R 1-00:48:18      1 cbsuecco09
+         616351_10      fast sigma_e_    ljp96  R      15:01      1 cbsuecco10
+         616351_11      fast sigma_e_    ljp96  R       8:45      1 cbsuecco11
+  616351_[12-15%8]      fast sigma_e_    ljp96 PD       0:00      1 (Resources)
+          616351_3      fast sigma_e_    ljp96  R    4:04:57      1 cbsuecco13
+          616351_4      fast sigma_e_    ljp96  R    2:34:43      1 cbsuecco13
+          616351_7      fast sigma_e_    ljp96  R    2:22:58      1 cbsuecco12
+          616351_8      fast sigma_e_    ljp96  R    2:21:15      1 cbsuecco14
+          616351_9      fast sigma_e_    ljp96  R    2:16:38      1 cbsuecco14
    616355_[0-15%4]      fast sigma_e_    ljp96 PD       0:00      1 (Priority)
