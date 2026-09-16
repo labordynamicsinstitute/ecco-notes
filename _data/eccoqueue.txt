@@ -1,8 +1,8 @@
-            561173 interacti     bash    fr245  R 63-15:31:00      1 cbsueccosl03
+            561173 interacti     bash    fr245  R 63-16:31:00      1 cbsueccosl03
             612617      slow sm_recov    gs754 PD       0:00      1 (DependencyNeverSatisfied)
-         616334_10      fast sigma_e_    ljp96  R    2:14:07      1 cbsuecco13
-         616334_11      fast sigma_e_    ljp96  R    2:13:52      1 cbsuecco14
+         616334_10      fast sigma_e_    ljp96  R    3:14:07      1 cbsuecco13
+         616334_11      fast sigma_e_    ljp96  R    3:13:52      1 cbsuecco14
   616334_[12-15%4]      fast sigma_e_    ljp96 PD       0:00      1 (JobArrayTaskLimit)
-          616334_8      fast sigma_e_    ljp96  R    2:41:25      1 cbsuecco13
-          616334_9      fast sigma_e_    ljp96  R    2:40:27      1 cbsuecco14
-            616339      fast ADA_arm_   jl4459  R   13:48:18      1 cbsuecco09
+          616334_8      fast sigma_e_    ljp96  R    3:41:25      1 cbsuecco13
+          616334_9      fast sigma_e_    ljp96  R    3:40:27      1 cbsuecco14
+            616339      fast ADA_arm_   jl4459  R   14:48:18      1 cbsuecco09
