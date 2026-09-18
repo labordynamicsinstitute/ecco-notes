@@ -6,8 +6,8 @@ cbsuecco07,slurm,slow,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,14,2,TRUE,128,0.
 cbsuecco08,slurm,slow,Intel(R) Xeon(R) CPU E5-2680 v4 @ 2.40GHz,14,2,FALSE,128,0.2,1952,28971,2016
 cbsuecco09,slurm,fast,Intel(R) Xeon(R) Gold 5420+ @ 2.0-4.1GHz,28,2,FALSE,256,3.5,3418,57593,2024
 cbsuecco10,slurm,fast,Intel(R) Xeon(R) Gold 5420+ @ 2.0-4.1GHz,28,2,FALSE,256,3.5,3418,57593,2024
-cbsuecco11,flex,fast,Intel(R) Xeon(R) Gold 5420+ @ 2.0-4.1GHz,28,2,FALSE,256,3.5,3418,57593,2024
-cbsuecco12,flex,fast,Intel(R) Xeon(R) Gold 5420+ @ 2.0-4.1GHz,28,2,FALSE,256,3.5,3418,57593,2024
+cbsuecco11,flex,scavenge,Intel(R) Xeon(R) Gold 5420+ @ 2.0-4.1GHz,28,2,FALSE,256,3.5,3418,57593,2024
+cbsuecco12,flex,scavenge,Intel(R) Xeon(R) Gold 5420+ @ 2.0-4.1GHz,28,2,FALSE,256,3.5,3418,57593,2024
 cbsuecco13,slurm,fast,Intel(R) Xeon(R) Gold 5420+ @ 2.0-4.1GHz,28,2,TRUE,256,3.5,3418,57593,2024
 cbsuecco14,slurm,fast,Intel(R) Xeon(R) Gold 5420+ @ 2.0-4.1GHz,28,2,TRUE,256,3.5,3418,57593,2024
 cbsueccosl01,reserved,,AMD Opteron(tm) Processor 6380,16,1,FALSE,128,6.9,1091,6738,2011
