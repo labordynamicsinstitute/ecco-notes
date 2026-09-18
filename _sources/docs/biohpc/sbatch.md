@@ -78,6 +78,45 @@ PartitionName=regular
 ```
 shows that the default partition (`regular`) has a default of **4096 MB** per Node (`DefMemPerNode=4096`), which can be increased without restriction upon request (`MaxMemPerNode`) by using `--mem xxxx` at the command line or `#SBATCH --mem xxxx` in the script (`--mem 0` uses all the memory on the node).
 
+## Scavenge-safe job example
+
+For the general rules of the `scavenge` partition, see [the scavenge partition](slurm). A job running there may be preempted and requeued, so the script has to be safe to run twice. Write each result to a temporary file and rename it once it is complete, skip work whose output is already there, and trap `SIGTERM` while the payload is still running.
+
+Array jobs and other short, independent tasks are the ideal use of `scavenge`, and array tasks are requeued individually. A long job that cannot be restarted from the top does not belong here.
+
+```bash
+#!/bin/bash
+#SBATCH --job-name=bootstrap
+#SBATCH --partition=fast,scavenge   # fast first; scavenge is used when it can start sooner
+#SBATCH --requeue                   # without this, a preempted job is cancelled
+#SBATCH --array=1-500
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --output=%x-%A_%a.out
+
+OUT=results/task_${SLURM_ARRAY_TASK_ID}.rds
+mkdir -p results
+
+# Finished in an earlier run? Then there is nothing to do.
+if [ -s "$OUT" ]; then echo "task ${SLURM_ARRAY_TASK_ID} already done"; exit 0; fi
+echo "restart count ${SLURM_RESTART_COUNT:-0}"
+
+# On SIGTERM: stop the payload, drop the partial output, exit.
+on_term() {
+  echo "SIGTERM at $(date): preempted, about 30 s left"
+  kill -TERM "$PID" 2>/dev/null
+  wait "$PID"
+  rm -f "$OUT.partial"
+  exit 143
+}
+trap on_term TERM
+
+# Run the payload as a background step, so the trap can fire while it runs.
+srun --ntasks=1 Rscript task.R "$SLURM_ARRAY_TASK_ID" "$OUT.partial" &
+PID=$!
+wait "$PID" && mv "$OUT.partial" "$OUT"
+```
 
 ## SBATCH Array job
 

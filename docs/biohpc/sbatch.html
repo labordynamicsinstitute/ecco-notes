@@ -434,6 +434,7 @@ document.write(`
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#simple-sbatch-example">Simple SBATCH example</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scavenge-safe-job-example">Scavenge-safe job example</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sbatch-array-job">SBATCH Array job</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#r-example">R example</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#stata-example">Stata example</a></li>
@@ -524,6 +525,44 @@ PartitionName=regular
 </pre></div>
 </div>
 <p>shows that the default partition (<code class="docutils literal notranslate"><span class="pre">regular</span></code>) has a default of <strong>4096 MB</strong> per Node (<code class="docutils literal notranslate"><span class="pre">DefMemPerNode=4096</span></code>), which can be increased without restriction upon request (<code class="docutils literal notranslate"><span class="pre">MaxMemPerNode</span></code>) by using <code class="docutils literal notranslate"><span class="pre">--mem</span> <span class="pre">xxxx</span></code> at the command line or <code class="docutils literal notranslate"><span class="pre">#SBATCH</span> <span class="pre">--mem</span> <span class="pre">xxxx</span></code> in the script (<code class="docutils literal notranslate"><span class="pre">--mem</span> <span class="pre">0</span></code> uses all the memory on the node).</p>
+</section>
+<section id="scavenge-safe-job-example">
+<h2>Scavenge-safe job example<a class="headerlink" href="#scavenge-safe-job-example" title="Link to this heading">#</a></h2>
+<p>For the general rules of the <code class="docutils literal notranslate"><span class="pre">scavenge</span></code> partition, see <a class="reference internal" href="slurm.html#slurm"><span class="std std-ref">the scavenge partition</span></a>. A job running there may be preempted and requeued, so the script has to be safe to run twice. Write each result to a temporary file and rename it once it is complete, skip work whose output is already there, and trap <code class="docutils literal notranslate"><span class="pre">SIGTERM</span></code> while the payload is still running.</p>
+<p>Array jobs and other short, independent tasks are the ideal use of <code class="docutils literal notranslate"><span class="pre">scavenge</span></code>, and array tasks are requeued individually. A long job that cannot be restarted from the top does not belong here.</p>
+<div class="highlight-bash notranslate"><div class="highlight"><pre><span></span><span class="ch">#!/bin/bash</span>
+<span class="c1">#SBATCH --job-name=bootstrap</span>
+<span class="c1">#SBATCH --partition=fast,scavenge   # fast first; scavenge is used when it can start sooner</span>
+<span class="c1">#SBATCH --requeue                   # without this, a preempted job is cancelled</span>
+<span class="c1">#SBATCH --array=1-500</span>
+<span class="c1">#SBATCH --ntasks=1</span>
+<span class="c1">#SBATCH --cpus-per-task=1</span>
+<span class="c1">#SBATCH --mem=4G</span>
+<span class="c1">#SBATCH --output=%x-%A_%a.out</span>
+
+<span class="nv">OUT</span><span class="o">=</span>results/task_<span class="si">${</span><span class="nv">SLURM_ARRAY_TASK_ID</span><span class="si">}</span>.rds
+mkdir<span class="w"> </span>-p<span class="w"> </span>results
+
+<span class="c1"># Finished in an earlier run? Then there is nothing to do.</span>
+<span class="k">if</span><span class="w"> </span><span class="o">[</span><span class="w"> </span>-s<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$OUT</span><span class="s2">&quot;</span><span class="w"> </span><span class="o">]</span><span class="p">;</span><span class="w"> </span><span class="k">then</span><span class="w"> </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;task </span><span class="si">${</span><span class="nv">SLURM_ARRAY_TASK_ID</span><span class="si">}</span><span class="s2"> already done&quot;</span><span class="p">;</span><span class="w"> </span><span class="nb">exit</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span><span class="k">fi</span>
+<span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;restart count </span><span class="si">${</span><span class="nv">SLURM_RESTART_COUNT</span><span class="k">:-</span><span class="nv">0</span><span class="si">}</span><span class="s2">&quot;</span>
+
+<span class="c1"># On SIGTERM: stop the payload, drop the partial output, exit.</span>
+on_term<span class="o">()</span><span class="w"> </span><span class="o">{</span>
+<span class="w">  </span><span class="nb">echo</span><span class="w"> </span><span class="s2">&quot;SIGTERM at </span><span class="k">$(</span>date<span class="k">)</span><span class="s2">: preempted, about 30 s left&quot;</span>
+<span class="w">  </span><span class="nb">kill</span><span class="w"> </span>-TERM<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$PID</span><span class="s2">&quot;</span><span class="w"> </span><span class="m">2</span>&gt;/dev/null
+<span class="w">  </span><span class="nb">wait</span><span class="w"> </span><span class="s2">&quot;</span><span class="nv">$PID</span><span class="s2">&quot;</span>
+<span class="w">  </span>rm<span class="w"> </span>-f<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$OUT</span><span class="s2">.partial&quot;</span>
+<span class="w">  </span><span class="nb">exit</span><span class="w"> </span><span class="m">143</span>
+<span class="o">}</span>
+<span class="nb">trap</span><span class="w"> </span>on_term<span class="w"> </span>TERM
+
+<span class="c1"># Run the payload as a background step, so the trap can fire while it runs.</span>
+srun<span class="w"> </span>--ntasks<span class="o">=</span><span class="m">1</span><span class="w"> </span>Rscript<span class="w"> </span>task.R<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$SLURM_ARRAY_TASK_ID</span><span class="s2">&quot;</span><span class="w"> </span><span class="s2">&quot;</span><span class="nv">$OUT</span><span class="s2">.partial&quot;</span><span class="w"> </span><span class="p">&amp;</span>
+<span class="nv">PID</span><span class="o">=</span><span class="nv">$!</span>
+<span class="nb">wait</span><span class="w"> </span><span class="s2">&quot;</span><span class="nv">$PID</span><span class="s2">&quot;</span><span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>mv<span class="w"> </span><span class="s2">&quot;</span><span class="nv">$OUT</span><span class="s2">.partial&quot;</span><span class="w"> </span><span class="s2">&quot;</span><span class="nv">$OUT</span><span class="s2">&quot;</span>
+</pre></div>
+</div>
 </section>
 <section id="sbatch-array-job">
 <h2>SBATCH Array job<a class="headerlink" href="#sbatch-array-job" title="Link to this heading">#</a></h2>
@@ -702,6 +741,7 @@ The code above uses the –parsable condition to limit the output to {JOBID};{CL
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#simple-sbatch-example">Simple SBATCH example</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#scavenge-safe-job-example">Scavenge-safe job example</a></li>
 <li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#sbatch-array-job">SBATCH Array job</a><ul class="nav section-nav flex-column">
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#r-example">R example</a></li>
 <li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#stata-example">Stata example</a></li>

@@ -124,6 +124,12 @@ current_date_time = datetime.now().strftime("%B %d, %Y at %I:%M %p")
 
 A SLURM cluster `cbsueccosl01` is maintained by Lars on behalf of Econ, on several nodes. Some are dedicated to the SLURM scheduler, others "borrowed"; the latter might not always be available.
 
+:::{note}
+
+Since September 2026, there is also a `bioslurm` cluster which is available to subscribers, see [the bioslurm page](https://biohpc.cornell.edu/lab/userguide.aspx?a=bioslurm). Wherever these pages mention `cbsueccosl01`, you can replace `bioslurm` with some limitations.
+:::
+
+
 ```{code-cell} ipython3
 :tags: ["remove-input","full-width"]
 from IPython.display import Markdown, display
@@ -217,82 +223,41 @@ The [List of nodes](fulltable) shows various `partitions`. These are the job que
 (scavenge)=
 ### The `scavenge` partition
 
-`cbsuecco11` and `cbsuecco12` were funded by a single research group. So that they do not sit idle between that group's jobs, every ECCO user can run on them through the `scavenge` partition, on the understanding that the owner can take them back at any moment. The two nodes left `fast` when this was set up, so `fast` now holds `cbsuecco09`, `cbsuecco10`, `cbsuecco13` and `cbsuecco14`.
+Some nodes were funded by research groups, who are the "owners". Their free compute cycles are contributed to the overall cluster, but owners retain the right to pull their availability at any point. Such nodes, marked `scavenge`  in the list below, belong to two partitions (queues) simultaneously:
 
-Two partitions point at the same two nodes:
 
-- an **owner partition**, named after the owner's netid (currently `jl4459`), which only members of the owning group may submit to. It sits in a higher priority tier than every other partition, allocates whole nodes, and cannot itself be preempted.
+- an **owner partition**, named after the owner's netid , which only members of the owning group may submit to. 
 - **`scavenge`**, open to all ECCO users, in the same priority tier as `slow`, `fast` and `lgmem`.
 
 :::{note}
 
-Nothing changes for jobs in `slow`, `fast`, `lgmem` and `interactive`: those partitions are configured with `PreemptMode=OFF`, and their jobs are never preempted. Only jobs running in `scavenge` can be interrupted.
+Owner nodes sit in a higher priority tier than every other partition. 
 
 :::
 
 #### What happens when the owner submits a job
 
-Preemption only happens when it is needed. If one of the two nodes is free, the owner's job takes that one and your job is left alone. Only jobs on the node the owner actually needs are preempted, and since owner jobs take a whole node, every `scavenge` job on that node has to go, however small it is. Among the candidates, SLURM preempts the **youngest jobs first** (`preempt_youngest_first`), so the cost falls on the jobs that have done the least work.
+Jobs in the `scavenge`  queue can be "preemted". Preemption only happens when it is needed. If there are free nodes in the owner's queue, the owner's job is allocated to that.  Only jobs on the node the owner actually needs are preempted. Because  owner jobs always take a whole node, every `scavenge` job on that node is killed. 
+
+#### What happens to pre-empted jobs?
 
 A preempted job
 
 1. has `CANCELLED ... DUE TO PREEMPTION` written to its output, and is sent `SIGCONT` followed by `SIGTERM`;
 2. has **30 seconds** to save what it can, and is then killed with `SIGKILL`;
-3. is put back in the queue if you submitted it with `--requeue`, keeping its job ID and its partition list. It is held for two minutes (`squeue` gives reason `BeginTime`), then starts again **from the top of the script**, possibly on a different node. Without `--requeue` it is simply cancelled; `--no-requeue` says so explicitly.
+3. is put back in the queue if you submitted it with `--requeue`, keeping its job ID and its partition list. It is held for two minutes (`squeue` gives reason `BeginTime`), then starts again **from the top of the script**, possibly on a different node. Without `--requeue` it is simply cancelled; `--no-requeue` makes that explicit.
 
-:::{warning}
+:::{note}
+:class: dropdown
 
 This cluster sets `JobRequeue=0`, so a preempted job is **cancelled unless you submitted it with `--requeue`**.
 
-:::
-
-:::{note}
 
 `scontrol show partition scavenge` reports `GraceTime=120`, but that setting only takes effect under `PreemptMode=CANCEL`. This partition uses `PreemptMode=REQUEUE`, where the interval between `SIGTERM` and `SIGKILL` is the cluster-wide `KillWait`, currently 30 seconds.
 
 :::
 
-#### Writing a job that can be scavenged
-
-Because a requeued job restarts from the top of the script, the script has to be safe to run twice. Write each result to a temporary name and rename it once it is complete, and skip work whose output is already there. `SLURM_RESTART_COUNT` is set when a job is running again after a requeue. Note that node-local scratch under `/workdir` is not preserved across a requeue.
-
-To catch the `SIGTERM` you have to leave the batch shell free: bash only runs a trap once the current foreground command returns, so start the real work in the background (or through `srun`) and `wait` for it. Otherwise the trap fires only after the payload has finished on its own, which is too late.
-
-Array jobs and other short, independent tasks are the ideal use of `scavenge`, and array tasks are requeued individually. A long job that cannot be restarted from the top does not belong here.
-
-```bash
-#!/bin/bash
-#SBATCH --job-name=bootstrap
-#SBATCH --partition=fast,scavenge   # fast first; scavenge is used when it can start sooner
-#SBATCH --requeue                   # without this, a preempted job is cancelled
-#SBATCH --array=1-500
-#SBATCH --ntasks=1
-#SBATCH --cpus-per-task=1
-#SBATCH --mem=4G
-#SBATCH --output=%x-%A_%a.out
-
-OUT=results/task_${SLURM_ARRAY_TASK_ID}.rds
-mkdir -p results
-
-# Finished in an earlier run? Then there is nothing to do.
-if [ -s "$OUT" ]; then echo "task ${SLURM_ARRAY_TASK_ID} already done"; exit 0; fi
-echo "restart count ${SLURM_RESTART_COUNT:-0}"
-
-# On SIGTERM: stop the payload, drop the partial output, exit.
-on_term() {
-  echo "SIGTERM at $(date): preempted, about 30 s left"
-  kill -TERM "$PID" 2>/dev/null
-  wait "$PID"
-  rm -f "$OUT.partial"
-  exit 143
-}
-trap on_term TERM
-
-# Run the payload as a background step, so the trap can fire while it runs.
-srun --ntasks=1 Rscript task.R "$SLURM_ARRAY_TASK_ID" "$OUT.partial" &
-PID=$!
-wait "$PID" && mv "$OUT.partial" "$OUT"
-```
+For a concrete job template that is safe to requeue under `scavenge`, see the [scavenge-safe example in the SBATCH examples](sbatchexample).
 
 #### Choosing between partitions
 
@@ -302,7 +267,12 @@ You can name several partitions, and SLURM will start your job in whichever one 
 #SBATCH --partition=fast,scavenge
 ```
 
-Listing `fast` first means SLURM uses `fast` whenever it can start the job there just as soon, and falls back to `scavenge` when that would start sooner. A job that does start in `scavenge` stays preemptable for as long as it runs there. Members of the owning group use the same mechanism the other way round, listing their own partition first.
+Listing `fast` first means SLURM uses `fast` whenever it can start the job there just as soon, and falls back to `scavenge` when that would start sooner. A job that does start in `scavenge` stays preemptable for as long as it runs there. Members of the owning group use the same mechanism the other way round, listing their own partition first (`owner`  should be replaced by the actual partition name of the owning group).
+
+
+```bash
+#SBATCH --partition=owner,fast
+```
 
 (fulltable)=
 ## List of nodes
