@@ -1,6 +1,4 @@
-            561173 interacti     bash    fr245  R 65-09:31:01      1 cbsueccosl03
-            616431      slow expanded    gs754  R    7:54:30      1 cbsuecco01
-            616841      fast ADA_arm_   jl4459  R    4:14:40      1 cbsuecco13
-            616846      fast 11f01ae2    gs754  R    3:58:13      1 cbsuecco09
-            617253  scavenge    scav1   jl4459  R       2:16      1 cbsuecco11
-            617254  scavenge    scav2   jl4459  R       2:16      1 cbsuecco12
+            561173 interacti     bash    fr245  R 65-10:31:01      1 cbsueccosl03
+            616431      slow expanded    gs754  R    8:54:30      1 cbsuecco01
+            616841      fast ADA_arm_   jl4459  R    5:14:40      1 cbsuecco13
+            616846      fast 11f01ae2    gs754  R    4:58:13      1 cbsuecco09
