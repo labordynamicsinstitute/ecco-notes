@@ -1,2 +1,7 @@
-            561173 interacti     bash    fr245  R 66-00:31:00      1 cbsueccosl03
-            616841      fast ADA_arm_   jl4459  R   19:14:39      1 cbsuecco13
+            561173 interacti     bash    fr245  R 66-01:31:01      1 cbsueccosl03
+            616841      fast ADA_arm_   jl4459  R   20:14:40      1 cbsuecco13
+          617461_0      fast eta_h_gr    ljp96  R      55:00      1 cbsuecco14
+          617461_1      fast eta_h_gr    ljp96  R      55:00      1 cbsuecco14
+          617461_2      fast eta_h_gr    ljp96  R      55:00      1 cbsuecco09
+          617461_3      fast eta_h_gr    ljp96  R      55:00      1 cbsuecco10
+          617461_4      fast eta_h_gr    ljp96 PD       0:00      1 (Resources)
