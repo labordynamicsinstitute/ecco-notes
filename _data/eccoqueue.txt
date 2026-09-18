@@ -1,6 +1,7 @@
-            561173 interacti     bash    fr245  R 66-03:31:01      1 cbsueccosl03
-            616841      fast ADA_arm_   jl4459  R   22:14:40      1 cbsuecco13
-          617461_1      fast eta_h_gr    ljp96  R    2:55:00      1 cbsuecco14
-          617461_2      fast eta_h_gr    ljp96  R    2:55:00      1 cbsuecco09
-          617461_3      fast eta_h_gr    ljp96  R    2:55:00      1 cbsuecco10
-          617461_4      fast eta_h_gr    ljp96  R    1:19:35      1 cbsuecco14
+            561173 interacti     bash    fr245  R 66-04:31:00      1 cbsueccosl03
+            616841      fast ADA_arm_   jl4459  R   23:14:39      1 cbsuecco13
+          617461_1      fast eta_h_gr    ljp96  R    3:54:59      1 cbsuecco14
+          617461_3      fast eta_h_gr    ljp96  R    3:54:59      1 cbsuecco10
+          617461_4      fast eta_h_gr    ljp96  R    2:19:34      1 cbsuecco14
+            617794      slow lg18_con    gs754  R      43:01      1 cbsuecco01
+          617924_1  scavenge lg18_b00    gs754  R       2:15      1 cbsuecco11
