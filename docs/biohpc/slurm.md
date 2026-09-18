@@ -183,14 +183,21 @@ $ sinfo --cluster cbsueccosl01
 CLUSTER: cbsueccosl01
 PARTITION   AVAIL  TIMELIMIT  NODES  STATE NODELIST
 slow*          up   infinite      3    mix cbsuecco[01,07-08]
-fast           up   infinite      4    mix cbsuecco[10-11,13-14]
-fast           up   infinite      2  alloc cbsuecco[09,12]
+fast           up   infinite      3    mix cbsuecco[09-10,14]
+fast           up   infinite      1  alloc cbsuecco13
 lgmem          up   infinite      1    mix cbsuecco02
 interactive    up   infinite      2   idle cbsueccosl[03-04]
+scavenge       up   infinite      2   idle cbsuecco[11-12]
 
 ```
 
-which shows that currently, 2 nodes in the interactive partition (queue) are idle (no jobs running), eight have some jobs running on them, but can still accept smaller jobs (`mix` means there are free CPUs), and two are completely used (`alloc`).
+which shows that currently, the 2 nodes in the interactive partition (queue) and the 2 nodes in the `scavenge` partition are idle (no jobs running), seven have some jobs running on them, but can still accept smaller jobs (`mix` means there are free CPUs), and one is completely used (`alloc`).
+
+:::{note}
+
+`sinfo` and `squeue` only list the partitions you are allowed to submit to. Contributed nodes also belong to an owner partition reserved for the group that paid for them, which you will not see unless you are a member of that group, or unless you add the `-a` option (`sinfo -a --cluster cbsueccosl01`). See [the `scavenge` partition](scavenge) below.
+
+:::
 
 (queues)=
 ## Queues
@@ -200,16 +207,107 @@ The [List of nodes](fulltable) shows various `partitions`. These are the job que
 - `slow` is the default
 - all jobs submitted using [`srun`](srun) (rather than [`sbatch`](sbatchexample)) will be treated as interactive and sent to the interactive partition which has a limit of one CPU per job. 
 - `lgmem` partition requires at least 256GB of RAM to be requested, and will then route to the node with the largest memory. Note that this is a very slow (old) node, so don't do this if you don't need it. 
+- `scavenge` lets any ECCO user run on nodes that were paid for by one research group, for as long as that group is not using them. Jobs in this partition can be interrupted at any moment, so they need to be restartable: see [the `scavenge` partition](scavenge) below.
 - There are no time limits on any partitions, default RAM per job is 4 GB.
 - In order to submit to a specific partition, 
   - use the `-p` option with `sbatch`, e.g. `sbatch -p lgmem run.sh`. 
   - specify the partition in the `SBATCH` file with `#SBATCH --partition lgmem`.
   - If you don't specify a partition, it will be sent to the default (`slow`).
 
+(scavenge)=
+### The `scavenge` partition
+
+`cbsuecco11` and `cbsuecco12` were funded by a single research group. So that they do not sit idle between that group's jobs, every ECCO user can run on them through the `scavenge` partition, on the understanding that the owner can take them back at any moment. The two nodes left `fast` when this was set up, so `fast` now holds `cbsuecco09`, `cbsuecco10`, `cbsuecco13` and `cbsuecco14`.
+
+Two partitions point at the same two nodes:
+
+- an **owner partition**, named after the owner's netid (currently `jl4459`), which only members of the owning group may submit to. It sits in a higher priority tier than every other partition, allocates whole nodes, and cannot itself be preempted.
+- **`scavenge`**, open to all ECCO users, in the same priority tier as `slow`, `fast` and `lgmem`.
+
+:::{note}
+
+Nothing changes for jobs in `slow`, `fast`, `lgmem` and `interactive`: those partitions are configured with `PreemptMode=OFF`, and their jobs are never preempted. Only jobs running in `scavenge` can be interrupted.
+
+:::
+
+#### What happens when the owner submits a job
+
+Preemption only happens when it is needed. If one of the two nodes is free, the owner's job takes that one and your job is left alone. Only jobs on the node the owner actually needs are preempted, and since owner jobs take a whole node, every `scavenge` job on that node has to go, however small it is. Among the candidates, SLURM preempts the **youngest jobs first** (`preempt_youngest_first`), so the cost falls on the jobs that have done the least work.
+
+A preempted job
+
+1. has `CANCELLED ... DUE TO PREEMPTION` written to its output, and is sent `SIGCONT` followed by `SIGTERM`;
+2. has **30 seconds** to save what it can, and is then killed with `SIGKILL`;
+3. is put back in the queue if you submitted it with `--requeue`, keeping its job ID and its partition list. It is held for two minutes (`squeue` gives reason `BeginTime`), then starts again **from the top of the script**, possibly on a different node. Without `--requeue` it is simply cancelled; `--no-requeue` says so explicitly.
+
+:::{warning}
+
+This cluster sets `JobRequeue=0`, so a preempted job is **cancelled unless you submitted it with `--requeue`**.
+
+:::
+
+:::{note}
+
+`scontrol show partition scavenge` reports `GraceTime=120`, but that setting only takes effect under `PreemptMode=CANCEL`. This partition uses `PreemptMode=REQUEUE`, where the interval between `SIGTERM` and `SIGKILL` is the cluster-wide `KillWait`, currently 30 seconds.
+
+:::
+
+#### Writing a job that can be scavenged
+
+Because a requeued job restarts from the top of the script, the script has to be safe to run twice. Write each result to a temporary name and rename it once it is complete, and skip work whose output is already there. `SLURM_RESTART_COUNT` is set when a job is running again after a requeue. Note that node-local scratch under `/workdir` is not preserved across a requeue.
+
+To catch the `SIGTERM` you have to leave the batch shell free: bash only runs a trap once the current foreground command returns, so start the real work in the background (or through `srun`) and `wait` for it. Otherwise the trap fires only after the payload has finished on its own, which is too late.
+
+Array jobs and other short, independent tasks are the ideal use of `scavenge`, and array tasks are requeued individually. A long job that cannot be restarted from the top does not belong here.
+
+```bash
+#!/bin/bash
+#SBATCH --job-name=bootstrap
+#SBATCH --partition=fast,scavenge   # fast first; scavenge is used when it can start sooner
+#SBATCH --requeue                   # without this, a preempted job is cancelled
+#SBATCH --array=1-500
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=1
+#SBATCH --mem=4G
+#SBATCH --output=%x-%A_%a.out
+
+OUT=results/task_${SLURM_ARRAY_TASK_ID}.rds
+mkdir -p results
+
+# Finished in an earlier run? Then there is nothing to do.
+if [ -s "$OUT" ]; then echo "task ${SLURM_ARRAY_TASK_ID} already done"; exit 0; fi
+echo "restart count ${SLURM_RESTART_COUNT:-0}"
+
+# On SIGTERM: stop the payload, drop the partial output, exit.
+on_term() {
+  echo "SIGTERM at $(date): preempted, about 30 s left"
+  kill -TERM "$PID" 2>/dev/null
+  wait "$PID"
+  rm -f "$OUT.partial"
+  exit 143
+}
+trap on_term TERM
+
+# Run the payload as a background step, so the trap can fire while it runs.
+srun --ntasks=1 Rscript task.R "$SLURM_ARRAY_TASK_ID" "$OUT.partial" &
+PID=$!
+wait "$PID" && mv "$OUT.partial" "$OUT"
+```
+
+#### Choosing between partitions
+
+You can name several partitions, and SLURM will start your job in whichever one can run it first:
+
+```bash
+#SBATCH --partition=fast,scavenge
+```
+
+Listing `fast` first means SLURM uses `fast` whenever it can start the job there just as soon, and falls back to `scavenge` when that would start sooner. A job that does start in `scavenge` stays preemptable for as long as it runs there. Members of the owning group use the same mechanism the other way round, listing their own partition first.
+
 (fulltable)=
 ## List of nodes
 
-The following table shows the allocated nodes. Nodes marked `flex` may not be available, because an owner has [reserved](reserving) them. Nodes marked `slurm` are always available. 
+The following table shows the allocated nodes. Nodes marked `flex` may not be available, because an owner has [reserved](reserving) them. Nodes marked `slurm` are always available. Nodes in the `scavenge` partition are contributed nodes that anybody may use at low priority, and where jobs may be interrupted by the owner: see [the `scavenge` partition](scavenge). 
 
 :::{note}
 
