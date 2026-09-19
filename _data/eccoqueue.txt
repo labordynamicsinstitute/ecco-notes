@@ -1,2 +1,3 @@
-            561173 interacti     bash    fr245  R 67-07:31:00      1 cbsueccosl03
-            618046      fast msm_8p_f    ljp96  R    3:13:56      1 cbsuecco13
+            561173 interacti     bash    fr245  R 67-08:31:01      1 cbsueccosl03
+            618046      fast msm_8p_f    ljp96  R    4:13:57      1 cbsuecco13
+            618053      slow run_7_fi    cil35  R       1:45      1 cbsuecco07
