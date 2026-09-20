@@ -1,4 +1,5 @@
-            561173 interacti     bash    fr245  R 68-06:31:00      1 cbsueccosl03
-            618058      fast msm_8p_f    ljp96  R    7:14:27      1 cbsuecco14
-            618179      slow lg18_con    gs754  R    2:16:30      1 cbsuecco01
-            618540      fast msm_8p_f    ljp96  R      51:18      1 cbsuecco13
+            561173 interacti     bash    fr245  R 68-07:31:00      1 cbsueccosl03
+            618058      fast msm_8p_f    ljp96  R    8:14:27      1 cbsuecco14
+            618179      slow lg18_con    gs754  R    3:16:30      1 cbsuecco01
+            618540      fast msm_8p_f    ljp96  R    1:51:18      1 cbsuecco13
+          619028_1  scavenge lg18_b00    gs754  R       2:04      1 cbsuecco11
