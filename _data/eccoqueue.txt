@@ -1,12 +1,11 @@
-            561173 interacti     bash    fr245  R 69-08:31:00      1 cbsueccosl03
-            619894      fast ext_beta    ljp96  R   10:25:02      1 cbsuecco14
-            619895      fast ext_beta    ljp96  R   10:25:02      1 cbsuecco13
-            619896      fast ext_beta    ljp96  R   10:25:02      1 cbsuecco14
-            619899      fast ext_thet    ljp96  R    8:40:08      1 cbsuecco13
-            619900      fast ext_ggap    ljp96  R    4:00:50      1 cbsuecco10
-            619901      fast ext_ggap    ljp96  R    3:26:10      1 cbsuecco09
-            619902      fast ext_ggap    ljp96 PD       0:00      1 (Resources)
-            619903      fast ext_slse    ljp96 PD       0:00      1 (Priority)
+            561173 interacti     bash    fr245  R 69-09:31:01      1 cbsueccosl03
+            619895      fast ext_beta    ljp96  R   11:25:03      1 cbsuecco13
+            619896      fast ext_beta    ljp96  R   11:25:03      1 cbsuecco14
+            619899      fast ext_thet    ljp96  R    9:40:09      1 cbsuecco13
+            619900      fast ext_ggap    ljp96  R    5:00:51      1 cbsuecco10
+            619901      fast ext_ggap    ljp96  R    4:26:11      1 cbsuecco09
+            619902      fast ext_ggap    ljp96  R      38:47      1 cbsuecco14
+            619903      fast ext_slse    ljp96 PD       0:00      1 (Resources)
             619904      fast ext_slse    ljp96 PD       0:00      1 (Priority)
             619927      fast before_a    ljp96 PD       0:00      1 (Priority)
             619952      fast seed_boo    ljp96 PD       0:00      1 (Priority)
@@ -16,3 +15,4 @@
             619956      fast seed_boo    ljp96 PD       0:00      1 (Priority)
             619957      fast seed_boo    ljp96 PD       0:00      1 (Priority)
             619958      fast entry_gr    ljp96 PD       0:00      1 (Priority)
+            619964      slow ttmatch1    cil35  R       7:12      1 cbsuecco07
