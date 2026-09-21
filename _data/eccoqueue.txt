@@ -1,17 +1,16 @@
-            561173 interacti     bash    fr245  R 69-03:31:00      1 cbsueccosl03
-            619894      fast ext_beta    ljp96  R    5:25:02      1 cbsuecco14
-            619895      fast ext_beta    ljp96  R    5:25:02      1 cbsuecco13
-            619896      fast ext_beta    ljp96  R    5:25:02      1 cbsuecco14
-            619897      fast ext_thet    ljp96  R    5:25:02      1 cbsuecco09
-            619898      fast ext_thet    ljp96  R    5:25:02      1 cbsuecco10
-            619899      fast ext_thet    ljp96  R    3:40:08      1 cbsuecco13
-            619900      fast ext_ggap    ljp96 PD       0:00      1 (Resources)
-            619901      fast ext_ggap    ljp96 PD       0:00      1 (Priority)
+            561173 interacti     bash    fr245  R 69-04:31:00      1 cbsueccosl03
+            619894      fast ext_beta    ljp96  R    6:25:02      1 cbsuecco14
+            619895      fast ext_beta    ljp96  R    6:25:02      1 cbsuecco13
+            619896      fast ext_beta    ljp96  R    6:25:02      1 cbsuecco14
+            619897      fast ext_thet    ljp96  R    6:25:02      1 cbsuecco09
+            619899      fast ext_thet    ljp96  R    4:40:08      1 cbsuecco13
+            619900      fast ext_ggap    ljp96  R       0:50      1 cbsuecco10
+            619901      fast ext_ggap    ljp96 PD       0:00      1 (Resources)
             619902      fast ext_ggap    ljp96 PD       0:00      1 (Priority)
             619903      fast ext_slse    ljp96 PD       0:00      1 (Priority)
             619904      fast ext_slse    ljp96 PD       0:00      1 (Priority)
             619927      fast before_a    ljp96 PD       0:00      1 (Priority)
-            619951      slow jacobian    ljp96  R      56:32      1 cbsuecco07
+            619951      slow jacobian    ljp96  R    1:56:32      1 cbsuecco07
             619952      fast seed_boo    ljp96 PD       0:00      1 (Priority)
             619953      fast seed_boo    ljp96 PD       0:00      1 (Priority)
             619954      fast seed_boo    ljp96 PD       0:00      1 (Priority)
