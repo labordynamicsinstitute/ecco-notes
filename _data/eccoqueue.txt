@@ -1,2 +1,2 @@
-            561173 interacti     bash    fr245  R 70-04:31:01      1 cbsueccosl03
-            620212      slow lg-priva    gs754  R      29:31      1 cbsuecco01
+            561173 interacti     bash    fr245  R 70-05:31:00      1 cbsueccosl03
+            620215 interacti     bash    aw896  R      46:23      1 cbsueccosl04
