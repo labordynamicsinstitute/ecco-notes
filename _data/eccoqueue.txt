@@ -1,4 +1,6 @@
-            561173 interacti     bash    fr245  R 70-10:31:01      1 cbsueccosl03
-            620215 interacti     bash    aw896  R    5:46:24      1 cbsueccosl04
-            620218      slow lg-7eaf9    gs754  R    4:56:25      1 cbsuecco01
-            620431      fast lg-7eaf9    gs754  R    1:39:06      1 cbsuecco09
+            561173 interacti     bash    fr245  R 70-11:31:00      1 cbsueccosl03
+            620215 interacti     bash    aw896  R    6:46:23      1 cbsueccosl04
+            620218      slow lg-7eaf9    gs754  R    5:56:24      1 cbsuecco01
+            620431      fast lg-7eaf9    gs754  R    2:39:05      1 cbsuecco09
+            620433    jl4459 ADA_arm_   jl4459  R      10:45      1 cbsuecco11
+            620434    jl4459 ADA_arm_   jl4459  R      10:45      1 cbsuecco12
