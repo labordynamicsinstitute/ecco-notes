@@ -1,8 +1,8 @@
-            561173 interacti     bash    fr245  R 72-15:31:01      1 cbsueccosl03
-            620215 interacti     bash    aw896  R 2-10:46:24      1 cbsueccosl04
-            625469      slow ttmatch1    cil35  R      57:37      1 cbsuecco07
-            625470      fast lg-e881d    gs754  R      56:22      1 cbsuecco09
-            625471      slow ttmatch1    cil35  R      55:43      1 cbsuecco01
-            625473  scavenge lg-e881d    gs754  R      41:40      1 cbsuecco11
-            625474  scavenge lg-e881d    gs754  R      40:53      1 cbsuecco12
-            625475      fast lg-e881d    gs754  R      40:06      1 cbsuecco09
+            561173 interacti     bash    fr245  R 72-16:31:00      1 cbsueccosl03
+            620215 interacti     bash    aw896  R 2-11:46:23      1 cbsueccosl04
+            625469      slow ttmatch1    cil35  R    1:57:36      1 cbsuecco07
+            625470      fast lg-e881d    gs754  R    1:56:21      1 cbsuecco09
+            625471      slow ttmatch1    cil35  R    1:55:42      1 cbsuecco01
+            625473  scavenge lg-e881d    gs754  R    1:41:39      1 cbsuecco11
+            625474  scavenge lg-e881d    gs754  R    1:40:52      1 cbsuecco12
+            625475      fast lg-e881d    gs754  R    1:40:05      1 cbsuecco09
