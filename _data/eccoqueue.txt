@@ -1,8 +1,6 @@
-            561173 interacti     bash    fr245  R 73-08:31:00      1 cbsueccosl03
-            620215 interacti     bash    aw896  R 3-03:46:23      1 cbsueccosl04
-            626616      slow ttmatch1    cil35  R    2:11:27      1 cbsuecco07
-            626623      fast boot_res    ljp96  R    1:45:49      1 cbsuecco14
-            626624      fast boot_aaz    ljp96  R    1:45:49      1 cbsuecco13
-            626625      fast boot_ser    ljp96  R    1:45:49      1 cbsuecco14
-            626632    jl4459 ADA_arm_   jl4459  R      54:36      1 cbsuecco11
-            626633    jl4459 ADA_arm_   jl4459  R      54:36      1 cbsuecco12
+            561173 interacti     bash    fr245  R 73-09:31:00      1 cbsueccosl03
+            620215 interacti     bash    aw896  R 3-04:46:23      1 cbsueccosl04
+            626616      slow ttmatch1    cil35  R    3:11:27      1 cbsuecco07
+            626624      fast boot_aaz    ljp96  R    2:45:49      1 cbsuecco13
+            626632    jl4459 ADA_arm_   jl4459  R    1:54:36      1 cbsuecco11
+            626633    jl4459 ADA_arm_   jl4459  R    1:54:36      1 cbsuecco12
