@@ -1,4 +1,3 @@
-            561173 interacti     bash    fr245  R 72-23:31:00      1 cbsueccosl03
-            620215 interacti     bash    aw896  R 2-18:46:23      1 cbsueccosl04
-            625469      slow ttmatch1    cil35  R    8:57:36      1 cbsuecco07
-            625471      slow ttmatch1    cil35  R    8:55:42      1 cbsuecco01
+            561173 interacti     bash    fr245  R 73-00:31:00      1 cbsueccosl03
+            620215 interacti     bash    aw896  R 2-19:46:23      1 cbsueccosl04
+            625471      slow ttmatch1    cil35  R    9:55:42      1 cbsuecco01
