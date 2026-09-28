@@ -1,12 +1,3 @@
-            561173 interacti     bash    fr245  R 75-23:31:00      1 cbsueccosl03
-            620215 interacti     bash    aw896  R 5-18:46:23      1 cbsueccosl04
-            627256      slow cn-indep    gs754  R   15:10:26      1 cbsuecco01
-            628103      fast mweta_6.    ljp96  R    1:17:09      1 cbsuecco13
-            628328      fast cn-16b1a    gs754  R       1:42      1 cbsuecco09
-            628329      fast cn-16b1a    gs754  R       1:24      1 cbsuecco10
-            628330      fast cn-16b1a    gs754  R       1:08      1 cbsuecco09
-            628331      fast cn-16b1a    gs754  R       0:55      1 cbsuecco10
-            628332  scavenge cn-16b1a    gs754  R       0:43      1 cbsuecco11
-            628333  scavenge cn-16b1a    gs754  R       0:28      1 cbsuecco12
-            628334      fast cn-16b1a    gs754  R       0:16      1 cbsuecco09
-            628335      fast cn-16b1a    gs754  R       0:02      1 cbsuecco10
+            561173 interacti     bash    fr245  R 76-00:31:00      1 cbsueccosl03
+            620215 interacti     bash    aw896  R 5-19:46:23      1 cbsueccosl04
+            628103      fast mweta_6.    ljp96  R    2:17:09      1 cbsuecco13
