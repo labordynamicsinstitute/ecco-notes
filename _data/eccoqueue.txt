@@ -1,5 +1,4 @@
-            561173 interacti     bash    fr245  R 75-14:31:00      1 cbsueccosl03
-            620215 interacti     bash    aw896  R 5-09:46:23      1 cbsueccosl04
-            627256      slow cn-indep    gs754  R    6:10:26      1 cbsuecco01
-            627571      fast mweta_5.    ljp96  R    5:03:21      1 cbsuecco13
-            627573      fast mweta_6.    ljp96  R    5:03:13      1 cbsuecco13
+            561173 interacti     bash    fr245  R 75-15:31:00      1 cbsueccosl03
+            620215 interacti     bash    aw896  R 5-10:46:23      1 cbsueccosl04
+            627256      slow cn-indep    gs754  R    7:10:26      1 cbsuecco01
+            627573      fast mweta_6.    ljp96  R    6:03:13      1 cbsuecco13
