@@ -1,2 +1,2 @@
-            561173 interacti     bash    fr245  R 76-19:31:00      1 cbsueccosl03
-            620215 interacti     bash    aw896  R 6-14:46:23      1 cbsueccosl04
+            561173 interacti     bash    fr245  R 76-20:31:00      1 cbsueccosl03
+            620215 interacti     bash    aw896  R 6-15:46:23      1 cbsueccosl04
