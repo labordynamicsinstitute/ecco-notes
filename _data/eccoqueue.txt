@@ -1,3 +1,2 @@
-            561173 interacti     bash    fr245  R 76-13:31:00      1 cbsueccosl03
-            620215 interacti     bash    aw896  R 6-08:46:23      1 cbsueccosl04
-            628619      fast     peru    fm469  R      41:22      1 cbsuecco14
+            561173 interacti     bash    fr245  R 76-14:31:00      1 cbsueccosl03
+            620215 interacti     bash    aw896  R 6-09:46:23      1 cbsueccosl04
