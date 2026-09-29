@@ -1,12 +1,13 @@
-            561173 interacti     bash    fr245  R 77-06:31:01      1 cbsueccosl03
-            628647    jl4459 ADA_arm_   jl4459  R    4:56:53      1 cbsuecco11
-            628648    jl4459 ADA_arm_   jl4459  R    4:56:53      1 cbsuecco12
-            628651      slow lg-9f612    gs754  R    1:14:33      1 cbsuecco01
-            628670      fast mw025boo    ljp96  R      57:41      1 cbsuecco10
-            628671      fast mw025boo    ljp96  R      57:41      1 cbsuecco14
-            628672      fast mw025boo    ljp96  R      57:39      1 cbsuecco14
-            628673      fast mw025boo    ljp96  R      57:36      1 cbsuecco13
-            628674      fast mw025boo    ljp96  R      57:36      1 cbsuecco13
-            628675      fast mw025boo    ljp96  R      55:50      1 cbsuecco09
+            561173 interacti     bash    fr245  R 77-07:31:00      1 cbsueccosl03
+            628647    jl4459 ADA_arm_   jl4459  R    5:56:52      1 cbsuecco11
+            628648    jl4459 ADA_arm_   jl4459  R    5:56:52      1 cbsuecco12
+            628651      slow lg-9f612    gs754  R    2:14:32      1 cbsuecco01
+            628670      fast mw025boo    ljp96  R    1:57:40      1 cbsuecco10
+            628671      fast mw025boo    ljp96  R    1:57:40      1 cbsuecco14
+            628672      fast mw025boo    ljp96  R    1:57:38      1 cbsuecco14
+            628673      fast mw025boo    ljp96  R    1:57:35      1 cbsuecco13
+            628674      fast mw025boo    ljp96  R    1:57:35      1 cbsuecco13
+            628675      fast mw025boo    ljp96  R    1:55:49      1 cbsuecco09
             628676      fast mw025boo    ljp96 PD       0:00      1 (Resources)
             628677      slow calendar    gs754 PD       0:00      1 (Dependency)
+            628678      slow jacobian    ljp96  R      58:16      1 cbsuecco07
