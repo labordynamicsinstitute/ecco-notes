@@ -1,6 +1,4 @@
-            561173 interacti     bash    fr245  R 77-03:31:00      1 cbsueccosl03
-            620215 interacti     bash    aw896  R 6-22:46:23      1 cbsueccosl04
-            628640      fast mwboot_p    ljp96  R      53:41      1 cbsuecco09
-            628647    jl4459 ADA_arm_   jl4459  R    1:56:52      1 cbsuecco11
-            628648    jl4459 ADA_arm_   jl4459  R    1:56:52      1 cbsuecco12
-            628649      fast sel_sig0    ljp96  R      10:43      1 cbsuecco13
+            561173 interacti     bash    fr245  R 77-04:31:00      1 cbsueccosl03
+            628640      fast mwboot_p    ljp96  R    1:53:41      1 cbsuecco09
+            628647    jl4459 ADA_arm_   jl4459  R    2:56:52      1 cbsuecco11
+            628648    jl4459 ADA_arm_   jl4459  R    2:56:52      1 cbsuecco12
