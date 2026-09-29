@@ -1,2 +1,5 @@
-            561173 interacti     bash    fr245  R 76-22:31:00      1 cbsueccosl03
-            620215 interacti     bash    aw896  R 6-17:46:23      1 cbsueccosl04
+            561173 interacti     bash    fr245  R 76-23:31:00      1 cbsueccosl03
+            620215 interacti     bash    aw896  R 6-18:46:23      1 cbsueccosl04
+            628620      fast sel_sig1    ljp96  R       5:08      1 cbsuecco13
+            628621      fast sel_sig0    ljp96  R       5:07      1 cbsuecco14
+            628622      fast sel_sig0    ljp96  R       5:07      1 cbsuecco13
