@@ -1,9 +1,12 @@
-            561173 interacti     bash    fr245  R 78-00:31:00      1 cbsueccosl03
-            628647    jl4459 ADA_arm_   jl4459  R   22:56:52      1 cbsuecco11
-            628648    jl4459 ADA_arm_   jl4459  R   22:56:52      1 cbsuecco12
-            628651      slow lg-9f612    gs754  R   19:14:32      1 cbsuecco01
+            561173 interacti     bash    fr245  R 78-01:31:00      1 cbsueccosl03
+            628647    jl4459 ADA_arm_   jl4459  R   23:56:52      1 cbsuecco11
+            628648    jl4459 ADA_arm_   jl4459  R   23:56:52      1 cbsuecco12
+            628651      slow lg-9f612    gs754  R   20:14:32      1 cbsuecco01
             628677      slow calendar    gs754 PD       0:00      1 (Dependency)
-            630238      fast lg-9f612    gs754  R    3:37:18      1 cbsuecco10
-            630239      fast lg-9f612    gs754  R    2:41:46      1 cbsuecco10
-            630240      fast lg-9f612    gs754  R    1:54:17      1 cbsuecco10
-            630444      fast lg-9f612    gs754  R      25:48      1 cbsuecco10
+            630239      fast lg-9f612    gs754  R    3:41:46      1 cbsuecco10
+            630240      fast lg-9f612    gs754  R    2:54:17      1 cbsuecco10
+            630444      fast lg-9f612    gs754  R    1:25:48      1 cbsuecco10
+            630446      fast chiEPd1_    ljp96  R      57:48      1 cbsuecco14
+            630447      fast lg-9f612    gs754  R      36:48      1 cbsuecco10
+            630448 interacti     bash     lv39  R      35:29      1 cbsueccosl04
+            630449      fast limited-    gs754  R       4:47      1 cbsuecco09
