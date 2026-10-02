@@ -1,3 +1,4 @@
-            561173 interacti     bash    fr245  R 80-08:31:00      1 cbsueccosl03
-            639520    jl4459 ADA_arm_   jl4459  R    6:11:08      1 cbsuecco12
-            639537    jl4459 ADA_arm_   jl4459  R    6:05:23      1 cbsuecco11
+            561173 interacti     bash    fr245  R 80-09:31:00      1 cbsueccosl03
+            639520    jl4459 ADA_arm_   jl4459  R    7:11:08      1 cbsuecco12
+            639537    jl4459 ADA_arm_   jl4459  R    7:05:23      1 cbsuecco11
+            639562      fast poolfit_    ljp96  R      43:43      1 cbsuecco13
