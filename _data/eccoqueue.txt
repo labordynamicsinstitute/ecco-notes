@@ -1,3 +1,7 @@
-            561173 interacti     bash    fr245  R 81-11:31:00      1 cbsueccosl03
-            639520    jl4459 ADA_arm_   jl4459  R 1-09:11:08      1 cbsuecco12
-            639537    jl4459 ADA_arm_   jl4459  R 1-09:05:23      1 cbsuecco11
+            561173 interacti     bash    fr245  R 81-12:31:00      1 cbsueccosl03
+            639520    jl4459 ADA_arm_   jl4459  R 1-10:11:08      1 cbsuecco12
+            639537    jl4459 ADA_arm_   jl4459  R 1-10:05:23      1 cbsuecco11
+          639582_0      fast  psiE_r1    ljp96  R      53:20      1 cbsuecco13
+          639582_1      fast  psiE_r1    ljp96  R      53:20      1 cbsuecco14
+          639582_2      fast  psiE_r1    ljp96  R      53:20      1 cbsuecco13
+          639582_3      fast  psiE_r1    ljp96  R      53:20      1 cbsuecco14
