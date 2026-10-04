@@ -1,5 +1,5 @@
-            561173 interacti     bash    fr245  R 82-03:31:00      1 cbsueccosl03
-          639598_0      fast   amm_r1    ljp96  R    1:24:15      1 cbsuecco13
-          639598_1      fast   amm_r1    ljp96  R    1:24:15      1 cbsuecco14
-          639598_2      fast   amm_r1    ljp96  R    1:24:15      1 cbsuecco13
-          639598_3      fast   amm_r1    ljp96  R    1:24:15      1 cbsuecco14
+            561173 interacti     bash    fr245  R 82-04:31:00      1 cbsueccosl03
+          639598_0      fast   amm_r1    ljp96  R    2:24:15      1 cbsuecco13
+          639598_1      fast   amm_r1    ljp96  R    2:24:15      1 cbsuecco14
+          639598_2      fast   amm_r1    ljp96  R    2:24:15      1 cbsuecco13
+          639598_3      fast   amm_r1    ljp96  R    2:24:15      1 cbsuecco14
