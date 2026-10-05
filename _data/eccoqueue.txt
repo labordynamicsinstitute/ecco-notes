@@ -1,2 +1,2 @@
-            561173 interacti     bash    fr245  R 83-01:31:00      1 cbsueccosl03
-          639694_1      slow skellam-    gs754  R    1:06:08      1 cbsuecco01
+            561173 interacti     bash    fr245  R 83-02:31:01      1 cbsueccosl03
+            639715      slow skellam-    gs754  R      41:57      1 cbsuecco01
