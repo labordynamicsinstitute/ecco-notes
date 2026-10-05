@@ -1,2 +1,1 @@
-            561173 interacti     bash    fr245  R 82-20:31:00      1 cbsueccosl03
-            639660      fast   amm_r2    ljp96  R      34:21      1 cbsuecco13
+            561173 interacti     bash    fr245  R 82-21:31:00      1 cbsueccosl03
