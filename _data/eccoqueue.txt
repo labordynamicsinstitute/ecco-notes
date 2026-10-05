@@ -1,3 +1,6 @@
-            561173 interacti     bash    fr245  R 82-11:31:00      1 cbsueccosl03
-            639644      fast ammboot_    ljp96  R      49:55      1 cbsuecco09
-            639647      slow jacobian    ljp96  R    2:10:11      1 cbsuecco07
+            561173 interacti     bash    fr245  R 82-12:31:00      1 cbsueccosl03
+            639647      slow jacobian    ljp96  R    3:10:11      1 cbsuecco07
+          639654_0      fast   amm_r2    ljp96  R      35:53      1 cbsuecco13
+          639654_1      fast   amm_r2    ljp96  R      35:53      1 cbsuecco14
+          639654_2      fast   amm_r2    ljp96  R      35:53      1 cbsuecco13
+          639654_3      fast   amm_r2    ljp96  R      35:53      1 cbsuecco14
