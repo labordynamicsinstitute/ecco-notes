@@ -1,2 +1,1 @@
-            561173 interacti     bash    fr245  R 83-07:31:00      1 cbsueccosl03
-            639745      slow   r10002   dac429  R       7:21      1 cbsuecco07
+            561173 interacti     bash    fr245  R 83-08:31:00      1 cbsueccosl03
