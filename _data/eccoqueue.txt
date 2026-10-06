@@ -1,15 +1,12 @@
-            561173 interacti     bash    fr245  R 84-08:31:00      1 cbsueccosl03
-            639760    jl4459 ADA_arm_   jl4459  R   21:14:18      1 cbsuecco11
-            639791    jl4459 ADA_lidf   jl4459  R      21:33      1 cbsuecco12
-            639792      fast ADA_lidf   jl4459  R      18:54      1 cbsuecco14
-            639793      fast ADA_lidf   jl4459  R      15:20      1 cbsuecco10
-            639794      fast ADA_cdte   jl4459  R      10:35      1 cbsuecco09
-            639795 interacti     bash   cc2788  R      15:32      1 cbsueccosl04
-            639796      fast ADA_cd_r   jl4459  R       5:47      1 cbsuecco13
-            639797 jl4459,fa ADA_cd_r   jl4459 PD       0:00      1 (Resources)
-            639798 jl4459,fa ADA_cd_r   jl4459 PD       0:00      1 (Priority)
-            639799 jl4459,fa ADA_cd_r   jl4459 PD       0:00      1 (Priority)
-            639800 jl4459,fa ADA_cd_r   jl4459 PD       0:00      1 (Priority)
+            561173 interacti     bash    fr245  R 84-09:31:00      1 cbsueccosl03
+            639760    jl4459 ADA_arm_   jl4459  R   22:14:18      1 cbsuecco11
+            639794      fast ADA_cdte   jl4459  R    1:10:35      1 cbsuecco09
+            639795 interacti     bash   cc2788  R    1:15:32      1 cbsueccosl04
+            639796      fast ADA_cd_r   jl4459  R    1:05:47      1 cbsuecco13
+            639797    jl4459 ADA_cd_r   jl4459  R      50:44      1 cbsuecco12
+            639798      fast ADA_cd_r   jl4459  R      49:28      1 cbsuecco14
+            639799      fast ADA_cd_r   jl4459  R      40:40      1 cbsuecco10
+            639800 jl4459,fa ADA_cd_r   jl4459 PD       0:00      1 (Resources)
             639801 jl4459,fa ADA_cd_r   jl4459 PD       0:00      1 (Priority)
             639802 jl4459,fa ADA_cd_r   jl4459 PD       0:00      1 (Priority)
             639803 jl4459,fa ADA_cd_r   jl4459 PD       0:00      1 (Priority)
