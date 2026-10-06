@@ -1,3 +1,2 @@
-            561173 interacti     bash    fr245  R 84-01:31:05      1 cbsueccosl03
-            639760    jl4459 ADA_arm_   jl4459  R   14:14:23      1 cbsuecco11
-            639763      slow   r10002   dac429  R      11:56      1 cbsuecco01
+            561173 interacti     bash    fr245  R 84-02:31:00      1 cbsueccosl03
+            639760    jl4459 ADA_arm_   jl4459  R   15:14:18      1 cbsuecco11
