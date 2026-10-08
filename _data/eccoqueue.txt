@@ -1,8 +1,8 @@
-            561173 interacti     bash    fr245  R 85-23:31:00      1 cbsueccosl03
-            639811    jl4459 ADA_arm_   jl4459  R   23:04:05      1 cbsuecco12
-            639816      fast ADA_arm_   jl4459  R   22:27:03      1 cbsuecco13
-            639817      fast ADA_arm_   jl4459  R   22:27:03      1 cbsuecco14
-            639818      fast ADA_arm_   jl4459  R   22:27:03      1 cbsuecco09
-            639819      fast ADA_arm_   jl4459  R   22:27:00      1 cbsuecco10
+            561173 interacti     bash    fr245  R 86-00:31:00      1 cbsueccosl03
+            639811    jl4459 ADA_arm_   jl4459  R 1-00:04:05      1 cbsuecco12
+            639816      fast ADA_arm_   jl4459  R   23:27:03      1 cbsuecco13
+            639817      fast ADA_arm_   jl4459  R   23:27:03      1 cbsuecco14
+            639818      fast ADA_arm_   jl4459  R   23:27:03      1 cbsuecco09
+            639819      fast ADA_arm_   jl4459  R   23:27:00      1 cbsuecco10
             639822      fast   r10002   dac429 PD       0:00      1 (Resources)
-            639853  scavenge amm_did_    ljp96  R       2:11      1 cbsuecco11
+            639855      slow lm_polis    ljp96  R      11:36      1 cbsuecco07
