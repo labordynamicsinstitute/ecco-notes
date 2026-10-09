@@ -1,13 +1,11 @@
-            561173 interacti     bash    fr245  R 86-22:31:00      1 cbsueccosl03
-            639811    jl4459 ADA_arm_   jl4459  R 1-22:04:05      1 cbsuecco12
-            639816      fast ADA_arm_   jl4459  R 1-21:27:03      1 cbsuecco13
-            639817      fast ADA_arm_   jl4459  R 1-21:27:03      1 cbsuecco14
-            639818      fast ADA_arm_   jl4459  R 1-21:27:03      1 cbsuecco09
-            639819      fast ADA_arm_   jl4459  R 1-21:27:00      1 cbsuecco10
-            639822      fast   r10002   dac429 PD       0:00      1 (Resources)
-            639870      slow sm-refer    gs754  R   14:32:59      1 cbsuecco01
-        639894_461      slow sm-follo    gs754  R       6:22      1 cbsuecco08
-        639894_462      slow sm-follo    gs754  R       2:10      1 cbsuecco08
-        639894_463      slow sm-follo    gs754  R       1:48      1 cbsuecco08
-        639894_464      slow sm-follo    gs754  R       1:33      1 cbsuecco08
-639894_[465-614%4]      slow sm-follo    gs754 PD       0:00      1 (JobArrayTaskLimit)
+            561173 interacti     bash    fr245  R 86-23:31:01      1 cbsueccosl03
+            639816      fast ADA_arm_   jl4459  R 1-22:27:04      1 cbsuecco13
+            639817      fast ADA_arm_   jl4459  R 1-22:27:04      1 cbsuecco14
+            639818      fast ADA_arm_   jl4459  R 1-22:27:04      1 cbsuecco09
+            639870      slow sm-refer    gs754  R   15:33:00      1 cbsuecco01
+        639894_497      slow sm-follo    gs754  R       4:42      1 cbsuecco08
+        639894_498      slow sm-follo    gs754  R       4:11      1 cbsuecco08
+        639894_499      slow sm-follo    gs754  R       2:34      1 cbsuecco08
+        639894_500      slow sm-follo    gs754  R       1:42      1 cbsuecco08
+639894_[501-614%4]      slow sm-follo    gs754 PD       0:00      1 (JobArrayTaskLimit)
+            640406      fast   r10002   dac429  R       1:46      1 cbsuecco10
