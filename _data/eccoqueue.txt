@@ -1,11 +1,10 @@
-            561173 interacti     bash    fr245  R 86-23:31:01      1 cbsueccosl03
-            639816      fast ADA_arm_   jl4459  R 1-22:27:04      1 cbsuecco13
-            639817      fast ADA_arm_   jl4459  R 1-22:27:04      1 cbsuecco14
-            639818      fast ADA_arm_   jl4459  R 1-22:27:04      1 cbsuecco09
-            639870      slow sm-refer    gs754  R   15:33:00      1 cbsuecco01
-        639894_497      slow sm-follo    gs754  R       4:42      1 cbsuecco08
-        639894_498      slow sm-follo    gs754  R       4:11      1 cbsuecco08
-        639894_499      slow sm-follo    gs754  R       2:34      1 cbsuecco08
-        639894_500      slow sm-follo    gs754  R       1:42      1 cbsuecco08
-639894_[501-614%4]      slow sm-follo    gs754 PD       0:00      1 (JobArrayTaskLimit)
-            640406      fast   r10002   dac429  R       1:46      1 cbsuecco10
+            561173 interacti     bash    fr245  R 87-00:31:00      1 cbsueccosl03
+            639870      slow sm-refer    gs754  R   16:32:59      1 cbsuecco01
+        639894_533      slow sm-follo    gs754  R       6:28      1 cbsuecco08
+        639894_534      slow sm-follo    gs754  R       5:52      1 cbsuecco08
+        639894_535      slow sm-follo    gs754  R       1:37      1 cbsuecco08
+        639894_536      slow sm-follo    gs754  R       1:14      1 cbsuecco08
+639894_[537-614%4]      slow sm-follo    gs754 PD       0:00      1 (JobArrayTaskLimit)
+            640424     lgmem   r10002   dac429  R      33:49      1 cbsuecco02
+            640445    jl4459 ADA_arm_   jl4459  R       3:04      1 cbsuecco11
+            640446    jl4459 ADA_arm_   jl4459  R       3:04      1 cbsuecco12
