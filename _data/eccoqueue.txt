@@ -1,16 +1,16 @@
-            561173 interacti     bash    fr245  R 86-16:31:00      1 cbsueccosl03
-            639811    jl4459 ADA_arm_   jl4459  R 1-16:04:05      1 cbsuecco12
-            639816      fast ADA_arm_   jl4459  R 1-15:27:03      1 cbsuecco13
-            639817      fast ADA_arm_   jl4459  R 1-15:27:03      1 cbsuecco14
-            639818      fast ADA_arm_   jl4459  R 1-15:27:03      1 cbsuecco09
-            639819      fast ADA_arm_   jl4459  R 1-15:27:00      1 cbsuecco10
+            561173 interacti     bash    fr245  R 86-17:31:00      1 cbsueccosl03
+            639811    jl4459 ADA_arm_   jl4459  R 1-17:04:05      1 cbsuecco12
+            639816      fast ADA_arm_   jl4459  R 1-16:27:03      1 cbsuecco13
+            639817      fast ADA_arm_   jl4459  R 1-16:27:03      1 cbsuecco14
+            639818      fast ADA_arm_   jl4459  R 1-16:27:03      1 cbsuecco09
+            639819      fast ADA_arm_   jl4459  R 1-16:27:00      1 cbsuecco10
             639822      fast   r10002   dac429 PD       0:00      1 (Resources)
-            639870      slow sm-refer    gs754  R    8:32:59      1 cbsuecco01
-        639894_222      slow sm-follo    gs754  R       6:55      1 cbsuecco08
-        639894_223      slow sm-follo    gs754  R       5:07      1 cbsuecco08
-        639894_224      slow sm-follo    gs754  R       3:39      1 cbsuecco08
-        639894_225      slow sm-follo    gs754  R       2:03      1 cbsuecco08
-639894_[226-614%4]      slow sm-follo    gs754 PD       0:00      1 (JobArrayTaskLimit)
+            639870      slow sm-refer    gs754  R    9:32:59      1 cbsuecco01
+        639894_249      slow sm-follo    gs754  R       7:29      1 cbsuecco08
+        639894_250      slow sm-follo    gs754  R       7:19      1 cbsuecco08
+        639894_251      slow sm-follo    gs754  R       2:10      1 cbsuecco08
+        639894_252      slow sm-follo    gs754  R       0:04      1 cbsuecco08
+639894_[253-614%4]      slow sm-follo    gs754 PD       0:00      1 (JobArrayTaskLimit)
             640038      fast cut_pool    ljp96 PD       0:00      1 (Priority)
             640039      fast cut_pool    ljp96 PD       0:00      1 (Priority)
             640040      fast amm_did_    ljp96 PD       0:00      1 (Dependency)
