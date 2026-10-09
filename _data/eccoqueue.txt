@@ -1,9 +1,4 @@
-            561173 interacti     bash    fr245  R 87-08:31:00      1 cbsueccosl03
-            640424     lgmem   r10002   dac429  R    8:33:49      1 cbsuecco02
-            640445    jl4459 ADA_arm_   jl4459  R    8:03:04      1 cbsuecco11
-            640446    jl4459 ADA_arm_   jl4459  R    8:03:04      1 cbsuecco12
-          640583_0      fast amm_data    ljp96  R      54:29      1 cbsuecco14
-          640583_1      fast amm_data    ljp96  R      54:29      1 cbsuecco09
-          640583_3      fast amm_data    ljp96  R      50:19      1 cbsuecco13
-            640588      slow    pt_G0    ljp96  R       2:29      1 cbsuecco07
-            640589      slow    pt_G0    ljp96 PD       0:00      1 (Resources)
+            561173 interacti     bash    fr245  R 87-09:31:00      1 cbsueccosl03
+            640424     lgmem   r10002   dac429  R    9:33:49      1 cbsuecco02
+            640445    jl4459 ADA_arm_   jl4459  R    9:03:04      1 cbsuecco11
+            640446    jl4459 ADA_arm_   jl4459  R    9:03:04      1 cbsuecco12
