@@ -1,3 +1,8 @@
-            561173 interacti     bash    fr245  R 87-23:31:00      1 cbsueccosl03
-            640445    jl4459 ADA_arm_   jl4459  R   23:03:04      1 cbsuecco11
-            640446    jl4459 ADA_arm_   jl4459  R   23:03:04      1 cbsuecco12
+            561173 interacti     bash    fr245  R 88-00:31:00      1 cbsueccosl03
+            640445    jl4459 ADA_arm_   jl4459  R 1-00:03:04      1 cbsuecco11
+            640446    jl4459 ADA_arm_   jl4459  R 1-00:03:04      1 cbsuecco12
+            640601     lgmem   r10002   dac429  R      40:33      1 cbsuecco02
+          640602_0      fast amm_nest    ljp96  R      27:50      1 cbsuecco13
+          640602_1      fast amm_nest    ljp96  R      27:50      1 cbsuecco14
+          640602_2      fast amm_nest    ljp96  R      27:50      1 cbsuecco13
+          640602_3      fast amm_nest    ljp96  R      27:50      1 cbsuecco14
