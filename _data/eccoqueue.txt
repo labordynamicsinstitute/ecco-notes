@@ -1,5 +1,3 @@
-            561173 interacti     bash    fr245  R 88-02:31:00      1 cbsueccosl03
-            640445    jl4459 ADA_arm_   jl4459  R 1-02:03:04      1 cbsuecco11
-            640446    jl4459 ADA_arm_   jl4459  R 1-02:03:04      1 cbsuecco12
-          640607_0      fast barg_bar    ljp96  R    1:04:24      1 cbsuecco14
-          640607_1      fast barg_bar    ljp96  R    1:04:24      1 cbsuecco13
+            561173 interacti     bash    fr245  R 88-03:31:00      1 cbsueccosl03
+            640445    jl4459 ADA_arm_   jl4459  R 1-03:03:04      1 cbsuecco11
+            640446    jl4459 ADA_arm_   jl4459  R 1-03:03:04      1 cbsuecco12
