@@ -1,32 +1,26 @@
-            561173 interacti     bash    fr245  R 89-08:31:00      1 cbsueccosl03
-            640645    jl4459 ADA_poli   jl4459  R    9:10:52      1 cbsuecco11
-            640646    jl4459 ADA_poli   jl4459  R    9:10:52      1 cbsuecco12
-            640647      fast ADA_poli   jl4459  R    9:10:52      1 cbsuecco13
-            640648      fast ADA_poli   jl4459  R    9:10:52      1 cbsuecco14
-            640649      fast ADA_poli   jl4459  R    9:10:52      1 cbsuecco09
-            640650      fast ADA_poli   jl4459  R    9:10:52      1 cbsuecco10
-            640657      slow bl_S_mu_    ljp96  R      14:38      1 cbsuecco07
-            640658      slow bl_S_mu_    ljp96  R      10:08      1 cbsuecco01
-            640660      slow bl_S_sig    ljp96  R       1:47      1 cbsuecco08
-            640661 slow,fast bl_S_the    ljp96 PD       0:00      1 (Resources)
-            640662 slow,fast bl_S_the    ljp96 PD       0:00      2 (Priority)
-            640663 slow,fast bl_S_b_i    ljp96 PD       0:00      2 (Priority)
-            640664 slow,fast bl_S_b_i    ljp96 PD       0:00      2 (Priority)
-            640665 slow,fast bl_S_rho    ljp96 PD       0:00      2 (Priority)
-            640666 slow,fast bl_S_rho    ljp96 PD       0:00      2 (Priority)
-            640667 slow,fast bl_S_mu_    ljp96 PD       0:00      2 (Priority)
-            640668 slow,fast bl_S_mu_    ljp96 PD       0:00      2 (Priority)
-            640669 slow,fast bl_S_sig    ljp96 PD       0:00      2 (Priority)
-            640670 slow,fast bl_S_sig    ljp96 PD       0:00      2 (Priority)
-            640671 slow,fast bl_S_phi    ljp96 PD       0:00      2 (Priority)
-            640672 slow,fast bl_S_phi    ljp96 PD       0:00      2 (Priority)
-            640673 slow,fast   bl_G0B    ljp96 PD       0:00      2 (Priority)
-            640674 slow,fast  bl_PHI3    ljp96 PD       0:00      2 (Priority)
-            640675 slow,fast  bl_PHI4    ljp96 PD       0:00      2 (Priority)
-            640676 slow,fast  bl_PHI5    ljp96 PD       0:00      2 (Priority)
-            640677 slow,fast   bl_K15    ljp96 PD       0:00      2 (Priority)
+            561173 interacti     bash    fr245  R 89-09:31:00      1 cbsueccosl03
+            640645    jl4459 ADA_poli   jl4459  R   10:10:52      1 cbsuecco11
+            640646    jl4459 ADA_poli   jl4459  R   10:10:52      1 cbsuecco12
+            640647      fast ADA_poli   jl4459  R   10:10:52      1 cbsuecco13
+            640648      fast ADA_poli   jl4459  R   10:10:52      1 cbsuecco14
+            640649      fast ADA_poli   jl4459  R   10:10:52      1 cbsuecco09
+            640650      fast ADA_poli   jl4459  R   10:10:52      1 cbsuecco10
+            640675      slow  bl_PHI4    ljp96  R      10:55      1 cbsuecco07
+            640676      slow  bl_PHI5    ljp96  R       7:55      1 cbsuecco08
+            640677 slow,fast   bl_K15    ljp96 PD       0:00      1 (Priority)
             640678 slow,fast   bl_K30    ljp96 PD       0:00      2 (Priority)
             640679 slow,fast  bl_K100    ljp96 PD       0:00      2 (Priority)
             640680 slow,fast   bl_NU5    ljp96 PD       0:00      2 (Priority)
             640681 slow,fast   bl_NU8    ljp96 PD       0:00      2 (Priority)
-            640682      slow barg_bar    ljp96 PD       0:00      1 (Priority)
+            640684      slow bl_G_r1.    ljp96  R       0:30      1 cbsuecco01
+            640685 slow,fast bl_G_r1.    ljp96 PD       0:00      1 (Resources)
+            640686 slow,fast bl_G_r1.    ljp96 PD       0:00      1 (Priority)
+            640687 slow,fast bl_G_r1.    ljp96 PD       0:00      1 (Priority)
+            640688 slow,fast bl_G_r1.    ljp96 PD       0:00      1 (Priority)
+            640689 slow,fast bl_G_r1.    ljp96 PD       0:00      1 (Priority)
+            640690 slow,fast bl_G_r1.    ljp96 PD       0:00      1 (Priority)
+            640691 slow,fast bl_G_r1.    ljp96 PD       0:00      1 (Priority)
+            640692 slow,fast bl_G_r1.    ljp96 PD       0:00      1 (Priority)
+            640693      slow barg_bar    ljp96 PD       0:00      1 (Priority)
+            640694 slow,fast    bl_C1    ljp96 PD       0:00      1 (Priority)
+            640695 slow,fast    bl_C2    ljp96 PD       0:00      1 (Priority)
