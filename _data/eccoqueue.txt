@@ -1,1 +1,6 @@
-            561173 interacti     bash    fr245  R 90-00:31:00      1 cbsueccosl03
+            561173 interacti     bash    fr245  R 90-01:31:00      1 cbsueccosl03
+            640701      slow barg_bar    ljp96  R      43:11      1 cbsuecco07
+          640702_0      slow barg_bar    ljp96  R      37:39      1 cbsuecco01
+          640702_1      slow barg_bar    ljp96  R      37:39      1 cbsuecco08
+      640702_[2-3]      slow barg_bar    ljp96 PD       0:00      1 (Resources)
+            640705     lgmem   r10002   dac429  R      34:35      1 cbsuecco02
