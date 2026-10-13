@@ -1,8 +1,4 @@
-            561173 interacti     bash    fr245  R 90-11:31:00      1 cbsueccosl03
-            640705     lgmem   r10002   dac429  R   10:34:35      1 cbsuecco02
-          642146_0      fast amm_psij    ljp96  R      44:20      1 cbsuecco13
-          642146_1      fast amm_psij    ljp96  R      44:20      1 cbsuecco14
-          642146_2      fast amm_psij    ljp96  R      44:20      1 cbsuecco13
-          642146_3      fast amm_psij    ljp96  R      44:20      1 cbsuecco14
-            642151      fast    pt_C2    ljp96  R      13:32      1 cbsuecco10
-            642152      fast    pt_C3    ljp96  R       8:18      1 cbsuecco09
+            561173 interacti     bash    fr245  R 90-12:31:00      1 cbsueccosl03
+            640705     lgmem   r10002   dac429  R   11:34:35      1 cbsuecco02
+            642151      fast    pt_C2    ljp96  R    1:13:32      1 cbsuecco10
+            642152      fast    pt_C3    ljp96  R    1:08:18      1 cbsuecco09
