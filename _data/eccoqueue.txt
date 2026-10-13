@@ -1,6 +1,2 @@
-            561173 interacti     bash    fr245  R 90-09:31:00      1 cbsueccosl03
-            640705     lgmem   r10002   dac429  R    8:34:35      1 cbsuecco02
-          642135_0      fast amm_psif    ljp96  R      25:53      1 cbsuecco14
-          642135_1      fast amm_psif    ljp96  R      25:53      1 cbsuecco13
-          642135_2      fast amm_psif    ljp96  R      25:53      1 cbsuecco14
-          642135_3      fast amm_psif    ljp96  R      25:53      1 cbsuecco09
+            561173 interacti     bash    fr245  R 90-10:31:00      1 cbsueccosl03
+            640705     lgmem   r10002   dac429  R    9:34:35      1 cbsuecco02
