@@ -1,9 +1,26 @@
-            561173 interacti     bash    fr245  R 91-06:31:00      1 cbsueccosl03
-            640705     lgmem   r10002   dac429  R 1-05:34:35      1 cbsuecco02
-            642169      slow AEAREP-9    nhk44  R   15:46:11      1 cbsuecco07
-            642170      slow AEAREP-9    nhk44  R   15:46:11      1 cbsuecco07
+            561173 interacti     bash    fr245  R 91-07:31:00      1 cbsueccosl03
+            640705     lgmem   r10002   dac429  R 1-06:34:35      1 cbsuecco02
+            642169      slow AEAREP-9    nhk44  R   16:46:11      1 cbsuecco07
+            642170      slow AEAREP-9    nhk44  R   16:46:11      1 cbsuecco07
             642171      slow AEAREP-9    nhk44 PD       0:00      1 (Dependency)
             642172      slow AEAREP-9    nhk44 PD       0:00      1 (Dependency)
             642173      slow AEAREP-9    nhk44 PD       0:00      1 (Dependency)
             642174      slow AEAREP-9    nhk44 PD       0:00      1 (Dependency)
             642175      slow AEAREP-9    nhk44 PD       0:00      1 (Dependency)
+            642271      slow s10_zeta    ljp96  R      10:50      1 cbsuecco07
+            642273      slow s10_vart    ljp96  R       4:59      1 cbsuecco08
+            642275      slow s10_b_im    ljp96  R       1:38      1 cbsuecco01
+            642277      slow s10_eta_    ljp96 PD       0:00      1 (Resources)
+            642279      slow s10_sigm    ljp96 PD       0:00      1 (Priority)
+            642281      slow s10_kapp    ljp96 PD       0:00      1 (Priority)
+            642283      slow s10_s_l_    ljp96 PD       0:00      1 (Priority)
+            642285      slow s10_alph    ljp96 PD       0:00      1 (Priority)
+            642287      slow s10_sigm    ljp96 PD       0:00      1 (Priority)
+            642289      slow s10_sigm    ljp96 PD       0:00      1 (Priority)
+            642291      slow s10_se_s    ljp96 PD       0:00      1 (Priority)
+            642293      slow s10_pool    ljp96 PD       0:00      1 (Priority)
+            642295      slow s10_eta_    ljp96 PD       0:00      1 (Priority)
+            642297      slow s10_va_t    ljp96 PD       0:00      1 (Priority)
+            642299      slow s10_mu_t    ljp96 PD       0:00      1 (Priority)
+            642301      slow s10_mw_y    ljp96 PD       0:00      1 (Priority)
+            642303      slow s10_geih    ljp96 PD       0:00      1 (Priority)
