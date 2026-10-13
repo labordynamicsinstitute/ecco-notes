@@ -1,10 +1,9 @@
-            561173 interacti     bash    fr245  R 91-01:31:00      1 cbsueccosl03
-            640705     lgmem   r10002   dac429  R 1-00:34:35      1 cbsuecco02
-            642169      slow AEAREP-9    nhk44  R   10:46:11      1 cbsuecco07
-            642170      slow AEAREP-9    nhk44  R   10:46:11      1 cbsuecco07
+            561173 interacti     bash    fr245  R 91-02:31:01      1 cbsueccosl03
+            640705     lgmem   r10002   dac429  R 1-01:34:36      1 cbsuecco02
+            642169      slow AEAREP-9    nhk44  R   11:46:12      1 cbsuecco07
+            642170      slow AEAREP-9    nhk44  R   11:46:12      1 cbsuecco07
             642171      slow AEAREP-9    nhk44 PD       0:00      1 (Dependency)
             642172      slow AEAREP-9    nhk44 PD       0:00      1 (Dependency)
             642173      slow AEAREP-9    nhk44 PD       0:00      1 (Dependency)
             642174      slow AEAREP-9    nhk44 PD       0:00      1 (Dependency)
             642175      slow AEAREP-9    nhk44 PD       0:00      1 (Dependency)
-            642209      fast  pt_SC16    ljp96  R      55:26      1 cbsuecco14
