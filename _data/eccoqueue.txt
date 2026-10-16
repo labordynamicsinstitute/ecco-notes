@@ -1,9 +1,8 @@
-            561173 interacti     bash    fr245  R 93-22:31:00      1 cbsueccosl03
-            642169      slow AEAREP-9    nhk44  R 3-07:46:11      1 cbsuecco07
-            642171      slow AEAREP-9    nhk44 PD       0:00      1 (Dependency)
-            642172      slow AEAREP-9    nhk44 PD       0:00      1 (Dependency)
-            642173      slow AEAREP-9    nhk44 PD       0:00      1 (Dependency)
-            642174      slow AEAREP-9    nhk44  R 1-12:18:59      1 cbsuecco07
+            561173 interacti     bash    fr245  R 93-23:31:00      1 cbsueccosl03
+            642171      slow AEAREP-9    nhk44  R      55:23      1 cbsuecco07
+            642172      slow AEAREP-9    nhk44  R      55:23      1 cbsuecco07
+            642173      slow AEAREP-9    nhk44  R      55:23      1 cbsuecco07
+            642174      slow AEAREP-9    nhk44  R 1-13:18:59      1 cbsuecco07
             642175      slow AEAREP-9    nhk44 PD       0:00      1 (Dependency)
-            642499    jl4459 ADA_poli   jl4459  R   13:38:27      1 cbsuecco11
-            642500    jl4459 ADA_poli   jl4459  R   13:38:27      1 cbsuecco12
+            642499    jl4459 ADA_poli   jl4459  R   14:38:27      1 cbsuecco11
+            642500    jl4459 ADA_poli   jl4459  R   14:38:27      1 cbsuecco12
