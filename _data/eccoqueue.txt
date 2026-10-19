@@ -1,6 +1,21 @@
-            561173 interacti     bash    fr245  R 96-23:31:01      1 cbsueccosl03
-            642171      slow AEAREP-9    nhk44  R 3-00:55:24      1 cbsuecco07
-            642172      slow AEAREP-9    nhk44  R 3-00:55:24      1 cbsuecco07
-            642173      slow AEAREP-9    nhk44  R 3-00:55:24      1 cbsuecco07
-            642174      slow AEAREP-9    nhk44  R 4-13:19:00      1 cbsuecco07
+            561173 interacti     bash    fr245  R 97-00:31:00      1 cbsueccosl03
+            642171      slow AEAREP-9    nhk44  R 3-01:55:23      1 cbsuecco07
+            642172      slow AEAREP-9    nhk44  R 3-01:55:23      1 cbsuecco07
+            642173      slow AEAREP-9    nhk44  R 3-01:55:23      1 cbsuecco07
+            642174      slow AEAREP-9    nhk44  R 4-14:18:59      1 cbsuecco07
             642175      slow AEAREP-9    nhk44 PD       0:00      1 (Dependency)
+            642644      fast ADA_lide   jl4459  R       3:46      1 cbsuecco13
+            642645      fast ADA_lide   jl4459  R       2:55      1 cbsuecco14
+            642646    jl4459 ADA_lide   jl4459  R       2:48      1 cbsuecco12
+            642647      fast ADA_lide   jl4459  R       2:40      1 cbsuecco09
+            642648      fast ADA_lide   jl4459  R       2:03      1 cbsuecco10
+            642649    jl4459 ADA_lide   jl4459  R       1:39      1 cbsuecco11
+            642650 jl4459,fa ADA_lide   jl4459 PD       0:00      1 (Resources)
+            642651 jl4459,fa ADA_lide   jl4459 PD       0:00      1 (Priority)
+            642652 jl4459,fa ADA_lide   jl4459 PD       0:00      1 (Priority)
+            642653 jl4459,fa ADA_lide   jl4459 PD       0:00      1 (Priority)
+            642654 jl4459,fa ADA_lide   jl4459 PD       0:00      1 (Priority)
+            642655 jl4459,fa ADA_lide   jl4459 PD       0:00      1 (Priority)
+            642656 jl4459,fa ADA_lide   jl4459 PD       0:00      1 (Priority)
+            642657 jl4459,fa ADA_lide   jl4459 PD       0:00      1 (Priority)
+            642658 jl4459,fa ADA_lide   jl4459 PD       0:00      1 (Priority)
