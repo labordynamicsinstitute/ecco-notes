@@ -1,11 +1,9 @@
-            642171      slow AEAREP-9    nhk44  R 4-07:55:24      1 cbsuecco07
-            642172      slow AEAREP-9    nhk44  R 4-07:55:24      1 cbsuecco07
-            642173      slow AEAREP-9    nhk44  R 4-07:55:24      1 cbsuecco07
-            642174      slow AEAREP-9    nhk44  R 5-20:19:00      1 cbsuecco07
+            642171      slow AEAREP-9    nhk44  R 4-08:55:23      1 cbsuecco07
+            642172      slow AEAREP-9    nhk44  R 4-08:55:23      1 cbsuecco07
+            642173      slow AEAREP-9    nhk44  R 4-08:55:23      1 cbsuecco07
+            642174      slow AEAREP-9    nhk44  R 5-21:18:59      1 cbsuecco07
             642175      slow AEAREP-9    nhk44 PD       0:00      1 (Dependency)
-            642697    jl4459 ADA_arm_   jl4459  R   23:37:13      1 cbsuecco11
-            642698    jl4459 ADA_arm_   jl4459  R   23:37:13      1 cbsuecco12
-            642699      fast ADA_arm_   jl4459  R   23:37:13      1 cbsuecco13
-            642700      fast ADA_arm_   jl4459  R   23:37:13      1 cbsuecco14
-            645161      slow paper20-    gs754  R      18:20      1 cbsuecco01
-            645686 interacti     bash   cc2788  R      10:11      1 cbsueccosl03
+            642697    jl4459 ADA_arm_   jl4459  R 1-00:37:12      1 cbsuecco11
+            642698    jl4459 ADA_arm_   jl4459  R 1-00:37:12      1 cbsuecco12
+            642699      fast ADA_arm_   jl4459  R 1-00:37:12      1 cbsuecco13
+            642700      fast ADA_arm_   jl4459  R 1-00:37:12      1 cbsuecco14
