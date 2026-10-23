@@ -1,11 +1,6 @@
-            642171      slow AEAREP-9    nhk44  R 7-03:55:23      1 cbsuecco07
-            642172      slow AEAREP-9    nhk44  R 7-03:55:23      1 cbsuecco07
-            642173      slow AEAREP-9    nhk44  R 7-03:55:23      1 cbsuecco07
-            642174      slow AEAREP-9    nhk44  R 8-16:18:59      1 cbsuecco07
+            642171      slow AEAREP-9    nhk44  R 7-04:55:23      1 cbsuecco07
+            642172      slow AEAREP-9    nhk44  R 7-04:55:23      1 cbsuecco07
+            642173      slow AEAREP-9    nhk44  R 7-04:55:23      1 cbsuecco07
+            642174      slow AEAREP-9    nhk44  R 8-17:18:59      1 cbsuecco07
             642175      slow AEAREP-9    nhk44 PD       0:00      1 (Dependency)
-            645821      fast amm_mwg_    ljp96  R       9:04      1 cbsuecco13
-            645822      fast amm_mwg_    ljp96  R       1:13      1 cbsuecco14
-            645823      fast amm_mwg_    ljp96  R       1:12      1 cbsuecco13
-            645824      fast amm_mwg_    ljp96  R       1:12      1 cbsuecco14
-            645825      fast amm_mwg_    ljp96  R       1:10      1 cbsuecco09
-            645826      fast amm_mwg_    ljp96  R       1:10      1 cbsuecco10
+            645827      fast amm_mwg_    ljp96  R       6:39      1 cbsuecco13
