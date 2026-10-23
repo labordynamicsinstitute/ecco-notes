@@ -1,10 +1,7 @@
-            642171      slow AEAREP-9    nhk44  R 6-10:55:23      1 cbsuecco07
-            642172      slow AEAREP-9    nhk44  R 6-10:55:23      1 cbsuecco07
-            642173      slow AEAREP-9    nhk44  R 6-10:55:23      1 cbsuecco07
-            642174      slow AEAREP-9    nhk44  R 7-23:18:59      1 cbsuecco07
+            642171      slow AEAREP-9    nhk44  R 6-11:55:23      1 cbsuecco07
+            642172      slow AEAREP-9    nhk44  R 6-11:55:23      1 cbsuecco07
+            642173      slow AEAREP-9    nhk44  R 6-11:55:23      1 cbsuecco07
+            642174      slow AEAREP-9    nhk44  R 8-00:18:59      1 cbsuecco07
             642175      slow AEAREP-9    nhk44 PD       0:00      1 (Dependency)
-          645776_0      fast amm_mwg_    ljp96  R    2:40:09      1 cbsuecco13
-          645776_1      fast amm_mwg_    ljp96  R    2:40:09      1 cbsuecco14
-          645776_2      fast amm_mwg_    ljp96  R    2:40:09      1 cbsuecco09
-          645776_3      fast amm_mwg_    ljp96  R    2:40:09      1 cbsuecco10
-            645786 interacti     bash   cc2788  R      20:36      1 cbsueccosl04
+          645776_0      fast amm_mwg_    ljp96  R    3:40:09      1 cbsuecco13
+          645776_1      fast amm_mwg_    ljp96  R    3:40:09      1 cbsuecco14
