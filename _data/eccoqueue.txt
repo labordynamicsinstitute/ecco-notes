@@ -1,27 +1,24 @@
-            642171      slow AEAREP-9    nhk44  R 8-15:55:23      1 cbsuecco07
-            642172      slow AEAREP-9    nhk44  R 8-15:55:23      1 cbsuecco07
-            642173      slow AEAREP-9    nhk44  R 8-15:55:23      1 cbsuecco07
-            642174      slow AEAREP-9    nhk44  R 10-04:18:59      1 cbsuecco07
+            642171      slow AEAREP-9    nhk44  R 8-16:55:23      1 cbsuecco07
+            642172      slow AEAREP-9    nhk44  R 8-16:55:23      1 cbsuecco07
+            642173      slow AEAREP-9    nhk44  R 8-16:55:23      1 cbsuecco07
+            642174      slow AEAREP-9    nhk44  R 10-05:18:59      1 cbsuecco07
             642175      slow AEAREP-9    nhk44 PD       0:00      1 (Dependency)
-          645846_0      fast amm_mwg_    ljp96  R    5:08:48      1 cbsuecco13
-          645846_1      fast amm_mwg_    ljp96  R    5:08:48      1 cbsuecco14
-          645846_2      fast amm_mwg_    ljp96  R    5:08:48      1 cbsuecco13
-          645846_3      fast amm_mwg_    ljp96  R    5:08:48      1 cbsuecco14
-          645850_2      fast amm_mwg_    ljp96  R    5:08:45      1 cbsuecco13
-          645850_3      fast amm_mwg_    ljp96  R    5:08:45      1 cbsuecco14
-          645851_2      fast amm_mwg_    ljp96  R    5:08:45      1 cbsuecco13
-          645851_3      fast amm_mwg_    ljp96  R    5:08:45      1 cbsuecco14
-          645852_0      slow amm_mwg_    ljp96  R    5:08:45      1 cbsuecco07
-          645852_1      slow amm_mwg_    ljp96  R    5:08:45      1 cbsuecco01
-          645852_2      slow amm_mwg_    ljp96  R    5:08:45      1 cbsuecco08
-          645852_3      fast amm_mwg_    ljp96  R    2:07:31      1 cbsuecco10
-          645853_0      fast amm_mwg_    ljp96  R    2:05:16      1 cbsuecco09
-          645853_1      fast amm_mwg_    ljp96  R    2:04:14      1 cbsuecco09
-          645853_2      fast amm_mwg_    ljp96  R    1:59:59      1 cbsuecco10
-          645853_3 fast,slow amm_mwg_    ljp96 PD       0:00      1 (Resources)
-      645854_[0-3] fast,slow amm_mwg_    ljp96 PD       0:00      1 (Priority)
-      645855_[0-3] fast,slow amm_mwg_    ljp96 PD       0:00      1 (Priority)
-      645856_[0-3] fast,slow amm_mwg_    ljp96 PD       0:00      1 (Priority)
+          645852_0      slow amm_mwg_    ljp96  R    6:08:45      1 cbsuecco07
+          645852_1      slow amm_mwg_    ljp96  R    6:08:45      1 cbsuecco01
+          645852_3      fast amm_mwg_    ljp96  R    3:07:31      1 cbsuecco10
+          645853_0      fast amm_mwg_    ljp96  R    3:05:16      1 cbsuecco09
+          645853_1      fast amm_mwg_    ljp96  R    3:04:14      1 cbsuecco09
+          645853_2      fast amm_mwg_    ljp96  R    2:59:59      1 cbsuecco10
+          645853_3      slow amm_mwg_    ljp96  R      44:45      1 cbsuecco08
+          645854_0      fast amm_mwg_    ljp96  R      42:27      1 cbsuecco14
+          645854_1      fast amm_mwg_    ljp96  R      37:27      1 cbsuecco13
+          645854_2      fast amm_mwg_    ljp96  R      35:59      1 cbsuecco14
+          645854_3      fast amm_mwg_    ljp96  R      35:13      1 cbsuecco13
+          645855_0      fast amm_mwg_    ljp96  R      34:31      1 cbsuecco14
+          645855_1      fast amm_mwg_    ljp96  R      34:08      1 cbsuecco13
+          645855_2      fast amm_mwg_    ljp96  R      31:49      1 cbsuecco13
+          645855_3      fast amm_mwg_    ljp96  R      31:42      1 cbsuecco14
+      645856_[0-3] fast,slow amm_mwg_    ljp96 PD       0:00      1 (Resources)
       645866_[0-3] fast,slow amm_mwg_    ljp96 PD       0:00      1 (Priority)
             645867 fast,slow    pt_G0    ljp96 PD       0:00      1 (Priority)
             645868 fast,slow    pt_G0    ljp96 PD       0:00      1 (Priority)
