@@ -1,4 +1,5 @@
-            645932      fast AEAREP-9    nhk44  R 5-20:23:37      1 cbsuecco14
+            645932      fast AEAREP-9    nhk44  R 5-21:23:38      1 cbsuecco14
             645936      slow AEAREP-9    nhk44 PD       0:00      1 (Dependency)
             645937      slow AEAREP-9    nhk44 PD       0:00      1 (Dependency)
-            646674      slow rais_inn   cc2788  R   18:37:52      1 cbsuecco07
+            646674      slow rais_inn   cc2788  R   19:37:53      1 cbsuecco07
+            646691 interacti     bash   cc2788  R       8:32      1 cbsueccosl03
