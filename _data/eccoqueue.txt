@@ -1,3 +1,2 @@
-            646674      slow rais_inn   cc2788  R 2-00:37:52      1 cbsuecco07
-            646708    jl4459 ADA_poli   jl4459  R    2:43:26      1 cbsuecco11
-            646713 interacti     bash   cc2788  R      25:51      1 cbsueccosl04
+            646674      slow rais_inn   cc2788  R 2-01:37:52      1 cbsuecco07
+            646708    jl4459 ADA_poli   jl4459  R    3:43:26      1 cbsuecco11
