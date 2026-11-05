@@ -1,3 +1,5 @@
-            646674      slow rais_inn   cc2788  R 2-23:37:52      1 cbsuecco07
-            646729    jl4459 ADA_arm_   jl4459  R    4:40:41      1 cbsuecco11
-            646730    jl4459 ADA_arm_   jl4459  R    4:40:41      1 cbsuecco12
+            646674      slow rais_inn   cc2788  R 3-00:37:52      1 cbsuecco07
+            646729    jl4459 ADA_arm_   jl4459  R    5:40:41      1 cbsuecco11
+            646730    jl4459 ADA_arm_   jl4459  R    5:40:41      1 cbsuecco12
+            646731      slow rais_mob   cc2788  R       6:25      1 cbsuecco01
+            646732      slow rais_inn   cc2788  R       6:20      1 cbsuecco01
