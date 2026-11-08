@@ -1,2 +1,1 @@
-            646809      fast    r7reg    cil35  R    1:43:24      1 cbsuecco13
-            646810      slow rais_mov   cc2788  R    1:01:47      1 cbsuecco07
+            646810      slow rais_mov   cc2788  R    2:01:47      1 cbsuecco07
