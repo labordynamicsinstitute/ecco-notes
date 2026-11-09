@@ -1,12 +1,1 @@
-            646815      fast  r7e2008    cil35  R       4:01      1 cbsuecco13
-            646816      fast  r7e2009    cil35  R       4:01      1 cbsuecco14
-            646817      fast  r7e2010    cil35  R       4:01      1 cbsuecco09
-            646818      fast  r7e2011    cil35  R       4:01      1 cbsuecco10
-            646819      slow  r7e2012    cil35  R       4:01      1 cbsuecco01
-            646820 fast,slow  r7e2013    cil35 PD       0:00      1 (Resources)
-            646821 fast,slow  r7e2014    cil35 PD       0:00      1 (Priority)
-            646822 fast,slow  r7e2015    cil35 PD       0:00      1 (Priority)
-            646823 fast,slow  r7e2016    cil35 PD       0:00      1 (Priority)
-            646824 fast,slow  r7e2017    cil35 PD       0:00      1 (Priority)
-            646825 fast,slow    r7asm    cil35 PD       0:00      1 (Dependency)
-            646826 fast,slow    r7reg    cil35 PD       0:00      1 (Dependency)
+            646826      fast    r7reg    cil35  R       5:14      1 cbsuecco13
