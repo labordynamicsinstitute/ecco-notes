@@ -1,1 +1,6 @@
-            646831    jl4459 ADA_arm_   jl4459  R   21:23:49      1 cbsuecco11
+            646832    jl4459 ADA_lide   jl4459  R       3:56      1 cbsuecco11
+            646833    jl4459 ADA_lide   jl4459  R       3:56      1 cbsuecco12
+            646834      fast ADA_lide   jl4459  R       3:56      1 cbsuecco13
+            646835      fast ADA_lide   jl4459  R       3:56      1 cbsuecco14
+            646836      fast ADA_lide   jl4459  R       3:53      1 cbsuecco09
+            646837      fast ADA_lide   jl4459  R       3:53      1 cbsuecco10
