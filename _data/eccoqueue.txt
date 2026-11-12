@@ -1,5 +1,4 @@
-            646865      slow rais_ins   cc2788  R 1-20:21:25      1 cbsuecco07
-            646968    jl4459 ADA_arm_   jl4459  R   19:18:35      1 cbsuecco12
-            646969      fast ADA_arm_   jl4459  R   19:18:35      1 cbsuecco09
-            647017      slow validate   jm2976  R       6:25      1 cbsuecco01
-            647018 interacti     bash   cc2788  R       3:56      1 cbsueccosl03
+            646865      slow rais_ins   cc2788  R 1-21:21:25      1 cbsuecco07
+            646968    jl4459 ADA_arm_   jl4459  R   20:18:35      1 cbsuecco12
+            646969      fast ADA_arm_   jl4459  R   20:18:35      1 cbsuecco09
+            647017      slow validate   jm2976  R    1:06:25      1 cbsuecco01
