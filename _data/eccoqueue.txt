@@ -1,6 +1,8 @@
-            646865      slow rais_ins   cc2788  R 1-00:21:25      1 cbsuecco07
-            646938      slow aearep-1    aw896  R    1:17:31      1 cbsuecco01
-       646939_2012      fast rais_sli   jm2976  R      22:07      1 cbsuecco13
-       646939_2013      fast rais_sli   jm2976  R      15:32      1 cbsuecco14
-646939_[2014-2017% lgmem,slo rais_sli   jm2976 PD       0:00      1 (JobArrayTaskLimit)
-            646954    jl4459 ADA_poli   jl4459  R      37:19      1 cbsuecco11
+            646865      slow rais_ins   cc2788  R 1-01:21:25      1 cbsuecco07
+            646938      slow aearep-1    aw896  R    2:17:31      1 cbsuecco01
+            646954    jl4459 ADA_poli   jl4459  R    1:37:19      1 cbsuecco11
+          646960_2      fast matlab_s swoodcoc  R      52:40      1 cbsuecco14
+          646960_3      fast matlab_s swoodcoc  R      52:40      1 cbsuecco13
+          646960_4      fast matlab_s swoodcoc  R      52:40      1 cbsuecco14
+            646968    jl4459 ADA_arm_   jl4459  R      18:35      1 cbsuecco12
+            646969      fast ADA_arm_   jl4459  R      18:35      1 cbsuecco09
