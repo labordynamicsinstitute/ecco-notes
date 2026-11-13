@@ -1,5 +1,8 @@
-            646865      slow rais_ins   cc2788  R 2-17:21:25      1 cbsuecco07
-            646968    jl4459 ADA_arm_   jl4459  R 1-16:18:35      1 cbsuecco12
-            646969      fast ADA_arm_   jl4459  R 1-16:18:35      1 cbsuecco09
-            647021      slow rais_pro   cc2788  R   15:11:46      1 cbsuecco01
-            647022      slow rais_occ   cc2788  R   15:11:41      1 cbsuecco01
+            646865      slow rais_ins   cc2788  R 2-18:21:25      1 cbsuecco07
+            646968    jl4459 ADA_arm_   jl4459  R 1-17:18:35      1 cbsuecco12
+            646969      fast ADA_arm_   jl4459  R 1-17:18:35      1 cbsuecco09
+            647021      slow rais_pro   cc2788  R   16:11:46      1 cbsuecco01
+            647022      slow rais_occ   cc2788  R   16:11:41      1 cbsuecco01
+       647026_2012      fast rais_fix   jm2976  R       7:45      1 cbsuecco13
+       647026_2013      fast rais_fix   jm2976  R       5:54      1 cbsuecco14
+647026_[2014-2017% lgmem,slo rais_fix   jm2976 PD       0:00      1 (JobArrayTaskLimit)
