@@ -1,12 +1,10 @@
-            646865      slow rais_ins   cc2788  R 4-17:21:25      1 cbsuecco07
-            646968    jl4459 ADA_arm_   jl4459  R 3-16:18:35      1 cbsuecco12
-            646969      fast ADA_arm_   jl4459  R 3-16:18:35      1 cbsuecco09
-            647061      slow rais_inc   cc2788  R 1-13:49:37      1 cbsuecco01
-            647089    jl4459 ADA_arm_   jl4459  R   22:48:27      1 cbsuecco11
-            647092      fast ADA_arm_   jl4459  R   20:47:55      1 cbsuecco13
-            647093      fast ADA_arm_   jl4459  R   20:46:34      1 cbsuecco14
+            646968    jl4459 ADA_arm_   jl4459  R 3-17:18:35      1 cbsuecco12
+            646969      fast ADA_arm_   jl4459  R 3-17:18:35      1 cbsuecco09
+            647089    jl4459 ADA_arm_   jl4459  R   23:48:27      1 cbsuecco11
+            647092      fast ADA_arm_   jl4459  R   21:47:55      1 cbsuecco13
+            647093      fast ADA_arm_   jl4459  R   21:46:34      1 cbsuecco14
             647096      slow rais_mob   cc2788 PD       0:00      1 (Resources)
-            647098      slow rais_SP_   cc2788  R   13:58:54      1 cbsuecco01
-            647100      fast   tables   jm2976  R    2:07:58      1 cbsuecco10
+            647098      slow rais_SP_   cc2788  R   14:58:54      1 cbsuecco01
+            647100      fast   tables   jm2976  R    3:07:58      1 cbsuecco10
 647101_[2002-2017% lgmem,slo    apply   jm2976 PD       0:00      1 (Dependency)
             647102 lgmem,slo     val3   jm2976 PD       0:00      1 (Dependency)
