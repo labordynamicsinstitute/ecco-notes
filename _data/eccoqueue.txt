@@ -1,12 +1,10 @@
-            646968    jl4459 ADA_arm_   jl4459  R 3-20:18:35      1 cbsuecco12
-            646969      fast ADA_arm_   jl4459  R 3-20:18:35      1 cbsuecco09
-            647089    jl4459 ADA_arm_   jl4459  R 1-02:48:27      1 cbsuecco11
-            647092      fast ADA_arm_   jl4459  R 1-00:47:55      1 cbsuecco13
-            647093      fast ADA_arm_   jl4459  R 1-00:46:34      1 cbsuecco14
-            647098      slow rais_SP_   cc2788  R   17:58:54      1 cbsuecco01
-       647101_2014      fast    apply   jm2976  R       3:33      1 cbsuecco10
-647101_[2015-2017% lgmem,slo    apply   jm2976 PD       0:00      1 (QOSMinMemory)
+            646968    jl4459 ADA_arm_   jl4459  R 3-21:18:35      1 cbsuecco12
+            646969      fast ADA_arm_   jl4459  R 3-21:18:35      1 cbsuecco09
+            647089    jl4459 ADA_arm_   jl4459  R 1-03:48:27      1 cbsuecco11
+            647092      fast ADA_arm_   jl4459  R 1-01:47:55      1 cbsuecco13
+            647093      fast ADA_arm_   jl4459  R 1-01:46:34      1 cbsuecco14
+            647098      slow rais_SP_   cc2788  R   18:58:54      1 cbsuecco01
+       647101_2017      fast    apply   jm2976  R      12:40      1 cbsuecco10
             647102 lgmem,slo     val3   jm2976 PD       0:00      1 (Dependency)
-            647107      slow rais_inc   cc2788  R    1:52:23      1 cbsuecco01
-            647108      slow rais_ins   cc2788  R    1:51:14      1 cbsuecco08
-            647117      slow rais_mob   cc2788  R      35:46      1 cbsuecco07
+            647107      slow rais_inc   cc2788  R    2:52:23      1 cbsuecco01
+            647108      slow rais_ins   cc2788  R    2:51:14      1 cbsuecco08
