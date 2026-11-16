@@ -1,9 +1,10 @@
-            646968    jl4459 ADA_arm_   jl4459  R 4-17:18:35      1 cbsuecco12
-            646969      fast ADA_arm_   jl4459  R 4-17:18:35      1 cbsuecco09
-            647089    jl4459 ADA_arm_   jl4459  R 1-23:48:27      1 cbsuecco11
-            647092      fast ADA_arm_   jl4459  R 1-21:47:55      1 cbsuecco13
-            647093      fast ADA_arm_   jl4459  R 1-21:46:34      1 cbsuecco14
-            647098      slow rais_SP_   cc2788  R 1-14:58:54      1 cbsuecco01
-            647107      slow rais_inc   cc2788  R   22:52:23      1 cbsuecco01
-            647145      fast leavebui   jm2976  R      36:50      1 cbsuecco10
+            646968    jl4459 ADA_arm_   jl4459  R 4-18:18:36      1 cbsuecco12
+            646969      fast ADA_arm_   jl4459  R 4-18:18:36      1 cbsuecco09
+            647089    jl4459 ADA_arm_   jl4459  R 2-00:48:28      1 cbsuecco11
+            647092      fast ADA_arm_   jl4459  R 1-22:47:56      1 cbsuecco13
+            647093      fast ADA_arm_   jl4459  R 1-22:46:35      1 cbsuecco14
+            647098      slow rais_SP_   cc2788  R 1-15:58:55      1 cbsuecco01
+            647107      slow rais_inc   cc2788  R   23:52:24      1 cbsuecco01
+            647145      fast leavebui   jm2976  R    1:36:51      1 cbsuecco10
             647149      fast   r10342   dac429 PD       0:00      1 (Resources)
+            647153      slow   r10508   dac429  R      10:03      1 cbsuecco07
