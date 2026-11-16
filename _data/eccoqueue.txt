@@ -1,9 +1,15 @@
-            646968    jl4459 ADA_arm_   jl4459  R 4-03:18:35      1 cbsuecco12
-            646969      fast ADA_arm_   jl4459  R 4-03:18:35      1 cbsuecco09
-            647089    jl4459 ADA_arm_   jl4459  R 1-09:48:27      1 cbsuecco11
-            647092      fast ADA_arm_   jl4459  R 1-07:47:55      1 cbsuecco13
-            647093      fast ADA_arm_   jl4459  R 1-07:46:34      1 cbsuecco14
-            647098      slow rais_SP_   cc2788  R 1-00:58:54      1 cbsuecco01
-            647107      slow rais_inc   cc2788  R    8:52:23      1 cbsuecco01
-            647108      slow rais_ins   cc2788  R    8:51:14      1 cbsuecco08
-            647125      slow rais_ip_   cc2788  R    5:03:32      1 cbsuecco07
+            646968    jl4459 ADA_arm_   jl4459  R 4-04:18:35      1 cbsuecco12
+            646969      fast ADA_arm_   jl4459  R 4-04:18:35      1 cbsuecco09
+            647089    jl4459 ADA_arm_   jl4459  R 1-10:48:27      1 cbsuecco11
+            647092      fast ADA_arm_   jl4459  R 1-08:47:55      1 cbsuecco13
+            647093      fast ADA_arm_   jl4459  R 1-08:46:34      1 cbsuecco14
+            647098      slow rais_SP_   cc2788  R 1-01:58:54      1 cbsuecco01
+            647107      slow rais_inc   cc2788  R    9:52:23      1 cbsuecco01
+            647108      slow rais_ins   cc2788  R    9:51:14      1 cbsuecco08
+            647125      slow rais_ip_   cc2788  R    6:03:32      1 cbsuecco07
+       647131_2007      slow  leave_x   jm2976  R      28:35      1 cbsuecco07
+       647131_2008      slow  leave_x   jm2976  R      28:35      1 cbsuecco07
+       647131_2009      slow  leave_x   jm2976  R      28:35      1 cbsuecco07
+       647131_2010      slow  leave_x   jm2976  R      28:35      1 cbsuecco01
+647131_[2011-2017% lgmem,slo  leave_x   jm2976 PD       0:00      1 (JobArrayTaskLimit)
+            647136 lgmem,slo leavebui   jm2976 PD       0:00      1 (Dependency)
