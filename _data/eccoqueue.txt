@@ -1,9 +1,4 @@
-            647092      fast ADA_arm_   jl4459  R 2-21:47:55      1 cbsuecco13
-            647093      fast ADA_arm_   jl4459  R 2-21:46:34      1 cbsuecco14
-            647098      slow rais_SP_   cc2788  R 2-14:58:54      1 cbsuecco01
-            647158      slow rais_inc   cc2788  R   20:57:46      1 cbsuecco07
-            647183    jl4459 ADA_lidf   jl4459  R       9:48      1 cbsuecco11
-            647184    jl4459 ADA_lidf   jl4459  R       9:48      1 cbsuecco12
-            647187      fast ADA_lidf   jl4459  R       1:23      1 cbsuecco10
-            647188      fast ADA_lidf   jl4459  R       0:42      1 cbsuecco09
-            647190      slow kudu_tie     lv39  R       5:56      1 cbsuecco01
+            647092      fast ADA_arm_   jl4459  R 2-22:47:55      1 cbsuecco13
+            647093      fast ADA_arm_   jl4459  R 2-22:46:34      1 cbsuecco14
+            647098      slow rais_SP_   cc2788  R 2-15:58:54      1 cbsuecco01
+            647158      slow rais_inc   cc2788  R   21:57:46      1 cbsuecco07
