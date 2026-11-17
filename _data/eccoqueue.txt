@@ -1,8 +1,5 @@
-            646968    jl4459 ADA_arm_   jl4459  R 4-23:18:35      1 cbsuecco12
-            646969      fast ADA_arm_   jl4459  R 4-23:18:35      1 cbsuecco09
-            647089    jl4459 ADA_arm_   jl4459  R 2-05:48:27      1 cbsuecco11
-            647092      fast ADA_arm_   jl4459  R 2-03:47:55      1 cbsuecco13
-            647093      fast ADA_arm_   jl4459  R 2-03:46:34      1 cbsuecco14
-            647098      slow rais_SP_   cc2788  R 1-20:58:54      1 cbsuecco01
-            647158      slow rais_inc   cc2788  R    2:57:46      1 cbsuecco07
-            647161 interacti     bash   dac429  R       9:26      1 cbsueccosl03
+            647089    jl4459 ADA_arm_   jl4459  R 2-06:48:27      1 cbsuecco11
+            647092      fast ADA_arm_   jl4459  R 2-04:47:55      1 cbsuecco13
+            647093      fast ADA_arm_   jl4459  R 2-04:46:34      1 cbsuecco14
+            647098      slow rais_SP_   cc2788  R 1-21:58:54      1 cbsuecco01
+            647158      slow rais_inc   cc2788  R    3:57:46      1 cbsuecco07
