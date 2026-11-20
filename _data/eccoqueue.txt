@@ -1,7 +1,5 @@
-            647191    jl4459 ADA_arm_   jl4459  R 2-09:10:40      1 cbsuecco11
-            647192    jl4459 ADA_arm_   jl4459  R 2-09:10:40      1 cbsuecco12
-            647193      fast ADA_arm_   jl4459  R 2-09:10:40      1 cbsuecco09
-            647194      fast ADA_arm_   jl4459  R 2-09:10:40      1 cbsuecco10
-            647195      fast ADA_arm_   jl4459  R   14:38:59      1 cbsuecco14
-            647196      fast ADA_arm_   jl4459  R   14:27:18      1 cbsuecco13
-            647220     lgmem aearep97     lv39  R   16:52:27      1 cbsuecco02
+            647191    jl4459 ADA_arm_   jl4459  R 2-10:10:40      1 cbsuecco11
+            647194      fast ADA_arm_   jl4459  R 2-10:10:40      1 cbsuecco10
+            647195      fast ADA_arm_   jl4459  R   15:38:59      1 cbsuecco14
+            647196      fast ADA_arm_   jl4459  R   15:27:18      1 cbsuecco13
+            647220     lgmem aearep97     lv39  R   17:52:27      1 cbsuecco02
