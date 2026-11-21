@@ -1,7 +1,6 @@
-            647195      fast ADA_arm_   jl4459  R 1-15:38:59      1 cbsuecco14
-            647196      fast ADA_arm_   jl4459  R 1-15:27:18      1 cbsuecco13
-            647220     lgmem aearep97     lv39  R 1-17:52:27      1 cbsuecco02
-            647270    jl4459 ADA_poli   jl4459  R   12:59:07      1 cbsuecco11
-            647271    jl4459 ADA_poli   jl4459  R   12:59:06      1 cbsuecco12
-            647272      fast ADA_poli   jl4459  R   12:59:06      1 cbsuecco09
-            647273      fast ADA_poli   jl4459  R   12:59:06      1 cbsuecco10
+            647196      fast ADA_arm_   jl4459  R 1-16:27:18      1 cbsuecco13
+            647220     lgmem aearep97     lv39  R 1-18:52:27      1 cbsuecco02
+            647270    jl4459 ADA_poli   jl4459  R   13:59:07      1 cbsuecco11
+            647271    jl4459 ADA_poli   jl4459  R   13:59:06      1 cbsuecco12
+            647272      fast ADA_poli   jl4459  R   13:59:06      1 cbsuecco09
+            647273      fast ADA_poli   jl4459  R   13:59:06      1 cbsuecco10
