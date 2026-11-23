@@ -1,0 +1,11 @@
+Nodename,Slurm CPUs,RAM (MB),local scratch (GB),GPUs,other resources,partition
+cbsulm09,64,515434,7500,0,,"short,long,debug"
+cbsulm10,64,515434,7500,0,,"short,long,debug"
+cbsulm14,112,515312,10500,0,avx2,"short,long,debug"
+cbsumm28,40,257298,6500,0,avx2,"short,long"
+cbsumm29,40,257298,6500,0,avx2,"short,long"
+cbsugpu02,24,257290,4500,1,1 Tesla P100 GPU,gpu
+cbsugpu03,32,257290,10500,2,2 Tesla P100 GPUs,gpu
+cbsugpu06,112,514897,6000,2,"2 NVIDIA A40 GPUs, avx2","short,gpu"
+cbsugpu10,256,514048,6500,1,"1 NVIDIA A6000 (Ada) GPU, avx2","short,gpu"
+cbsumm22,40,257298,6500,0,avx2,training
