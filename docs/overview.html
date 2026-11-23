@@ -451,10 +451,11 @@ document.write(`
     <tr style="text-align: right;">
       <th>System</th>
       <th>OS</th>
-      <th>maxNodeRAM</th>
-      <th>maxNodecores</th>
-      <th>totalRAM</th>
-      <th>totalcores</th>
+      <th>Max RAM per node</th>
+      <th>Max cores per node</th>
+      <th>Total RAM</th>
+      <th>Total cores</th>
+      <th>GPU</th>
       <th>Shared</th>
       <th>goodfor</th>
       <th>Cost</th>
@@ -469,34 +470,37 @@ document.write(`
       <td>4</td>
       <td>about 1024GB</td>
       <td>about 16</td>
+      <td>unknown</td>
       <td>Yes</td>
-      <td>Desktop computing plus some GPU</td>
+      <td>Desktop computing</td>
       <td>Free</td>
       <td><a href='https://socialsciences.cornell.edu/research-support/software' target='_blank'>Available software</a></td>
     </tr>
     <tr>
-      <td>BioHPC reserved</td>
+      <td>BioHPC ECCO</td>
       <td>Linux</td>
       <td>1024GB</td>
-      <td>32</td>
-      <td>3177GB</td>
-      <td>360</td>
+      <td>112</td>
+      <td>up to 3840GB</td>
+      <td>up to 692</td>
       <td>No</td>
-      <td>low-power chunked HPC</td>
-      <td>Free</td>
-      <td><a href='https://biohpc.cornell.edu/lab/ecco.htm' target='_blank'>Description on BioHPC website</a></td>
-    </tr>
-    <tr>
-      <td>BioHPC SLURM</td>
-      <td>Linux</td>
-      <td>up to 1024GB</td>
-      <td>up to 32</td>
-      <td>up to 1129 GB</td>
-      <td>up to  144</td>
-      <td>No</td>
+      <td>Yes</td>
       <td>low-power fine-grained HPC</td>
       <td>Free</td>
-      <td><a href='#job-scheduler-experimental' target='_blank'>See info below</a></td>
+      <td><a href='biohpc/slurm.html' target='_blank'>See ECCO Slurm page</a></td>
+    </tr>
+    <tr>
+      <td>BioHPC <code>bioslurm</code></td>
+      <td>Linux</td>
+      <td>503GB</td>
+      <td>256</td>
+      <td>3518GB</td>
+      <td>744</td>
+      <td>Yes (6 GPUs on 4 nodes)</td>
+      <td>Yes</td>
+      <td>HPC + 6 GPUs</td>
+      <td>Fee (membership)</td>
+      <td><a href='https://biohpc.cornell.edu/lab/userguide.aspx?a=bioslurm' target='_blank'>bioslurm user guide</a></td>
     </tr>
     <tr>
       <td>BioHPC general</td>
@@ -505,6 +509,7 @@ document.write(`
       <td>56</td>
       <td>not sure</td>
       <td>not sure</td>
+      <td>Yes</td>
       <td>No</td>
       <td>HPC some GPU</td>
       <td>Fee</td>
@@ -517,6 +522,7 @@ document.write(`
       <td>128</td>
       <td>not known</td>
       <td>not known</td>
+      <td>Yes</td>
       <td>No</td>
       <td>HPC + some GPU</td>
       <td>Fee</td>
@@ -529,6 +535,7 @@ document.write(`
       <td>48</td>
       <td>unlimited</td>
       <td>unlimited</td>
+      <td>Yes</td>
       <td>No</td>
       <td>HPC + some GPU</td>
       <td>Fee</td>
@@ -541,6 +548,7 @@ document.write(`
       <td>128</td>
       <td>unlimited</td>
       <td>unlimited</td>
+      <td>Yes</td>
       <td>No</td>
       <td>HPC + some GPU</td>
       <td>Fee</td>
@@ -553,14 +561,17 @@ document.write(`
       <td>416</td>
       <td>unlimited</td>
       <td>unlimited</td>
+      <td>Yes</td>
       <td>No</td>
       <td>HPC + some GPU</td>
       <td>Fee</td>
       <td><a href='https://learn.microsoft.com/en-us/azure/virtual-machines/sizes' target='_blank'>More info</a></td>
     </tr>
   </tbody>
-</table></div></div>
+</table></div><p>The <code class="docutils literal notranslate"><span class="pre">bioslurm</span></code> cluster has 9 nodes available to general jobs, with 24 to 256 CPUs and 251 to 503 GB of RAM per node, and 6 GPUs on 4 nodes (see the <a class="reference external" href="https://biohpc.cornell.edu/lab/userguide.aspx?a=bioslurm">bioslurm user guide</a>).</p>
 </div>
+</div>
+<p><em>Max RAM per node</em> and <em>Max cores per node</em> are independent: each is the largest value found on any single node, and the two may come from different nodes. Core counts are what the scheduler can allocate, so they include hyper-threads where enabled. For the BioHPC clusters, they are computed from the node lists (<a class="reference internal" href="biohpc/slurm.html#fulltable"><span class="std std-ref">ECCO</span></a>, <a class="reference external" href="https://biohpc.cornell.edu/lab/userguide.aspx?a=bioslurm">bioslurm</a>).</p>
 <p>The table is sorted by increasing complexity of preparation and cost (which are collinear). A starting point on how to easily use the latter cloud resources in a (relatively) easy way are</p>
 <ul class="simple">
 <li><p>the nice <a class="reference external" href="https://www.andrewheiss.com/blog/2018/07/30/disposable-supercomputer-future/">tutorial by Andrew Heiss</a></p></li>
