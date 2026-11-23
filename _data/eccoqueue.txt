@@ -1,2 +1,2 @@
-            647279      slow aearep-1    aw896  R   20:39:18      1 cbsuecco01
-            647298      fast   r10510   dac429  R      23:27      1 cbsuecco14
+            647279      slow aearep-1    aw896  R   21:39:17      1 cbsuecco01
+            647298      fast   r10510   dac429  R    1:23:26      1 cbsuecco14
