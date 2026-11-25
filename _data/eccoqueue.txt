@@ -1,2 +1,1 @@
-            647319      slow aearep-1    aw896  R    4:26:15      1 cbsuecco01
-            647324      fast   treat2   jm2976  R       7:22      1 cbsuecco13
+            647319      slow aearep-1    aw896  R    5:26:15      1 cbsuecco01
